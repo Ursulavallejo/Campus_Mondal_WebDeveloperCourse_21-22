@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: khaki;
+    color: black;
+    font-family: Tahoma;
+    font-size: 1em;
+}
+header {
+    background-color: crimson;
+    background-image: url("../img/cherry.jpg");
+    padding: 0.1em;
+    text-align:center;
+    letter-spacing: 0.3em;
+    word_spacing: 1em;
+}
+
+#rubrik_1 {
+    font-size:6em;
+    text-shadow: 5px 5px 10px darkseagreen;
+
+}
+#rubrik_2 {
+   text-shadow: 2px 2px 7px darkgrey;
+}

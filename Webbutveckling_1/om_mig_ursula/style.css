@@ -1,0 +1,148 @@
+body {
+    background-color: khaki;
+    color: black;
+    font-family: Tahoma, Helvetica;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 2em;
+}
+
+header {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 0px;
+    border-left: 0px;
+}
+article {
+    float: left;
+    width: 20%;
+    padding: 6em;
+    text-align: center;
+
+}
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+#mainBox {
+    background-color: crimson;
+    color: whitesmoke;
+    padding: 1em;
+}
+
+#mainBox h1 {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 0.3em;
+    word-spacing: 1em;
+}
+
+#mainBox h2 {
+    text-align: end;
+    letter-spacing: 1em;
+    letter-spacing: 1em;
+}
+
+#mainBox h3 {
+    text-align: end;
+    font-style: italic;
+    padding-top: 1em;
+    padding-bottom: 0em;
+}
+
+#subtitle {
+    background-color: white;
+    padding: 0.5em;
+    text-align: left;
+    letter-spacing: 0.5em;
+}
+
+#colombia {
+    width: 300px;
+    height: 150px;
+    background-image: url("image/bogota.jpg");
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center top;
+    position: relative;
+    color: white;
+    background-position: center;
+}
+
+#storbritanien {
+    width: 300px;
+    height: 150px;
+    background-image: url("image/londres.jpg");
+    background-repeat: no-repeat;
+    background-position: 50px 100px;
+    background-position: center top;
+    position: relative;
+    color: white;
+    background-position: center;
+}
+
+#spanien {
+    width: 300px;
+    height: 150px;
+    background-image: url("image/barcelona.jpg");
+    background-repeat: no-repeat;
+    background-position: 50px 100px;
+    background-position: center top;
+    position: relative;
+    color: white;
+    background-position: center;
+}
+
+#sverige {
+    width: 300px;
+    height: 150px;
+    background-image: url("image/Goteborg.jpg");
+    background-repeat: no-repeat;
+    background-position: 50px 100px;
+    background-position: center top;
+    position: relative;
+    color: white;
+    background-position: center;
+}
+
+.center {
+    text-align: center;
+
+}
+
+.intro h3 {
+    text-align: center;
+    letter-spacing: 0.5em;
+    word-spacing: 1em;
+    background: black;
+    color: white;
+    padding-bottom: 2em;
+}
+
+.intro p {
+    text-align: center;
+}
+
+.intro2 h3 {
+    padding-top: 1em;
+    text-align: center;
+    letter-spacing: 0.5em;
+    word-spacing: 1em;
+    background: black;
+    color: white;
+    padding-bottom: 2em;
+}
+
+.intro2 p {
+    text-align: center;
+}
+
+.intro2 ul {
+    text-align: center;
+    list-style-position: inside;
+}

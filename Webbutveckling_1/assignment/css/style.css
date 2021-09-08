@@ -18,24 +18,49 @@ header {
 #rubrik_1 {
     font-size: 6em;
     text-shadow: 5px 5px 10px darkseagreen;
-
 }
 
 #rubrik_2 {
     text-shadow: 2px 2px 7px darkgrey;
 }
+
 #japan {
     text-align: center;
-/*reduce image do not work*/
+    padding: 0;
+    /*reduce image do not work and expand not adjust*/
+}
+
+#utbilding {
+    background-color: lightskyblue;
+    margin-left: 3em;
+    margin-right: 1em;
+}
+
+#arbetshistoria {
+    background: white;
+    margin: 0em 1em;
+}
+
+#intressen {
+    background-color: darkseagreen;
+    margin-right: 3em;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .sub_text {
     padding-left: 6em;
+    padding-right: 5em;
 }
 
 .textContent {
     text-align: left;
     padding-left: 10em;
+    padding-right: 3em;
 
 }
 
@@ -46,11 +71,30 @@ header {
 }
 
 img.cities {
-    width: 300px;
-    margin: 10px;
+    width: 370px;
+    margin: 5px;
     transition: all 0.2s;
 }
 
 img.cities:hover {
     transform: scale(1.1)
 }
+
+article {
+    float: left;
+    width: 25%;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.merOmMig {
+    color: darkolivegreen;
+    text-align: center;
+    font-size: 2.5em;
+    background: lightpink;
+    padding: 0em;
+    text-shadow: 5px 5px 5px darkseagreen;
+}
+

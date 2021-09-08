@@ -6,7 +6,7 @@
     background-color: darkslategrey;
     letter-spacing: 0.3em;
     word_spacing: 2em;
-
+    font-family: "Arial Rounded MT Bold";
 }
 
 .navbar-item {
@@ -22,7 +22,7 @@
 }
 
 .navbar-link:hover:not(.active) {
-    background-color: darkviolet ;
+    background-color: darkviolet;
 }
 
 .active {

@@ -85,7 +85,7 @@ img.cities:hover {
 }
 img.cities:hover:after {
     content: "aqui estoy";
-    
+
 }
 .listContent {
     text-align: center;

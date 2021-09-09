@@ -2,8 +2,9 @@ body {
     margin: 0;
     background-color: khaki;
     color: black;
-    font-family: Tahoma;
+    font-family: Tahoma, Helvetica;
     font-size: 1em;
+   padding-bottom: 50px;
 }
 
 header {
@@ -12,12 +13,37 @@ header {
     padding: 0.1em;
     text-align: center;
     letter-spacing: 0.3em;
-    word_spacing: 1em;
+    word-spacing: 1em;
 }
-aside {
-    text-align: center;
-
-
+.imageText {
+    margin: 2em;
+}
+.imageText:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 50px;
+}
+.imageText .rightText {
+  float: left;
+    padding-left: 2em;
+}
+.imageText .leftImage {
+    float: left;
+    width: 50%;
+}
+.imageText .leftText {
+    float: right;
+    padding-right: 2em;
+}
+.imageText .rightImage {
+    float: right;
+    width: 50%;
+}
+.imageText aside {
+    width: 50%;
+    text-align: left;
+    box-sizing: border-box;
 }
 #rubrik_1 {
     font-size: 6em;

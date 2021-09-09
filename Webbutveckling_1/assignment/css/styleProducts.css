@@ -1,7 +1,9 @@
 
 header {
-    background-color: lightpink;
-    background-image: url("../img/cherry.jpg");
+    background-color: darkseagreen;
+    background-image: url("../img/paw portal.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
     padding: 0.1em;
     text-align: center;
     letter-spacing: 0.3em;
@@ -9,13 +11,15 @@ header {
 }
 
 #rubrik_1 {
-    font-size: 6em;
-    text-shadow: 5px 5px 10px darkseagreen;
+    font-size: 4.5em;
+    text-shadow: 5px 5px 10px cornflowerblue;
 }
 
 #rubrik_2 {
-    text-shadow: 2px 2px 7px darkgrey;
-}.imageText {
+    text-shadow: 2px 2px 7px whitesmoke;
+}
+
+.imageText {
      margin: 2em;
  }
 

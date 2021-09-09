@@ -1,6 +1,6 @@
 
 header {
-    background-color: crimson;
+    background-color: lightpink;
     background-image: url("../img/codeBack.jpg");
     padding: 0.1em;
     text-align: center;
@@ -8,6 +8,19 @@ header {
     word-spacing: 1em;
 }
 
+#rubrik_1 {
+    font-size: 6em;
+    color: cornflowerblue;
+    text-shadow: 7px 7px 14px black;
+}
+
+#rubrik_2 {
+    text-shadow: 2px 2px 4px deeppink;
+}
+
+#listContent {
+    text-align: left;
+}
 .imageText {
     margin: 2em;
 }
@@ -45,19 +58,6 @@ header {
     box-sizing: border-box;
 }
 
-#rubrik_1 {
-    font-size: 6em;
-    color: chartreuse;
-    text-shadow: 7px 7px 12px black;
-}
-
-#rubrik_2 {
-    text-shadow: 2px 2px 4px deeppink;
-}
-
-#listContent {
-    text-align: left;
-}
 
 img {
     width: 750px;

@@ -83,6 +83,10 @@ img.cities {
 img.cities:hover {
     transform: scale(1.1)
 }
+img.cities:hover:after {
+    content: "aqui estoy";
+    
+}
 .listContent {
     text-align: center;
     padding-bottom: 100px;
@@ -97,7 +101,11 @@ img.cities:hover {
     margin-bottom: 1em;
     padding: 1em;
 }
-
+.listContent ul {
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+}
 .merOmMig {
     color: darkolivegreen;
     text-align: center;

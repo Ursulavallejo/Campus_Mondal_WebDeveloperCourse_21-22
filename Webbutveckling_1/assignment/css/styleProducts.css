@@ -1,4 +1,6 @@
-
+body {
+    background-image: url("../img/wallpaper2.jpg");
+}
 header {
     background-color: darkseagreen;
     background-image: url("../img/paw portal.jpg");
@@ -37,7 +39,7 @@ header {
 
 .imageText .leftImage {
     float: left;
-    width: 50%;
+    width: 30%;
 }
 
 .imageText .leftText {
@@ -47,11 +49,54 @@ header {
 
 .imageText .rightImage {
     float: right;
-    width: 50%;
+    width: 35%;
 }
 
 .imageText aside {
     width: 50%;
     text-align: left;
     box-sizing: border-box;
+
+}
+.imageButton1 img {
+    width: 80px;
+    margin: 5px;
+    transition: all 0.2s;
+}
+
+.imageButton1 img:hover {
+    transform: scale(1.1)
+}
+.imageButton1 img:hover:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.imageButton2 img {
+    width: 150px;
+    margin: 5px;
+    transition: all 0.2s;
+}
+
+.imageButton2 img:hover {
+    transform: scale(1.1)
+}
+.imageButton2 img:hover:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.imageButton3 img {
+    width:40%;
+    margin-top: 0em;
+    transition: all 0.2s;
+} /*need to center more image*/
+
+.imageButton3 img:hover {
+    transform: scale(1.1)
+}
+.imageButton3 img:hover:after {
+    content: "";
+    display: table;
+    clear: both;
 }

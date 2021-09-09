@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: khaki;
+    color: black;
+    font-family: Tahoma;
+    font-size: 1em;
+}
+
+header {
+    background-color: crimson;
+    background-image: url("../img/codeBack.jpg");
+    padding: 0.1em;
+    text-align: center;
+    letter-spacing: 0.3em;
+    word_spacing: 1em;
+}
+aside {
+    text-align: center;
+
+
+}
+#rubrik_1 {
+    font-size: 6em;
+    color: chartreuse;
+    text-shadow: 7px 7px 12px black;
+}
+#rubrik_2 {
+    text-shadow: 2px 2px 4px deeppink;
+}
+#listContent {
+    text-align: left;
+}
+img {
+    width: 750px;
+}

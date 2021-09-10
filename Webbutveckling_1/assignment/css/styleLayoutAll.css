@@ -6,3 +6,10 @@ body {
     font-size: 1em;
     padding-bottom: 50px;
 }
+header {
+    background-color: lightpink;
+    padding: 0.1em;
+    text-align: center;
+    letter-spacing: 0.3em;
+    word_spacing: 1em;
+}

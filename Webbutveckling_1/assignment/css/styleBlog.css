@@ -1,0 +1,51 @@
+header {
+    background-image: url("../img/cherry.jpg");
+
+}
+#rubrik_1 {
+    font-size: 6em;
+    text-shadow: 5px 5px 10px darkseagreen;
+}
+
+#rubrik_2 {
+    text-shadow: 2px 2px 7px darkgrey;
+}
+.leftcolumn {
+    float: left;
+    width: 60%;
+}
+.rightcolumn {
+    float: left;
+    width: 30%;
+    padding-left: 50px;
+}
+.blogTextimg {
+    background-color:lightgoldenrodyellow;
+    width: 100%;
+    padding-left: 8px ;
+    padding-right: 0.2em;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}

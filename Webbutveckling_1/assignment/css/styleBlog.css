@@ -23,20 +23,33 @@ header {
     padding-left: 50px;
 }
 .blogTextimg {
-    background-color:lightgoldenrodyellow;
-    width: 100%;
+    width: 90%;
+    background-color: blanchedalmond;
+    height: 240px;
     padding-left: 8px ;
     padding-right: 0.2em;
+    padding-bottom: 1em;
+    text-align: center;
+    margin:16px auto;
+}
+.blogTextimg img{
+    width: 350px;
+    margin: 15px auto;
+    min-width: 300px;
+    max-width: 500px;
+}
+.blogPhoto {
+  text-align: center;
 }
 
-/* Add a card effect for articles */
 .card {
     background-color: white;
-    padding: 20px;
+    padding: 2em;
     margin-top: 20px;
+    margin-left: 4em;
+    margin-bottom: 2em;
 }
 
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;

@@ -15,7 +15,3 @@ X
 (Webbutveckling_1/assignment/courses.html,1\9\1976493cd644734ffac7aee8ad0477e228eafd6b
 V
 &Webbutveckling_1/assignment/other.html,7\0\70abbf18b35aa88f4a20fc87de883a22388e4260
-V
-&Webbutveckling_1/assignment/about.html,c\5\c58e62234bed3d86de5f47c3f7ed3a317ed32d93
-Y
-)Webbutveckling_1/assignment/products.html,4\f\4f22b6ce86f6b042d605f9861d106e23f1ce5777

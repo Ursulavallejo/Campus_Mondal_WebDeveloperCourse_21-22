@@ -10,6 +10,9 @@ header {
 #rubrik_2 {
     text-shadow: 2px 2px 7px darkgrey;
 }
+.introblog {
+    padding: 2em;
+}
 .leftcolumn {
     float: left;
     width: 60%;

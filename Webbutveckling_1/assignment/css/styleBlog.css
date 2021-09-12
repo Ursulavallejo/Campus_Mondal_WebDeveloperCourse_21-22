@@ -71,7 +71,10 @@ header {
     margin-bottom: 2em;
 
 }
-
+/* how to do text box bigger*/
+.boxComment {
+    padding: 1em;
+}
 .row:after {
     content: "";
     display: table;

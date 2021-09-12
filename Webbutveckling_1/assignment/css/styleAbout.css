@@ -76,8 +76,9 @@ img.cities:hover {
 }
 
 img.cities:hover:after {
-    content: "aqui estoy";
-
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .listContent {

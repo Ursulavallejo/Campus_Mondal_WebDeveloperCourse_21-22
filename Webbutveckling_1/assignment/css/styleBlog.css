@@ -2,6 +2,7 @@ header {
     background-image: url("../img/cherry.jpg");
 
 }
+
 #rubrik_1 {
     font-size: 6em;
     text-shadow: 5px 5px 10px darkseagreen;
@@ -10,44 +11,65 @@ header {
 #rubrik_2 {
     text-shadow: 2px 2px 7px darkgrey;
 }
+
 .introblog {
     padding: 2em;
 }
+
 .leftcolumn {
     float: left;
     width: 60%;
 }
+
 .rightcolumn {
     float: left;
     width: 30%;
-    padding-left: 50px;
 }
+
 .blogTextimg {
-    width: 90%;
-    background-color: blanchedalmond;
-    height: 240px;
-    padding-left: 8px ;
-    padding-right: 0.2em;
-    padding-bottom: 1em;
     text-align: center;
-    margin:16px auto;
 }
-.blogTextimg img{
-    width: 350px;
-    margin: 15px auto;
+
+.blogTextimg img {
+    width: 70%;
     min-width: 300px;
     max-width: 500px;
+    transition: all 0.2s;
 }
+
+.blogTextimg :hover {
+    transform: scale(1.1)
+}
+
+.blogTextimg :hover:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* how to add this button to the other hover? */
+.facebookButton :hover {
+    transform: scale(1.1)
+}
+
+.facebookButton :hover:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .blogPhoto {
-  text-align: center;
+    text-align: center;
+
 }
 
 .card {
+    float: left;
     background-color: white;
-    padding: 2em;
+    padding: 4em;
     margin-top: 20px;
     margin-left: 4em;
     margin-bottom: 2em;
+
 }
 
 .row:after {
@@ -55,7 +77,6 @@ header {
     display: table;
     clear: both;
 }
-
 
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */

@@ -11,7 +11,3 @@ Z
 *Webbutveckling_1/assignment/css/navbar.css,8\9\89131ef9391d9ff07c71df927916fddce252b5d3
 Z
 *Webbutveckling_1/assignment/css/footer.css,d\4\d43de739d69d540df09ff2021af88ab1a14b5396
-X
-(Webbutveckling_1/assignment/courses.html,1\9\1976493cd644734ffac7aee8ad0477e228eafd6b
-V
-&Webbutveckling_1/assignment/other.html,7\0\70abbf18b35aa88f4a20fc87de883a22388e4260

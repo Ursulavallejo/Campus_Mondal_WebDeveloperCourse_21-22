@@ -1,0 +1,61 @@
+body {
+    background-image: url("../img/wallpaper.jpg");
+
+}
+header {
+    background-color: floralwhite;
+
+}
+header img {
+    float: right;
+    padding-top: 2em;
+    padding-right: 2em;
+}
+
+#rubrik_1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 3px firebrick;
+}
+
+#rubrik_2 {
+    text-shadow: 2px 2px 7px whitesmoke;
+    font-style: italic;
+}
+
+.imageText {
+    margin: 2em;
+}
+
+.imageText:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.imageText .rightText {
+    float: left;
+    padding-left: 2em;
+}
+
+.imageText .leftImage {
+    float: left;
+    width: 30%;
+}
+
+.imageText .leftText {
+    float: right;
+    padding-right: 2em;
+}
+
+.imageText .rightImage {
+    float: right;
+    width: 35%;
+}
+
+.imageText aside {
+    width: 50%;
+    text-align: left;
+    box-sizing: border-box;
+
+}

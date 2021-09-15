@@ -1,3 +1,19 @@
+header {
+    background-image: url("../img/codeBack.jpg");
+    background-repeat: no-repeat ;
+
+}
+
+#rubrik_1 {
+    font-size: 2em;
+    color: black;
+    text-shadow: 3px 3px 8px dimgray;
+}
+
+#rubrik_2 {
+    color: deeppink;
+    text-shadow: 4px 4px 6px black;
+}
 
 .grid-container {
     display: grid;
@@ -26,23 +42,63 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+    header {
+        background-repeat: repeat;
+    }
+    #rubrik_1 {
+        font-size: 3.5em;
+        color: black;
+        text-shadow: 5px 5px 10px dimgray;
+    }
+
+    #rubrik_2 {
+        font-size: 3em;
+        color: deeppink;
+        text-shadow: 4px 4px 8px black;
+    }
   .grid-container {
       grid-template-columns: 1fr 1fr;
+      grid-gap: 1em;
+    }
+    .left-gif {
+        width: 450px;
+        padding-top: 1.5em;
+
+    }
+    .text-content {
+        padding-top: 1.5em;
+
     }
 }
 /* laptop/Desktop */
 @media screen and (min-width: 992px) {
+    header {
+        background-repeat: repeat;
+    }
+    #rubrik_1 {
+        font-size: 5.5em;
+        color: black;
+        text-shadow: 5px 5px 10px dimgray;
+    }
+
+    #rubrik_2 {
+        font-size: 4em;
+        color: deeppink;
+        text-shadow: 4px 4px 8px black;
+    }
+
     .grid-container {
-        grid-template-columns: 3fr 1fr;
-
-    .left-gif img {
-        width: 100%;
+        grid-template-columns: 1fr 2fr;
+grid-gap: 10em
     }
+    .left-gif {
+        width: 600px;
+        padding-top: 3em;
 
+    }
     .text-content {
-        padding-left:1em;
-        padding-right: 2em;
-        padding-bottom: 2em;
-        margin-left: 0;
+        padding-top: 3em;
+
     }
+
 }

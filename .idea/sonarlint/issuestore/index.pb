@@ -25,8 +25,6 @@ V
 &Webbutveckling_1/assignment/about.html,c\5\c58e62234bed3d86de5f47c3f7ed3a317ed32d93
 ^
 .Webbutveckling_1/assignment/css/styleIndex.css,d\2\d2ecf42ba7f168a95328e3551d52e882a99a38b8
-Y
-)Webbutveckling_1/assignment/products.html,4\f\4f22b6ce86f6b042d605f9861d106e23f1ce5777
 a
 1Webbutveckling_1/assignment/css/styleProducts.css,1\5\1535a877e0d119662dd0b7bd8d989304297a5ec7
 b

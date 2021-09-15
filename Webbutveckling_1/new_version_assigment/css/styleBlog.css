@@ -1,0 +1,13 @@
+header {
+    background-image: url("../img/cherry.jpg");
+
+}
+
+#rubrik_1 {
+    font-size: 6em;
+    text-shadow: 5px 5px 10px darkseagreen;
+}
+
+#rubrik_2 {
+    text-shadow: 2px 2px 7px darkgrey;
+}

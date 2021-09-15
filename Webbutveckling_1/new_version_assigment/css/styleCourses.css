@@ -81,6 +81,16 @@ table, th, td {
 }
 
 @media screen and (min-width: 768px) {
+    #rubrik_1 {
+        font-size: 3em;
+        text-shadow: 2px 2px 3px firebrick;
+    }
+
+    #rubrik_2 {
+        font-size: 1.5em;
+        text-shadow: 2px 2px 7px whitesmoke;
+
+    }
     .grid-container-course {
         display: grid;
         grid-template-columns: 3fr 1fr;
@@ -92,23 +102,16 @@ table, th, td {
         margin-top: 1em;
         border-radius: 10px;
     }
+
     header img {
         width: 200px;
         padding-top: 1em;
         float: contour;
     }
 
-    #rubrik_1 {
-        font-size: 3em;
-        text-shadow: 2px 2px 3px firebrick;
-    }
 
-    #rubrik_2 {
-        font-size: 1.5em;
-        text-shadow: 2px 2px 7px whitesmoke;
-
-    }
 }
+
 @media screen and (min-width: 992px) {
     #rubrik_1 {
         font-size: 4em;
@@ -120,26 +123,31 @@ table, th, td {
         text-shadow: 2px 2px 7px gray;
 
     }
+
     .grid-container-course {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    margin-top: 1em;
-    margin-right: 1em;
-}
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        margin-top: 1em;
+        margin-right: 1em;
+    }
+
     .wrapper {
         margin: auto;
         max-width: 1200px;
         grid-gap: 10em;
     }
+
     .sidebar {
         margin-top: 1.5em;
         border-radius: 10px;
     }
+
     header img {
         width: 200px;
         padding-top: 1em;
         float: contour;
     }
+
     .important-info {
 
         padding: 2em;

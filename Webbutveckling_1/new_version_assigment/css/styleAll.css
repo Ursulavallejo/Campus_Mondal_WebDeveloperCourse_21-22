@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0 ;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     background-color: khaki;
     color: black;
     font-family: Tahoma, Helvetica;
@@ -33,7 +33,7 @@ header {
 @media screen and (min-width: 992px) {
     header {
         letter-spacing: 0.8em;
-        word-spacing: 1.5em;
+        word-spacing: 1em;
     }
     .grid-container-course {
         grid-template-columns: 3fr 1fr;

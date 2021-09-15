@@ -1,6 +1,4 @@
 
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 X
 (Webbutveckling_1/om_mig_ursula/README.md,5\0\505b769d79b43887b2d21ba8b82ef6e53c65e144
 X

@@ -26,10 +26,16 @@ header {
         letter-spacing: 0.5em;
         word-spacing: 1em;
     }
+    .grid-container-course {
+        grid-template-columns: 2fr 1fr;
+    }
 }
 @media screen and (min-width: 992px) {
     header {
         letter-spacing: 0.8em;
         word-spacing: 1.5em;
+    }
+    .grid-container-course {
+        grid-template-columns: 3fr 1fr;
     }
 }

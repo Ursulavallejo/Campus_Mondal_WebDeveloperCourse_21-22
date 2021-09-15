@@ -1,13 +1,16 @@
 body {
     background-image: url("../img/wallpaper2.jpg");
 }
+
 header {
     background-color: white;
     background-image: url("../img/paw portal.jpg");
     background-repeat: no-repeat;
     background-size: contain;
 }
-header, section, /*aside,*/ footer {
+
+header, section, /*aside,*/
+footer {
     margin: 0;
     padding: 0;
 
@@ -16,6 +19,7 @@ header, section, /*aside,*/ footer {
 img {
     width: 350px;
 }
+
 #rubrik_1 {
     padding-top: 4em;
     font-size: 3em;
@@ -29,7 +33,7 @@ img {
     margin: 0;
 }
 
-.image-header{
+.image-header {
     width: 100%;
 }
 
@@ -42,30 +46,33 @@ img {
     display: grid;
     grid-template-columns: 1fr;
 }
-.grid-container-text-image2{
+
+.grid-container-text-image2 {
     display: grid;
     grid-template-columns: 1fr;
 }
-.box-title{
+
+.box-title {
     background-color: white;
     text-align: left;
     text-wrap: normal;
 }
+
 .img-responsive {
     width: 100%;
 }
-.content{
+
+.content {
     margin-left: 1em;
     margin-right: 1em;
 }
-/*
-.sidebar{
-    text-align: center;
-}*/
-/*
-.sidebar img{
-    width: 280px;
-}*/
+.logo-Info-1{
+    text-align: right;
+}
+.logo-Info-2{
+    text-align: left;
+    padding-left: 1em;
+}
 
 .imageButton1 img {
     width: 80px;
@@ -100,14 +107,17 @@ img {
 }
 
 .imageButton3 img {
-    width:40%;
+    width: 40%;
     margin-top: 0em;
     transition: all 0.2s;
-} /*need to center more image*/
+}
+
+/*need to center more image*/
 
 .imageButton3 img:hover {
     transform: scale(1.1)
 }
+
 .imageButton3 img:hover:after {
     content: "";
     display: table;
@@ -118,33 +128,39 @@ img {
 /* Tablet */
 @media screen and (min-width: 768px) {
 
-   /* .grid-container {
-        display: grid;
-        grid-template-columns: 8fr 1fr;
-    } */ .grid-container-text-image {
-           grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-       }
+    #rubrik_1 {
+        padding-top: 4em;
+        font-size: 5em;
+        text-shadow: 5px 5px 10px cornflowerblue;
+    }
+
+    #rubrik_2 {
+        font-size: 2em;
+        text-shadow: 2px 2px 7px whitesmoke;
+        padding-bottom: 0;
+        margin: 0;
+    }
+
+    .grid-container-text-image {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
     .grid-container-text-image2 {
         grid-template-columns: 1fr 1fr;
         grid-gap: 1em;
     }
 
     .img-responsive {
-        width:400px;
+        width: 400px;
     }
 
 }
 
 /* laptop/Desktop */
 @media screen and (min-width: 992px) {
-   /* .grid-container {
-        grid-template-columns: 4fr 1fr;
-    }*/
+
     .grid-container-text-image {
         grid-template-columns: 3fr 1fr;
-    }
-
-
     }
 }

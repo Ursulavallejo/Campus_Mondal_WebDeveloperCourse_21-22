@@ -1,0 +1,159 @@
+header {
+    background-image: url("../img/cherry.jpg");
+
+
+}
+
+#rubrik_1 {
+    font-size: 2em;
+    text-shadow: 5px 5px 10px darkseagreen;
+}
+
+#rubrik_2 {
+    font-size: 1em;
+    text-shadow: 2px 2px 6px grey;
+}
+.box-info-course {    /*por que no puedo hacer una caja blanca*/
+    background: floralwhite;
+}
+.japan-image {
+    text-align: center;
+}
+
+.japan-image img {
+    width: 80%;
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 400px;
+    padding-left: 1em;
+}
+
+.utbilding {
+    background-color: lightskyblue;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
+}
+
+.arbetshistoria {
+    background: white;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.intressen {
+    background-color: darkseagreen;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sub_text {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.textContent {
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em
+
+}
+
+img.cities {
+    text-align: center;
+    width: 320px;
+    margin: 5px;
+    transition: all 0.2s;
+
+}
+
+img.cities:hover {
+    transform: scale(1.1)
+}
+
+img.cities:hover:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.listContent {
+    text-align: center;
+    padding: 1em;
+
+}
+
+.listContent article {
+    width: 100%;
+    height: 200px;
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 1em;
+
+}
+
+.listContent ul {
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.merOmMig {
+    color: darkolivegreen;
+    text-align: center;
+    font-size: 2em;
+    background: lightpink;
+    padding: 0;
+    margin:0;
+    text-shadow: 5px 5px 5px darkseagreen;
+}
+@media screen and (min-width: 768px){
+    #rubrik_1 {
+        font-size: 3.5em;
+        text-shadow: 5px 5px 10px darkseagreen;
+    }
+
+    #rubrik_2 {
+        font-size: 2em;
+        text-shadow: 2px 2px 6px grey;
+    }
+    .listContent article {
+        display: inline-block;
+        width: 25%;
+        height: 200px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+    @media screen and (min-width: 992px){
+        #rubrik_1 {
+            font-size: 5em;
+            text-shadow: 5px 5px 10px darkseagreen;
+        }
+
+        #rubrik_2 {
+            font-size: 3em;
+            text-shadow: 2px 2px 6px grey;
+        }
+      .textContent{
+          text-align: left;
+      }
+      .sub_text{
+          padding-left: 8em;
+      }
+     
+    }

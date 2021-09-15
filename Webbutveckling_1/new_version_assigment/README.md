@@ -3,12 +3,12 @@
 ## Projektuppgift *Ursula Vallejo Janne*
 ### Content Innehåller:
 - [General Projektplan](#general-projektplan)
--  [Steg 1:about](#steg-1-about)
-- Steg 2: [courses](#courses)
-- Steg 3: [index](#index)
-- Steg 4: [blogg](#blogg)
-- Steg 5: [products](#products)
-- [Steg 6: other](#steg-6-other)
+- [Steg 1:about](#steg-1-about)
+- [Steg 2:courses](#steg-2-courses)
+- [Steg 3:index](#steg-3-index)
+- [Steg 4:blogg](#steg-4-blogg)
+- [Steg 5:products](#steg-5-products)
+- [Steg 6:other](#steg-6-other)
 - [Uppgifter Info](#uppgifter-info)
 
 # General Projektplan :

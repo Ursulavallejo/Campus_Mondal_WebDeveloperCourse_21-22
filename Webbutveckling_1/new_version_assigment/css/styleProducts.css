@@ -1,0 +1,150 @@
+body {
+    background-image: url("../img/wallpaper2.jpg");
+}
+header {
+    background-color: white;
+    background-image: url("../img/paw portal.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+header, section, /*aside,*/ footer {
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    width: 350px;
+}
+#rubrik_1 {
+    padding-top: 4em;
+    font-size: 3em;
+    text-shadow: 5px 5px 10px cornflowerblue;
+}
+
+#rubrik_2 {
+    font-size: 1.5em;
+    text-shadow: 2px 2px 7px whitesmoke;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.image-header{
+    width: 100%;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.grid-container-text-image {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.grid-container-text-image2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.box-title{
+    background-color: white;
+    text-align: left;
+    text-wrap: normal;
+}
+.img-responsive {
+    width: 100%;
+}
+.content{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+/*
+.sidebar{
+    text-align: center;
+}*/
+/*
+.sidebar img{
+    width: 280px;
+}*/
+
+.imageButton1 img {
+    width: 80px;
+    margin: 5px;
+    transition: all 0.2s;
+}
+
+.imageButton1 img:hover {
+    transform: scale(1.1)
+}
+
+.imageButton1 img:hover:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.imageButton2 img {
+    width: 150px;
+    margin: 5px;
+    transition: all 0.2s;
+}
+
+.imageButton2 img:hover {
+    transform: scale(1.1)
+}
+
+.imageButton2 img:hover:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.imageButton3 img {
+    width:40%;
+    margin-top: 0em;
+    transition: all 0.2s;
+} /*need to center more image*/
+
+.imageButton3 img:hover {
+    transform: scale(1.1)
+}
+.imageButton3 img:hover:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+
+   /* .grid-container {
+        display: grid;
+        grid-template-columns: 8fr 1fr;
+    } */ .grid-container-text-image {
+           grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+       }
+    .grid-container-text-image2 {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+    .img-responsive {
+        width:400px;
+    }
+
+}
+
+/* laptop/Desktop */
+@media screen and (min-width: 992px) {
+   /* .grid-container {
+        grid-template-columns: 4fr 1fr;
+    }*/
+    .grid-container-text-image {
+        grid-template-columns: 3fr 1fr;
+    }
+
+
+    }
+}

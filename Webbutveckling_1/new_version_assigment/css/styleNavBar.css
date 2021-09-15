@@ -1,0 +1,46 @@
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategrey;
+    letter-spacing: 0.3em;
+    word-spacing: 2em;
+
+
+}
+.navbar-item {
+    float: contour;
+}
+.navbar-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.2em ;
+    text-decoration: none;
+}
+.navbar-link:hover:not(.active) {
+    background-color: darkviolet;
+}
+
+.active {
+    background-color: palevioletred;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-item {
+        float: left;
+    }
+    .navbar-link {
+        padding: 0.8em;
+    }
+    }
+
+@media only screen and (min-width: 1200px) {
+    .navbar-item {
+        float: left;
+    }
+    .navbar-item {
+        padding: 0 ;
+    }
+}

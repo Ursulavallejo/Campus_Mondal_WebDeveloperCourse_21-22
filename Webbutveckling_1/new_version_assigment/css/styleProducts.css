@@ -8,14 +8,12 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-
 }
 
 header, section, /*aside,*/
 footer {
     margin: 0;
     padding: 0;
-
 }
 
 img {
@@ -69,10 +67,12 @@ img {
     margin-left: 1em;
     margin-right: 1em;
 }
-.logo-Info-1{
+
+.logo-Info-1 {
     text-align: right;
 }
-.logo-Info-2{
+
+.logo-Info-2 {
     text-align: left;
     padding-left: 1em;
 }
@@ -115,8 +115,6 @@ img {
     transition: all 0.2s;
 }
 
-/*need to center more image*/
-
 .imageButton3 img:hover {
     transform: scale(1.1)
 }
@@ -130,7 +128,6 @@ img {
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-
     #rubrik_1 {
         padding-top: 2em;
         font-size: 5em;
@@ -157,14 +154,11 @@ img {
     .img-responsive {
         width: 400px;
     }
-
 }
 
 /* laptop/Desktop */
 @media screen and (min-width: 992px) {
-
     .grid-container-text-image {
         grid-template-columns: 1fr 3fr;
-
     }
 }

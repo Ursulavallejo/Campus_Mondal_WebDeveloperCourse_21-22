@@ -97,7 +97,7 @@ table, th, td {
     }
     .grid-container-course {
         display: grid;
-        grid-template-columns: 3fr 1fr;
+        grid-template-columns: 3fr 2fr;
         margin-top: 1em;
         margin-right: 2em;
         margin-left: 2em;
@@ -111,7 +111,6 @@ table, th, td {
     }
     .sidebar {
         margin: 2em;
-
 
     }
 

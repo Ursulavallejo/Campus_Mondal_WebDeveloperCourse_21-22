@@ -4,12 +4,12 @@ header {
     background-size: cover;
     background-position: center;
 }
-@media screen and (min-width:768px) {
+
+@media screen and (min-width: 768px) {
     header {
         background-repeat: repeat;
         background-size: auto;
     }
-
 }
 
 #rubrik_1 {
@@ -21,12 +21,12 @@ header {
     font-size: 1em;
     text-shadow: 2px 2px 6px grey;
 }
-.box-sub-header{    /*por que no puedo hacer una caja blanca*/
+
+.box-sub-header { /*por que no puedo hacer una caja blanca*/
     background-color: whitesmoke;
     border-radius: 5px;
     padding-left: 0.20em;
 }
-
 
 .japan-image img {
     width: 80%;
@@ -35,12 +35,14 @@ header {
     max-width: 400px;
     padding-left: 1em;
 }
+.japan-image{
+    text-align: center;
+}
 
 .utbilding {
     background-color: lightskyblue;
     margin-left: 0.5em;
     margin-right: 0.5em;
-
 }
 
 .arbetshistoria {
@@ -70,14 +72,12 @@ section:after {
     text-align: center;
     padding-left: 1em;
     padding-right: 1em
-
 }
 
 img.cities {
     width: 320px;
     margin: 5px;
     transition: all 0.2s;
-
 }
 
 img.cities:hover {
@@ -93,7 +93,6 @@ img.cities:hover:after {
 .listContent {
     text-align: center;
     padding: 1em;
-
 }
 
 .listContent article {
@@ -103,7 +102,6 @@ img.cities:hover:after {
     text-align: center;
     border: 1px solid black;
     margin-bottom: 1em;
-
 }
 
 .listContent ul {
@@ -111,7 +109,8 @@ img.cities:hover:after {
     padding-left: 20%;
     padding-right: 20%;
 }
-.container{
+
+.container {
     text-align: center;
 }
 
@@ -121,11 +120,11 @@ img.cities:hover:after {
     font-size: 2em;
     background: lightpink;
     padding: 0;
-    margin:0;
+    margin: 0;
     text-shadow: 5px 5px 5px darkseagreen;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     #rubrik_1 {
         font-size: 3.5em;
         text-shadow: 5px 5px 10px darkseagreen;
@@ -135,6 +134,7 @@ img.cities:hover:after {
         font-size: 2em;
         text-shadow: 2px 2px 6px grey;
     }
+
     .listContent article {
         display: inline-block;
         width: 25%;
@@ -149,21 +149,22 @@ img.cities:hover:after {
 }
 
 
-    @media screen and (min-width: 992px){
-        #rubrik_1 {
-            font-size: 5em;
-            text-shadow: 5px 5px 10px darkseagreen;
-        }
-
-        #rubrik_2 {
-            font-size: 3em;
-            text-shadow: 2px 2px 6px grey;
-        }
-      .textContent{
-          text-align: left;
-      }
-      .sub_text{
-          padding-left: 8em;
-      }
-
+@media screen and (min-width: 992px) {
+    #rubrik_1 {
+        font-size: 5em;
+        text-shadow: 5px 5px 10px darkseagreen;
     }
+
+    #rubrik_2 {
+        font-size: 3em;
+        text-shadow: 2px 2px 6px grey;
+    }
+
+    .textContent {
+        text-align: left;
+    }
+
+    .sub_text {
+        padding-left: 8em;
+    }
+}

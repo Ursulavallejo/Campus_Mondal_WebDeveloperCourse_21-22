@@ -13,12 +13,10 @@ header {
     text-shadow: 2px 2px 7px darkgrey;
 }
 
-
 .introblog {
     padding: 1em;
     text-align: center;
 }
-
 
 .rightcolumn .leftcolumn {
     width: 100%;
@@ -35,11 +33,13 @@ header {
     max-width: 500px;
     transition: all 0.2s;
 }
+
 .comment-form label {
-padding: 10px 0;
+    padding: 10px 0;
     display: block;
 
 }
+
 .comment-form input,
 .comment-form textarea {
     display: block;
@@ -59,7 +59,6 @@ padding: 10px 0;
     clear: both;
 }
 
-/* how to add this button to the other hover? */
 .facebookButton :hover {
     transform: scale(1.1)
 }
@@ -72,21 +71,15 @@ padding: 10px 0;
 
 .blogPhoto {
     text-align: center;
-
 }
 
 .card {
     background-color: white;
     padding: 1em;
-    margin-top: 5px;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
+    margin: 5px 1em 1em 1em;
     border-radius: 5px;
-
 }
 
-/* how to do text box bigger*/
 .boxComment {
     padding: 1em;
 }
@@ -103,25 +96,29 @@ padding: 10px 0;
         font-size: 3em;
         text-shadow: 5px 5px 10px darkseagreen;
     }
+
     #rubrik_2 {
         font-size: 1.7em;
         text-shadow: 2px 2px 7px darkgrey;
     }
+
     .grid-container {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
 }
+
 @media screen and (min-width: 992px) {
+    #rubrik_1 {
+        font-size: 3.5em;
+    }
+
+    #rubrik_2 {
+        font-size: 1.9em;
+    }
+
     .grid-container {
         display: grid;
         grid-template-columns: 3fr 1fr;
     }
 }
-/* con este funciona en iphone quitando los otros
-@media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {
-        width: 100%;
-        padding: 0;
-    }
-}*/

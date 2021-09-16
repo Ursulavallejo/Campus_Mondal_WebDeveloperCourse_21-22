@@ -68,7 +68,11 @@ main {
 }
 
 .sidebar {
-    background-color: chocolate;
+    background-color: darkslategrey;
+    margin: 1em;
+    border-radius: 10px;
+    text-align: center;
+ 
 }
 
 table, th, td {
@@ -98,10 +102,7 @@ table, th, td {
         margin-right: 1em;
     }
 
-    .sidebar {
-        margin-top: 1em;
-        border-radius: 10px;
-    }
+
 
     header img {
         width: 200px;

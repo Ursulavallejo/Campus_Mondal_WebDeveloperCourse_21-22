@@ -35,7 +35,7 @@ Projektet består av 6 punkter som motsvarar en html -sida vardera:
 - products
 - other
 
-##Layout
+## Layout
 
 Det första tillvägagångssättet jag hittade var att tänka på hur man gör att projektet länkar till varandra och inte gör varje sida helt annorlunda, utan någon koppling.Det är därför jag bestämde att alla sidor skulle dela samma design: i den övre marginalen har du titeln, sedan navigeringsfältet och statisk sidfot som var alltid närvarande för att skapa den känslan av enhet.Även när jag försökte hitta en enhet mellan sidorna övervägde jag att använda bakgrundsfärger som upprepas mellan dem.
 
@@ -43,13 +43,13 @@ Jag föreslog en layout som upprepas i de olika sektionerna, för detta skapade 
 
 ![General LayOut](img/layout.png)
 
-###Navbar:
+### Navbar:
 När jag gjorde navbar tog jag också upp en möjlig ordningsföljd mellan namnen på varje länkar. Så jag bestämde mig för att elementens ordning skulle ha en ordning så jag skrev först index, vilket är starten på projektet där du hittar en allmän beskrivning av vad projektet handlar om.
 Sedan har jag lagt About som förklarar vem som gör projektet.
 Det följs av bloggen som vanligtvis är information som någon har åsikter som kan vara relaterad till personen i About (gillar, intressen eller åsikter).
 Sedan lägger jag länken till produkter som inte längre är så personliga utan presenterar något utanför det personliga omfånget. Och slutligen other som är kompletterande information.
 
-##HTML Code ordning
+## HTML Code ordning
 
 När jag skrev min html tog jag upp en mental plan som hjälpte mig mycket. Det är att visualisera en Matryoshka, där elementen är inkapslade i varandra.
 Jag såg behovet av att se det så här för att förstå en allmän struktur och hur det inom varje tagg inkapslar andra i förhållande till en semantik.
@@ -62,7 +62,7 @@ För att förstå begreppet main tag bra, gå till w3 schools.
 
 [W3Schools Webbsida: `HTML <main> Tag`](https://www.w3schools.com/tags/tag_main.asp)
 
-##CSS Responsiv webbdesign : Kompatibilitet med olika enheter
+## CSS Responsiv webbdesign : Kompatibilitet med olika enheter
 
 Projektet ska kunna anpassa sig till olika enheter som: iPhone, iPad och skrivbordet.
 För detta har vi använt `@media` - media queries.
@@ -76,7 +76,7 @@ Enhetsstorlekarna som jag har använt för den här konfigurationen är:
 -Desktop:
 `@media screen and (min-width: 992px)`
 
-##CSS Style: file.css
+## CSS Style: file.css
 
 I projektet föreslog jag att varje sida skulle ha sin egen oberoende CSS -sida så att den endast skulle innehålla de koder som gäller det projektet. 
 
@@ -84,7 +84,7 @@ Det finns en annan som innehåller de aspekter som upprepas sinsemellan som går
 
 ![file.css](img/file-css.png)
 
-##Bilder
+## Bilder
 
 För att konfigurera storleken på bakgrundsbilderna för de olika enheterna var jag tvungen att undersöka hur jag skulle göra det eftersom det var svårt för mig och de passade inte mig. Jag lyckades fixa det genom att läsa W3Schools -informationen om storlek, no repeat, align center among andra.
 
@@ -109,7 +109,7 @@ Gör en plan för hur informationen ska distribueras och kunna komplettera de kr
 
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 
-###Så här ser de olika enheterna ut:
+### Så här ser de olika enheterna ut:
   - iPhone:
 
     ![Ser ut iphone](img/about-iphone.png)
@@ -141,7 +141,7 @@ Det inkluderade också en länk till csn så att de enkelt kan få tillgång til
 
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 
-###Så här ser de olika enheterna ut:
+### Så här ser de olika enheterna ut:
 - iPhone:
 
   ![Ser ut iphone](img/courses-iphone.png)
@@ -162,7 +162,7 @@ Det inkluderade också en länk till csn så att de enkelt kan få tillgång til
 
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 
-###Så här ser de olika enheterna ut:
+### Så här ser de olika enheterna ut:
 
 - iPhone:
 
@@ -194,7 +194,7 @@ Det inkluderade också en länk till csn så att de enkelt kan få tillgång til
 
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 
-###Så här ser de olika enheterna ut:
+### Så här ser de olika enheterna ut:
 - iPhone:
 
   ![Ser ut iphone](img/blog-iphone.png)
@@ -215,7 +215,7 @@ Det inkluderade också en länk till csn så att de enkelt kan få tillgång til
 
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 
-###Så här ser de olika enheterna ut:
+### Så här ser de olika enheterna ut:
 - iPhone:
 
   ![Ser ut iphone](img/product-iphone.png)
@@ -257,7 +257,7 @@ Länkar W3 Schools information jag använd:
 
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 
-###Så här ser de olika enheterna ut:
+### Så här ser de olika enheterna ut:
 
 - iPhone:
 

@@ -84,6 +84,8 @@ Det finns en annan som innehåller de aspekter som upprepas sinsemellan som går
 
 ![file.css](img/file-css.png)
 
+## CSS: code
+
 ## Bilder
 
 För att konfigurera storleken på bakgrundsbilderna för de olika enheterna var jag tvungen att undersöka hur jag skulle göra det eftersom det var svårt för mig och de passade inte mig. Jag lyckades fixa det genom att läsa W3Schools -informationen om storlek, no repeat, align center among andra.
@@ -93,6 +95,39 @@ För att konfigurera storleken på bakgrundsbilderna för de olika enheterna var
  background-size: 100% 100%;`
 
 [Information W3 Schools:background-size ](https://www.w3schools.com/cssref/css3_pr_background-size.asp)
+
+## Elements
+
+#### Margin och Padding:
+
+-I ett första skede var det mycket svårt för mig att förstå elementens *margin* och *padding* eftersom jag kunde se att de tillkom istället för att vistas i ett visst utrymme.
+För att lösa detta letade jag efter information i w3Schools och jag såg begreppen:
+
+`* {
+box-sizing: border-box;
+}`
+I klassen såg vi det också för att bestämma all information som ingår i vårt projekt, vilket senare gjorde det tydligare att kunna lokalisera elementen inom arbetsområdet.
+
+[Information W3 Schools:box sizing ](https://www.w3schools.com/css/css3_box-sizing.asp)
+
+[Information om CSS Layouts ](https://dev.to/poulamic/series/8357)
+
+#### Flexbox och grid:
+
+Jag undersökte in dessa två begrepp för att fråga eftersom det inte var klart i vilket fall att använda det ena och det andra.
+
+*-Grid:*
+
+Jag ser att grid ger fler möjligheter att konfigurera elementen i 2 dimensioner men i en miljö där det inte finns så mycket möjlighet att göra ändringar i sista minuten, om till exempel en designer säger till oss att det är dags att flytta x platselement, kollapsar hela grid.
+Jag skulle se det mer praktiskt att tillämpa rutnätet efter sektioner.
+
+[Information Grid](https://dev.to/zachgoll/css-grid-course-for-complete-beginners-4256)
+
+*-Flexbox:*
+
+Flexboxen verkar också vara ett användbart verktyg eftersom läsningen av en sida alltid görs horisontellt och det är så dess struktur presenteras i flexbox. Enligt vad jag kunde se, till exempel på CSSTrycks webbplats, kan det vara lika mångsidigt om du vet hur man gör ett bra tillvägagångssätt för det.
+
+[Information Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## Steg 1: about.html
 
@@ -133,11 +168,21 @@ Det inkluderade också en länk till csn så att de enkelt kan få tillgång til
 
 -Tabellen med kursinformation, välj att inkludera datum som varje kurs har och separera informationen för varje kurs så att det är lättare visuellt att se på olika enheter.
 
+-I tabellen gav det mig ett felmeddelande som jag lyckades korrigera men beskrivningen av tabellen var synlig. Detta kan lösas tack vare hjälp av en kollega som presenterade mig för den display: none för att dolda informationen:
+`
+table caption {
+display: none;
+}`
+
 -Använd grafiken på campus Mölndal webbplats för att direkt relatera den till den, eftersom det är de som undervisar kursen.
 
 -informationen för varje kurs följer samma parameter:
 
 ![Kurs parameter](img/course-parameter.png)
+
+- Jag har inte utelämnat grafiken för kursplanen i iPhone -versionen för när du vrider den horisontellt kan du se allt utan problem.
+
+![Horisontell vi iPhone grafik av kurs](img/plannering-iphone.png)
 
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 
@@ -212,6 +257,8 @@ Det inkluderade också en länk till csn så att de enkelt kan få tillgång til
 -Jag följde parametern som gavs oss i det första diagrammet på produktsidan för att byta ut 3 block med foton på produkter och texter mellan dem.
 
 -För att lösa flödet mellan bild och text, använd ett horisontellt grepp, som dupliceras tre gånger och ändrar konfigurationen mellan dessa interna element i var och en oberoende av varandra.
+
+-I de tre olika sektionerna finns länkar till externa sidor. På samma sätt används de för att få mer information om produkterna. Med hover för att göra den mer reaktiv för användaren av webbsidan.
 
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 

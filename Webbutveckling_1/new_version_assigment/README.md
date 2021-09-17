@@ -18,7 +18,7 @@ Du kan se mitt projektplan i länken nedan:
 [Trello Webbsida](https://trello.com/invite/b/MumOFN0P/9878ada236feb82b544166f8b5eddfc0/webbutveckling1)
 
 # Dokumentation  :
-## Steg 1: about.html
+## Steg 1:about.html
 
 -Text 1
 
@@ -36,7 +36,7 @@ Du kan se mitt projektplan i länken nedan:
 
 -text 8
 
-## Steg 2: courses.html
+## Steg 2:courses.html
 
 -Text 1
 
@@ -55,7 +55,7 @@ Du kan se mitt projektplan i länken nedan:
 -text 8
 
 
-## Steg 3: index.html
+## Steg 3:index.html
 
 -Text 1
 
@@ -73,7 +73,7 @@ Du kan se mitt projektplan i länken nedan:
 
 -text 8
 
-## Steg 4: blogg.html
+## Steg 4:blogg.html
 
 -Text 1
 
@@ -91,7 +91,7 @@ Du kan se mitt projektplan i länken nedan:
 
 -text 8
 
-## Steg 5: products.html
+## Steg 5:products.html
 
 -Text 1
 
@@ -109,7 +109,7 @@ Du kan se mitt projektplan i länken nedan:
 
 -text 8
 
-## Steg 6: other.html
+## Steg 6:other.html
 
 -Text 1
 

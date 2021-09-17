@@ -142,13 +142,13 @@ Du kan se mitt projektplan i länken nedan:
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 - iPhone:
 
-  ![Ser ut iphone](img/products-iphone.png)
+  ![Ser ut iphone](img/product-iphone.png)
 - Ipad:
 
-  ![Ser ut iPad](img/products-ipad.png)
+  ![Ser ut iPad](img/product-iPad.png)
 - Desktop:
 
-  ![Ser ut desktop](img/products-desktop.png)
+  ![Ser ut desktop](img/product-desktop.png)
 
 
 

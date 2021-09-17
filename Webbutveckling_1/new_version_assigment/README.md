@@ -18,13 +18,20 @@ Du kan se mitt projektplan i länken nedan:
 [Trello Webbsida](https://trello.com/invite/b/MumOFN0P/9878ada236feb82b544166f8b5eddfc0/webbutveckling1)
 
 # Dokumentation  :
+
 ## Steg 1: about.html
 
 -Text 1
 
 -text 2
 
--text 3
+-På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
+  - iPhone:
+    ![Ser ut iphone](img/about-iphone.png)
+  - Ipad:
+    ![Ser ut iPad](img/about-ipad.png)
+  - Desktop:
+    ![Ser ut desktop](img/about-desktop.png)
 
 -text 4
 
@@ -42,7 +49,14 @@ Du kan se mitt projektplan i länken nedan:
 
 -text 2
 
--text 3
+-På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
+- iPhone:
+  ![Ser ut iphone](img/courses-iphone.png)
+- Ipad:
+  ![Ser ut iPad](img/courses-ipad.png)
+- Desktop:
+  ![Ser ut desktop](img/courses-desktop.png)
+
 
 -text 4
 
@@ -61,7 +75,15 @@ Du kan se mitt projektplan i länken nedan:
 
 -text 2
 
--text 3
+-På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
+- iPhone:
+  ![Ser ut iphone](img/index-iphone.png)
+- Ipad:
+  ![Ser ut iPad](img/index-ipad.png)
+- Desktop:
+  ![Ser ut desktop](img/index-desktop.png)
+
+
 
 -text 4
 
@@ -79,8 +101,16 @@ Du kan se mitt projektplan i länken nedan:
 
 -text 2
 
--text 3
+-På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
+- iPhone:
+  ![Ser ut iphone](img/blog-iphone.png)
+- Ipad:
+  ![Ser ut iPad](img/blog-ipad.png)
+- Desktop:
+  ![Ser ut desktop](img/blog-desktop.png)
 
+
+  - 
 -text 4
 
 -Text 5
@@ -97,7 +127,15 @@ Du kan se mitt projektplan i länken nedan:
 
 -text 2
 
--text 3
+-På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
+- iPhone:
+  ![Ser ut iphone](img/products-iphone.png)
+- Ipad:
+  ![Ser ut iPad](img/products-ipad.png)
+- Desktop:
+  ![Ser ut desktop](img/products-desktop.png)
+
+
 
 -text 4
 
@@ -115,8 +153,15 @@ Du kan se mitt projektplan i länken nedan:
 
 -text 2
 
--text 3
+-På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
+- iPhone:
+  ![Ser ut iphone](img/other-iphone.png)
+- Ipad:
+  ![Ser ut iPad](img/other-ipad.png)
+- Desktop:
+  ![Ser ut desktop](img/other-desktop.png)
 
+  - 
 -text 4
 
 -Text 5

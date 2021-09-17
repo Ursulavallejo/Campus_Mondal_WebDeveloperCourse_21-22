@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d82927a9-c5c6-4ea1-b7cd-e259b635c628" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assignment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styleAbout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styleBlog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styleCourses.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styleIndex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styleLayoutAll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styleProducts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Goteborg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/adoptme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/barcelona.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bogota.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/campuslogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cherry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/code.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/codeBack.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fosterApet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fostersweden.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fundraising.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/grona.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/grvux.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hjärt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/japan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logopaw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/londres.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/opensource.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/paw portal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/placeboeffekten.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/planneringkurs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/podencos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/skolverket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/solros.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sovtimmar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tower.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ursula.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpaper2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpper1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/other.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1yAH6M1D85mGoebZ2yZkACZ4Rh9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../cm_gy_web2108" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d82927a9-c5c6-4ea1-b7cd-e259b635c628" name="Changes" comment="" />
+      <created>1631687296492</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631687296492</updated>
+      <workItem from="1631687298071" duration="31055000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

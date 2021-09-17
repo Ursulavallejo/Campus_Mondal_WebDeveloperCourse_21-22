@@ -105,6 +105,8 @@ Gör en plan för hur informationen ska distribueras och kunna komplettera de kr
 
 -För tabeller använder 3 tabeller ett wrap och inline-block för att relatera dem eftersom de har samma format och visar specifika listor med viss information.
 
+-Använd bakgrundsbilden på rubriken eftersom jag relaterar till Japan och jag gillar körsbärsblommor mycket och här berättar jag personliga aspekter och är direkt relaterad till dessa.
+
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 
 ###Så här ser de olika enheterna ut:
@@ -131,6 +133,8 @@ Det inkluderade också en länk till csn så att de enkelt kan få tillgång til
 
 -Tabellen med kursinformation, välj att inkludera datum som varje kurs har och separera informationen för varje kurs så att det är lättare visuellt att se på olika enheter.
 
+-Använd grafiken på campus Mölndal webbplats för att direkt relatera den till den, eftersom det är de som undervisar kursen.
+
 -informationen för varje kurs följer samma parameter:
 
 ![Kurs parameter](img/course-parameter.png)
@@ -150,9 +154,11 @@ Det inkluderade också en länk till csn så att de enkelt kan få tillgång til
 
 ## Steg 3: index.html
 
--Text 1
+-Den här sidan för mig borde kunna förklara för personen att besöket består av vad de kommer att se härnäst, förhållandet till kursen jag gör och vad vi har sett av innehållet som ingår i detta projekt.
 
--text 2
+-För att göra sidan mer visuellt attraktiv och inte så statisk bestämde jag mig för att leta efter en gif och ge vikt åt sidan av det centrala innehållet.
+
+-Leta efter en bakgrundsbild för rubriken som var relaterad till det andra visuella elementet jag använde.
 
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 
@@ -168,19 +174,17 @@ Det inkluderade också en länk till csn så att de enkelt kan få tillgång til
 
   ![Ser ut desktop](img/index-desktop.png)
 
-
-
--text 4
-
--Text 5
-
--text 6
-
--text 7
-
--text 8
-
 ## Steg 4: blogg.html
+
+-För detta avsnitt, använd w3 Schools webbplats som inspiration:
+
+[Information W3 Schools: How TO - Blog Layout](https://www.w3schools.com/howto/howto_css_blog_layout.asp)
+
+-Innan jag hade begreppet grid gjorde jag det med flexbox. Jag upprepade det och fann att det var lättare med rutnät att kunna lägga ut elementen inom området.
+
+-Tänk på att eftersom det är ett informationsinlägg bör varje inlägg ha en länk till dess ursprung. För detta bestämde jag mig för att göra en hoover i varje bild och med dess länk till varje sida där informationen togs.
+
+-Jag har skapat en kontaktsektion så att det kan bli en interaktion med personen, skriv inlägget och en länk till hennes facebook för att kunna kontakta henne också.
 
 -I kommentarsfältet kunde jag inte utöka området där kometerna är skrivna men jag kunde lösa det med text area tag som jag hittade i w3Schools:
 
@@ -201,23 +205,13 @@ Det inkluderade också en länk till csn så att de enkelt kan få tillgång til
 
   ![Ser ut desktop](img/blog-desktop.png)
 
-
-  
--text 4
-
--Text 5
-
--text 6
-
--text 7
-
--text 8
-
 ## Steg 5: products.html
 
--Text 1
+-På den här sidan valde jag min ideologi att använda istället för konsumentobjekt, djur som också är en konsumentvara eftersom de är köpta. Att kunna visualisera en orsak som intresserar mig istället för produkter från ett företag.
 
--text 2
+-Jag följde parametern som gavs oss i det första diagrammet på produktsidan för att byta ut 3 block med foton på produkter och texter mellan dem.
+
+-För att lösa flödet mellan bild och text, använd ett horisontellt grepp, som dupliceras tre gånger och ändrar konfigurationen mellan dessa interna element i var och en oberoende av varandra.
 
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 
@@ -232,18 +226,6 @@ Det inkluderade också en länk till csn så att de enkelt kan få tillgång til
 
   ![Ser ut desktop](img/product-desktop.png)
 
-
-
--text 4
-
--Text 5
-
--text 6
-
--text 7
-
--text 8
-
 ## Steg 6: other.html
 
 -För att kunna göra det här avsnittet har jag varit tvungen att undersöka vad en iframe arbetade med och hur jag konfigurerade den.
@@ -255,7 +237,6 @@ Det var inte samma html -sökväg och använd embed:
 
 W3 Schools: url youtube:
 ![W3 Schools: url youtube: ](img/w3-embed.png)
-
 
 YouTube: url to share video:
 ![YouTube: url to share video:](img/linkyoutube.png)
@@ -269,6 +250,10 @@ Länkar W3 Schools information jag använd:
 -För varje enhet konfigurerar jag en bokstavsändring beroende på skärmens storlek. Även storleken på videon justerades i förhållande till skärmens storlek och förhållandet till objekten på sidan.
 
 -Två externa länkar inkluderades för att ge mer information om gruppen: wikipedia och youtube, som öppnas för en separat skärm.
+
+- Jag fann också möjligheten att direkt exportera en iframe från You tube -webbplatsen. Tänk på att för detta projekt var det mer intressant att ta informationen för att konfigurera den manuellt som anges på W3schools -sidan.
+
+![YouTube: iframe:](img/iframe-youtube.png)
 
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 
@@ -284,17 +269,9 @@ Länkar W3 Schools information jag använd:
 
   ![Ser ut desktop](img/other-desktop.png)
 
- 
--text 4
-
--Text 5
-
--text 6
-
--text 7
-
--text 8
-
 ## 3. Uppgifter Info
+
+För att du ska förstå projektet, inbjuder jag dig att komma åt länken nedan där du kan se det ursprungliga projektet.
+
 [Länk till uppgifter information](assignment.pdf)
 

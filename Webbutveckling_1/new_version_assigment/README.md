@@ -179,7 +179,7 @@ Du kan se mitt projektplan i länken nedan:
 
   ![Ser ut desktop](img/other-desktop.png)
 
-  - 
+ 
 -text 4
 
 -Text 5

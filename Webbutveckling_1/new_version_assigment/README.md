@@ -2,13 +2,13 @@
 # Webbutveckling 1
 ## Projektuppgift *Ursula Vallejo Janne*
 ### Content Innehåller:
-- [General Projektplan](#general-projektplan)
-- [Steg 1:about](#steg-1-about)
-- [Steg 2:courses](#steg-2-courses)
-- [Steg 3:index](#steg-3-index)
-- [Steg 4:blogg](#steg-4-blogg)
-- [Steg 5:products](#steg-5-products)
-- [Steg 6:other](#steg-6-other)
+- [General Projektplan](#general-projektplan-)
+- [Steg 1: about.html](#steg-1abouthtml)
+- [Steg 2: ourses.html](#steg-2courseshtml)
+- [Steg 3: index.html](#steg-3indexhtml)
+- [Steg 4: blogg.html](#steg-4blogghtml)
+- [Steg 5: products.html](#steg-5productshtml)
+- [Steg 6: other.html](#steg-6otherhtml)
 - [Uppgifter Info](#uppgifter-info)
 
 # General Projektplan :

@@ -1,0 +1,41 @@
+/* Mobile First*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0 ;
+    padding-bottom: 60px;
+    background-color: khaki;
+    color: black;
+    font-family: Tahoma, Helvetica;
+
+}
+header {
+    background-color: floralwhite;
+    padding: 0.1em;
+    text-align: center;
+    letter-spacing: 0.2em;
+    word-spacing: 0.5em;
+}
+/* Tablet */
+@media screen and (min-width: 768px){
+    header {
+        letter-spacing: 0.5em;
+        word-spacing: 1em;
+    }
+    .grid-container-course {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+/* laptop/Desktop */
+@media screen and (min-width: 992px) {
+    header {
+        letter-spacing: 0.8em;
+        word-spacing: 1em;
+    }
+    .grid-container-course {
+        grid-template-columns: 3fr 1fr;
+    }
+}

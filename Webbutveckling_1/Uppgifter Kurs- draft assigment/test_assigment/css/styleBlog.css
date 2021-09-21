@@ -1,0 +1,125 @@
+/* Mobile First*/
+header {
+    background-image: url("../img/cherry.jpg");
+
+}
+
+#rubrik_1 {
+    font-size: 2em;
+    text-shadow: 5px 5px 10px darkseagreen;
+}
+
+#rubrik_2 {
+    font-size: 1em;
+    text-shadow: 2px 2px 7px darkgrey;
+}
+
+.introblog {
+    padding: 1em;
+    text-align: center;
+}
+
+.rightcolumn .leftcolumn {
+    width: 100%;
+    padding: 0;
+}
+
+.blogTextimg {
+    text-align: center;
+}
+
+.blogTextimg img {
+    width: 70%;
+    min-width: 300px;
+    max-width: 500px;
+    transition: all 0.2s;
+}
+
+.comment-form label {
+    padding: 10px 0;
+    display: block;
+
+}
+
+.comment-form input,
+.comment-form textarea {
+    display: block;
+    width: 100%;
+    margin-top: 0.5em;
+    border: solid 1px black;
+
+}
+
+.blogTextimg :hover {
+    transform: scale(1.1)
+}
+
+.blogTextimg :hover:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.facebookButton :hover {
+    transform: scale(1.1)
+}
+
+.facebookButton :hover:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.blogPhoto {
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    padding: 1em;
+    margin: 5px 1em 1em 1em;
+    border-radius: 5px;
+}
+
+.boxComment {
+    padding: 1em;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    #rubrik_1 {
+        font-size: 3em;
+        text-shadow: 5px 5px 10px darkseagreen;
+    }
+
+    #rubrik_2 {
+        font-size: 1.7em;
+        text-shadow: 2px 2px 7px darkgrey;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
+/* laptop/Desktop */
+@media screen and (min-width: 992px) {
+    #rubrik_1 {
+        font-size: 3.5em;
+    }
+
+    #rubrik_2 {
+        font-size: 1.9em;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+}

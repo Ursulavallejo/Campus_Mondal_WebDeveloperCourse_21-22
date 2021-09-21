@@ -1,0 +1,157 @@
+/* Mobile First*/
+header {
+    background-color: floralwhite;
+}
+
+header img {
+    width: 100px;
+    padding-top: 1em;
+}
+
+main {
+    margin: 0 1em;
+}
+
+#rubrik_1 {
+    font-size: 1.5em;
+    text-shadow: 2px 2px 3px firebrick;
+}
+
+#rubrik_2 {
+    font-size: 0.8em;
+    text-shadow: 2px 2px 7px gray;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.container-text-image {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.background-base-info {
+    background-color: ghostwhite;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.important-info {
+    background-color: floralwhite;
+    border-radius: 10px;
+    padding: 0.5em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.box-info-course {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.list-right {
+    text-align: left;
+}
+
+.title-center {
+    text-align: center;
+}
+
+.sidebar {
+    background-color: darkslategrey;
+    margin: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.2em;
+    background-color: whitesmoke;
+    font-size: 12px;
+}
+table caption {
+    display: none;
+}
+/* Tablet */
+@media screen and (min-width: 768px) {
+    #rubrik_1 {
+        font-size: 3em;
+        text-shadow: 2px 2px 3px firebrick;
+    }
+
+    #rubrik_2 {
+        font-size: 1.5em;
+        text-shadow: 2px 2px 7px whitesmoke;
+    }
+
+    .grid-container-course {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        margin-top: 1em;
+        margin-right: 2em;
+        margin-left: 2em;
+        grid-gap: 0;
+    }
+
+    header img {
+        width: 200px;
+        padding-top: 1em;
+        float: contour;
+    }
+
+    .sidebar {
+        margin: 2em;
+    }
+}
+/* laptop/Desktop */
+@media screen and (min-width: 992px) {
+    #rubrik_1 {
+        font-size: 4em;
+        text-shadow: 4px 2px 3px firebrick;
+    }
+
+    #rubrik_2 {
+        font-size: 2em;
+        text-shadow: 2px 2px 7px gray;
+    }
+
+    .grid-container-course {
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        margin-top: 1em;
+        margin-right: 1em;
+    }
+
+    .wrapper {
+        margin: auto;
+        max-width: 1200px;
+        grid-gap: 10em;
+    }
+
+    .sidebar {
+        margin-top: 1.5em;
+        border-radius: 10px;
+    }
+
+    header img {
+        width: 200px;
+        padding-top: 1em;
+        float: contour;
+    }
+
+    .important-info {
+        padding: 2em;
+        text-align: center;
+        margin-top: 1.5em;
+    }
+}

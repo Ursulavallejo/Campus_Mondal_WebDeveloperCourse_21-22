@@ -7,6 +7,7 @@ header {
 }
 
 
+
 #rubrik_1 {
     font-size: 2em;
     text-shadow: 5px 5px 10px darkseagreen;
@@ -17,7 +18,7 @@ header {
     text-shadow: 2px 2px 6px grey;
 }
 
-.box-sub-header {
+.box-sub-header { /*por que no puedo hacer una caja blanca*/
     background-color: whitesmoke;
     border-radius: 5px;
     padding-left: 0.20em;
@@ -51,12 +52,12 @@ header {
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
-/*
+
 section:after {
     content: "";
-    display: block;
+    display: table;
     clear: both;
-}*/
+}
 
 .sub_text {
     padding-left: 1em;
@@ -70,7 +71,7 @@ section:after {
 }
 
 img.cities {
-    width: 270px;
+    width: 320px;
     margin: 5px;
     transition: all 0.2s;
 }
@@ -81,7 +82,7 @@ img.cities:hover {
 
 img.cities:hover:after {
     content: "";
-    display: block;
+    display: table;
     clear: both;
 }
 
@@ -107,23 +108,7 @@ img.cities:hover:after {
 
 .container {
     text-align: center;
-    position: relative;
-    color: black;
-    font-weight: bold;
 }
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-}
-.centered:hover {
-    display: block;
-}
-
-
-
 
 .merOmMig {
     color: darkolivegreen;

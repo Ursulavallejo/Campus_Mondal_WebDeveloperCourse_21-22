@@ -1,3 +1,4 @@
+/* Mobile First*/
 header {
     background-image: url("../img/cherry.jpg");
 
@@ -90,7 +91,7 @@ header {
     clear: both;
 }
 
-
+/* Tablet */
 @media screen and (min-width: 768px) {
     #rubrik_1 {
         font-size: 3em;
@@ -107,7 +108,7 @@ header {
         grid-template-columns: 2fr 1fr;
     }
 }
-
+/* laptop/Desktop */
 @media screen and (min-width: 992px) {
     #rubrik_1 {
         font-size: 3.5em;

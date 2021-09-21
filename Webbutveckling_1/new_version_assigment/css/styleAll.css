@@ -1,3 +1,4 @@
+/* Mobile First*/
 * {
     box-sizing: border-box;
 }
@@ -9,8 +10,6 @@ body {
     background-color: khaki;
     color: black;
     font-family: Tahoma, Helvetica;
-    /* font-size: 1.2em;
-   check if necessary add a general font size*/
 
 }
 header {
@@ -20,7 +19,7 @@ header {
     letter-spacing: 0.2em;
     word-spacing: 0.5em;
 }
-
+/* Tablet */
 @media screen and (min-width: 768px){
     header {
         letter-spacing: 0.5em;
@@ -30,6 +29,7 @@ header {
         grid-template-columns: 2fr 1fr;
     }
 }
+/* laptop/Desktop */
 @media screen and (min-width: 992px) {
     header {
         letter-spacing: 0.8em;

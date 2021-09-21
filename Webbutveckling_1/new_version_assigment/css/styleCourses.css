@@ -1,3 +1,4 @@
+/* Mobile First*/
 header {
     background-color: floralwhite;
 }
@@ -81,7 +82,7 @@ table, th, td {
 table caption {
     display: none;
 }
-
+/* Tablet */
 @media screen and (min-width: 768px) {
     #rubrik_1 {
         font-size: 3em;
@@ -112,7 +113,7 @@ table caption {
         margin: 2em;
     }
 }
-
+/* laptop/Desktop */
 @media screen and (min-width: 992px) {
     #rubrik_1 {
         font-size: 4em;

@@ -275,9 +275,11 @@ display: none;
 
 -Jag följde parametern som gavs oss i det första diagrammet på produktsidan för att byta ut 3 block med foton på produkter och texter mellan dem.
 
--För att lösa flödet mellan bild och text, använd ett horisontellt grepp, som dupliceras tre gånger och ändrar konfigurationen mellan dessa interna element i var och en oberoende av varandra.
+-För att lösa flödet mellan bild och text, använd ett  grid, som dupliceras tre gånger och ändrar konfigurationen mellan dessa interna element i var och en oberoende av varandra.
 
 -I de tre olika sektionerna finns länkar till externa sidor. På samma sätt används de för att få mer information om produkterna. Med hover för att göra den mer reaktiv för användaren av webbsidan.
+
+-Jag hittade facebook- och instagramikonerna på webben men ändrade bakgrunden i photoshop så att png -filen hade en transparent bakgrund.
 
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 

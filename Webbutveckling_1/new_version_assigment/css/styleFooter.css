@@ -3,13 +3,14 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
-    width:100%;
-    background-color:darkseagreen;
+    width: 100%;
+    background-color: darkseagreen;
     color: purple;
     text-align: center;
     padding: 0.9px;
     border-radius: 10px;
 }
+
 /* Tablet */
 @media only screen and (min-width: 768px) {
     footer {
@@ -17,10 +18,11 @@ footer {
         border-radius: 20px;
     }
 }
+
 /* laptop/Desktop */
-@media only screen and (min-width:  992px) {
+@media only screen and (min-width: 992px) {
     footer {
         padding: 20px;
-        border-radius:30px;
+        border-radius: 30px;
     }
 }

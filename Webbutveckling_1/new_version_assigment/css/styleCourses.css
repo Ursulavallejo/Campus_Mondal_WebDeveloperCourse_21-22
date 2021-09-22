@@ -79,9 +79,11 @@ table, th, td {
     background-color: whitesmoke;
     font-size: 12px;
 }
+
 table caption {
     display: none;
 }
+
 /* Tablet */
 @media screen and (min-width: 768px) {
     #rubrik_1 {
@@ -113,6 +115,7 @@ table caption {
         margin: 2em;
     }
 }
+
 /* laptop/Desktop */
 @media screen and (min-width: 992px) {
     #rubrik_1 {

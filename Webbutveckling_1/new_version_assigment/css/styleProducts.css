@@ -11,8 +11,7 @@ header {
     background-position: center center;
 }
 
-header, section, /*aside,*/
-footer {
+header, section, footer {
     margin: 0;
     padding: 0;
 }
@@ -43,6 +42,7 @@ img {
     margin: auto;
     max-width: 1200px;
 }
+
 .box-title {
     background-color: white;
     text-align: left;

@@ -41,17 +41,15 @@ iframe {
     margin-left: 1.5em;
     margin-top: 1.5em;
 }
-
-.center-text {
-    text-align: center;
-}
-
 iframe:focus {
     outline: none;
 }
 
 iframe[seamless] {
     display: block;
+}
+.center-text {
+    text-align: center;
 }
 
 /* Tablet */

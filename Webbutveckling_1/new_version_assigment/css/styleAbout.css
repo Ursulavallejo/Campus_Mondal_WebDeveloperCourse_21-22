@@ -51,12 +51,6 @@ header {
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
-/*
-section:after {
-    content: "";
-    display: block;
-    clear: both;
-}*/
 
 .sub_text {
     padding-left: 1em;
@@ -70,7 +64,7 @@ section:after {
 }
 
 img.cities {
-    width: 270px;
+    width: 290px;
     margin: 5px;
     transition: all 0.2s;
 }
@@ -105,11 +99,12 @@ img.cities:hover:after {
     padding-right: 20%;
 }
 
-.container {
+.container, .container-2 {
     text-align: center;
     position: relative;
-    color: black;
+    color: white;
     font-weight: bold;
+    font-size: x-large;
 }
 .centered {
     position: absolute;
@@ -118,7 +113,10 @@ img.cities:hover:after {
     transform: translate(-50%, -50%);
     display: none;
 }
-.centered:hover {
+.container-2:hover {
+    cursor:pointer;
+}
+.container-2:hover div {
     display: block;
 }
 
@@ -154,7 +152,7 @@ img.cities:hover:after {
         height: 220px;
     }
 
-    .container {
+    .container, .container-2 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

@@ -52,12 +52,12 @@ header {
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
-
+/*delete
 section:after {
     content: "";
     display: table;
     clear: both;
-}
+}*/
 
 .sub_text {
     padding-left: 1em;
@@ -71,7 +71,7 @@ section:after {
 }
 
 img.cities {
-    width: 320px;
+    width: 270px;/*change*/
     margin: 5px;
     transition: all 0.2s;
 }
@@ -82,7 +82,7 @@ img.cities:hover {
 
 img.cities:hover:after {
     content: "";
-    display: table;
+    display: block;/*change*/
     clear: both;
 }
 
@@ -106,10 +106,26 @@ img.cities:hover:after {
     padding-right: 20%;
 }
 
-.container {
+.container, .container-2 { /*change*/
     text-align: center;
+    position: relative; /*change*/
+    color: white; /*change*/
+    font-weight: bold; /*change*/
+    font-size: x-large;
 }
-
+.centered {/*add all*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.container-2:hover {/*add all*/
+    cursor: pointer;
+}
+.container-2:hover div {/*add all*/
+    display: block;
+}
 .merOmMig {
     color: darkolivegreen;
     text-align: center;
@@ -125,6 +141,7 @@ img.cities:hover:after {
         background-repeat: repeat;
         background-size: auto;
     }
+
     #rubrik_1 {
         font-size: 3.5em;
         text-shadow: 5px 5px 10px darkseagreen;
@@ -141,7 +158,7 @@ img.cities:hover:after {
         height: 220px;
     }
 
-    .container {
+    .container, .container-2 { /*add container 2*/
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

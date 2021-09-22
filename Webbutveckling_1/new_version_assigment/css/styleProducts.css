@@ -43,17 +43,6 @@ img {
     margin: auto;
     max-width: 1200px;
 }
-
-.grid-container-text-image {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.grid-container-text-image2 {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
 .box-title {
     background-color: white;
     text-align: left;
@@ -104,11 +93,6 @@ img {
     transform: scale(1.1)
 }
 
-.imageButton2 img:hover:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 .imageButton3 img {
     width: 40%;
@@ -144,11 +128,13 @@ img {
     }
 
     .grid-container-text-image {
+        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1em;
     }
 
     .grid-container-text-image2 {
+        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1em;
     }

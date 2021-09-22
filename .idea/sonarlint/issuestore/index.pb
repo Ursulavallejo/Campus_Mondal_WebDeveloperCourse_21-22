@@ -7,7 +7,5 @@ y
 IWebbutveckling_1/Uppgifter Kurs- draft assigment/test_assigment/test.html,3\1\3189c6b626269df6938db66f35164bbab14e7654
 |
 LWebbutveckling_1/Uppgifter Kurs- draft assigment/test_assigment/css/test.css,e\c\ec7fc296bbc933a024e44a91d545f99a18bcf943
-h
-8Webbutveckling_1/new_version_assigment/css/styleBlog.css,e\5\e5329f87d96fbd94ea635c56de24f0e61809e513
 a
 1Webbutveckling_1/new_version_assigment/other.html,3\8\385f7b22c1354acfb82abefd17587b43a463a8ad

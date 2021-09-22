@@ -19,6 +19,7 @@ Detta program hjälper dig att tydligt visualisera de avsnitt du arbetar med ino
 På så sätt kan du hålla reda på vad som fungerar och vad som behöver göras. Således är man mer medveten om var projektet är och garanterar ett bättre resultat genom att inte utelämna saker på grund av glömska.
 I mitt projekt kan du se en karta för varje Steg i projektet, en beskrivning av kraven i varje och de detaljer som arbetades med.
 Också ett kort för varje som krävs för att få kvalifikationer.
+Jag tyckte personligen att det var mycket användbart att kunna styra och övervaka varje steg i projektet.
 
 Du kan se mitt projektplan i länken nedan:
 
@@ -73,7 +74,7 @@ Enhetsstorlekarna som jag har använt för den här konfigurationen är:
 -iPad / Tablet:
 `@media screen and (min-width: 768px)`
 
--Desktop:
+-Desktop/ Laptop:
 `@media screen and (min-width: 992px)`
 
 ## CSS Style: file.css
@@ -88,11 +89,12 @@ Det finns en annan som innehåller de aspekter som upprepas sinsemellan som går
 
 ## Bilder
 
-För att konfigurera storleken på bakgrundsbilderna för de olika enheterna var jag tvungen att undersöka hur jag skulle göra det eftersom det var svårt för mig och de passade inte mig. Jag lyckades fixa det genom att läsa W3Schools -informationen om storlek, no repeat, align center among andra.
+För att konfigurera storleken på bakgrundsbilderna för de olika enheterna var jag tvungen att undersöka hur jag skulle göra det eftersom det var svårt för mig och de passade inte mig. Jag lyckades fixa det genom att läsa W3Schools -informationen om storlek, no repeat, align center, cover among andra.
 
 `background: url(mountain.jpg);
  background-repeat: no-repeat;
- background-size: 100% 100%;`
+ background-size: contain;
+ `
 
 [Information W3 Schools:background-size ](https://www.w3schools.com/cssref/css3_pr_background-size.asp)
 
@@ -134,9 +136,22 @@ Flexboxen verkar också vara ett användbart verktyg eftersom läsningen av en s
 -Den här sidan är relaterad till den första övningen vi har gjort i klassen. Det första jag gjorde är att se vilken information om detta första projekt som var relevant för det nya projektet.
 Gör en plan för hur informationen ska distribueras och kunna komplettera de krav som efterfrågades i detta projekt.
 
--Jag bestämde mig för att informationen skulle gå före borden eftersom de fungerade som en introduktion till vem jag är.
+-Jag bestämde mig för att informationen skulle gå före table list eftersom de fungerade som en introduktion till vem jag är.
 
--För bilderna på de 4 platser där en svävar lever för att markera var och en.
+-För bilderna på de 4 platser där en hover med text för att markera vilken plats tillhör bilderna.
+ Jag har jobbat med informationen av W3 Schools för har en text inom en bild:
+
+[Information W3 Schools: Position Text Over an Image](https://www.w3schools.com/howto/howto_css_image_text.asp)
+
+Också hittade på internet hur att gör texterna ändras från att vara osynlig till att vara synlig när du svävar över bilder (hover).
+
+[Information Makitweb: How to Show Text Above Image on Hover ](https://makitweb.com/html-how-to-show-text-above-image-on-hover/)
+
+- Bilderna på städerna har olika format, för att kunna justera dem löste jag det med en flex-wrap på deras container:
+
+    `display: flex;
+     flex-wrap: wrap;
+     justify-content: center;`
 
 -För tabeller använder 3 tabeller ett wrap och inline-block för att relatera dem eftersom de har samma format och visar specifika listor med viss information.
 
@@ -184,6 +199,8 @@ display: none;
 
 ![Horisontell vi iPhone grafik av kurs](img/plannering-iphone.png)
 
+-I sidans element har jag använda ett grid för att kunna behålla samma fördelning och proportion mellan main och aside element på webbsidan.
+
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 
 ### Så här ser de olika enheterna ut:
@@ -204,6 +221,8 @@ display: none;
 -För att göra sidan mer visuellt attraktiv och inte så statisk bestämde jag mig för att leta efter en gif och ge vikt åt sidan av det centrala innehållet.
 
 -Leta efter en bakgrundsbild för rubriken som var relaterad till det andra visuella elementet jag använde.
+
+-I sidans element har jag använda ett grid för att kunna behålla samma fördelning och proportion mellan bilder och text informationen.
 
 -På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 

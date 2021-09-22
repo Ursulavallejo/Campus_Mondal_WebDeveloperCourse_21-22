@@ -6,7 +6,6 @@ header {
     background-position: center;
 }
 
-
 #rubrik_1 {
     font-size: 2em;
     text-shadow: 5px 5px 10px darkseagreen;
@@ -30,7 +29,8 @@ header {
     max-width: 400px;
     padding-left: 1em;
 }
-.japan-image{
+
+.japan-image {
     text-align: center;
 }
 
@@ -106,6 +106,7 @@ img.cities:hover:after {
     font-weight: bold;
     font-size: x-large;
 }
+
 .centered {
     position: absolute;
     top: 50%;
@@ -113,9 +114,11 @@ img.cities:hover:after {
     transform: translate(-50%, -50%);
     display: none;
 }
+
 .container-2:hover {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 .container-2:hover div {
     display: block;
 }
@@ -129,6 +132,7 @@ img.cities:hover:after {
     margin: 0;
     text-shadow: 5px 5px 5px darkseagreen;
 }
+
 /* Tablet */
 @media screen and (min-width: 768px) {
     header {

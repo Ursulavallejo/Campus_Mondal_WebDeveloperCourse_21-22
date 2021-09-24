@@ -191,6 +191,17 @@ display: none;
 
 -Använd grafiken på campus Mölndal webbplats för att direkt relatera den till den, eftersom det är de som undervisar kursen.
 
+- För att integrera ikonerna som jag tog från skolans webbplats med sidan åt sidan hade jag svårt att integrera den i bakgrunden eftersom jag inte kunde hitta samma bakgrundsfärg.
+Jag började forska om implementering av färger i CSS och fann att i Photoshop kan man välja färg och få det exakta referensnumret för färgen. Så jag kunde lösa att behållarens botten och bilden var desamma och det såg integrerat ut.
+
+
+  ![Photoshop handling color](img/color-photoshop.jpg)
+
+[Information MDN Web Docs: Applying color to HTML elements using CSS ](https://developer.mozilla.org/en-US/docs/Web/HTML/Applying_color)
+
+[Information W3 Schools: HTML Color Picker](https://www.w3schools.com/colors/colors_picker.asp)
+
+
 -informationen för varje kurs följer samma parameter:
 
 ![Kurs parameter](img/course-parameter.png)

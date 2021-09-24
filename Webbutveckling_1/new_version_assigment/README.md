@@ -212,7 +212,16 @@ Jag började forska om implementering av färger i CSS och fann att i Photoshop 
 
 -I sidans element har jag använda ett grid för att kunna behålla samma fördelning och proportion mellan main och aside element på webbsidan.
 
--På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
+- För att användaren av sidan ska få tillgång till informationen om kurserna har jag implementerat en intern länk relaterad till innehållet i varje kurs.
+
+
+` <a href="#lession1">Lession.1</a>`
+
+`<a id="lession1">Introduction of Lession.1</a>`
+
+  [Information W2 Tutorial: HTML Links - HTML Internal Link](https://way2tutorial.com/html/html_internal_links.php)
+
+- På denna webbplats har jag analyserat kompatibiliteten för olika enheter : iPhone 6-7, iPad och Desktop. Samt hur de ser ut i Goggle Chrome och Microsoft Edge.
 
 ### Så här ser de olika enheterna ut:
 - iPhone:

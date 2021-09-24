@@ -13,8 +13,6 @@ k
 ;Webbutveckling_1/new_version_assigment/css/styleCourses.css,1\8\188898b5fee1ea2e0f4c724a8015d772e1ce2fdb
 i
 9Webbutveckling_1/new_version_assigment/css/styleIndex.css,d\d\dde415b90e81b9ff3402f2527eb7d799e3e65346
-g
-7Webbutveckling_1/new_version_assigment/css/styleAll.css,c\8\c8778a6823d1308719008d6efa840c1e2b575759
 l
 <Webbutveckling_1/new_version_assigment/css/styleProducts.css,c\5\c55de7e28671aafa08bc7cea7636b553dab4857c
 i

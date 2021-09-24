@@ -8,7 +8,8 @@ body {
     padding: 0 0 60px 0;
     background-color: khaki;
     color: black;
-    font-family: Tahoma, Helvetica;
+    font-family: Tahoma, Helvetica, sans-serif;
+    line-height: 1.7em;
 
 }
 

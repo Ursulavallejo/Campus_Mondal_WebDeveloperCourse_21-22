@@ -98,6 +98,12 @@ För att konfigurera storleken på bakgrundsbilderna för de olika enheterna var
 
 [Information W3 Schools:background-size ](https://www.w3schools.com/cssref/css3_pr_background-size.asp)
 
+### Font
+
+-I Css kan du ändra font olika stilar. Så att det inte finns några problem med källan i en webbläsare, det är nödvändigt att sätta flera alternativ eftersom dessa inte ingår i webben som vi har gjort utan läser dem från datorn. För om du inte har dessa källor bättre, lägg sedan en standard om de tidigare inte existerar.
+
+`font-family: Tahoma, Helvetica, sans-serif;`
+
 ## Elements
 
 #### Margin och Padding:

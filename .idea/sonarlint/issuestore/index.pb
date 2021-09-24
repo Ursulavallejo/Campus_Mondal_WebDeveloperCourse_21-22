@@ -27,3 +27,13 @@ a
 1Webbutveckling_1/new_version_assigment/other.html,3\8\385f7b22c1354acfb82abefd17587b43a463a8ad
 a
 1Webbutveckling_1/new_version_assigment/index.html,4\0\4012684b27341bfd270b72b29a68b10f230a9fc7
+j
+:Webbutveckling_1/new_version_assigment/css/styleNavBar.css,8\7\87368f770a6bf679a941cce875b28e648b87c0c9
+j
+:Webbutveckling_1/new_version_assigment/css/styleFooter.css,2\b\2ba05a23edef2c6b800ba77108e4c5b52abb87ac
+c
+3Webbutveckling_1/new_version_assigment/courses.html,7\3\73173200dad91a2de4d70ad8c351edeb25455f72
+g
+7Webbutveckling_1/new_version_assigment/css/styleAll.css,c\8\c8778a6823d1308719008d6efa840c1e2b575759
+`
+0Webbutveckling_1/new_version_assigment/README.md,a\0\a016ff8f826b0d921f307e3ad96becae8c2dfaef

@@ -24,7 +24,8 @@ Du kan se mitt projektplan i länken nedan:
 
 ## Steg 1: HTML
 
-- search images cd and logo (photoshop background)
+- search images cd, shoppingcart and logo (photoshop background transparent)
+- create layout : semanstisc sections
 
 ## Steg 2: CSS
 

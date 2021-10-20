@@ -1,20 +1,12 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-i
-9Webbutveckling_1/new_version_assigment/css/styleAbout.css,b\f\bfe85adb35037686c596dcac5cbda90c9bf7b103
 h
 8Webbutveckling_1/new_version_assigment/css/styleBlog.css,e\5\e5329f87d96fbd94ea635c56de24f0e61809e513
 i
 9Webbutveckling_1/new_version_assigment/css/styleIndex.css,d\d\dde415b90e81b9ff3402f2527eb7d799e3e65346
-l
-<Webbutveckling_1/new_version_assigment/css/styleProducts.css,c\5\c55de7e28671aafa08bc7cea7636b553dab4857c
 i
 9Webbutveckling_1/new_version_assigment/css/styleOther.css,0\5\05efb0c7526b99df93a15a49aa48f1d669749026
-a
-1Webbutveckling_1/new_version_assigment/blogg.html,8\4\84c040c2b59761f68e294ed942c606d097495b15
-d
-4Webbutveckling_1/new_version_assigment/products.html,d\4\d471791b704a24aa852479294f8444fe5c9bcd67
 a
 1Webbutveckling_1/new_version_assigment/other.html,3\8\385f7b22c1354acfb82abefd17587b43a463a8ad
 a
@@ -25,7 +17,3 @@ c
 3Webbutveckling_1/new_version_assigment/courses.html,7\3\73173200dad91a2de4d70ad8c351edeb25455f72
 k
 ;Webbutveckling_1/new_version_assigment/css/styleCourses.css,1\8\188898b5fee1ea2e0f4c724a8015d772e1ce2fdb
-j
-:Webbutveckling_1/new_version_assigment/css/styleNavBar.css,8\7\87368f770a6bf679a941cce875b28e648b87c0c9
-g
-7Webbutveckling_1/new_version_assigment/css/styleAll.css,c\8\c8778a6823d1308719008d6efa840c1e2b575759

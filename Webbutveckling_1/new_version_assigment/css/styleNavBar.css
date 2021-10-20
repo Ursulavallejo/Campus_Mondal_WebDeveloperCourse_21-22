@@ -1,13 +1,13 @@
 /* Mobile First*/
 #navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: darkslategrey;
-    letter-spacing: 0.3em;
-    word-spacing: 2em;
-}
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: darkslategrey;
+     letter-spacing: 0.3em;
+     word-spacing: 2em;
+ }
 
 .navbar-item {
     float: inherit;

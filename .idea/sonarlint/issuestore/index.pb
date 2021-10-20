@@ -1,10 +1,6 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-y
-IWebbutveckling_1/Uppgifter Kurs- draft assigment/test_assigment/test.html,3\1\3189c6b626269df6938db66f35164bbab14e7654
-|
-LWebbutveckling_1/Uppgifter Kurs- draft assigment/test_assigment/css/test.css,e\c\ec7fc296bbc933a024e44a91d545f99a18bcf943
 i
 9Webbutveckling_1/new_version_assigment/css/styleAbout.css,b\f\bfe85adb35037686c596dcac5cbda90c9bf7b103
 h
@@ -15,8 +11,6 @@ l
 <Webbutveckling_1/new_version_assigment/css/styleProducts.css,c\5\c55de7e28671aafa08bc7cea7636b553dab4857c
 i
 9Webbutveckling_1/new_version_assigment/css/styleOther.css,0\5\05efb0c7526b99df93a15a49aa48f1d669749026
-a
-1Webbutveckling_1/new_version_assigment/about.html,e\f\ef0f5f2356ef0f5e0a857fc9f976f8464ee85139
 a
 1Webbutveckling_1/new_version_assigment/blogg.html,8\4\84c040c2b59761f68e294ed942c606d097495b15
 d
@@ -35,5 +29,3 @@ j
 :Webbutveckling_1/new_version_assigment/css/styleNavBar.css,8\7\87368f770a6bf679a941cce875b28e648b87c0c9
 g
 7Webbutveckling_1/new_version_assigment/css/styleAll.css,c\8\c8778a6823d1308719008d6efa840c1e2b575759
-`
-0Webbutveckling_1/new_version_assigment/README.md,a\0\a016ff8f826b0d921f307e3ad96becae8c2dfaef

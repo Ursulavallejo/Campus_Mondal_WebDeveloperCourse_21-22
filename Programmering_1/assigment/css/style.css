@@ -50,8 +50,8 @@ main {
     font-size: 1em;
     cursor: pointer;
 }
-dropdown-button:hover, .dropdown-button:focus {
-    background-color: palevioletred;
+.checkoutDropdownButton:hover, .checkoutDropdownButton:focus {
+    background-color: mediumspringgreen;
 }
 
 .dropdown {
@@ -59,7 +59,7 @@ dropdown-button:hover, .dropdown-button:focus {
     display: inline-block;
 }
 .dropdown-content {
-    /*display: none;*/
+    display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;

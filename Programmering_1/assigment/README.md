@@ -36,6 +36,12 @@ Du kan se mitt projektplan i länken nedan:
 
 ## Steg 3: JS
 
+-crear un diagrama para entender las funciones deben existir en la pagina.
+
+- crear pasos a seguir
+- orden de accion:   
+1 crear el dropdown menu ( como cambiar el tamano de este)
+
 ## Steg 4: Beskrivning
 
 ## Steg 5: konklusionen

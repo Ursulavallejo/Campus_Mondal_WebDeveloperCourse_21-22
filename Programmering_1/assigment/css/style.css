@@ -39,19 +39,81 @@ main {
 .searchArea {
    margin-top:  4em;
 }
-.shoppingCart {
+.checkOut {
     margin: 2em  2.5em;
 
 }
-.checkoutButton{
+.checkoutDropdownButton{
     padding: 1em;
     background-color: black;
     color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+dropdown-button:hover, .dropdown-button:focus {
+    background-color: palevioletred;
 }
 
-.shoppingCart img {
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    /*display: none;*/
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 0.75em 1em;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.checkOut img {
     width: 50px;
 }
+.area-item1 {
+    grid-area: side;
+}
+
+.area-item2 {
+    grid-area: top;
+}
+
+.area-item3 {
+    grid-area: bottom;
+}
+
+.grid-container-ShopCart{
+    display: grid;
+    grid-template-areas:
+            'top    top    side'
+            'bottom bottom side';
+    grid-gap: 0.5em;
+    background-color: #2196F3;
+    padding: 0.5em;
+}
+
+.grid-item1 {
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+}
+
 #navbar {
     margin: 0;
     padding: 0;

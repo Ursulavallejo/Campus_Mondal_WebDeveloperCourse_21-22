@@ -17,3 +17,9 @@ c
 3Webbutveckling_1/new_version_assigment/courses.html,7\3\73173200dad91a2de4d70ad8c351edeb25455f72
 k
 ;Webbutveckling_1/new_version_assigment/css/styleCourses.css,1\8\188898b5fee1ea2e0f4c724a8015d772e1ce2fdb
+l
+<Webbutveckling_1/new_version_assigment/css/styleProducts.css,c\5\c55de7e28671aafa08bc7cea7636b553dab4857c
+i
+9Webbutveckling_1/new_version_assigment/css/styleAbout.css,b\f\bfe85adb35037686c596dcac5cbda90c9bf7b103
+a
+1Webbutveckling_1/new_version_assigment/about.html,e\f\ef0f5f2356ef0f5e0a857fc9f976f8464ee85139

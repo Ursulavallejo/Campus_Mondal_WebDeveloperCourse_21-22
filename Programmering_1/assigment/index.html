@@ -7,55 +7,160 @@
     <title>The Best Music Shop</title>
 </head>
 <body>
-<header>
-    <section class="grid-container-header">
-    <div class="logo"><img src="img/amoebaLogo.png" alt="shopLogo"></div>
-    <div class="searchArea">
-        <label>
-            <input type="text" value="artist name, keywords">
-        </label>
-        <button onclick="#">SEARCH</button></div>
+<div id="page">
+    <header>
+        <section class="grid-container-header">
+            <div class="logo"><img src="img/amoebaLogo.png" alt="shopLogo"></div>
+            <div class="searchArea">
+                <label>
+                    <input type="text" value="artist name, keywords">
+                </label>
+                <button onclick="#">SEARCH</button>
+            </div>
 
-    <div class="shoppingCart">
-        <img src="img/shoppingCart.png" alt="cartBuy">
-        <button class="checkoutButton" onclick="#">Checkout</button>
-    </div>
-    </section>
-</header>
+            <div class="shoppingCart">
+                <img src="img/shoppingCart.png" alt="cartBuy">
 
-<nav id="navbar">
-    <ul>
-        <li class="navbar-item">
-            <a class="navbar-link " href="#">New Releases</a>
-        </li>
-        <li class="navbar-item">
-            <a class="navbar-link " href="#">Music We Like</a>
-        </li>
-        <li class="navbar-item">
-            <a class="navbar-link " href="#">Best Sellers</a>
-        </li>
-        <li class="navbar-item">
-            <a class="navbar-link " href="#">News & Contests</a>
-        </li>
-        <li class="navbar-item">
-            <a class="navbar-link " href="#">Gift Cards</a>
-        </li>
-        <li class="navbar-item">
-            <a class="navbar-link " href="#">SALES</a>
-        </li>
-        <li class="navbar-item">
-            <a class="navbar-link " href="#">About Us</a>
-        </li>
-        <li class="navbar-item">
-            <a class="navbar-link " href="#">Contact Us</a>
-        </li>
-    </ul>
-</nav>
+                <button class="checkoutButton" onclick="#">Checkout</button>
+            </div>
+        </section>
+    </header>
 
-<main>
+    <nav id="navbar">
+        <ul>
+            <li class="navbar-item">
+                <a class="navbar-link " href="#">New Releases</a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link " href="#">Best Sellers</a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link " href="#">News & Contests</a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link " href="#">Gift Cards</a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link " href="#">SALES</a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link " href="#">About Us</a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link " href="#">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
 
-</main>
+    <main>
 
-<script src="js/script.js"></script>
+        <section class="introShop">
+            <h1>WHO WE ARE ?</h1>
+            <p>Since 1990, Amoeba Music has welcomed independent music lovers of all kinds to our unique, vibrant stores
+                in Berkeley, San Francisco and Hollywood. We stock every kind of music and movies -- from the top 40 to
+                the best in underground rock and hip-hop, soul, electronica, new and classic jazz, world music, roots
+                music and experimental music. We also have the biggest, most diverse and affordable selection of DVDs
+                and vinyl LPs found anywhere. Since we're a trading post for new and used discs, our stock changes
+                daily, and just about anything you're looking for can be found here. We're more than just a record store
+                -- we're a 21st century music outlet, a website, a popular live performance venue, and together with our
+                customers we're a meeting place for California's most colorful community of progressive and creative
+                minds.</p>
+        </section>
+
+        <section class="itemsShop">
+            <h2>MUSIC WE LIKE</h2>
+            <h3>Great deals</h3>
+
+            <div class="rowItems">
+            <span class="cd">
+                <img src="img/brandtBF.jpg" alt="coverBrandtBF">
+                <p><strong>Artist: Brandt Brauer Frick</strong></p>
+                <p>Album: Echo</p>
+                <p>Genre: Electronic-Dance</p>
+                <p>Release Date: 06/05/2019</p>
+                <p>Label: Because Music</p>
+                 <p class="priceCD">190 Kr</p>
+                <button onclick="function ">Buy</button>
+            </span>
+                <span class="cd">
+                <img src="img/goldfrapp.jpg" alt="coverGoldfrapp">
+                <p><strong>Artist: Goldfrapp</strong></p>
+                <p>Album:: Tale of Us</p>
+                <p>Genre: Electronic-Dance</p>
+                <p>Release Date: 09/10/2013</p>
+                <p>Label: Mute Records</p>
+                 <p class="priceCD">170 Kr</p>
+                <button onclick="function ">Buy</button>
+            </span>
+                <span class="cd">
+                <img src="img/incubus.jpg" alt="coverIncubus">
+                <p><strong>Artist: Incubus</strong></p>
+                <p>Album: Morning View</p>
+                <p>Genre: Rock</p>
+                <p>Release Date: 10/23/2001</p>
+                <p>Label: Sony Special Products</p>
+                 <p class="priceCD">120 Kr</p>
+                <button onclick="function ">Buy</button>
+            </span>
+                <span class="cd">
+                <img src="img/metric.jpg" alt="coverMetric">
+                <p><strong>Artist: Metric</strong></p>
+                <p>Album: Live It Out</p>
+                <p>Genre: Rock</p>
+                <p>Release Date: 10/04/2005</p>
+                <p>Label: Last Gang Records</p>
+                 <p class="priceCD">170 Kr</p>
+                <button onclick="function ">Buy</button>
+            </span>
+            </div>
+
+            <div class="rowItems">
+             <span class="cd">
+                <img src="img/royksopplatenight.jpg" alt="coverRoyksopp">
+                <p><strong>Artist: Röyksopp</strong></p>
+                <p>Album: Late Night Tales</p>
+                <p>Genre: Electronic-Dance</p>
+                <p>Release Date: 06/25/2013</p>
+                <p>Label: Late Night Tales</p>
+                 <p class="priceCD">170 Kr</p>
+                <button onclick="function ">Buy</button>
+            </span>
+                <span class="cd">
+                <img src="img/stereolab.jpg" alt="coverStereolab">
+                <p><strong>Artist: Stereolab</strong></p>
+                <p>Album: Electrically Possessed</p>
+                <p>Genre: Rock</p>
+                <p>Release Date: 02/26/2021</p>
+                <p>Label: Warp Records</p>
+                 <p class="priceCD">300 Kr</p>
+                <button onclick="function ">Buy</button>
+            </span>
+                <span class="cd">
+                <img src="img/tiga.jpg" alt="coverTiga">
+                <p><strong>Artist: Tiga</strong></p>
+                <p>Album: Sexor</p>
+                <p>Genre: Electronic-Dance</p>
+                <p>Release Date: 2006</p>
+                <p>Label: Last Gang</p>
+                 <p class="priceCD">170 Kr</p>
+                <button onclick="function ">Buy</button>
+            </span>
+                <span class="cd">
+                <img src="img/agnesObel.jpg" alt="coverAgnesObel">
+                <p><strong>Artist: Agnes Obel</strong></p>
+                <p>Album: Late Night Tales</p>
+                <p>Genre: Rock</p>
+                <p>Release Date: 05/25/2018</p>
+                <p>Label: Late Night Tales</p>
+                 <p class="priceCD">170 Kr</p>
+                <button onclick="function ">Buy</button>
+            </span>
+            </div>
+        </section>
+
+    </main>
+    <script src="js/script.js"></script>
+</div>
 </body>
+
 </html>

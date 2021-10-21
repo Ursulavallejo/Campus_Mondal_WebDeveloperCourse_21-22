@@ -26,6 +26,11 @@ Du kan se mitt projektplan i länken nedan:
 
 - search images cd, shoppingcart and logo (photoshop background transparent)
 - create layout : semanstisc sections
+- difficultad al poner el carrito y centrar el head
+- logo css?
+- centrar head con main. opte por hacer un marco externo para centrat todo. tomado del libro pg 325 (trabajar con boxes)
+- item (cd) con un flexbox
+- cada item en un span para incluir toda la informacion de cada articulo separada.
 
 ## Steg 2: CSS
 

@@ -1,0 +1,56 @@
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: ghostwhite;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.show {
+    display: block;
+}
+
+
+.area-item1 {
+    grid-area: side;
+}
+
+.area-item2 {
+    grid-area: top;
+}
+
+.area-item3 {
+    grid-area: bottom;
+}
+
+.grid-container-ShopCart{
+    display: grid;
+    grid-template-areas:
+            ' top  top    side '
+            'bottom bottom bottom ';
+    grid-gap: 0.5em;
+    background-color: ghostwhite;
+    padding: 0.5em;
+}
+
+.grid-item1 {
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+}
+.grid-container-ShopCart button {
+    color: white;
+    background-color: red;
+    padding: 1em 3em;
+    margin-left: 4em;
+    cursor: pointer;
+
+}

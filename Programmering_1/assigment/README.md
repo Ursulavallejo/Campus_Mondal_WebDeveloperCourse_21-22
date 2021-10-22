@@ -33,6 +33,15 @@ Du kan se mitt projektplan i länken nedan:
 - cada item en un span para incluir toda la informacion de cada articulo separada.
 - crear en css un card style para resaltar el item se escoge. w3 schools .
 
+--add google fonts: import link and copy and paste it on the head as link ref:
+https://fonts.google.com/
+
+-ion icons : usage (copy script) and add it to <script src> 
+the other link find installation (copy it) and add it to the head <link href:' '  rel:'stylesheet'>
+before the style.css
+
+https://ionic.io/ionicons
+
 ## Steg 2: CSS
 
 ## Steg 3: JS
@@ -68,6 +77,13 @@ B. You have free freight.
 
 1. Como anadir los items de la pagina principal al carrito?
 
+2. function pay / convert elements of an array into a string: w3 schools (let energy= fruits.join())
+
+
+recursos:
+https://www.youtube.com/watch?v=yASvgVh8p5A
+
+https://www.youtube.com/watch?v=B20Getj_Zk4
 
 ## Steg 4: Beskrivning
 

@@ -1,15 +1,14 @@
-/*let name = "ursula"
-alert (name)*/
+let carts = document.querySelectorAll('.buyButton');
 
-function openMenu() {
-    document.getElementById('dropdown')
-        .classList.toggle('show')
-}
+let products = [{
+    name:'Brandt Brauer Frick',
+    tag:'',
+    price: ,
+    inCart: 0
 
-function closeMenu() {
-    document.getElementById('dropdown')
-        .classList.remove('show')
-}
-function toCheckout(){
-    alert ('Thank you for visiting us!! At the moment we cant offer to buy any product!')
+}, ]
+
+for (let i = 0; i <carts.length ; i++) {
+    console.log('my loop')
+    
 }

@@ -1,0 +1,40 @@
+
+.rowItems {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    row-gap: 3em;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 1.5em;
+
+
+}
+img .cdInfo {
+    width: 290px;
+    margin: 5px;
+
+}
+.cdInfo {
+    text-align: left;
+    line-height: 0.4em;
+
+}
+/*.cdInfo :hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}*/
+.buyButton {
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    border-color: grey;
+    padding: 1em 5.5em;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.buyButton :hover {
+    background-color: green;
+    color: #212121;
+}

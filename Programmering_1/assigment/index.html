@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <title>The Best Music Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/products.css">
+
 </head>
 <body>
 <div id="page">
@@ -34,7 +37,7 @@
                             top
                         </article>
                         <article class='grid-item1 area-item3'>
-                            <p>SUM(<span class="totalCds"></span>) <span id="totalPay"></span></p>
+                            <p>SUM(<span class="totalCds"></span>) <span id="totalPay">SEK</span></p>
                         </article>
 
                         <button onclick='closeMenu()'>
@@ -103,7 +106,7 @@
                     <p>Release Date: 06/05/2019</p>
                     <p>Label: Because Music</p>
                     <p class="priceCD">190 Kr</p>
-                    <button class="buyButton" onclick="function ">Buy</button>
+                    <button class="buyButton" onclick="add(products[0],190) ">Buy</button>
                 </div>
                 <div class="cdInfo">
                     <img src="img/goldfrapp.jpg" alt="coverGoldfrapp">
@@ -183,6 +186,8 @@
 
     </main>
     <script src="js/script.js"></script>
+    <script src="js/dropmenu.js"></script>
+    <script src="js/mathOperations.js"></script>
 </div>
 </body>
 

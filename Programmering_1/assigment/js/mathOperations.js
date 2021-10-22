@@ -4,10 +4,7 @@ function add(product, price){
     console.log(product, price);
     products.push(product);
     total = total + price;
-    document.getElementById('totalPay').innerHTML =`Pay $${total}`
+    document.getElementById('totalPay').innerHTML =`Pay ${total} SEK`
 }
-function pay(){
-    console.log(product, price);
-    window.alert(products.join (",\n"));
-}
+
 

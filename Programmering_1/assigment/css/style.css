@@ -61,21 +61,11 @@ main {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: ghostwhite;
     min-width: 160px;
     overflow: auto;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
-}
-.dropdown-content a {
-    color: black;
-    padding: 0.75em 1em;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown a:hover {
-    background-color: #ddd;
 }
 
 .show {
@@ -100,10 +90,10 @@ main {
 .grid-container-ShopCart{
     display: grid;
     grid-template-areas:
-            'top    top    side'
-            'bottom bottom side';
+            ' top  top    side '
+            'bottom bottom bottom ';
     grid-gap: 0.5em;
-    background-color: #2196F3;
+    background-color: ghostwhite;
     padding: 0.5em;
 }
 
@@ -113,7 +103,14 @@ main {
     padding: 1em;
     text-align: center;
 }
+.grid-container-ShopCart button {
+    color: white;
+    background-color: red;
+    padding: 1em 3em;
+   margin-left: 4em;
+    cursor: pointer;
 
+}
 #navbar {
     margin: 0;
     padding: 0;
@@ -149,21 +146,31 @@ main {
 
 
 }
-img .cd {
+img .cdInfo {
     width: 290px;
     margin: 5px;
 
 }
-.cd {
+.cdInfo {
     text-align: left;
     line-height: 0.4em;
+
 }
-.itemsShop button {
+/*.cdInfo :hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}*/
+.buyButton {
     background-color: red;
     color: white;
     border-radius: 6px;
     border-color: grey;
     padding: 1em 5.5em;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
 
+.buyButton :hover {
+    background-color: green;
+    color: #212121;
 }
 

@@ -31,6 +31,7 @@ Du kan se mitt projektplan i länken nedan:
 - centrar head con main. opte por hacer un marco externo para centrat todo. tomado del libro pg 325 (trabajar con boxes)
 - item (cd) con un flexbox
 - cada item en un span para incluir toda la informacion de cada articulo separada.
+- crear en css un card style para resaltar el item se escoge. w3 schools .
 
 ## Steg 2: CSS
 
@@ -38,9 +39,35 @@ Du kan se mitt projektplan i länken nedan:
 
 -crear un diagrama para entender las funciones deben existir en la pagina.
 
-- crear pasos a seguir
-- orden de accion:   
+- crear pasos a seguir en trello
+- ## orden de elementos que encontre en mi diagrama:  
+1. boton de checkout que sea sencible y abra el dropdown
 1 crear el dropdown menu ( como cambiar el tamano de este)
+2. generar los espacios para anadir el contenido
+3. anadir los 2 botones del carrito ( 1 close 2 check out) mirar que sean sencibles con el curso y anadir a cada uno funcion 1 de abrir y cerrar el dropmenu y el otro un alert.
+4. los botones de buy en los elementos deben ser sencibles con el cursor.
+5. los item en el carrito deben tener la imagen,titulo album, un input para cantidad x unidad, precio individual y precio general de esa seleccion.
+6. al final de los elementos debe haber un texto que diga que cantidad de cd se anadieron al carrito y la suma total.
+7. una linea de texto que diga si con la cantidad se opta a envio gratuito. 2 posibles escenarios: A. Free freight over 259kr ( 51 kr left)
+B. You have free freight.
+8. have a button to remove and uptate the items on the cart.
+
+- ## orden de funciones que encontre en mi diagrama:
+1.function that add the item we see on the page to the cart. Related with Button Buy.
+
+2. function related with button checkout that open the menu.
+3. function related with the button on the cart to close the dropdownmenu.
+4. function alert in the to checkout button on the cart.
+5. function that count the number of products of each item selected  and multiply and give a subtotal item.
+6. function to add all the sum of subtotal
+7.function that count the total of cd were chosen is included in the text after sum:()
+8.function to evaluated free freight and print ut two different scenarios. Print out evaluation.
+ 
+
+- ## Dificultades encontradas y como se solucionaron:
+
+1. Como anadir los items de la pagina principal al carrito?
+
 
 ## Steg 4: Beskrivning
 

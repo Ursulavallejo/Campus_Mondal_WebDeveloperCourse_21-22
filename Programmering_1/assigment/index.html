@@ -17,36 +17,35 @@
                 </label>
                 <button onclick="#">SEARCH</button>
             </div>
-<div class="dropdown">
-            <div class="checkOut">
-                <img src="img/shoppingCart.png" alt="cartBuy">
-                <button class="checkoutDropdownButton" onclick="openMenu()">Checkout</button>
+            <div class="dropdown">
+                <div class="checkOut">
+                    <img src="img/shoppingCart.png" alt="cartBuy">
+                    <button class="checkoutDropdownButton" onclick="openMenu()">Checkout</button>
+                </div>
+                <div id="dropdown" class="dropdown-content">
+                    <h2>Your Cart</h2>
+                    <hr>
+
+                    <section class="grid-container-ShopCart">
+                        <article class='grid-item1 area-item1'>
+                            side
+                        </article>
+                        <article class='grid-item1 area-item2'>
+                            top
+                        </article>
+                        <article class='grid-item1 area-item3'>
+                            <p>SUM(<span class="totalCds"></span>) <span id="totalPay"></span></p>
+                        </article>
+
+                        <button onclick='closeMenu()'>
+                            Close
+                        </button>
+                        <button onclick='toCheckout()'>
+                            Checkout
+                        </button>
+                    </section>
+                </div>
             </div>
-    <div id="dropdown" class="dropdown-content">
-        <a href='#'>para??</a>
-        <h2>Your Cart</h2>
-        <hr>
-
-        <section class="grid-container-ShopCart">
-            <article class='grid-item1 area-item1'>
-                side
-            </article>
-            <article class='grid-item1 area-item2'>
-                top
-            </article>
-            <article class='grid-item1 area-item3'>
-                bottom
-            </article>
-
-            <button onclick='closeMenu()'>
-                Close
-            </button>
-            <button onclick='toCheckout()'>
-                Checkout
-            </button>
-        </section>
-    </div>
-</div>
         </section>
     </header>
 
@@ -96,89 +95,89 @@
             <h3>Great deals</h3>
 
             <div class="rowItems">
-            <span class="cd">
-                <img src="img/brandtBF.jpg" alt="coverBrandtBF">
-                <p><strong>Artist: Brandt Brauer Frick</strong></p>
-                <p>Album: Echo</p>
-                <p>Genre: Electronic-Dance</p>
-                <p>Release Date: 06/05/2019</p>
-                <p>Label: Because Music</p>
-                 <p class="priceCD">190 Kr</p>
-                <button onclick="function ">Buy</button>
-            </span>
-                <span class="cd">
-                <img src="img/goldfrapp.jpg" alt="coverGoldfrapp">
-                <p><strong>Artist: Goldfrapp</strong></p>
-                <p>Album:: Tale of Us</p>
-                <p>Genre: Electronic-Dance</p>
-                <p>Release Date: 09/10/2013</p>
-                <p>Label: Mute Records</p>
-                 <p class="priceCD">170 Kr</p>
-                <button onclick="function ">Buy</button>
-            </span>
-                <span class="cd">
-                <img src="img/incubus.jpg" alt="coverIncubus">
-                <p><strong>Artist: Incubus</strong></p>
-                <p>Album: Morning View</p>
-                <p>Genre: Rock</p>
-                <p>Release Date: 10/23/2001</p>
-                <p>Label: Sony Special Products</p>
-                 <p class="priceCD">120 Kr</p>
-                <button onclick="function ">Buy</button>
-            </span>
-                <span class="cd">
-                <img src="img/metric.jpg" alt="coverMetric">
-                <p><strong>Artist: Metric</strong></p>
-                <p>Album: Live It Out</p>
-                <p>Genre: Rock</p>
-                <p>Release Date: 10/04/2005</p>
-                <p>Label: Last Gang Records</p>
-                 <p class="priceCD">170 Kr</p>
-                <button onclick="function ">Buy</button>
-            </span>
+                <div class="cdInfo">
+                    <img src="img/brandtBF.jpg" alt="coverBrandtBF">
+                    <p><strong>Artist: Brandt Brauer Frick</strong></p>
+                    <p>Album: Echo</p>
+                    <p>Genre: Electronic-Dance</p>
+                    <p>Release Date: 06/05/2019</p>
+                    <p>Label: Because Music</p>
+                    <p class="priceCD">190 Kr</p>
+                    <button class="buyButton" onclick="function ">Buy</button>
+                </div>
+                <div class="cdInfo">
+                    <img src="img/goldfrapp.jpg" alt="coverGoldfrapp">
+                    <p><strong>Artist: Goldfrapp</strong></p>
+                    <p>Album:: Tale of Us</p>
+                    <p>Genre: Electronic-Dance</p>
+                    <p>Release Date: 09/10/2013</p>
+                    <p>Label: Mute Records</p>
+                    <p class="priceCD">170 Kr</p>
+                    <button class="buyButton" onclick="function ">Buy</button>
+                </div>
+                <div class="cdInfo">
+                    <img src="img/incubus.jpg" alt="coverIncubus">
+                    <p><strong>Artist: Incubus</strong></p>
+                    <p>Album: Morning View</p>
+                    <p>Genre: Rock</p>
+                    <p>Release Date: 10/23/2001</p>
+                    <p>Label: Sony Special Products</p>
+                    <p class="priceCD">120 Kr</p>
+                    <button class="buyButton" onclick="function ">Buy</button>
+                </div>
+                <div class="cdInfo">
+                    <img src="img/metric.jpg" alt="coverMetric">
+                    <p><strong>Artist: Metric</strong></p>
+                    <p>Album: Live It Out</p>
+                    <p>Genre: Rock</p>
+                    <p>Release Date: 10/04/2005</p>
+                    <p>Label: Last Gang Records</p>
+                    <p class="priceCD">170 Kr</p>
+                    <button class="buyButton" onclick="function ">Buy</button>
+                </div>
             </div>
 
             <div class="rowItems">
-             <span class="cd">
-                <img src="img/royksopplatenight.jpg" alt="coverRoyksopp">
-                <p><strong>Artist: Röyksopp</strong></p>
-                <p>Album: Late Night Tales</p>
-                <p>Genre: Electronic-Dance</p>
-                <p>Release Date: 06/25/2013</p>
-                <p>Label: Late Night Tales</p>
-                 <p class="priceCD">170 Kr</p>
-                <button onclick="function ">Buy</button>
-            </span>
-                <span class="cd">
-                <img src="img/stereolab.jpg" alt="coverStereolab">
-                <p><strong>Artist: Stereolab</strong></p>
-                <p>Album: Electrically Possessed</p>
-                <p>Genre: Rock</p>
-                <p>Release Date: 02/26/2021</p>
-                <p>Label: Warp Records</p>
-                 <p class="priceCD">300 Kr</p>
-                <button onclick="function ">Buy</button>
-            </span>
-                <span class="cd">
-                <img src="img/tiga.jpg" alt="coverTiga">
-                <p><strong>Artist: Tiga</strong></p>
-                <p>Album: Sexor</p>
-                <p>Genre: Electronic-Dance</p>
-                <p>Release Date: 2006</p>
-                <p>Label: Last Gang</p>
-                 <p class="priceCD">170 Kr</p>
-                <button onclick="function ">Buy</button>
-            </span>
-                <span class="cd">
-                <img src="img/agnesObel.jpg" alt="coverAgnesObel">
-                <p><strong>Artist: Agnes Obel</strong></p>
-                <p>Album: Late Night Tales</p>
-                <p>Genre: Rock</p>
-                <p>Release Date: 05/25/2018</p>
-                <p>Label: Late Night Tales</p>
-                 <p class="priceCD">170 Kr</p>
-                <button onclick="function ">Buy</button>
-            </span>
+                <div class="cdInfo">
+                    <img src="img/royksopplatenight.jpg" alt="coverRoyksopp">
+                    <p><strong>Artist: Röyksopp</strong></p>
+                    <p>Album: Late Night Tales</p>
+                    <p>Genre: Electronic-Dance</p>
+                    <p>Release Date: 06/25/2013</p>
+                    <p>Label: Late Night Tales</p>
+                    <p class="priceCD">170 Kr</p>
+                    <button class="buyButton" onclick="function ">Buy</button>
+                </div>
+                <div class="cdInfo">
+                    <img src="img/stereolab.jpg" alt="coverStereolab">
+                    <p><strong>Artist: Stereolab</strong></p>
+                    <p>Album: Electrically Possessed</p>
+                    <p>Genre: Rock</p>
+                    <p>Release Date: 02/26/2021</p>
+                    <p>Label: Warp Records</p>
+                    <p class="priceCD">300 Kr</p>
+                    <button class="buyButton" onclick="function ">Buy</button>
+                </div>
+                <div class="cdInfo">
+                    <img src="img/tiga.jpg" alt="coverTiga">
+                    <p><strong>Artist: Tiga</strong></p>
+                    <p>Album: Sexor</p>
+                    <p>Genre: Electronic-Dance</p>
+                    <p>Release Date: 2006</p>
+                    <p>Label: Last Gang</p>
+                    <p class="priceCD">170 Kr</p>
+                    <button class="buyButton" onclick="function ">Buy</button>
+                </div>
+                <div class="cdInfo">
+                    <img src="img/agnesObel.jpg" alt="coverAgnesObel">
+                    <p><strong>Artist: Agnes Obel</strong></p>
+                    <p>Album: Late Night Tales</p>
+                    <p>Genre: Rock</p>
+                    <p>Release Date: 05/25/2018</p>
+                    <p>Label: Late Night Tales</p>
+                    <p class="priceCD">170 Kr</p>
+                    <button class="buyButton" onclick="function ">Buy</button>
+                </div>
             </div>
         </section>
 

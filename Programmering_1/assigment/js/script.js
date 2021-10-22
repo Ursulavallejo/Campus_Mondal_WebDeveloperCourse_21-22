@@ -1,5 +1,5 @@
-let name = "ursula"
-alert (name)
+/*let name = "ursula"
+alert (name)*/
 
 function openMenu() {
     document.getElementById('dropdown')

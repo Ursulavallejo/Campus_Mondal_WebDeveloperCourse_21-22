@@ -3,7 +3,16 @@ let carts = document.querySelectorAll('.buyButton');
 for (let i = 0; i <carts.length ; i++) {
     carts[i].addEventListener('click', ()=> {
         console.log('added to cart');
-    })}
+        return (products[i])    // create a function to call the cart numbers. return not just to try
+    })
+setItems(carts)}
+
+function setItems(products){ //products
+    console.log('inside of setItems function');
+    console.log('My product is', products)
+
+/*    products.inCart = 1;*/
+}
 
 let products = [{
     name:'Brandt Brauer Frick',
@@ -61,5 +70,21 @@ let products = [{
         price: 170 ,
         inCart: 0,
     },]
+/*
+function render() {
+    const html = products.map(({ name, album, tag, price, img }) =>
+        template( name, album, tag, price, img)
+    );
+    listProducts.innerHTML = html.join("\n");
 
+}
+
+
+const template = (p) =>
+    `<span class="cd">
+        <img src="${p.img}" />
+        <p><strong>Artist: ${p.artist}</strong></p>
+        <p>Album: ${p.album}</p>
+   </span>
+`;*/
 

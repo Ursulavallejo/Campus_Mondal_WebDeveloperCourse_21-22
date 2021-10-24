@@ -3,13 +3,14 @@ let carts = document.querySelectorAll('.buyButton');
 for (let i = 0; i <carts.length ; i++) {
     carts[i].addEventListener('click', ()=> {
         console.log('added to cart');
+        totalCost(products[i])
         return (products[i])    // create a function to call the cart numbers. return not just to try
     })
 setItems(carts)}
 
 function setItems(products){ //products
     console.log('inside of setItems function');
-    console.log('My product is', products)
+    console.log('My product is', products)  // why not products [i]?
 
 /*    products.inCart = 1;*/
 }

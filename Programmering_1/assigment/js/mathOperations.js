@@ -7,4 +7,11 @@ function add(product, price){
     document.getElementById('totalPay').innerHTML =`Pay ${total} SEK`
 }
 
+function totalCost(products){
+    let cartCost = ''
+    console.log ('the product price is:', products.price)
+    setItems(cartCost, products.price)
+    CartCost = parseInt(cartCost)
+    console.log('my cart cost is', cartCost)
+}
 

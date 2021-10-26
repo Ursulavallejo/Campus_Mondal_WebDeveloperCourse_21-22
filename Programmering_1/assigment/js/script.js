@@ -1,91 +1,105 @@
-let carts = document.querySelectorAll('.buyButton');
+let dataProducts = [
+    {
+        artist: "Brandt Brauer Frick",
+        album: "Echo",
+        tag: "cd1",
+        price: 190,
+        inCart: 0,
+        img: "brandtBF.jpg",
+    },
+    {
+        artist: "Goldfrapp",
+        album: "Tale of Us",
+        tag: "cd2",
+        price: 170,
+        inCart: 0,
+        img: "goldfrapp.jpg",
+    },
+    {
+        artist: "Incubus",
+        album: "Morning View",
+        tag: "cd3",
+        price: 120,
+        inCart: 0,
+        img: "incubus.jpg",
+    },
+    {
+        artist: "Metric",
+        album: "Live It Out",
+        tag: "cd4",
+        price: 170,
+        inCart: 0,
+        img: "metric.jpg",
+    },
+    {
+        artist: "Röyksopp",
+        album: "Late Night Tales",
+        tag: "cd5",
+        price: 170,
+        inCart: 0,
+        img: "royksopplatenight.jpg",
+    },
+    {
+        artist: "Stereolab",
+        album: "Electric Possessed",
+        tag: "cd6",
+        price: 300,
+        inCart: 0,
+        img: "stereolab.jpg",
+    },
+    {
+        artist: "Tiga",
+        album: "Sexor",
+        tag: "cd7",
+        price: 170,
+        inCart: 0,
+        img: "tiga.jpg",
+    },
+    {
+        artist: "Agnes Obel",
+        album: "Late Night Tales",
+        tag: "cd8",
+        price: 170,
+        inCart: 0,
+        img: "agnesObel.jpg",
+    },
+]
 
-for (let i = 0; i <carts.length ; i++) {
-    carts[i].addEventListener('click', ()=> {
-        console.log('added to cart');
-        totalCost(products[i])
-        return (products[i])    // create a function to call the cart numbers. return not just to try
-    })
-setItems(carts)}
-
-function setItems(products){ //products
-    console.log('inside of setItems function');
-    console.log('My product is', products)  // why not products [i]?
-
-/*    products.inCart = 1;*/
+function updateElementIdText(elementID, text){
+    document.getElementById(elementID).innerText = String(text)
 }
 
-let products = [{
-    name:'Brandt Brauer Frick',
-    album:'Echo',
-    tag:'cd1',
-    price: 190 ,
-    inCart: 0,
-},
-    {
-        name:'Goldfrapp',
-        album:'Tale of Us',
-        tag:'cd2',
-        price: 170 ,
-        inCart: 0,
-    },
-    {
-        name:'Incubus',
-        album:'Morning View',
-        tag:'cd3',
-        price: 120 ,
-        inCart: 0,
-    },
-    {
-        name:'Metric',
-        album:'Live It Out',
-        tag:'cd4',
-        price: 170 ,
-        inCart: 0,
-    },
-    {
-        name:'Röyksopp',
-        album:'Late Night Tales',
-        tag:'cd5',
-        price: 170 ,
-        inCart: 0,
-    },
-    {
-        name:'Stereolab',
-        album:'Electrically Possessed',
-        tag:'cd6',
-        price: 300 ,
-        inCart: 0,
-    },
-    {
-        name:'Tiga',
-        album:'Sexor',
-        tag:'cd7',
-        price: 170 ,
-        inCart: 0,
-    },
-    {
-        name:'Agnes Obel',
-        album:'Late Night Tales',
-        tag:'cd8',
-        price: 170 ,
-        inCart: 0,
-    },]
+function updateElementIdHtml(elementID, html){
+    document.getElementById(elementID).innerHTML = html
+}
 /*
-function render() {
-    const html = products.map(({ name, album, tag, price, img }) =>
-        template( name, album, tag, price, img)
-    );
-    listProducts.innerHTML = html.join("\n");
+function alertSomething(message) {
+    alert(message)
+}*/
 
+/*generateSingleCard*/
+<!-- class: card -->
+function templateSingleCard(cd){
+    const cdArtist = cd.artist  // 3.50
+    return`
+     <article class="cardCDInfo ">
+         <img class="coverCD" src="img/${cd.img}" alt="coverBrandtBF" />
+        <h3>${cd.artist}</h3>
+        <p>Album: ${cd.album} </p>
+        <p>Price: ${cd.price} Kr </p>
+         <button class="buyButton">
+                Buy
+         </button>
+    </article>
+    `
 }
+function updateContent() {
+    let htmlElement = ''
 
+    for (const cd of dataProducts) { /*car  -- data*/
+        htmlElement +=  templateSingleCard(cd) /*generateSingleCard(car)*/
 
-const template = (p) =>
-    `<span class="cd">
-        <img src="${p.img}" />
-        <p><strong>Artist: ${p.artist}</strong></p>
-        <p>Album: ${p.album}</p>
-   </span>
-`;*/
-
+    }
+    updateElementIdHtml('CardProductContents', htmlElement) /*cart-contents*/
+}
+updateContent()

@@ -19,7 +19,7 @@ function updateQuantity(cd) {
 
 function insertItemToCart(cd) {
     myCartShop.push({
-        artist: name,
+        artist: cd,
         quantity: 1
     });
 }

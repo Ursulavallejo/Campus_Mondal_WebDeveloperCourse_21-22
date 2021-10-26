@@ -2,7 +2,7 @@ let myCartShop = []
 
 function itemAlreadyInCart(cd) {
     for (const item of myCartShop) {
-        if (item.artist === cd) {
+        if (item.album === cd) {
             return true
         }
     }
@@ -11,7 +11,7 @@ function itemAlreadyInCart(cd) {
 
 function updateQuantity(cd) {
     for (const item of myCartShop) {
-        if (item.artist === cd) {
+        if (item.album === cd) {
             item.quantity += 1
         }
     }
@@ -19,7 +19,7 @@ function updateQuantity(cd) {
 
 function insertItemToCart(cd) {
     myCartShop.push({
-        artist: cd,
+        album: cd,
         quantity: 1
     });
 }

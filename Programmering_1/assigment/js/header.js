@@ -23,15 +23,15 @@ function createContentHeader() {
               <hr />
 
               <section class="grid-container-ShopCart">
-                <article class="grid-item1 area-item1">side</article>
-                <article id="cartProducts" class="grid-item1 area-item2">
-                  top
+                <article id="cartProducts" class="grid-item1 area-item1">
+                  information Cart Items
                 </article>
-                <article class="grid-item1 area-item3">
+                <article class="grid-item1 area-item2">
                   <p>
                     SUM(<span class="totalCds"></span>)
                     <span id="totalPay">SEK</span>
                   </p>
+                  <p>frakt</p>
                 </article>
 
                 <button onclick="closeMenu()">Close</button>

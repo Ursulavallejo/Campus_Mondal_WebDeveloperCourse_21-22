@@ -47,8 +47,6 @@ _
 /Programmering_1/draftAssigment/indexprueba.html,b\f\bffb0c49ca2e066e3082ff087eb0ecdc3d4571ab
 X
 (Programmering_1/assigment/css/footer.css,2\e\2e843517ad3ff7cc1b5062a347f2ac2330f5533a
-T
-$Programmering_1/assigment/js/card.js,2\4\24dbe960e98df9223027d746a61f129b49694f9f
 V
 &Programmering_1/assigment/css/cart.css,e\3\e342b369311f19f18bb116653ee2ef4c8040b502
 S

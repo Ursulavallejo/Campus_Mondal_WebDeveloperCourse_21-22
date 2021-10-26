@@ -2,6 +2,7 @@
 .dropdown {
     position: relative;
     display: inline-block;
+
 }
 .dropdown-content {
     display: none;
@@ -11,6 +12,12 @@
     overflow: auto;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
+    border-radius: 15px;
+
+}
+.dropdown-content h2 {
+    text-align: center;
+    font-style: oblique;
 }
 
 .show {
@@ -19,22 +26,18 @@
 
 
 .area-item1 {
-    grid-area: side;
-}
-
-.area-item2 {
     grid-area: top;
 }
 
-.area-item3 {
+.area-item2 {
     grid-area: bottom;
 }
 
 .grid-container-ShopCart{
     display: grid;
     grid-template-areas:
-            ' top  top    side '
-            'bottom bottom bottom ';
+            ' top  top     '
+            'bottom bottom  ';
     grid-gap: 0.5em;
     background-color: ghostwhite;
     padding: 0.5em;

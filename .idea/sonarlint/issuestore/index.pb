@@ -47,8 +47,6 @@ _
 /Programmering_1/draftAssigment/indexprueba.html,b\f\bffb0c49ca2e066e3082ff087eb0ecdc3d4571ab
 X
 (Programmering_1/assigment/css/footer.css,2\e\2e843517ad3ff7cc1b5062a347f2ac2330f5533a
-S
-#Programmering_1/assigment/README.md,7\f\7f2d0af6047c174b0933c92ceb74eb431ca275c8
 X
 (Programmering_1/assigment/css/header.css,b\e\bec12d3ed7e4f1296aeb529ab7a8f27b8f847726
 X
@@ -65,7 +63,3 @@ Z
 *Programmering_1/assigment/css/dropdown.css,a\0\a0270de4304633236fa3775596138e53e6871855
 X
 (Programmering_1/assigment/js/dropdown.js,8\3\8360aa385fe7dab7c3a1c230aae36ae59b9a4a00
-V
-&Programmering_1/assigment/js/navbar.js,d\a\da678f10493a45f728fecd37bd7ac9a8a63f9986
-V
-&Programmering_1/assigment/js/header.js,0\d\0d3b25aec59328458bfd84606985feb0e68eb06a

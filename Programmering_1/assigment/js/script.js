@@ -2,7 +2,7 @@ let myCartShop = []
 
 function itemAlreadyInCart(cd) {
     for (const item of myCartShop) {
-        if (item.artist === cd) {
+        if (item.tag === cd) {
             return true
         }
     }
@@ -11,15 +11,16 @@ function itemAlreadyInCart(cd) {
 
 function updateQuantity(cd) {
     for (const item of myCartShop) {
-        if (item.artist === cd) {
+        if (item.tag === cd) {
             item.quantity += 1
         }
     }
 }
 
 function insertItemToCart(cd) {
+
     myCartShop.push({
-        album: name,
+       tag: cd,
         quantity: 1
     });
 }
@@ -41,17 +42,18 @@ function addItemToCart(cd) {
 }
 
 function addButtonEventListeners(elementId) {
-    document.getElementById(elementId)
-        .addEventListener('click', function () {
+   document.getElementById("button-" + elementId)
+       .addEventListener('click', function () {
             addItemToCart(elementId)
         });
 }
 
 window.addEventListener('load', function () {
     for (const cdArtist of dataProducts ) {
-        addButtonEventListeners(cdArtist.artist)
+        addButtonEventListeners(cdArtist.tag)
     }
 })
+
 
 
 

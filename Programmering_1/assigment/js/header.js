@@ -3,7 +3,7 @@ function createContentHeader() {
 
    <section class="grid-container-header">
           <div class="logo">
-           <img src="img/amoebaLogo.png" alt="shopLogo">
+            <img src="img/amoebaLogo.png" alt="shopLogo" />
           </div>
           <div class="searchArea">
             <label>
@@ -23,15 +23,15 @@ function createContentHeader() {
               <hr />
 
               <section class="grid-container-ShopCart">
-                <article id="cartProducts" class="grid-item1 area-item1">
-                  information Cart Items
+                <article class="grid-item1 area-item1">side</article>
+                <article id="cartProducts" class="grid-item1 area-item2">
+                  Information Articles to buy
                 </article>
-                <article class="grid-item1 area-item2">
+                <article class="grid-item1 area-item3">
                   <p>
                     SUM(<span class="totalCds"></span>)
                     <span id="totalPay">SEK</span>
                   </p>
-                  <p>frakt</p>
                 </article>
 
                 <button onclick="closeMenu()">Close</button>
@@ -39,6 +39,7 @@ function createContentHeader() {
               </section>
             </div>
           </div>
+        </section>
 `
 }
 

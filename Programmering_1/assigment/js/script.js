@@ -2,7 +2,7 @@ let myCartShop = []
 
 function itemAlreadyInCart(cd) {
     for (const item of myCartShop) {
-        if (item.album === cd) {
+        if (item.artist === cd) {
             return true
         }
     }
@@ -11,7 +11,7 @@ function itemAlreadyInCart(cd) {
 
 function updateQuantity(cd) {
     for (const item of myCartShop) {
-        if (item.album === cd) {
+        if (item.artist === cd) {
             item.quantity += 1
         }
     }
@@ -19,7 +19,7 @@ function updateQuantity(cd) {
 
 function insertItemToCart(cd) {
     myCartShop.push({
-        album: cd,
+        album: name,
         quantity: 1
     });
 }
@@ -49,7 +49,7 @@ function addButtonEventListeners(elementId) {
 
 window.addEventListener('load', function () {
     for (const cdArtist of dataProducts ) {
-        addButtonEventListeners(cdArtist.album)
+        addButtonEventListeners(cdArtist.artist)
     }
 })
 

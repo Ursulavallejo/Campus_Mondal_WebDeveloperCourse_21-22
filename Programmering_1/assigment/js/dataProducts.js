@@ -4,7 +4,6 @@ let dataProducts = [
         album: "Echo",
         tag: "cd1",
         price: 190,
-        quantity: 0,
         img: "brandtBF.jpg",
     },
     {
@@ -12,7 +11,6 @@ let dataProducts = [
         album: "Tale of Us",
         tag: "cd2",
         price: 170,
-        quantity: 0,
         img: "goldfrapp.jpg",
     },
     {
@@ -20,7 +18,6 @@ let dataProducts = [
         album: "Morning View",
         tag: "cd3",
         price: 120,
-        quantity: 0,
         img: "incubus.jpg",
     },
     {
@@ -28,7 +25,6 @@ let dataProducts = [
         album: "Live It Out",
         tag: "cd4",
         price: 170,
-        quantity: 0,
         img: "metric.jpg",
     },
     {
@@ -36,7 +32,6 @@ let dataProducts = [
         album: "Late Night Tales",
         tag: "cd5",
         price: 170,
-        quantity: 0,
         img: "royksopplatenight.jpg",
     },
     {
@@ -44,7 +39,6 @@ let dataProducts = [
         album: "Electric Possessed",
         tag: "cd6",
         price: 300,
-        quantity: 0,
         img: "stereolab.jpg",
     },
     {
@@ -52,7 +46,6 @@ let dataProducts = [
         album: "Sexor",
         tag: "cd7",
         price: 170,
-        quantity: 0,
         img: "tiga.jpg",
     },
     {
@@ -60,7 +53,6 @@ let dataProducts = [
         album: "Late Night Tales",
         tag: "cd8",
         price: 170,
-        quantity: 0,
         img: "agnesObel.jpg",
     },
 ]

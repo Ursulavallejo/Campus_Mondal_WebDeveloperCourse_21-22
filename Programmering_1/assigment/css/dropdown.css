@@ -26,18 +26,22 @@
 
 
 .area-item1 {
-    grid-area: top;
+    grid-area: side;
 }
 
 .area-item2 {
+    grid-area: top;
+}
+
+.area-item3 {
     grid-area: bottom;
 }
 
 .grid-container-ShopCart{
     display: grid;
     grid-template-areas:
-            ' top  top     '
-            'bottom bottom  ';
+               ' top  top    side '
+            'bottom bottom bottom ';
     grid-gap: 0.5em;
     background-color: ghostwhite;
     padding: 0.5em;

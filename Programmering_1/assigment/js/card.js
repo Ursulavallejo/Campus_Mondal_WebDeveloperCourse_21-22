@@ -20,7 +20,7 @@ function templateSingleCard(cd){
         <h3>${cd.artist}</h3>
         <p>Album: ${cd.album} </p>
         <p>Price: ${cd.price} Kr </p>
-         <button class="buyButton">Buy</button>
+         <button id="'${ cd.artist }'" class="buyButton">Buy</button>
     </article>
     `
 }

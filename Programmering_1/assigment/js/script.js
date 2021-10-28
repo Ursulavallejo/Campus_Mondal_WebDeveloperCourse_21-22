@@ -24,7 +24,8 @@ function insertItemToCart(cd) {
         album: document.getElementById("album-"+cd).innerHTML,
         price: document.getElementById("price-"+cd).innerHTML,
         tag: cd,
-        quantity: 1
+        quantity: 1,
+        totalSum:document.getElementById("price-"+cd).innerHTML
     }
     myCartShop.push(cdInfo);
 }
@@ -69,6 +70,7 @@ function updateQuantityAndPrice(cd) {
         if (item.tag === cd) {
             item.quantity += 1
             item.totalSum = item.price * item.quantity
+            console.log(item.quantity)
         }
     }
 }

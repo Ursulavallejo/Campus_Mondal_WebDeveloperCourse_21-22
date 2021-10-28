@@ -29,9 +29,10 @@ function createContentHeader() {
                 </article>
                 <article class="grid-item1 area-item3">
                   <p>
-                    SUM(<span class="totalCds"></span>)
+                    SUM(<span id="totalCds"></span>)
                     <span id="totalPay">SEK</span>
                   </p>
+                  <p id="freeShipmt">text</p>
                 </article>
 
                 <button onclick="closeMenu()">Close</button>

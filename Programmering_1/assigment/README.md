@@ -86,6 +86,8 @@ https://www.youtube.com/watch?v=yASvgVh8p5A
 https://www.youtube.com/watch?v=B20Getj_Zk4
 https://www.youtube.com/watch?v=tEAl7L62GEw
 
+https://www.youtube.com/watch?v=dSbWJAXQ7cA&t=606s
+
 ## Steg 4: Beskrivning
 
 ## Steg 5: konklusionen

@@ -23,7 +23,7 @@ return `
         <p>Price: <span id="price-${ cd.tag }">${cd.price}</span> Kr </p>
         <input type="number" name="amount" value="${cd.quantity}" />
         <button id="removeCDCart" type="button" >X</button>
-        <p id="">"<span>${cd.totalSum}</span> Kr</p>
+        <p id="subPriceCart"><span>${cd.totalSum}</span> Kr</p>
        
     </article>
     `

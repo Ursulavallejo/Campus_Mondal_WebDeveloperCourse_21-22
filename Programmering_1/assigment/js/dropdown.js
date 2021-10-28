@@ -14,18 +14,19 @@ function toCheckout(){
 
 
 // function that writes html template with dynamic data
-function templateSingleCartItemToDropdown(cartItem){
+function templateSingleCartItemToDropdown(cd){
 return `
-     <article class="cardCDInfo" id="${ cartItem.tag }">
-        <img  id="img-${ cartItem.tag }" class="coverCD" src="img/${cartItem.img}" alt="${cartItem.artist} - ${cartItem.album}" />
-        <h3 id="artist-${ cartItem.tag }">${cartItem.artist}</h3>
-        <p>Album: <span id="album-${ cartItem.tag }">${cartItem.album}</span> </p>
-        <p>Price: <span id="price-${ cartItem.tag }">${cartItem.price}</span> Kr </p>
-        <input type="number" name="amount" value="${cartItem.quantity}" />
+     <article class="cardCDInfo" id="${ cd.tag }">
+        <img  id="img-${ cd.tag }" class="coverCD" src="img/${cd.img}" alt="${cd.artist} - ${cd.album}" />
+        <h3 id="artist-${ cd.tag }">${cd.artist}</h3>
+        <p>Album: <span id="album-${ cd.tag }">${cd.album}</span> </p>
+        <p>Price: <span id="price-${ cd.tag }">${cd.price}</span> Kr </p>
+        <input type="number" name="amount" value="${cd.quantity}" />
         <button id="removeCDCart" type="button" >X</button>
         <p>Subtotal</p>
     </article>
     `
+
 }
 
 
@@ -33,13 +34,16 @@ return `
 // function that reads data from source and calls template function with this data
 // this function is being called from script.js, with the updated array myCartShop
 
+
 function updateDropdownContent (elementId){
 let showCartAlbums = [];
 for (const item of myCartShop){
-    showCartAlbums.push(templateSingleCartItemToDropdown(item))
+showCartAlbums += templateSingleCartItemToDropdown(item)
+
 }
-document.getElementById('cartProducts').innerHTML = showCartAlbums
+updateElementIdHtml('cartProducts', showCartAlbums)
 }
+/*showCartAlbums.push(templateSingleCartItemToDropdown(cd))*/
 
 
 
@@ -47,7 +51,6 @@ document.getElementById('cartProducts').innerHTML = showCartAlbums
 
 
 
-/*document.getElementById('cartProducts').innerHTML = foundInCart*/
 
-/*
-updateDropdownContent(CartItemsArray)*/
+
+

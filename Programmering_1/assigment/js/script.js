@@ -65,6 +65,7 @@ window.addEventListener('load', function () {
 //1. write all elements from myCartShop with template
 //2. write total and calculate total from myCartShop
 //3. other calculations (like if there is free shipping etc.)
+/*
 function updateQuantityAndPrice(cd) {
     for (const item of myCartShop) {
         if (item.tag === cd) {
@@ -73,6 +74,7 @@ function updateQuantityAndPrice(cd) {
         }
     }
 }
+*/
 
 
 

@@ -42,9 +42,10 @@ function addItemToCart(cd) {
         } else {
             insertItemToCart(cd);
         }
+        findTotal(myCartShop)
     }
 
-    console.log(myCartShop)
+
 }
 // Button
 function addButtonEventListeners(elementId) {
@@ -70,7 +71,6 @@ function updateQuantityAndPrice(cd) {
         if (item.tag === cd) {
             item.quantity += 1
             item.totalSum = item.price * item.quantity
-            console.log(item.quantity)
         }
     }
 }

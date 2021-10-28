@@ -23,7 +23,7 @@ function createContentHeader() {
               <hr />
 
               <section class="grid-container-ShopCart">
-                <article class="grid-item1 area-item1">side</article>
+              
                 <article id="cartProducts" class="grid-item1 area-item2">
                   Information Articles to buy
                 </article>

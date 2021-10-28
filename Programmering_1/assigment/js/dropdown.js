@@ -16,14 +16,15 @@ function toCheckout(){
 // function that writes html template with dynamic data
 function templateSingleCartItemToDropdown(cd){
 return `
-     <article class="cardCDInfo" id="${ cd.tag }">
+     <article class="cardCDInfoCart" id="${ cd.tag }">
         <img  id="img-${ cd.tag }" class="coverCD" src="${cd.img}" alt="${cd.artist} - ${cd.album}" />
         <h3 id="artist-${ cd.tag }">${cd.artist}</h3>
         <p>Album: <span id="album-${ cd.tag }">${cd.album}</span> </p>
         <p>Price: <span id="price-${ cd.tag }">${cd.price}</span> Kr </p>
         <input type="number" name="amount" value="${cd.quantity}" />
+         <p id="subPriceCart"><span>${cd.totalSum}</span> Kr</p>
         <button id="removeCDCart" type="button" >X</button>
-        <p id="subPriceCart"><span>${cd.totalSum}</span> Kr</p>
+       
        
     </article>
     `

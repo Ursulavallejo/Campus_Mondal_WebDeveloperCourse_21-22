@@ -48,16 +48,10 @@ _
 X
 (Programmering_1/assigment/css/footer.css,2\e\2e843517ad3ff7cc1b5062a347f2ac2330f5533a
 X
-(Programmering_1/assigment/css/header.css,b\e\bec12d3ed7e4f1296aeb529ab7a8f27b8f847726
-X
 (Programmering_1/assigment/css/navbar.css,f\2\f2fedb0f05e01c2671fe22e80cdb24c6a3802122
 g
 7Webbutveckling_1/new_version_assigment/css/styleAll.css,c\8\c8778a6823d1308719008d6efa840c1e2b575759
 W
 'Programmering_1/assigment/css/style.css,5\1\517e7783319510796de65d0cdd26608188a0afbc
 V
-&Programmering_1/assigment/css/card.css,0\6\06c6e057acf32177095b4a00eda5e8968d72fc06
-V
 &Programmering_1/assigment/css/cart.css,e\3\e342b369311f19f18bb116653ee2ef4c8040b502
-Z
-*Programmering_1/assigment/css/dropdown.css,a\0\a0270de4304633236fa3775596138e53e6871855

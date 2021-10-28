@@ -21,7 +21,7 @@ return `
         <h3 id="artist-${ cd.tag }">${cd.artist}</h3>
         <p>Album: <span id="album-${ cd.tag }">${cd.album}</span> </p>
         <p>Price: <span id="price-${ cd.tag }">${cd.price}</span> Kr </p>
-        <input type="number" name="amount" value="${cd.quantity}" />
+        <input  type="number" name="amount" value="${cd.quantity}" price="${cd.price}" onblur="findTotal()" />
          <p id="subPriceCart"><span>${cd.totalSum}</span> Kr</p>
         <button id="removeCDCart" type="button" >X</button>
     </article>  
@@ -42,6 +42,38 @@ updateElementIdHtml('cartProducts', showCartAlbums)
 }
 
 // OPERATIONS CART:
+
+
+function findTotal(){
+    let arr = document.getElementsByName('amount');
+    let tot = 0;
+    for(let i=0;i<arr.length;i++){
+        if(parseInt(arr[i].value))
+            tot += parseInt(arr[i].value) * parseInt(arr[i].price);
+    }
+    console.log(tot);
+    document.getElementById('totalPay').innerHTML = tot;
+}
+
+
+/*
+function findTotalCD(){
+    let arr = document.getElementsByID('amount');
+    let tot = [];
+    for(let i=0;i<myCartShop.length;i++){
+        if(parseInt(myCartShop[i].value))
+            tot += parseInt(arr[i].value) * parseInt(arr[i].price);
+    }
+    document.getElementById('totalPay').value = tot;
+}
+*/
+
+
+
+
+
+
+
 
 function totalCostCart(cd){
     let priceTotalSum =`${cd.price} + ${cd.price}`

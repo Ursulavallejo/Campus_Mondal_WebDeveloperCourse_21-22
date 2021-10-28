@@ -23,13 +23,12 @@ return `
         <p>Price: <span id="price-${ cd.tag }">${cd.price}</span> Kr </p>
         <input type="number" name="amount" value="${cd.quantity}" />
         <button id="removeCDCart" type="button" >X</button>
-        <p>Subtotal</p>
+        <p id="">"<span>${cd.totalSum}</span> Kr</p>
+       
     </article>
     `
 
 }
-
-
 // includes html to the kundkorg
 // function that reads data from source and calls template function with this data
 // this function is being called from script.js, with the updated array myCartShop
@@ -43,7 +42,7 @@ showCartAlbums += templateSingleCartItemToDropdown(item)
 }
 updateElementIdHtml('cartProducts', showCartAlbums)
 }
-/*showCartAlbums.push(templateSingleCartItemToDropdown(cd))*/
+
 
 
 

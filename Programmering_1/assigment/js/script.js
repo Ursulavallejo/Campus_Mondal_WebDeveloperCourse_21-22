@@ -37,7 +37,7 @@ function addItemToCart(cd) {
         insertItemToCart(cd);
     } else {
         if (itemAlreadyInCart(cd)) {
-            updateQuantity(cd);
+            updateQuantityAndPrice(cd);
         } else {
             insertItemToCart(cd);
         }
@@ -49,8 +49,7 @@ function addItemToCart(cd) {
 function addButtonEventListeners(elementId) {
    document.getElementById("button-" + elementId)
        .addEventListener('click', function () {
-            addItemToCart(elementId),
-                updateDropdownContent (elementId)
+            addItemToCart(elementId),updateDropdownContent (elementId)
         });
 }
 
@@ -65,16 +64,14 @@ window.addEventListener('load', function () {
 //1. write all elements from myCartShop with template
 //2. write total and calculate total from myCartShop
 //3. other calculations (like if there is free shipping etc.)
-/*
 function updateQuantityAndPrice(cd) {
     for (const item of myCartShop) {
         if (item.tag === cd) {
             item.quantity += 1
-            item.price=item.price * item.quantity
+            item.totalSum = item.price * item.quantity
         }
     }
 }
-*/
 
 
 

@@ -42,13 +42,15 @@ function addItemToCart(cd) {
             insertItemToCart(cd);
         }
     }
+
     console.log(myCartShop)
 }
-
+// Button
 function addButtonEventListeners(elementId) {
    document.getElementById("button-" + elementId)
        .addEventListener('click', function () {
-            addItemToCart(elementId)
+            addItemToCart(elementId),
+                updateDropdownContent (elementId)
         });
 }
 

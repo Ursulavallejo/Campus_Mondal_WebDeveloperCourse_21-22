@@ -1,6 +1,7 @@
 function openMenu() {
     document.getElementById('dropdown')
         .classList.toggle('show')
+
 }
 
 function closeMenu() {
@@ -11,6 +12,7 @@ function toCheckout(){
     alert ('Thank you for visiting us!! At the moment we cant offer to buy any product!')
 }
 
+
 // function that writes html template with dynamic data
 function templateSingleCartItemToDropdown(cartItem){
 return `
@@ -19,15 +21,33 @@ return `
         <h3 id="artist-${ cartItem.tag }">${cartItem.artist}</h3>
         <p>Album: <span id="album-${ cartItem.tag }">${cartItem.album}</span> </p>
         <p>Price: <span id="price-${ cartItem.tag }">${cartItem.price}</span> Kr </p>
-        <button id="button-${ cartItem.tag }" class="buyButton js-button">Buy</button>
+        <input type="number" name="amount" value="${cartItem.quantity}" />
+        <button id="removeCDCart" type="button" >X</button>
+        <p>Subtotal</p>
     </article>
     `
-    console.log(cartItem)
 }
 
-/*
 
-function updateDropdownContent(CartItemsArray)
+// includes html to the kundkorg
 // function that reads data from source and calls template function with this data
-// thsi function is beeing called from script.js, with the updated array myCartShop
-*/
+// this function is being called from script.js, with the updated array myCartShop
+
+function updateDropdownContent (elementId){
+let showCartAlbums = [];
+for (const item of myCartShop){
+    showCartAlbums.push(templateSingleCartItemToDropdown(item))
+}
+document.getElementById('cartProducts').innerHTML = showCartAlbums
+}
+
+
+
+
+
+
+
+/*document.getElementById('cartProducts').innerHTML = foundInCart*/
+
+/*
+updateDropdownContent(CartItemsArray)*/

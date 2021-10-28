@@ -61,5 +61,3 @@ V
 &Programmering_1/assigment/css/cart.css,e\3\e342b369311f19f18bb116653ee2ef4c8040b502
 Z
 *Programmering_1/assigment/css/dropdown.css,a\0\a0270de4304633236fa3775596138e53e6871855
-X
-(Programmering_1/assigment/js/dropdown.js,8\3\8360aa385fe7dab7c3a1c230aae36ae59b9a4a00

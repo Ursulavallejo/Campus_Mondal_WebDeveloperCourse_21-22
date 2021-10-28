@@ -18,11 +18,15 @@ function updateQuantity(cd) {
 }
 
 function insertItemToCart(cd) {
-
-    myCartShop.push({
-       tag: cd,
+    let cdInfo = {
+        img: document.getElementById("img-"+cd).src,
+        artist: document.getElementById("artist-"+cd).innerHTML,
+        album: document.getElementById("album-"+cd).innerHTML,
+        price: document.getElementById("price-"+cd).innerHTML,
+        tag: cd,
         quantity: 1
-    });
+    }
+    myCartShop.push(cdInfo);
 }
 function cartIsEmpty() {
     return myCartShop.length === 0
@@ -55,7 +59,18 @@ window.addEventListener('load', function () {
 })
 
 
-
+//function that writes content to dropdown:
+//1. write all elements from myCartShop with template
+//2. write total and calculate total from myCartShop
+//3. other calculations (like if there is free shipping etc.)
+function updateQuantityAndPrice(cd) {
+    for (const item of myCartShop) {
+        if (item.tag === cd) {
+            item.quantity += 1
+            item.price=item.price * item.quantity
+        }
+    }
+}
 
 
 

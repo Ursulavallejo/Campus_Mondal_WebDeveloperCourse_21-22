@@ -1,0 +1,47 @@
+
+.grid-container-ShopCart {
+    display: grid;
+    grid-template-areas:
+            ' top   top    top '
+            'bottom bottom bottom ';
+    grid-gap: 0.5em;
+    background-color: ghostwhite;
+    padding: 0.5em;
+}
+
+.grid-item1 {
+    background-color: floralwhite;
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+}
+
+.grid-container-ShopCart button {
+    color: white;
+    background-color: red;
+    padding: 1em 3em;
+    margin-left: 3em;
+    cursor: pointer;
+}
+
+.grid-container-ShopCart img {
+    width: 100px;
+}
+
+.cardCDInfoCart {
+    font-size: small;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;*/
+        display: flex;
+        row-gap: 1em;
+    grid-gap: 1em;
+}
+
+input .cardCDInfoCart {
+    padding: 1em;
+}
+
+#removeCDCart {
+    padding: 0.5em;
+    cursor: pointer;
+}

@@ -21,7 +21,7 @@ return `
         <h3 id="artist-${ cd.tag }">${cd.artist}</h3>
         <p>Album: <span id="album-${ cd.tag }">${cd.album}</span> </p>
         <p>Price: <span id="price-${ cd.tag }">${cd.price}</span> Kr </p>
-        <input  type="number" name="amount" value="${cd.quantity}" price="${cd.price}" onblur="" />
+        <input  type="number" name="amount" value="${cd.quantity}" price="${cd.price}" onblur="updateTotalPriceSelector()" />
          <p id="subPriceCart"><span>${cd.totalSum}</span> Kr</p>
         <button id="removeCDCart" type="button" >X</button>
     </article>  
@@ -41,30 +41,6 @@ showCartAlbums += templateSingleCartItemToDropdown(item)
 updateElementIdHtml('cartProducts', showCartAlbums)
 }
 
-// OPERATIONS CART:
-
-
-function findTotal(myCartShop) {
-    let tot = 0;
-    for (const item of myCartShop) {
-        tot += parseInt(item.totalSum);
-    }
-    console.log(tot);
-    document.getElementById('totalPay').innerHTML = tot;
-}
-
-
-/*
-function findTotalCD(){
-    let arr = document.getElementsByID('amount');
-    let tot = [];
-    for(let i=0;i<myCartShop.length;i++){
-        if(parseInt(myCartShop[i].value))
-            tot += parseInt(arr[i].value) * parseInt(arr[i].price);
-    }
-    document.getElementById('totalPay').value = tot;
-}
-*/
 
 
 
@@ -73,37 +49,12 @@ function findTotalCD(){
 
 
 
-function totalCostCart(cd){
-    let priceTotalSum =`${cd.price} + ${cd.price}`
-}
 
-function updateShoppingCartTotal (cd){
-    let totalPriceCart = 0;
-    for (const item of updateDropdownContent){
-        totalPriceCart = totalCost(cd)
-    }
-}
-// add how many cd we add to the cart:
 
-function howManyCd(){
-    let numberCD = [];
 
-}
-// message of free Shipping price:
 
-function freeShippingCart(){
-    let freeShipping = ''
-let limitFreeShip  = 256
-if ( limitFreeShip => 256 ){
-    freeShipping = 'uff just in the gap to free freight!'
-}else if (limitFreeShip > 256 ){
-    freeShipping = 'Congratulation! You are entitled to free freight!'
-}else {
-    freeShipping = 'Need to buy more items cd to free freight!'
-}
-    updateElementIdText('freeShipmt', freeShipping)
-    console.log(hej)
-}
+
+
 
 // need a function to remove and item from the kundkorg
 

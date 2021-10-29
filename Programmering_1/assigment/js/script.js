@@ -8,14 +8,15 @@ function itemAlreadyInCart(cd) {
     }
     return false
 }
-
-function updateQuantity(cd) {
+function updateQuantityAndPrice(cd) {
     for (const item of myCartShop) {
         if (item.tag === cd) {
             item.quantity += 1
+            item.totalSum = item.price * item.quantity
         }
     }
 }
+
 
 function insertItemToCart(cd) {
     let cdInfo = {
@@ -43,6 +44,7 @@ function addItemToCart(cd) {
             insertItemToCart(cd);
         }
         findTotal(myCartShop)
+        findTotalCD(myCartShop)
     }
 
 
@@ -61,20 +63,62 @@ window.addEventListener('load', function () {
     }
 })
 
-
-//function that writes content to dropdown:
-//1. write all elements from myCartShop with template
-//2. write total and calculate total from myCartShop
-//3. other calculations (like if there is free shipping etc.)
-function updateQuantityAndPrice(cd) {
+// OPERATIONS CART:
+/*
+version 1
+function findTotal(myCartShop) {
+    let tot = 0;
     for (const item of myCartShop) {
-        if (item.tag === cd) {
-            item.quantity += 1
-            item.totalSum = item.price * item.quantity
+        tot += parseInt(item.totalSum);
+    }
+    console.log(tot);
+    document.getElementById('totalPay').innerHTML = tot;
+}
+*/
+
+// add how many cd we add to the cart:
+function findTotalCD(myCartShop){
+    let totCD = 0;
+    for (const item of myCartShop) {
+        totCD += item.quantity;
+    }
+    console.log(totCD);
+    document.getElementById('totalCds').innerHTML = totCD ;
+}
+// Uppdate information on cart with quantity:
+
+/*function updateTotalPriceSelector(myCartShop) {
+    let ValueAllCd = 0
+    for (const item of myCartShop) {
+        if (item.totalSum) {
+            ValueAllCd += 1
         }
+    }*/
+
+
+// Uppdate information on cart with cd:
+
+
+// message of free Shipping price:
+function freeShippingCart() {
+    let freeShipping = ''
+    let limitFreeShip = 256
+    if (limitFreeShip => 256) {
+        freeShipping = 'uff just in the gap to free freight!'
+    } else if (limitFreeShip > 256) {
+        freeShipping = 'Congratulation! You are entitled to free freight!'
+    } else {
+        freeShipping = 'Need to buy more items cd to free freight!'
     }
 }
+// Delete information from cart:
 
+function removeShoppingCartItem(cd) {
+    const buttonClicked = cd.tag;
+    buttonClicked.closest('.cardCDInfoCart').remove();
+    updateDropdownContent (cd);
+}
+document.getElementById('removeCDCart').addEventListener("click", removeShoppingCartItem )
 
 
 

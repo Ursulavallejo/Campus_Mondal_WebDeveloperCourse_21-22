@@ -27,10 +27,10 @@ function templateSingleCard(cd){
 function updateContent() {
     let htmlElement = ''
 
-    for (const cd of dataProducts) { /*car  -- data*/
-        htmlElement +=  templateSingleCard(cd) /*generateSingleCard(car)*/
+    for (const cd of dataProducts) {
+        htmlElement +=  templateSingleCard(cd)
 
     }
-    updateElementIdHtml('CardProductContents', htmlElement) /*cart-contents*/
+    updateElementIdHtml('CardProductContents', htmlElement)
 }
 updateContent()

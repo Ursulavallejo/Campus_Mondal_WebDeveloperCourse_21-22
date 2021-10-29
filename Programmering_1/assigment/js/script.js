@@ -111,7 +111,7 @@ function updateAlbumInCartWithNewValue(cd, newValue) {
 }
 
 
-// update information
+// update information with the input
 function addMore(cd) {
     let newValue = document.getElementById("inputQty" + cd).value;
     if (parseInt(newValue) <= 0) {
@@ -135,7 +135,7 @@ function addMore(cd) {
 
 
 /*
-// READ INPUT
+// READ INPUT   what the teacher explained in class but some conexion is not working as mine is dinamic he did it for one
 function readInput(cd ) {
     for (const item of myCartShop) {
         item.quantity = Number(document.getElementById("inputQty-${ cd.tag }").value)
@@ -152,7 +152,7 @@ function readInput(cd ) {
 */
 
 
-// Delete information from cart:
+// Delete information from cart with button X
 /*
 
 function removeShoppingCartItem(cd) {
@@ -162,12 +162,3 @@ function removeShoppingCartItem(cd) {
 }
 document.getElementById('removeCDCart').addEventListener("click", removeShoppingCartItem )
 */
-
-//  information on cart with cd:
-/*function updateTotalPriceSelector(myCartShop) {
-    let ValueAllCd = 0
-    for (const item of myCartShop) {
-        if (item.totalSum) {
-            ValueAllCd += 1
-        }
-    }*/

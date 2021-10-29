@@ -21,7 +21,7 @@ return `
         <h3 id="artist-${ cd.tag }">${cd.artist}</h3>
         <p>Album: <span id="album-${ cd.tag }">${cd.album}</span> </p>
         <p>Price: <span id="price-${ cd.tag }">${cd.price}</span> Kr </p>
-        <input  type="number" name="amount" value="${cd.quantity}" price="${cd.price}" onblur="updateTotalPriceSelector()" />
+        <input id="inputQty-${ cd.tag }" type="number" name="amount" value="${cd.quantity}"  onclick="addMore(${ cd.tag })"/>
          <p id="subPriceCart"><span>${cd.totalSum}</span> Kr</p>
         <button id="removeCDCart" type="button" >X</button>
     </article>  

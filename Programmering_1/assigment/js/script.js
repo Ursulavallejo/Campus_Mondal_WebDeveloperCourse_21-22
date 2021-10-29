@@ -1,4 +1,5 @@
 let myCartShop = []
+let totalSumCart = 0
 
 function itemAlreadyInCart(cd) {
     for (const item of myCartShop) {
@@ -43,8 +44,9 @@ function addItemToCart(cd) {
         } else {
             insertItemToCart(cd);
         }
-        findTotal(myCartShop)
-        findTotalCD(myCartShop)
+        findTotal()
+        findTotalCD()
+        freeShippingCart()
     }
 
 
@@ -64,54 +66,94 @@ window.addEventListener('load', function () {
 })
 
 // OPERATIONS CART:
-/*
-version 1
-function findTotal(myCartShop) {
+
+function findTotal() {
     let tot = 0;
     for (const item of myCartShop) {
         tot += parseInt(item.totalSum);
     }
     console.log(tot);
-    document.getElementById('totalPay').innerHTML = tot;
+    document.getElementById('totalPay').innerHTML = String(tot);
 }
-*/
 
 // add how many cd we add to the cart:
-function findTotalCD(myCartShop){
+function findTotalCD(){
     let totCD = 0;
     for (const item of myCartShop) {
         totCD += item.quantity;
     }
-    console.log(totCD);
-    document.getElementById('totalCds').innerHTML = totCD ;
+    document.getElementById("totalCds").innerHTML = String(totCD) ;
 }
-// Uppdate information on cart with quantity:
-
-/*function updateTotalPriceSelector(myCartShop) {
-    let ValueAllCd = 0
-    for (const item of myCartShop) {
-        if (item.totalSum) {
-            ValueAllCd += 1
-        }
-    }*/
-
-
-// Uppdate information on cart with cd:
-
 
 // message of free Shipping price:
 function freeShippingCart() {
-    let freeShipping = ''
-    let limitFreeShip = 256
-    if (limitFreeShip => 256) {
-        freeShipping = 'uff just in the gap to free freight!'
-    } else if (limitFreeShip > 256) {
-        freeShipping = 'Congratulation! You are entitled to free freight!'
+    let limitFreeShip = 256 - totalSumCart;
+    let freeShippingText = '';
+    if (limitFreeShip <= 0) {
+        freeShippingText = 'Congratulation! You are entitled to free freight!'
     } else {
-        freeShipping = 'Need to buy more items cd to free freight!'
+        freeShippingText = "Need to buy" + limitFreeShip + "kr more items cd to free freight!"
+    }
+    document.getElementById("freeShipmt").innerHTML = freeShippingText
+}
+
+// information on cart with quantity:
+function updateAlbumInCartWithNewValue(cd, newValue) {
+    let totalSumOfAlbum = 0
+    for (const item of myCartShop) {
+        if (item.tag === cd) {
+            item.quantity = newValue
+            item.totalSum = item.price * item.quantity;
+            totalSumOfAlbum =  item.totalSum ;
+        }
+    }
+    return totalSumOfAlbum
+}
+
+
+// update information
+function addMore(cd) {
+    let newValue = document.getElementById("inputQty" + cd).value;
+    if (parseInt(newValue) <= 0) {
+        for (let i = 0; i < myCartShop.length; i++) {
+            if (myCartShop[i].tag === cd) {
+                myCartShop.splice(i, 1);
+                document.getElementById("cardCDInfo" + cd).remove()
+            }
+        }
+    }
+    else {
+        let totalSum = updateAlbumInCartWithNewValue(cd, newValue)
+        if(!!totalSum) {
+            document.getElementById("totalPay" + cd).innerText = "Total: " + totalSum + ":-";
+        }
+    }
+    findTotal()
+    freeShippingCart()
+    findTotalCD()
+}
+
+
+/*
+// READ INPUT
+function readInput(cd ) {
+    for (const item of myCartShop) {
+        item.quantity = Number(document.getElementById("inputQty-${ cd.tag }").value)
+        if (item.tag === cd) &&& (item.quantity < 1) {
+            document.getElementById("${ cd.tag }").style.display = 'none'
+        } else {
+            document.getElementById("${ cd.tag }").style.display = 'block'
+        }
+        let sum = item.quantity * item.price;
+
+        document.getElementById('subPriceCart').innerText = String(sum);
     }
 }
+*/
+
+
 // Delete information from cart:
+/*
 
 function removeShoppingCartItem(cd) {
     const buttonClicked = cd.tag;
@@ -119,6 +161,13 @@ function removeShoppingCartItem(cd) {
     updateDropdownContent (cd);
 }
 document.getElementById('removeCDCart').addEventListener("click", removeShoppingCartItem )
+*/
 
-
-
+//  information on cart with cd:
+/*function updateTotalPriceSelector(myCartShop) {
+    let ValueAllCd = 0
+    for (const item of myCartShop) {
+        if (item.totalSum) {
+            ValueAllCd += 1
+        }
+    }*/

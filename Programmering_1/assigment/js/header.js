@@ -32,7 +32,7 @@ function createContentHeader() {
                     TOTAL SUM(<span id="totalCds">0</span><span> CD's</span>) 
                     <span id="totalPay"></span><span> SEK</span>
                   </p>
-                  <p id="freeShipmt">text</p>
+                  <p id="freeShipmt">You need to buy 256 Kr to Free fright!</p>
                 </article>
 
                 <button onclick="closeMenu()">Close</button>

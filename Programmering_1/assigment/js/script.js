@@ -1,5 +1,5 @@
 let myCartShop = []
-let totalSumCart = 0
+let tot = []
 
 function itemAlreadyInCart(cd) {
     for (const item of myCartShop) {
@@ -44,8 +44,14 @@ function addItemToCart(cd) {
     } else {
         if (itemAlreadyInCart(cd)) {
             updateQuantityAndPrice(cd);
+            findTotal();
+            findTotalCD();
+            freeShippingCart();
         } else {
             insertItemToCart(cd);
+            findTotal();
+            findTotalCD();
+            freeShippingCart();
         }
     }
 
@@ -72,7 +78,7 @@ function findTotal() {
     for (const item of myCartShop) {
         tot += parseInt(item.totalSum);
     }
-    console.log(tot);
+
     document.getElementById('totalPay').innerHTML = String(tot);
 }
 
@@ -87,12 +93,12 @@ function findTotalCD(){
 
 // message of free Shipping price:
 function freeShippingCart() {
-    let limitFreeShip = 256 - totalSumCart;
+    let limitFreeShip = 256 - document.getElementById('totalPay').innerHTML
     let freeShippingText = '';
     if (limitFreeShip <= 0) {
         freeShippingText = 'Congratulation! You are entitled to free freight!'
     } else {
-        freeShippingText = "Need to buy" + limitFreeShip + "kr more items cd to free freight!"
+        freeShippingText = "Need to buy " + limitFreeShip + " kr more items cd to free freight!"
     }
     document.getElementById("freeShipmt").innerHTML = freeShippingText
 }

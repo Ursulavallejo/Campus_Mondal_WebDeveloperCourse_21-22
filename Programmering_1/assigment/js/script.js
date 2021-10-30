@@ -38,15 +38,15 @@ function cartIsEmpty() {
 function addItemToCart(cd) {
     if (cartIsEmpty()) {
         insertItemToCart(cd);
+        findTotal();
+        findTotalCD();
+        freeShippingCart();
     } else {
         if (itemAlreadyInCart(cd)) {
             updateQuantityAndPrice(cd);
         } else {
             insertItemToCart(cd);
         }
-        findTotal()
-        findTotalCD()
-        freeShippingCart()
     }
 
 

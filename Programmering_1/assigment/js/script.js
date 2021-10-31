@@ -105,13 +105,14 @@ function freeShippingCart() {
 
 // information on cart with quantity:
 function updateAlbumInCartWithNewValue(cd, newValue) {
+   console.log(cd, newValue)
     let totalSumOfAlbum = 0
     for (const item of myCartShop) {
         if (item.tag === cd) {
             item.quantity = newValue
             item.totalSum = item.price * item.quantity;
-            totalSumOfAlbum =  item.totalSum ;
         }
+        totalSumOfAlbum +=  item.totalSum ;
     }
     return totalSumOfAlbum
 }
@@ -119,8 +120,8 @@ function updateAlbumInCartWithNewValue(cd, newValue) {
 
 // update information with the input
 function addMore(cd) {
-    console.log(document.getElementById("inputQty-"))
-    let newValue = document.getElementById("inputQty-").value;
+    console.log("inputQty-" + cd)
+    let newValue = document.getElementById("inputQty-"+ cd).value;
     if (parseInt(newValue) <= 0) {
         for (let i = 0; i < myCartShop.length; i++) {
             if (myCartShop[i].tag === cd) {

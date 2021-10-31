@@ -47,7 +47,7 @@ function checkNumberItem (cd){
         if (numberItem <= 0) {
             document.getElementById('${ cd.tag').remove();
         }
-        updateDropdownContent (elementId)
+        updateDropdownContent ()
     }
 }
 

@@ -13,7 +13,7 @@ function createContentHeader() {
           </div>
           <div class="dropdown">
             <div class="checkOut">
-              <img src="img/shoppingCart.png" alt="cartBuy" />
+              <img src="img/shoppingCart.png" alt="cartBuy" onclick="openMenu()" />
               <button class="checkoutDropdownButton" onclick="openMenu()">
                 Checkout
               </button>

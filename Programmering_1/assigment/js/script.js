@@ -57,7 +57,7 @@ function addItemToCart(cd) {
 
 
 }
-// Button
+// Button to buy
 function addButtonEventListeners(elementId) {
    document.getElementById("button-" + elementId)
        .addEventListener('click', function () {
@@ -119,19 +119,20 @@ function updateAlbumInCartWithNewValue(cd, newValue) {
 
 // update information with the input
 function addMore(cd) {
-    let newValue = document.getElementById("inputQty" + cd).value;
+    console.log(document.getElementById("inputQty-"))
+    let newValue = document.getElementById("inputQty-").value;
     if (parseInt(newValue) <= 0) {
         for (let i = 0; i < myCartShop.length; i++) {
             if (myCartShop[i].tag === cd) {
                 myCartShop.splice(i, 1);
-                document.getElementById("cardCDInfo" + cd).remove()
+                document.getElementById("cardCDInfo").remove()
             }
         }
     }
     else {
         let totalSum = updateAlbumInCartWithNewValue(cd, newValue)
         if(!!totalSum) {
-            document.getElementById("totalPay" + cd).innerText = "Total: " + totalSum + ":-";
+            document.getElementById("totalPay" ).innerText = "Total: " + totalSum + ":-";
         }
     }
     findTotal()

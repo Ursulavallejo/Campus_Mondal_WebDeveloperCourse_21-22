@@ -23,7 +23,7 @@ return `
         <p>Price: <span id="price-${ cd.tag }">${cd.price}</span> Kr </p>
         <input id="inputQty-${ cd.tag }" type="number" name="amount" value="${cd.quantity}"  onchange="addMore(${ cd.tag })"/>
          <p id="subPriceCart"><span>${cd.totalSum}</span> Kr</p>
-        <button id="removeCDCart" type="button" >X</button>
+        <button id="removeCDCart" type="button" onclick="checkNumberItem( )">X</button>
     </article>  
 `
 }
@@ -41,6 +41,15 @@ showCartAlbums += templateSingleCartItemToDropdown(item)
 updateElementIdHtml('cartProducts', showCartAlbums)
 }
 
+function checkNumberItem (cd){
+    let numberItem =  document.getElementById('inputQty-${ cd.tag }').value
+    for (const item of myCartShop) {
+        if (numberItem <= 0) {
+            document.getElementById('${ cd.tag').remove();
+        }
+        updateDropdownContent (elementId)
+    }
+}
 
 
 

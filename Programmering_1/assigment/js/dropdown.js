@@ -1,20 +1,21 @@
+
 function openMenu() {
-    document.getElementById('dropdown')
-        .classList.toggle('show')
+// opens dropdown Menu
+    document.getElementById('dropdown').classList.toggle('show')
 
 }
 
 function closeMenu() {
-    document.getElementById('dropdown')
-        .classList.remove('show')
+// closes dropdown Menu
+    document.getElementById('dropdown').classList.remove('show')
 }
-function toCheckout(){
+function toCheckout() {
+//Shows check out Message
     alert ('Thank you for visiting us!! At the moment we cant offer to buy any product!')
 }
 
-// PRINT/INFO CART:
 // function that writes html template with dynamic data
-function templateSingleCartItemToDropdown(cd){
+function templateSingleCartItemToDropdown(cd) {
 return `
      <article class="cardCDInfoCart" id="${ cd.tag }">
         <img  id="img-${ cd.tag }" class="coverCD" src="${cd.img}" alt="${cd.artist} - ${cd.album}" />
@@ -27,28 +28,25 @@ return `
     </article>  
 `
 }
-// includes html to the kundkorg
-// function that reads data from source and calls template function with this data
-// this function is being called from script.js, with the updated array myCartShop
 
-
-function updateDropdownContent (elementId){
+function updateDropdownContent(elementId) {
+// updates dropdown when array changes
        let showCartAlbums = [];
        for (const item of myCartShop){
             showCartAlbums += templateSingleCartItemToDropdown(item)
-}
-updateElementIdHtml('cartProducts', showCartAlbums)
+      }
+      updateElementIdHtml('cartProducts', showCartAlbums)
 }
 
-function checkNumberItem (cd){
+function checkNumberItem(cd) {
+// if input is 0, removes item from array
     let val = document.getElementById("inputQty-"+ cd).value
     let numberItem = parseInt(val)
-    for (const item of myCartShop) {
-        if (numberItem <= 0) {
-            removeItemFromArray (cd)
-        }
+    if (numberItem <= 0){
+        removeItemFromArray (cd)
     }
 }
+
 
 
 

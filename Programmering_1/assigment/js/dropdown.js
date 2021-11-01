@@ -23,7 +23,7 @@ return `
         <p>Price: <span id="price-${ cd.tag }">${cd.price}</span> Kr </p>
         <input id="inputQty-${ cd.tag }" type="number" name="amount" value="${cd.quantity}"  onchange="addMore('${ cd.tag }')"/>
          <p id="subPriceCart"><span>${cd.totalSum}</span> Kr</p>
-        <button id="removeCDCart" type="button" onclick="checkNumberItem('${ cd.tag }')">X</button>
+        <button id="removeCDCart" type="button" onclick="removeItemFromArray ('${ cd.tag }')">X</button>
     </article>  
 `
 }
@@ -33,22 +33,20 @@ return `
 
 
 function updateDropdownContent (elementId){
-let showCartAlbums = [];
-for (const item of myCartShop){
-showCartAlbums += templateSingleCartItemToDropdown(item)
-
+       let showCartAlbums = [];
+       for (const item of myCartShop){
+            showCartAlbums += templateSingleCartItemToDropdown(item)
 }
 updateElementIdHtml('cartProducts', showCartAlbums)
 }
 
 function checkNumberItem (cd){
-    let numberItem =  document.getElementById('inputQty-' + cd).value
+    let val = document.getElementById("inputQty-"+ cd).value
+    let numberItem = parseInt(val)
     for (const item of myCartShop) {
         if (numberItem <= 0) {
-            //Eliminar el item de mycartshop
-            document.getElementById(cd).remove();
+            removeItemFromArray (cd)
         }
-        updateDropdownContent ()
     }
 }
 

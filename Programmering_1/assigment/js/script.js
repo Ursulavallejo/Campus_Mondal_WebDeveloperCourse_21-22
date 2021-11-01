@@ -121,14 +121,10 @@ function updateAlbumInCartWithNewValue(cd, newValue) {
 // update information with the input
 function addMore(cd) {
     console.log("inputQty-" + cd)
-    let newValue = document.getElementById("inputQty-"+ cd).value;
+    let val = document.getElementById("inputQty-"+ cd).value
+    let newValue = parseInt(val)
     if (parseInt(newValue) <= 0) {
-        for (let i = 0; i < myCartShop.length; i++) {
-            if (myCartShop[i].tag === cd) {
-                myCartShop.splice(i, 1);
-                document.getElementById("cardCDInfo").remove()
-            }
-        }
+        checkNumberItem (cd)
     }
     else {
         let totalSum = updateAlbumInCartWithNewValue(cd, newValue)
@@ -141,6 +137,17 @@ function addMore(cd) {
     findTotalCD()
 }
 
+function removeItemFromArray (cd){
+    for (let i = 0; i < myCartShop.length; i++) {
+        if (myCartShop[i].tag === cd) {
+            myCartShop.splice(i, 1);
+            updateDropdownContent (cd)
+        }
+    }
+    findTotal()
+    freeShippingCart()
+    findTotalCD()
+}
 
 /*
 // READ INPUT   what the teacher explained in class but some conexion is not working as mine is dinamic he did it for one

@@ -20,14 +20,24 @@
     color: white;
     background-color: red;
     padding: 1em 3em;
-    margin-left: 3em;
+    margin-left: 8em;
     cursor: pointer;
+
 }
 
 .grid-container-ShopCart img {
     width: 100px;
 }
+.grid-container-ShopCart input {
+    margin-top: 1em;
+    height: 1.5em;
+}
 
+.grid-container-ShopCart #removeCDCart {
+    margin-top: 1em;
+    height: 2em;
+    margin-left: 0;
+}
 .cardCDInfoCart {
     font-size: small;
     /*display: grid;
@@ -37,11 +47,8 @@
     grid-gap: 1em;
 }
 
-input .cardCDInfoCart {
-    padding: 1em;
-}
-
 #removeCDCart {
     padding: 0.5em;
     cursor: pointer;
 }
+

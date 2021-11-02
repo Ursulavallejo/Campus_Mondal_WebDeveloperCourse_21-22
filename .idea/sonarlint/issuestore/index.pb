@@ -51,3 +51,17 @@ g
 7Webbutveckling_1/new_version_assigment/css/styleAll.css,c\8\c8778a6823d1308719008d6efa840c1e2b575759
 W
 'Programmering_1/assigment/css/style.css,5\1\517e7783319510796de65d0cdd26608188a0afbc
+V
+&Programmering_1/assigment/js/navbar.js,d\a\da678f10493a45f728fecd37bd7ac9a8a63f9986
+V
+&Programmering_1/assigment/css/card.css,0\6\06c6e057acf32177095b4a00eda5e8968d72fc06
+S
+#Programmering_1/assigment/README.md,7\f\7f2d0af6047c174b0933c92ceb74eb431ca275c8
+\
+,Programmering_1/assigment/js/dataProducts.js,6\3\632cc7e4004fbfae09793b6dd0398ee919f3e6a2
+c
+3Programmering_1/draftAssigment/js/mathOperations.js,2\f\2f35f3b16074dca487673c60baa8754d994e4121
+X
+(Programmering_1/assigment/css/header.css,b\e\bec12d3ed7e4f1296aeb529ab7a8f27b8f847726
+X
+(Programmering_1/assigment/js/toDelete.js,0\9\09bcfb522c61b2b457334d0ead676150c55920f1

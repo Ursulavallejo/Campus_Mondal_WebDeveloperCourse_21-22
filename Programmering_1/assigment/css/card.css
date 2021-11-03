@@ -13,8 +13,8 @@ padding: 1em;
 img .cardCDInfo  {
     width: 290px;
     margin: 5px;
-
 }
+
 .CardProducts-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

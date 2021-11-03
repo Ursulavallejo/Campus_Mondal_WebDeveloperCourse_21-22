@@ -2,7 +2,6 @@
 .dropdown {
     position: relative;
     display: inline-block;
-
 }
 
 .dropdown-content {
@@ -15,8 +14,6 @@
     z-index: 1;
     border-radius: 15px;
     right: 0;
-
-
 }
 
 .dropdown-content h2 {

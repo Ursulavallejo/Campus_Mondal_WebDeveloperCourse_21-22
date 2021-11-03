@@ -20,12 +20,12 @@ function createContentHeader() {
             </div>
             <div id="dropdown" class="dropdown-content">
               <h2>Your Cart</h2>
-              <hr />
+              <hr/>
 
               <section class="grid-container-ShopCart">
               
                 <article id="cartProducts" class="grid-item1 area-item2">
-                  Information Articles to buy
+                 <p>No Articles add it to the cart</p> 
                 </article>
                 <article class="grid-item1 area-item3">
                   <p>

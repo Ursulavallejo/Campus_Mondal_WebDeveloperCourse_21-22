@@ -196,9 +196,73 @@ img: "brandtBF.jpg",
 
 - ## Svårigheter och hur de löstes:
 
-1. Como anadir los items de la pagina principal al carrito?
+1. Min första svårighet var att fråga mig själv Hur lägger jag till föremålen på huvudsidan i kundvagnen.
 
-2. function pay / convert elements of an array into a string: w3 schools (let energy= fruits.join())
+Att skriva ut varukorgen i html jag hade tittat på denna renderingsfunktion men hur jag höjde den i klassen var tydligare för mig så jag valde att ändra den till den form den implementerades i klassen.
+
+
+```
+function render() {
+const html = products.map(({ id, artist, album, genre, releaseDate, price, img }) =>
+template(id, artist, album, genre, releaseDate, price, img)
+);
+listProducts.innerHTML = html.join("\n");
+}
+```
+
+
+I ett första försök använde jag en frågeväljare på köpknappen men senare i klassen har vi sett hur man skapar den här funktionen på ett annat sätt, så jag bestämde mig för att sättet som togs upp i klassen var tydligare, så jag omprövade igen allt jag hade gjort med querryselector och bättre använda id.
+
+2. En aspekt som är svår för mig att förstå är hur informationen kommer från array och att ha tillgång till den för att kunna använda den. Till exempel, när jag försökte komma åt priset för att beräkna det totala värdet, fick jag ett NAN. Jag började forska och stötte på begreppet rejex som tillämpas i olika sammanhang men jag var intresserad av att ge mig numeriskt värde. I första hand implementerade jag det i projektet, men när jag diskuterade det med min lärare föreslog han att jag inte längre skulle använda vissa funktioner, varför jag tog upp det igen och tittade noga på vilken typ av information jag hade med hjälp av typen av och tillämpa det vi såg i klassen.
+
+
+Informationen jag hittade om hur du ändrar informationen ger mig en matris var följande:
+
+https://www.codegrepper.com/code-examples/javascript/.match+rejex+js
+
+convert elements of an array into a string:
+(let energy= fruits.join())
+
+https://www.w3schools.com/jsref/jsref_join.asp
+
+3. En annan punkt där jag har haft ganska svårt var när jag försökte beräkna i vagnen kvantiteterna av produkterna och summorna. För att beräkna kvantiteterna hittade jag det i en foruminformation men bestämde mig för att inte använda den eftersom den läser data från hmtl och inte i matrisen så jag anser inte att det är det mest optimala. Använd den inledningsvis men efter gjorde med information min lärare ge till mig och vad såg i projekten an ändra kompisar.
+
+
+Källan där jag hittar den:
+
+   https://stackoverflow.com/questions/13540751/how-get-total-sum-from-input-box-values-using-javascript
+
+```
+Qty1 : <input onblur="findTotal()" type="text" name="qty" id="qty1"/><br>
+Qty2 : <input onblur="findTotal()" type="text" name="qty" id="qty2"/><br>
+Qty3 : <input onblur="findTotal()" type="text" name="qty" id="qty3"/><br>
+Qty4 : <input onblur="findTotal()" type="text" name="qty" id="qty4"/><br>
+Qty5 : <input onblur="findTotal()" type="text" name="qty" id="qty5"/><br>
+Qty6 : <input onblur="findTotal()" type="text" name="qty" id="qty6"/><br>
+Qty7 : <input onblur="findTotal()" type="text" name="qty" id="qty7"/><br>
+Qty8 : <input onblur="findTotal()" type="text" name="qty" id="qty8"/><br>
+<br><br>
+Total : <input type="text" name="total" id="total"/>
+
+
+    <script type="text/javascript">
+function findTotal(){
+var arr = document.getElementsByName('qty');
+var tot=0;
+for(var i=0;i<arr.length;i++){
+if(parseInt(arr[i].value))
+tot += parseInt(arr[i].value);
+}
+document.getElementById('total').value = tot;
+}
+
+    </script>
+```
+
+4. En aspekt som jag har kunnat förstå är hur man uppdaterar innehållet i funktionerna, skillnader mellan matrisens information och den som läses från hml. Jag tror att övningen har varit användbar för att försöka identifiera de punkter där man måste arbeta mer för att förstå dem och för att ha tydligare begrepp som används i javascript.
+
+5. Efter att ha föreslagit användningen av dynamisk template kostade det mig mycket till en början att förstå hur informationen om variablerna var relaterad i artiklarna. Att titta på klassvideon där det förklarades hur en del av projektet gjordes hjälpte mig att klargöra det bättre.
+
 
 ## Steg 4: konklusionen
 
@@ -206,7 +270,7 @@ En av de aspekter där jag har haft svårare inom projektet är att kunna göra 
 Jag anser att det är så att det kanske är en svår övning att föreslå för det projekt vi har för närvarande, som jag ägnar många timmar åt och forskning för att kunna lösa det.
 När jag genomför projektet har jag kunnat förstå lite bättre hur funktionerna är byggda och vikten av att se vilken information som skickas till den funktionen med hjälp av till exempel console.log. Uppdelningen i små delar för att kontrollera dem och därmed kunna lägga till dem för att bygga projektet i delar.
 
-Jag tycker javascript är väldigt intressant och när du äntligen får det att fungera vad du lägger i det ger personlig tillfredsställelse. Jag anser fortfarande att jag saknar en lång väg att få autonomi när jag löser ett javascript-projekt som jag inteto varje dag för att kunna göra lite träning eller läsa information om detta ämne.
+Jag tycker javascript är väldigt intressant och när du äntligen får det att fungera vad du lägger i det ger personlig tillfredsställelse. Jag anser fortfarande att jag saknar en lång väg att få autonomi när jag löser ett javascript-projekt som jag försök varje dag för att kunna göra lite träning eller läsa information om detta ämne.
 
 ## Steg 5: övriga
 
@@ -218,6 +282,10 @@ https://www.youtube.com/watch?v=B20Getj_Zk4
 https://www.youtube.com/watch?v=tEAl7L62GEw
 
 https://www.youtube.com/watch?v=dSbWJAXQ7cA&t=606s
+
+Dessa videor var intressanta att titta på men vid många tillfällen kunde jag inte använda dem som en guide att implementera eftersom vissa använder bakgrundsminnet eller json eller någon bokhandlare som inte hade någon plats i klassprojektet men att se hur funktionerna interagerade hjälpte mig att kunna klargöra det i mitt projekt.
+
+
 ## 3. Uppgifter Info
 
 ### Frågeställningen

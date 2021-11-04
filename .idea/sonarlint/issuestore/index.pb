@@ -29,12 +29,6 @@ a
 1Webbutveckling_1/new_version_assigment/blogg.html,8\4\84c040c2b59761f68e294ed942c606d097495b15
 d
 4Webbutveckling_1/new_version_assigment/products.html,d\4\d471791b704a24aa852479294f8444fe5c9bcd67
-]
--Programmering_1/draftAssigment/js/dropmenu.js,9\b\9b0f32104c19bebbfca6556308a127e7c686a5b6
-_
-/Programmering_1/draftAssigment/js/testScript.js,c\e\ce1e99b4882892ab8e9110b65cf1bd675d8333f7
-[
-+Programmering_1/draftAssigment/js/script.js,7\8\78cdde9e017a4b0504d18f2de5a78b3e8c5e547b
 _
 /Programmering_1/draftAssigment/css/products.css,4\e\4e68945f589cf41bc64861a9469c2064cbf19f01
 X
@@ -43,7 +37,3 @@ _
 /Programmering_1/draftAssigment/indexprueba.html,b\f\bffb0c49ca2e066e3082ff087eb0ecdc3d4571ab
 g
 7Webbutveckling_1/new_version_assigment/css/styleAll.css,c\8\c8778a6823d1308719008d6efa840c1e2b575759
-c
-3Programmering_1/draftAssigment/js/mathOperations.js,2\f\2f35f3b16074dca487673c60baa8754d994e4121
-X
-(Programmering_1/assigment/js/toDelete.js,0\9\09bcfb522c61b2b457334d0ead676150c55920f1

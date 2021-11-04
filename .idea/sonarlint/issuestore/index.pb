@@ -49,5 +49,3 @@ c
 3Programmering_1/draftAssigment/js/mathOperations.js,2\f\2f35f3b16074dca487673c60baa8754d994e4121
 [
 +Programmering_1/draftAssigment/js/script.js,7\8\78cdde9e017a4b0504d18f2de5a78b3e8c5e547b
-T
-$Programmering_1/assigment/index.html,6\e\6efbcec081bb07e5c09625e4e73512c8c1cf2755

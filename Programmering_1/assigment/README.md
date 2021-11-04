@@ -211,7 +211,7 @@ listProducts.innerHTML = html.join("\n");
 ```
 
 
-I ett första försök använde jag en frågeväljare på köpknappen men senare i klassen har vi sett hur man skapar den här funktionen på ett annat sätt, så jag bestämde mig för att sättet som togs upp i klassen var tydligare, så jag omprövade igen allt jag hade gjort med querryselector och bättre använda id.
+I ett första försök använde jag en frågeväljare på köpknappen men senare i klassen har vi sett hur man skapar den här funktionen på ett annat sätt, så jag bestämde mig för att sättet som togs upp i klassen var tydligare, så jag omprövade igen allt jag hade gjort med querry selector och bättre använda id.
 
 2. En aspekt som är svår för mig att förstå är hur informationen kommer från array och att ha tillgång till den för att kunna använda den. Till exempel, när jag försökte komma åt priset för att beräkna det totala värdet, fick jag ett NAN. Jag började forska och stötte på begreppet rejex som tillämpas i olika sammanhang men jag var intresserad av att ge mig numeriskt värde. I första hand implementerade jag det i projektet, men när jag diskuterade det med min lärare föreslog han att jag inte längre skulle använda vissa funktioner, varför jag tog upp det igen och tittade noga på vilken typ av information jag hade med hjälp av typen av och tillämpa det vi såg i klassen.
 

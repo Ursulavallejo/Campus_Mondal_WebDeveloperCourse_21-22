@@ -225,7 +225,7 @@ convert elements of an array into a string:
 
 https://www.w3schools.com/jsref/jsref_join.asp
 
-3. En annan punkt där jag har haft ganska svårt var när jag försökte beräkna i vagnen kvantiteterna av produkterna och summorna. För att beräkna kvantiteterna hittade jag det i en foruminformation men bestämde mig för att inte använda den eftersom den läser data från hmtl och inte i matrisen så jag anser inte att det är det mest optimala. Använd den inledningsvis men efter gjorde med information min lärare ge till mig och vad såg i projekten an ändra kompisar.
+3. En annan punkt där jag har haft ganska svårt var när jag försökte beräkna i vagnen kvantiteterna av produkterna och summorna. För att beräkna kvantiteterna hittade jag det i en foruminformation men bestämde mig för att inte använda den eftersom den läser data från HTML och inte i matrisen så jag anser inte att det är det mest optimala. Använd den inledningsvis men efter gjorde med information min lärare ge till mig och vad såg i projekten an ändra kompisar.
 
 
 Källan där jag hittar den:
@@ -276,10 +276,17 @@ Jag tycker javascript är väldigt intressant och när du äntligen får det att
 
 För att kunna lösa projektet och se hur andra föreslog det använde jag youtube som informationskälla och jag såg följande videor för att se om jag klargjorde hur man löser det:
 
+*Modellera din webbutik med HTML, CSS och JavascriptModellera din webbutik med HTML, CSS och Javascript: 
+
 https://www.youtube.com/watch?v=yASvgVh8p5A
+
+*JavaScript Shopping Cart Tutorial - Part 1/5:
 
 https://www.youtube.com/watch?v=B20Getj_Zk4
 https://www.youtube.com/watch?v=tEAl7L62GEw
+
+
+javascript-köp (gratis projektnedladdning):
 
 https://www.youtube.com/watch?v=dSbWJAXQ7cA&t=606s
 

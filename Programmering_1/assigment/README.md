@@ -8,8 +8,8 @@
     - [Steg 1: HTML](#steg-1-html)
     - [Steg 2: CSS](#steg-2-css)
     - [Steg 3: JS](#steg-3-js)
-    - [Steg 4: konklusionen](#steg-5-konklusionen)
-    - [Steg 5: övriga](#steg-6-vriga)
+    - [Steg 4: konklusionen](#steg-4-konklusionen)
+    - [Steg 5: övriga](#steg-5-vriga)
   
 - [3.Uppgifter Info](#3-uppgifter-info)
 
@@ -98,7 +98,7 @@ Nedan finns 3 avsnitt ett för html, ett annat för css och slutligen för JS d�
 
 Detta är de steg som jag har följt när det gäller HTML för utvecklingen av detta projekt som jag också inkluderar om jag har haft några svårigheter och hur jag har löst det.
 
-1. Söka efter 8 bilder, Storelogo och information för  musikbutiksprodukter för att kunna koppla dem till projektet.
+1. Söka efter 8 bilder, Store logo och information för  musikbutiksprodukter för att kunna koppla dem till projektet.
   ```<img>```
    * lösning av problemet: 
    
@@ -118,43 +118,83 @@ Detta är de steg som jag har följt när det gäller HTML för utvecklingen av 
     ```html <main> / <section> / <article>```
 
 ## Steg 2: CSS
-difficultad al poner el carrito y centrar el head
-- logo css?
-- centrar head con main. opte por hacer un marco externo para centrat todo. tomado del libro pg 325 (trabajar con boxes)
-- item (cd) con un flexbox
-- cada item en un span para incluir toda la informacion de cada articulo separada.
 
+1.I projektet försökte jag använda istället för bilden av varukorgen en ikon för detta men jag fann att för detta i många var jag tvungen att installera ett bibliotek som inte kunde göras i projektet. Hitta intressant information som hur du använder ions icons och google fonts.
 
---add google fonts: import link and copy and paste it on the head as link ref:
-https://fonts.google.com/
-
--ion icons : usage (copy script) and add it to `<script src>`
-the other link find installation (copy it) and add it to the head <link href:' '  rel:'stylesheet'>
-before the style.css
+Äntligen bestämde jag mig för att använda bilden i png modifierad med en transparent bakgrund för att inte använda bibliotek eller externa länkar.
 
 https://ionic.io/ionicons
+```ion icons : usage (copy script) and add it to `<script src>`
+the other link find installation (copy it) and add it to the head <link href:' '  rel:'stylesheet'>
+before the style.css```
 
+https://fonts.google.com/
+
+2.För layouten ville jag att innehållet på sidan (head och main) skulle centreras och inkluderas i en ram för att markera och centrera innehållet.  I det här steget hade jag svårt att göra det så jag valde att skapa en extern ram där jag kunde fokusera allt. Idé är hämtad från boken HTML & CSS av Jon Duckett; Sida35 (arbetar med lådor).
+http://www.htmlandcssbook.com/
+
+3. För distribution av artikel-CD på webben väljer du en flexbox i drop menu och i huvudet ett grid.
+
+4. Inom projektet försöka ändra storleken på pilarna för indata finns det i kundvagnen som jag inte kunde lösa eftersom svaret som hittades var mycket komplext för den information vi för närvarande har. Jag tycker att de är mycket små och det är dags att vara försiktig med att lägga till eller ta bort produkter i inmatningen.
+
+```
+The native input[type=number] controls are not style-able cross-browser. The easiest and safest way to achieve what you want cross-browser/cross-device is to hide them using:
+
+input[type="number"] {
+-webkit-appearance: textfield;
+-moz-appearance: textfield;
+appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+}
+...which allows you to use your custom buttons, which could be linked to execute the functions the spinners (arrows) would (.stepUp() and .stepDown()), provided you keep the input's type="number".
+```
+https://stackoverflow.com/questions/45396280/customizing-increment-arrows-on-input-of-type-number-using-css
 
 ## Steg 3: JS
 
-Escribir funciones??
-      * Det första den genererar var dropdownmenu för att kunna organisera innehållet i kundvagnen.
--crear un diagrama para entender las funciones deben existir en la pagina.
+- Det första den genererar var dropdown menu för att kunna organisera innehållet i kundvagnen.
 
--
-- ## orden de funciones que encontre en mi diagrama:
-1.function that add the item we see on the page to the cart. Related with Button Buy.
+-Skapa ett diagram för att förstå funktionerna måste finnas på sidan som du kan se i början som functions map of teh project.
 
-2. function related with button checkout that open the menu.
-3. function related with the button on the cart to close the dropdownmenu.
-4. function alert in the to checkout button on the cart.
-5. function that count the number of products of each item selected  and multiply and give a subtotal item.
-6. function to add all the sum of subtotal
-7.function that count the total of cd were chosen is included in the text after sum:()
-8.function to evaluated free freight and print ut two different scenarios. Print out evaluation.
- 
 
-- ## Dificultades encontradas y como se solucionaron:
+- ## funktioner som jag skapade:
+1. Skapa array inklusive information om item som en objektet för att kunna inkludera alla aspekter som krävs för att det ska fungera i projektet.
+Objektet i array var sammansatt så här:
+```
+{
+artist: "Brandt Brauer Frick",
+album: "Echo",
+tag: "cd1",
+price: 190,
+img: "brandtBF.jpg",
+},
+```
+2. Funktion öppna Dropdown.
+3. Funktion stäng dropdown.
+4. Funktion template products HTML. (dynamik).
+5. Funktion mall produkt till varukorg checka ut (dynamik).
+6. Funktion för att uppdatera element-ID på HTML.
+7. Funktion för att uppdatera innehåll i kortet.
+8. Funktion för att uppdatera information på rullgardinsmenyn : uppdaterar listrutan när matrisen ändras.
+9. Funktion för att uppdatera innehåll html.
+10.Funktion för att kontrollera antalet cd-skivor på varukorgen checka ut.
+10. Funktion till kassan checkout: Visar utcheckningsmeddelande med avisering.
+11. event listeners av button buy.
+12. Funktion för att lägga till artikeln i varukorgen checka ut och uppdateras.
+13. Funktion för att berätta vad som händer om varukorgen är tom / redan är där för att inte multiplicera.
+14. Funktion för att kontrollera antalet objekt: om indata är 0 kommer objektet att tas bort från matrisen.
+15. Funktion för att hitta total CD.
+16. Funktion för att hitta det totala priset.
+17. Funktion för fri frakt.
+18. Funktion uppdatera kvantitet ett pris.
+19. Funktion för att lägga till mer cd på indata.
+20. Funktion för att ta bort objekt från array.
+
+
+- ## Svårigheter och hur de löstes:
 
 1. Como anadir los items de la pagina principal al carrito?
 
@@ -162,8 +202,16 @@ Escribir funciones??
 
 ## Steg 4: konklusionen
 
+En av de aspekter där jag har haft svårare inom projektet är att kunna göra för att sammanfläta de olika funktionerna.
+Jag anser att det är så att det kanske är en svår övning att föreslå för det projekt vi har för närvarande, som jag ägnar många timmar åt och forskning för att kunna lösa det.
+När jag genomför projektet har jag kunnat förstå lite bättre hur funktionerna är byggda och vikten av att se vilken information som skickas till den funktionen med hjälp av till exempel console.log. Uppdelningen i små delar för att kontrollera dem och därmed kunna lägga till dem för att bygga projektet i delar.
+
+Jag tycker javascript är väldigt intressant och när du äntligen får det att fungera vad du lägger i det ger personlig tillfredsställelse. Jag anser fortfarande att jag saknar en lång väg att få autonomi när jag löser ett javascript-projekt som jag inteto varje dag för att kunna göra lite träning eller läsa information om detta ämne.
+
 ## Steg 5: övriga
-recursos:
+
+För att kunna lösa projektet och se hur andra föreslog det använde jag youtube som informationskälla och jag såg följande videor för att se om jag klargjorde hur man löser det:
+
 https://www.youtube.com/watch?v=yASvgVh8p5A
 
 https://www.youtube.com/watch?v=B20Getj_Zk4

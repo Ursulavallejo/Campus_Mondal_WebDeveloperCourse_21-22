@@ -50,9 +50,6 @@ function checkNumberItem(cd) {
 }
 
 
-// need a function to remove and item from the kundkorg
-
-
 
 
 

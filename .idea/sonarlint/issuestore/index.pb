@@ -37,3 +37,17 @@ _
 /Programmering_1/draftAssigment/indexprueba.html,b\f\bffb0c49ca2e066e3082ff087eb0ecdc3d4571ab
 g
 7Webbutveckling_1/new_version_assigment/css/styleAll.css,c\8\c8778a6823d1308719008d6efa840c1e2b575759
+X
+(Programmering_1/assigment/css/navbar.css,f\2\f2fedb0f05e01c2671fe22e80cdb24c6a3802122
+X
+(Programmering_1/assigment/js/dropdown.js,8\3\8360aa385fe7dab7c3a1c230aae36ae59b9a4a00
+]
+-Programmering_1/draftAssigment/js/dropmenu.js,9\b\9b0f32104c19bebbfca6556308a127e7c686a5b6
+_
+/Programmering_1/draftAssigment/js/testScript.js,c\e\ce1e99b4882892ab8e9110b65cf1bd675d8333f7
+c
+3Programmering_1/draftAssigment/js/mathOperations.js,2\f\2f35f3b16074dca487673c60baa8754d994e4121
+[
++Programmering_1/draftAssigment/js/script.js,7\8\78cdde9e017a4b0504d18f2de5a78b3e8c5e547b
+T
+$Programmering_1/assigment/index.html,6\e\6efbcec081bb07e5c09625e4e73512c8c1cf2755

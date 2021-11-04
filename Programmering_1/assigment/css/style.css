@@ -8,13 +8,13 @@ body {
     background-color: black;
 }
 
-#page{
+#page {
     max-width: 1200px;
     min-width: 720px;
-    margin: 10px auto ;
+    margin: 10px auto;
     padding: 20px;
     background-color: whitesmoke;
-    font-family: Tahoma, Helvetica;
+    font-family: Tahoma, Helvetica, serif;
 }
 
 main {
@@ -23,7 +23,7 @@ main {
     margin: auto;
 }
 
-.introShop p{
+.introShop p {
     text-autospace: initial;
     line-height: 1.7em;
 }

@@ -1,5 +1,5 @@
-function createContentNavBar(){
-    return`
+function createContentNavBar() {
+    return `
 <ul>
     <li class="navbar-item">
         <a class="navbar-link" href="#">New Releases</a>
@@ -23,5 +23,7 @@ function createContentNavBar(){
         <a class="navbar-link" href="#">Contact Us</a>
     </li>
 </ul>
-`}
+`
+}
+
 document.getElementById('navbar').innerHTML = createContentNavBar()

@@ -1,16 +1,10 @@
 .cardCDInfo {
     border: 1px solid black;
     max-width: 250px;
-padding: 1em;
-
-
+    padding: 1em;
 }
-/*!*dont work*!
-.cardCDInfo :hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}*/
 
-img .cardCDInfo  {
+img .cardCDInfo {
     width: 290px;
     margin: 5px;
 }
@@ -30,9 +24,4 @@ img .cardCDInfo  {
     padding: 1em 5.5em;
     cursor: pointer;
     transition-duration: 0.4s;
-}
-/*dont work*/
-.buyButton :hover {
-    background-color: green;
-    color: #212121;
 }

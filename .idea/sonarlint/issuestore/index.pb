@@ -23,8 +23,6 @@ i
 9Webbutveckling_1/new_version_assigment/css/styleAbout.css,b\f\bfe85adb35037686c596dcac5cbda90c9bf7b103
 a
 1Webbutveckling_1/new_version_assigment/about.html,e\f\ef0f5f2356ef0f5e0a857fc9f976f8464ee85139
-`
-0Webbutveckling_1/new_version_assigment/README.md,a\0\a016ff8f826b0d921f307e3ad96becae8c2dfaef
 j
 :Webbutveckling_1/new_version_assigment/css/styleNavBar.css,8\7\87368f770a6bf679a941cce875b28e648b87c0c9
 a
@@ -45,12 +43,6 @@ _
 /Programmering_1/draftAssigment/indexprueba.html,b\f\bffb0c49ca2e066e3082ff087eb0ecdc3d4571ab
 g
 7Webbutveckling_1/new_version_assigment/css/styleAll.css,c\8\c8778a6823d1308719008d6efa840c1e2b575759
-V
-&Programmering_1/assigment/js/navbar.js,d\a\da678f10493a45f728fecd37bd7ac9a8a63f9986
-S
-#Programmering_1/assigment/README.md,7\f\7f2d0af6047c174b0933c92ceb74eb431ca275c8
-\
-,Programmering_1/assigment/js/dataProducts.js,6\3\632cc7e4004fbfae09793b6dd0398ee919f3e6a2
 c
 3Programmering_1/draftAssigment/js/mathOperations.js,2\f\2f35f3b16074dca487673c60baa8754d994e4121
 X

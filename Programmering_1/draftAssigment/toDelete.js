@@ -26,3 +26,7 @@ function removeShoppingCartItem(cd) {
 }
 document.getElementById('removeCDCart').addEventListener("click", removeShoppingCartItem )
 */
+
+/*function updateElementIdText(elementID, text){
+    document.getElementById(elementID).innerText = String(text)
+}*/

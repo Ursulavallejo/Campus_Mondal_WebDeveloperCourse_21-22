@@ -1,5 +1,5 @@
 let myCartShop = []
-/*let tot = []*/
+
 
 function itemAlreadyInCart(cd) {
 // Check if item already exist in array
@@ -10,6 +10,7 @@ function itemAlreadyInCart(cd) {
     }
     return false
 }
+
 function updateQuantityAndPrice(cd) {
 // Update quantity and price of item
     for (const item of myCartShop) {
@@ -23,13 +24,13 @@ function updateQuantityAndPrice(cd) {
 function insertItemToCart(cd) {
 // Inserts a new item into array
     let cdInfo = {
-        img: document.getElementById("img-"+cd).src,
-        artist: document.getElementById("artist-"+cd).innerHTML,
-        album: document.getElementById("album-"+cd).innerHTML,
-        price: document.getElementById("price-"+cd).innerHTML,
+        img: document.getElementById("img-" + cd).src,
+        artist: document.getElementById("artist-" + cd).innerHTML,
+        album: document.getElementById("album-" + cd).innerHTML,
+        price: document.getElementById("price-" + cd).innerHTML,
         tag: cd,
         quantity: 1,
-        totalSum:document.getElementById("price-"+cd).innerHTML
+        totalSum: document.getElementById("price-" + cd).innerHTML
     }
     myCartShop.push(cdInfo);
 }
@@ -57,14 +58,16 @@ function addItemToCart(cd) {
 
 function addButtonEventListeners(elementId) {
 // Button to buy
-   document.getElementById("button-" + elementId)
-       .addEventListener('click', function () {
-            addItemToCart(elementId),updateDropdownContent (elementId)
+    document.getElementById("button-" + elementId)
+        .addEventListener('click', function () {
+            addItemToCart(elementId);
+            updateDropdownContent(elementId)
         });
 }
+
 // add event listeners (always execute)
 window.addEventListener('load', function () {
-    for (const cdArtist of dataProducts ) {
+    for (const cdArtist of dataProducts) {
         addButtonEventListeners(cdArtist.tag)
     }
 })
@@ -85,14 +88,14 @@ function findTotalCD() {
     for (const item of myCartShop) {
         totCD += item.quantity;
     }
-    document.getElementById("totalCds").innerHTML = String(totCD) ;
+    document.getElementById("totalCds").innerHTML = String(totCD);
 }
 
 
 function freeShippingCart() {
 // message of free Shipping price:
-    let limitFreeShip = 256 - document.getElementById('totalPay').innerHTML
-    let freeShippingText = '';
+    let limitFreeShip = 259 - document.getElementById('totalPay').innerHTML
+    let freeShippingText = ''
     if (limitFreeShip <= 0) {
         freeShippingText = 'Congratulation! You are entitled to free freight!'
     } else {
@@ -115,13 +118,12 @@ function updateAlbumInCartWithNewValue(cd, newValue) {
 
 function addMore(cd) {
 // update information when input changes
-    let val = document.getElementById("inputQty-"+ cd).value
+    let val = document.getElementById("inputQty-" + cd).value
     let newValue = parseInt(val)
     if (parseInt(newValue) <= 0) {
-        checkNumberItem (cd)
-    }
-    else {
-      updateAlbumInCartWithNewValue(cd, newValue)
+        checkNumberItem(cd)
+    } else {
+        updateAlbumInCartWithNewValue(cd, newValue)
     }
     findTotal()
     freeShippingCart()
@@ -133,7 +135,7 @@ function removeItemFromArray(cd) {
     for (let i = 0; i < myCartShop.length; i++) {
         if (myCartShop[i].tag === cd) {
             myCartShop.splice(i, 1);
-            updateDropdownContent (cd)
+            updateDropdownContent(cd)
         }
     }
     findTotal()

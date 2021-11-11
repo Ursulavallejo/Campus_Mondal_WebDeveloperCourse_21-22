@@ -9,8 +9,6 @@ i
 9Webbutveckling_1/new_version_assigment/css/styleOther.css,0\5\05efb0c7526b99df93a15a49aa48f1d669749026
 a
 1Webbutveckling_1/new_version_assigment/other.html,3\8\385f7b22c1354acfb82abefd17587b43a463a8ad
-a
-1Webbutveckling_1/new_version_assigment/index.html,4\0\4012684b27341bfd270b72b29a68b10f230a9fc7
 j
 :Webbutveckling_1/new_version_assigment/css/styleFooter.css,2\b\2ba05a23edef2c6b800ba77108e4c5b52abb87ac
 c
@@ -71,9 +69,15 @@ T
 $Programmering_1/assigment/js/card.js,2\4\24dbe960e98df9223027d746a61f129b49694f9f
 \
 ,Programmering_1/assigment/js/dataProducts.js,6\3\632cc7e4004fbfae09793b6dd0398ee919f3e6a2
-T
-$Programmering_1/assigment/index.html,6\e\6efbcec081bb07e5c09625e4e73512c8c1cf2755
 X
 (Programmering_1/assigment/css/navbar.css,f\2\f2fedb0f05e01c2671fe22e80cdb24c6a3802122
+T
+$Programmering_1/assigment/index.html,6\e\6efbcec081bb07e5c09625e4e73512c8c1cf2755
+a
+1Webbutveckling_1/new_version_assigment/index.html,4\0\4012684b27341bfd270b72b29a68b10f230a9fc7
+P
+ Digital skapande_1/css/style.css,a\c\acf9c7355cc20f00866b9526599ed0268b838668
 S
 #Programmering_1/assigment/README.md,7\f\7f2d0af6047c174b0933c92ceb74eb431ca275c8
+M
+Digital skapande_1/index.html,d\8\d85b9312781dc81abba3eccca1d4145e747a567e

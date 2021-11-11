@@ -1,15 +1,16 @@
 ### December 2021
 # Digital Skapande 1
-## Projektuppgift *Ursula Vallejo Janne*
-### Content Innehåller:
 
-- [1. General Projektplan](#1-general-projektplan-)
-- [2. Dokumentation](#2-dokumentation--)
-    - [Steg 1: HTML](#steg-1-html)
-    - [Steg 2: Central Main image ](#steg-2-central-main-image)
-    - [Steg 3: Text Head](#steg-3-text-head)
-    - [Steg 4: Text and sound](#steg-4-text-and-sound)
-    - [Steg 5: Seven narratives related with the story](#steg-5-seven-narratives-related-with-the-story):
+## Project *Ursula Vallejo Janne*
+### Content :
+
+- [1. General Project](#1-general-project-)
+- [2. Documentation](#2-documentation--)
+    - [Step 1: HTML](#step-1-html)
+    - [Step 2: Central Main image ](#step-2-central-main-image)
+    - [Step 3: Text Head](#step-3-text-head)
+    - [Step 4: Text and sound](#step-4-text-and-sound)
+    - [Step 5: Seven narratives related with the story](#step-5-seven-narratives-related-with-the-story):
         - [1. Sensitive to sound ](#1-sensitive-to-sound)
         - [2. Sensitive to smell ](#2-sensitive-to-smell)
         - [3. Toys in order ](#3-toys-in-order)
@@ -19,16 +20,18 @@
         - [ 7. Different interest](#7-different-interest--math-dinosaurier-solar-system-natur-and-minekraft)
 - [3.Uppgifter Info](#3-uppgifter-info)
 
-# 1. General Projektplan :
+# 1. General Project :
 
 For develop the project I used the waterfall method for clear up the general idea and be able to develop a diagram for what will be included on the project and how I plan to develop it.
 
 ### Metoder för utveckla projektet:
 
 ![](img/waterfallmetod.png)
+
 ### Phase 1: Planning
-On the first phase of the project have tried to do an analysis of what are the requirements for a digital project. The different options to develop a project using for example photos, videos, animation , sound or text for exempel.
-On that stage I realized that was important for me to have first and  idea to work for and after trying to find which method for production I should use to express myself.
+
+On the first phase of the project have tried to do an analysis of what are the requirements for a digital project. The different options to develop a project using for example photos, videos, animation , sound or text for example.
+On that stage I realized that was important for me to have first and  idea to work for, and after trying to find which method for production I should use to express myself.
 
 As we don't have any parameters of what topic we should use as the main idea , and we can choose what  better suit for us to develop in the project, I decided to make it a little more personal. That way has and adds  value to me. I thought that I could try to make the effort to transmit something that is important and near for me, as is having your child diagnosed with Autism.
 
@@ -36,21 +39,21 @@ After I decided I would like to do the project based on my son I did a brainstor
 
 ![](img/brainstorm.jpg)
 
-On a first stage after doing the brainstorm thought that would like to do a video to narrate and history based on my son development and what he has reached and try to transmit the idea to don't let anyone put boundaries to kids, and that we all are in certain way different from each other and these particularities most be seen as and different way to approach the reality and  as power they have, that in certain way makes them stronger. I see my son proudly as a warrior or superhero that every day has taught me the truly important value of things in life and to never give up and to fight to be a better person.
+On a first stage after doing the brainstorm thought that would like to do a video to narrate and history based on my son's development, and what he has reached. Also try to transmit the idea to don't let anyone put boundaries to kids, as we all are in certain way different from each other, and these particularities most be seen as and different way to approach the reality, and  as power they have, that in certain way makes them stronger. I see my son proudly as a warrior or superhero that every day has taught me the truly important value of things in life and to never give up and to fight to be a better person.
 
-As my plan was to do a narration with different aspects, my first approach was to think on a video, as is the most common used tool nowadays to describe what going on in our daily lives. For example: instagram, facebook and YouTube. And for been able to create a narrative my fist taught was the video as was the nearest, but after the selection of the items would like to include in the project I thought that as well a tool as a webpage can also work for that purpose. Also adding that at the moment im studying the course of web development and believed was more pertinent to try to express my idea of the narrative of my son through that media.
+As my plan was to do a narration with different aspects, my first approach was to think on a video, as is the most common used tool nowadays to describe what going on in our daily lives. For example: instagram, facebook and YouTube. And for been able to create a narrative my fist taught was the video as was the nearest, but after the selection of the items would like to include in the project, I thought that as well a tool as a webpage can also work for that purpose. Also adding that at the moment im studying the course of web development and believed was more pertinent to try to express my idea of the narrative of my son through that media.
 
 After the brainstorm I took 7 main ideas that could implement in my project as are some particularities with the kids with ASD( Autism spectrum disorder), related with the perception of the environment as: 
--sensitivity to the sound
--sensitivity to strong smells
--Problems with some textures with the food
+-sensitivity to the sound.
+-sensitivity to strong smells.
+-Problems with some textures with the food.
 
  And other behaviour or cognitive aspects as:
-- Place their toys in order
+- Place their toys in order.
 - Communication, as usually have delay at speaking need pictograms (images) in most of the cases.
 
 Other aspects related with that how I perceive my son nowadays:
-- As a loving boy
+- As a loving boy.
 - Have different interest and learn a lot of them as mathematics, dinosaurs, solar system, natur, fishing and Minecraft.
 
 ### Phase 2: Design
@@ -65,43 +68,33 @@ On the second stage of the project, once the idea of the project was clear and k
 ### Main concept for the  HTML page:
 
 As the idea was to generate a narration around few aspects of my son, and him as a superhero, decide that I would like to use a layout where he is in the center of attention of the web page as a superhero and the different narrations surround him and are in loop so anyone can read visually them in any stage.
-To make sure that someone is able to understand what I would like to transmit, and is also able to create  the different relations with the images that are showed in the webpage, I decide to include a sound on the page with a narration, a story that I wrote using the perspective of a boy that narrates how was his development, and describes the power his moms sees on him.
-The seven narratives of those aspects I select previously, thought that would like them to be dynamic, that the general project has some movement that's why I decide that would use video and gif format on them. More playful as has relation with a childhood that learn more through teaching them  playing.
+To make sure that someone is able to understand what I would like to transmit, and that also is able to create  the different relations with the images that are showed in the webpage, I decide to include a sound on the page with a narration, a story that I wrote using the perspective of a boy that narrates how was his development, and describes the power his moms sees on him.
+The seven narratives of those aspects I select previously, decided that would like them to be dynamic, that the general project has some movement that's why I decide that would use video and gif format on them. More playful as has relation with a childhood that learn concepts through playing.
 For each narrative try to visualice the main concept to figure out the approach that better suit for generate that content, and image that describe the idea. This will be explained ahead in the documentation, where I describe each of the seven ideas.
 
 ### Phase 3: Development
 
-To be able to start with this phase it was needed  to have a draft of what would like to have on the webpage (layout) and the concept of the project.  I planned a time frame to  have time to create all the content need it. Each  visual content was based on the analysis that was done previously, related in how to express each of the seven narratives on the formats that I choose as video and gif. After these I was able to start with the process of creation of the content that was needed to been able to create the general project.
-At the same time that I start working on this process try to keep a record of the stages I followed to be able to describe the digital creative process that was needed it for the course of  'Digital Skapande'.
+To be able to start with this phase it was needed  to have a draft of what would like to have on the webpage (layout) and the concept of the project.  I planned a time frame to  have time to create all the content need it. 
+Each  visual content was based on the analysis that was done previously, on how express each of the seven narratives on the formats that I choose as video and gif. After these was ready I was able to start with the process of creation of the content to create the general project.
+At the same time that I was working on this process tried to keep a record of the stages I followed in the creation, to be able to describe the digital creative process that was needed it for the course of  'Digital Skapande'.
 The process I followed and the information on this developing process could be read more in detail on the documentation part, as each process is described there.
 
 ### Phase 4: Launch, testing
 
-The deadline we have for the project count as the launch of product. Once that i ensamble all the pieces on the webpage was needed to control that they were actually working. Work also in the last adjustments of the CSS to adjust the size och each narration and see that actually the composition of the web page have a good balance between the elements  and the same time give the feeling to be dynamic. Once this was double-checked and adjust, I was able to launch my project.
+The deadline we had for the project count as the launch of product. Once that i ensamble all the pieces on the webpage was needed to control that they were actually working.  On this stage  also worked  in the last adjustments of the CSS to change the size och each narration and see that actually the composition of the web page have a good balance between the elements  and the same time give the feeling to be dynamic. 
+Once this was double-checked and adjust, I was able to launch my project.
+
+See the final project below:
+
+[GIT Ursula Vallejo ](https://github.com/Ursulavallejo/WEB_2108/tree/main/Digital%20skapande_1#5-communication)
 
 
-[GIT Ursula Vallejo ](https://trello.com/invite/b/Z3Nuvnwx/986973450a0dfb68d65c026a87d672d2/programmering-1)
-
-
-# 2. Dokumentation  :
-
-
-
-
-
-
-
-
-
-
-
-
-
+# 2. Documentation  :
 
 ### Different parts of the project:
 
 
-## Steg 1: HTML
+## Step 1: HTML
 - Layout  / around main bild of the boy superhero
 - elements inside
 - sound that is the history
@@ -121,7 +114,7 @@ Digitala spridningsvägar
   (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
 
 
-## Steg 2: Central Main image 
+## Step 2: Central Main image 
 -css animation eller gif
 - draw as a kid. imaginario infantil de usar disfraz casero.
 
@@ -140,7 +133,7 @@ Digitala spridningsvägar
   (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
 
 
-## Steg 3: Text Head
+## Step 3: Text Head
 -typography
 
 -retouch image and filter.
@@ -171,7 +164,7 @@ Digitala spridningsvägar
   (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
 
 
-## Steg 4: Text and sound
+## Step 4: Text and sound
 
 ![](img/iconsound.png)
 
@@ -202,7 +195,7 @@ Digitala spridningsvägar
 ### Text Narrative:
 
 
-## Steg 5: Seven narratives related with the story
+## Step 5: Seven narratives related with the story
 
 ### 1. Sensitive to sound:
 

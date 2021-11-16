@@ -3,38 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Jag är Mammas Superhjälte</title>
 </head>
 <body>
 <header>
-    <h1 >Jag är Mammas Superhjälte</h1>
+    <img class="title1" src="img/titleMama.png" alt="typoMama">
+    <img class="title2" src="img/title%20superhero.png" alt="typoSuperHero">
 
 </header>
-<nav>
 
-</nav>
+<main>
 
-<div class="">
-    <aside class="">
-        <img class="leftImage" src="img/code.gif" alt="gif">
-    </aside>
-    <main class="text-content">
-        <h2>text</h2>
-    </main>
+<div class="layOutGeneral">
+    <section class='grid-container'>
+        <article class='grid-item1 area-item1'>
+            <video width="250" controls autoplay muted="muted" loop>
+                <source src="img/soundSenceFinal.mov" type="video/mp4">
+            </video>
+            <img class="leftImage" src="img/finalSlow.gif" alt="orderCarsGif">
+            <img class="leftImage" src="img/marionetaSlow.gif" alt="carsGif">
+
+        </article>
+        <article class='grid-item1 area-item2'>
+            <img class="rightImage" src="img/marioneta2.gif" alt="marionetaGif">
+            <video width="250" controls autoplay muted="muted" loop>
+                <source src="img/teddyLove.mov" type="video/mp4">
+            </video>
+            <img class="rightImage" src="img/marioneta2.gif" alt="marionetaGif">
+        </article>
+        <article class='grid-item1 area-item3'>
+            <img class="superhero" src="img/olivermainsuperh.png" alt="mainSuperHero">
+            <div>
+                <audio id="audioHistory" class="audioControl" controls autoplay >
+                    <source src="testSound.mp4"  type="audio/mp4">
+                </audio>
+            </div>
+            <div id="contentText" class="historyText"></div>
+
+        </article>
+        <article class='grid-item1 area-item4'>
+            <img class="bottomImage" src="img/marionetaSlow.gif" alt="marionetaGif">
+        </article>
+    </section>
 </div>
 
-<section class="course-info">
-    <ul>
-        <li>Markdown.</li>
-        <li>HTML: Krav HTML dokument, Taggar, Semantik, flexbox, images,table, navigation, footer.</li>
-        <li>CSS: Box modellen, External CSS, cascading order, selectors and layout.</li>
-        <li>Programmer: GitHub, GitHub Desktop, VisualCode och WebStorm</li>
-    </ul>
-</section>
+</main>
+
+
 
 <footer>
     Ursula Vallejo Janne @ 2021 - OpenSource
 </footer>
+<script src="script.js"></script>
+<script>document.getElementById("audioHistory").play();
+</script>
+
 </body>
 </html>

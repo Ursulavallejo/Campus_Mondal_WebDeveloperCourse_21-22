@@ -24,7 +24,7 @@
 
 For develop the project I used the waterfall method for clear up the general idea and be able to develop a diagram for what will be included on the project and how I plan to develop it.
 
-### Metoder för utveckla projektet:
+### Method for develop the project:
 
 ![](img/waterfallmetod.png)
 
@@ -81,7 +81,7 @@ The process I followed and the information on this developing process could be r
 
 ### Phase 4: Launch, testing
 
-The deadline we had for the project count as the launch of product. Once that i ensamble all the pieces on the webpage was needed to control that they were actually working.  On this stage  also worked  in the last adjustments of the CSS to change the size och each narration and see that actually the composition of the web page have a good balance between the elements  and the same time give the feeling to be dynamic. 
+The deadline we had for the project count as the launch of product. Once that I ensamble all the pieces on the webpage was needed to control that they were actually working.  On this stage  also worked  in the last adjustments of the CSS to change the size och each narration and see that actually the composition of the web page have a good balance between the elements  and the same time give the feeling to be dynamic. 
 Once this was double-checked and adjust, I was able to launch my project.
 
 See the final project below:
@@ -91,35 +91,78 @@ See the final project below:
 
 # 2. Documentation  :
 
+On this part we can see all the process involved on the creation of the different elements that are included on the webpage.  Include also information regarding this main questions:
+
+* What tools have you used and why?
+* What do you portray with your work?
+* How did the process of creating your production work?
+
 ### Different parts of the project:
 
-
 ## Step 1: HTML
-- Layout  / around main bild of the boy superhero
-- elements inside
-- sound that is the history
-- button where open the story.
+
+The tools that was used in this step was Webstorm to be able to create a webpage that contain the general project. 
+The aspects were taking in consideration were:
+
+- Create a Layout :
+In the head a Typography  with the title.
+A main image in the center to call the attention of the eye , in this case will be the boy superhero.
+Around main image the other narratives. Create  balance between them, as are 7 should be placed 2 on each side and 3 under.
+
+- Have a sound that is the history of the boy. 
+
+- A button where we open a drop menu, and we can read the story.
 
 ### About the process:
 
-  * Vilka verktyg har du använt dig av och varför?
-    (Ex. Googles bildsök och GIMP)
+* What tools have you used and why?
+To be able to configurate the webpage I used Webstorm to create the HTML and include the content I created to illustrate the narrative of the idea of my project. The type of formats used are video, gif, sound and image(.mov,.gif,.png and .mp4). 
+- I used this format as was posible to show different narrations at the same time and make them perceive more dynamic for the person that has access to them. 
 
-* Vad gestaltar du med ditt verk?
-  (Ex. Att Stefan Löfven byter karriärbana och att framtiden är oklar för honom.)
+* What do you portray with your work?
+  With this I want to transmit that many kids face a different development on his life, that  every kid is not the same and that those differences  can also be seen as strengths.  A boy that is a superhero for his mother, as he showed to her that those particulates  are a power to approach the world in a different way and that sometimes people put limits of what others can learn, and they shouldn't do so. Fight for been a  better person and let the others have opportunities to evolve in life.
 
 
-Digitala spridningsvägar
-* Hur gick processen till med att skapa din produktion?
-  (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
+
+* How did the process of creating your production work?
+
+- First work in creating the general layout of the project using only some image for configurate the position and the functions inside the web page.
+- Check the video play automatically and do a loop. The new version of Chrome only show videos that are muted so for been able to know this checked few forum as was not working for me.
+- On the audio test that we can add it to the web and the format that work with it. In this step saw the need to transform the M4a format witch  the iphone's used by default  and convert it to a mp3;  the audio control do not handle the original format of the iphone's.
+- create the CSS style for been able to place and organice the elements accordingly with the diagram of the idea that I did on the first phase. Using a Grid to place the elements on place.
+- See that actually teh autoplay of the audio was disturbing me reason that make me see that is better that the user has the option to start it when interact with the page.
+- create a Javascript script to be able to have a dropdown menu that opens and close where the text of the audio can be found.
+- Once the final elements are ready was able to change the ones as used on the draft of the HTML for the final ones .
+- Test that the web is working properly and lat adjustments on the place of the elements on the layout if the webpage.
+
+See below the draft of the process:
+
+![](img/htmlDraft.png)
+
+![](img/html2draft.png)
+
+Final Layout:  !!!!!
+ 
 
 
 ## Step 2: Central Main image 
--css animation eller gif
-- draw as a kid. imaginario infantil de usar disfraz casero.
+
+The original idea was to create and animation for the photos of the superhero that I took for that purpose but after creating the draft of the HTML realice that visually was not necessary. All the other content involve movement and saw  that if the center one was still will be like the anchor of the rest of the images and the idea was that all the other histories are related to that one, reason I  decided that actually was better that center superhero image stay still as work as an anchor for the other ones. 
 
 
 ### About the process:
+
+* What tools have you used and why?
+
+- For the production of this narration was needed a camera and a photo-editor. 
+  The first idea was to create a gif for that reason I shoot several pictures but afterwards decide was better to keep the main image still as an ankor for the rest of the histories on the web page.  As I would like to keep the idea to use homemade costume as a superhero,  emphasize the iconography of the comics ( stars coming from the background as wonder woman posters) and change the red color of the superhero cape. For that reason was needed it a photo editor. I decided to use Photoshop as im used to work with that  program and like the different type of brushes and edition option that we can implement. 
+- The original photo was created with my son that is the main character and try different position to try to find an angle that shows as him with the arm extended and a hand made costume as they were playing in the house to make it more natural and close to everyone.
+
+The image of wonder woman were taken the idea of the stars.
+
+![](img/wonderwoman.png)
+
+* What do you portray with your work? 
 
 * Vilka verktyg har du använt dig av och varför?
   (Ex. Googles bildsök och GIMP)
@@ -129,9 +172,23 @@ Digitala spridningsvägar
 
 
 Digitala spridningsvägar
-* Hur gick processen till med att skapa din produktion?
-  (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
+* How did the process of creating your production work?
+- first I used a camera to shoot a serie of photos as the original idea was to used them to create a gif. In total around 3 sets of 80 photos were shot for that purpose.
+- After the decision to maintain this main image still I overlook all the ones I had and select one to work on.
+- The image was imported to Photoshop where I:
+1. remove the background to have it transparent ( that way integrate better on the web page).
+2. Balance teh colors on the image.
+3. Ampliate the image to remove the white pixels on the contour of the image.
+4. Duplicate the image and delete all except the area that I would like to change the color to red.
+5. Have the idea to add a mask but actually decided to keep the original as he used swim glasses . Usually kids plays to dress that way to play so decided to keep it as is their own way to express.
+6. After I draw some starts with a brush to try to make relation with the comic iconography of the superheros. For example the wonder woman.
+7. Export the images as png to keep the transparent background.
 
+Some images from the process:
+
+![](img/superheromain2.jpg)
+![](img/draftMainMask.png)
+![](img/olivermainsuperh.png)
 
 ## Step 3: Text Head
 -typography
@@ -151,7 +208,9 @@ original  and transformation.
 ![](img/title%20superhero.png)
 
 ### About the process:
-
+* What tools have you used and why?
+* What do you portray with your work?
+* How did the process of creating your production work?
 * Vilka verktyg har du använt dig av och varför?
   (Ex. Googles bildsök och GIMP)
 
@@ -179,7 +238,9 @@ Have select 7 different aspects to show in the history and each has a gif or vid
 
 
 ### About the process:
-
+* What tools have you used and why?
+* What do you portray with your work?
+* How did the process of creating your production work?
 * Vilka verktyg har du använt dig av och varför?
   (Ex. Googles bildsök och GIMP)
 
@@ -202,7 +263,9 @@ Digitala spridningsvägar
 ![](img/soundSen.png)
 
 ### About the process:
-
+* What tools have you used and why?
+* What do you portray with your work?
+* How did the process of creating your production work?
 * Vilka verktyg har du använt dig av och varför?
   (Ex. Googles bildsök och GIMP)
 
@@ -220,7 +283,9 @@ Digitala spridningsvägar
 ![](img/smell.png)
 
 ### About the process:
-
+* What tools have you used and why?
+* What do you portray with your work?
+* How did the process of creating your production work?
 * Vilka verktyg har du använt dig av och varför?
   (Ex. Googles bildsök och GIMP)
 
@@ -238,7 +303,9 @@ Digitala spridningsvägar
 ![](img/toys.png)
 
 ### About the process:
-
+* What tools have you used and why?
+* What do you portray with your work?
+* How did the process of creating your production work?
 * Vilka verktyg har du använt dig av och varför?
   (Ex. Googles bildsök och GIMP)
 
@@ -251,12 +318,27 @@ Digitala spridningsvägar
   (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
 
 
+For create the gif was needed to took around 60-80 photos to create the felling that  the elements  follow some order and create a dynamic of movement with them.
+
+![](img/registroToys.JPG)
+
+For been able to have a gif that worked for me, was needed it to shoot the series of photos  3 times as the previous ones saw thinks that actually was not working to create the sense I want with them.
+
+On the first try realized that I didn't like it the distribution of the lines of the cars on the space and how the size of the cars was showed, that the reason why I decided to do another shoot with a different composition. 
+![](img/draftToys.gif)
+
+On the next shoot realize that the order that the object disappear on the sequence didn't feel like they were following one after the other reason I decide to change the order that they disappear on the screen, to have the same pattern as they were placed on first instance.
+![](img/v1Toys.gif)
+
+![](img/finalSlow.gif)
 ### 4. Problems texture food:
 
 ![](img/food.png)
 
 ### About the process:
-
+* What tools have you used and why?
+* What do you portray with your work?
+* How did the process of creating your production work?
 * Vilka verktyg har du använt dig av och varför?
   (Ex. Googles bildsök och GIMP)
 
@@ -275,7 +357,9 @@ Digitala spridningsvägar
 ![](img/pictogramer.png)
 
 ### About the process:
-
+* What tools have you used and why?
+* What do you portray with your work?
+* How did the process of creating your production work?
 * Vilka verktyg har du använt dig av och varför?
   (Ex. Googles bildsök och GIMP)
 
@@ -293,7 +377,9 @@ Digitala spridningsvägar
 ![](img/love.png)
 
 ### About the process:
-
+* What tools have you used and why?
+* What do you portray with your work?
+* How did the process of creating your production work?
 * Vilka verktyg har du använt dig av och varför?
   (Ex. Googles bildsök och GIMP)
 
@@ -311,7 +397,9 @@ Digitala spridningsvägar
 ![](img/estimulacion-cognitiva-ninos.png)
 
 ### About the process:
-
+* What tools have you used and why?
+* What do you portray with your work?
+* How did the process of creating your production work?
 * Vilka verktyg har du använt dig av och varför?
   (Ex. Googles bildsök och GIMP)
 

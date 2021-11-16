@@ -9,8 +9,6 @@ i
 9Webbutveckling_1/new_version_assigment/css/styleOther.css,0\5\05efb0c7526b99df93a15a49aa48f1d669749026
 a
 1Webbutveckling_1/new_version_assigment/other.html,3\8\385f7b22c1354acfb82abefd17587b43a463a8ad
-j
-:Webbutveckling_1/new_version_assigment/css/styleFooter.css,2\b\2ba05a23edef2c6b800ba77108e4c5b52abb87ac
 c
 3Webbutveckling_1/new_version_assigment/courses.html,7\3\73173200dad91a2de4d70ad8c351edeb25455f72
 k
@@ -19,8 +17,6 @@ l
 <Webbutveckling_1/new_version_assigment/css/styleProducts.css,c\5\c55de7e28671aafa08bc7cea7636b553dab4857c
 i
 9Webbutveckling_1/new_version_assigment/css/styleAbout.css,b\f\bfe85adb35037686c596dcac5cbda90c9bf7b103
-a
-1Webbutveckling_1/new_version_assigment/about.html,e\f\ef0f5f2356ef0f5e0a857fc9f976f8464ee85139
 j
 :Webbutveckling_1/new_version_assigment/css/styleNavBar.css,8\7\87368f770a6bf679a941cce875b28e648b87c0c9
 a
@@ -33,10 +29,6 @@ X
 (Programmering_1/draftAssigment/README.md,6\e\6e9e5aabf7f809b0c9a7edae37b5164067ce10c6
 _
 /Programmering_1/draftAssigment/indexprueba.html,b\f\bffb0c49ca2e066e3082ff087eb0ecdc3d4571ab
-g
-7Webbutveckling_1/new_version_assigment/css/styleAll.css,c\8\c8778a6823d1308719008d6efa840c1e2b575759
-X
-(Programmering_1/assigment/js/dropdown.js,8\3\8360aa385fe7dab7c3a1c230aae36ae59b9a4a00
 ]
 -Programmering_1/draftAssigment/js/dropmenu.js,9\b\9b0f32104c19bebbfca6556308a127e7c686a5b6
 _
@@ -55,29 +47,17 @@ Z
 *Programmering_1/assigment/css/dropdown.css,a\0\a0270de4304633236fa3775596138e53e6871855
 X
 (Programmering_1/assigment/css/header.css,b\e\bec12d3ed7e4f1296aeb529ab7a8f27b8f847726
-W
-'Programmering_1/assigment/css/style.css,5\1\517e7783319510796de65d0cdd26608188a0afbc
 V
 &Programmering_1/assigment/js/navbar.js,d\a\da678f10493a45f728fecd37bd7ac9a8a63f9986
-V
-&Programmering_1/assigment/js/header.js,0\d\0d3b25aec59328458bfd84606985feb0e68eb06a
 V
 &Programmering_1/assigment/js/script.js,6\f\6f8d89996264f8358587d5460c4ebfc928c8fa52
 `
 0Webbutveckling_1/new_version_assigment/README.md,a\0\a016ff8f826b0d921f307e3ad96becae8c2dfaef
-T
-$Programmering_1/assigment/js/card.js,2\4\24dbe960e98df9223027d746a61f129b49694f9f
 \
 ,Programmering_1/assigment/js/dataProducts.js,6\3\632cc7e4004fbfae09793b6dd0398ee919f3e6a2
 X
 (Programmering_1/assigment/css/navbar.css,f\2\f2fedb0f05e01c2671fe22e80cdb24c6a3802122
-T
-$Programmering_1/assigment/index.html,6\e\6efbcec081bb07e5c09625e4e73512c8c1cf2755
 a
 1Webbutveckling_1/new_version_assigment/index.html,4\0\4012684b27341bfd270b72b29a68b10f230a9fc7
-P
- Digital skapande_1/css/style.css,a\c\acf9c7355cc20f00866b9526599ed0268b838668
 S
 #Programmering_1/assigment/README.md,7\f\7f2d0af6047c174b0933c92ceb74eb431ca275c8
-M
-Digital skapande_1/index.html,d\8\d85b9312781dc81abba3eccca1d4145e747a567e

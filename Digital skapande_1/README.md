@@ -281,7 +281,7 @@ Soy el superhéroe de mamá, y ella me enseña que nunca debo dejar de creer en 
 
 First Audio Draft Spanish can be found on img folder: spanishHistory.mp3
 
-![](img/spanishHistory.mp3)
+![](img/spanishHistory.mp3)   !!!!!!!!!!LINK DO NOT WORK
 
 ### Text Narrative Swedish: 
 
@@ -292,28 +292,31 @@ Audio swedish can be found on img folder: swedishHistory.mp3
 
 ### 1. Sensitive to sound:
 
+One of the characteristics of the kids with autism are that they are sensitive to sound. Usually they get overwhelmed as they get overstimulated in situations with load music or noise; reason they get upset and nervous . In many cases they touch their ears or used headphones that stop the sound.
+
 ![](img/soundSen.png)
 
 ### About the process:
+
 * What tools have you used and why?
+For this part of the story I used the app of instagram. There you can search for different filters and also choose between different format for create media ( video, loops, reels and also include specific audio or text).
+See instagram as a tool were many people express what they are going through on their daily life. Influencers and companies get a lot of attention. They use the tools that instagram offer and help them to create different narratives depending on the purpose want to approach.  
+I see part of the story that im telling on my projects as a diary, that we  can compare with the histories on instagram reason I decide to introduce on my project what a tools as instagram can offer to us in as digital narrative.
+* Also used a video editor as Shotcut to remove the sound and be able to have other format as the gif . (Instagram create video as .mov)
+
 * What do you portray with your work?
+
+With this  video want to capture the moment where the kid of the story needed to put the hands on his ears to stop all the external impute ( lyric notes) that surround him. A reaction to the music that is not a pleasure to him on the contrary trigger discomfort to him.
+
 * How did the process of creating your production work?
-* Vilka verktyg har du använt dig av och varför?
-  (Ex. Googles bildsök och GIMP)
 
-* Vad gestaltar du med ditt verk?
-  (Ex. Att Stefan Löfven byter karriärbana och att framtiden är oklar för honom.)
+On a first instance did research of the different option that offer instagram to create media. The filters of virtual reality that can be found and how they work.
+Found interesting that not necessary the content need to be published can be saved on your device. That way you can export it to other programs to edit them or place it in other context as I did in using it on my webpage project.
+For my video decide to use a responsive filter as they track the movement of the person in front of teh camera, and it's modify with the interaction ( music notes that are generated with the movements of the face).
+To capture the idea of the kid getting overwhelmed with the music notes, was needed it to shoot the video 5 times. The first time the light  of the room was darker  and in other occasions  the composition of the image was not creating the atmosphere that was looking for.
+Once I got the shot as .mov format  I imported also to Shotcut video editor to delete the audio and create a gif.  On the web used the .mov and on the markdown the gif.
 
-
-Digitala spridningsvägar
-* Hur gick processen till med att skapa din produktion?
-  (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
-
-![](img/soundSenceFinal.mov)
-
-<video  height="240" controls muted="muted">
-  <source src="img/soundSenceFinal.mov" type="video/mp4">
-</video>
+![](img/soundv2.gif)
 
 ### 2. Sensitive to smell:
 
@@ -341,19 +344,15 @@ Digitala spridningsvägar
 
 ### About the process:
 * What tools have you used and why?
+
+For create this narrative on the project was used a camera, tripod, shot remote-control, a program to edit photos as Gimp.
+The idea was to generate a sequencer of cars that follow some order, to be able to create that felling, choose better to do a gif as on a video don't have the felling to be in different frames that's come one after the other, but a gift as is slower and get the sense that cut every images one after the other.   To have that effect on the narration was the reason decide that a gif worked better as the cars follow an order and are following each other by place them in the space.
+
 * What do you portray with your work?
+
+On this narrative what to capture the idea of order, that constantly keep the same pattern as the kid the with autism follow when they play.
+
 * How did the process of creating your production work?
-* Vilka verktyg har du använt dig av och varför?
-  (Ex. Googles bildsök och GIMP)
-
-* Vad gestaltar du med ditt verk?
-  (Ex. Att Stefan Löfven byter karriärbana och att framtiden är oklar för honom.)
-
-
-Digitala spridningsvägar
-* Hur gick processen till med att skapa din produktion?
-  (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
-
 
 For create the gif was needed to took around 60-80 photos to create the felling that  the elements  follow some order and create a dynamic of movement with them.
 
@@ -365,9 +364,13 @@ On the first try realized that I didn't like it the distribution of the lines of
 ![](img/draftToys.gif)
 
 On the next shoot realize that the order that the object disappear on the sequence didn't feel like they were following one after the other reason I decide to change the order that they disappear on the screen, to have the same pattern as they were placed on first instance.
+
+Once I had the sequencer of photos that worked for the project I used Gimp editor to  adjust the light of the photos and create a gif with the animation filter. At the end was exported making the frame interval lite slower as the one comes by default ( the ones  selected was 180 frames to be able to see the cars, the other was fast.)
+
 ![](img/v1Toys.gif)
 
 ![](img/finalSlow.gif)
+
 ### 4. Problems texture food:
 
 ![](img/food.png)
@@ -390,6 +393,7 @@ Digitala spridningsvägar
 
 ### 5. Communication 
 
+
 ![](img/marioneta.png)
 ![](img/pictogramer.png)
 
@@ -397,37 +401,44 @@ Digitala spridningsvägar
 * What tools have you used and why?
 * What do you portray with your work?
 * How did the process of creating your production work?
-* Vilka verktyg har du använt dig av och varför?
-  (Ex. Googles bildsök och GIMP)
-
-* Vad gestaltar du med ditt verk?
-  (Ex. Att Stefan Löfven byter karriärbana och att framtiden är oklar för honom.)
 
 
-Digitala spridningsvägar
-* Hur gick processen till med att skapa din produktion?
-  (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
 
+![](img/sesameStreet.png)
+
+Create my own puppet ( handmade with a sock) :
+
+![](img/puppet1.JPEG)
+![](img/puppet2.JPEG)
 
 ### 6. Loving kid:
+
+On this part of teh project want to narrate that my son has accomplished to be able to express love surround him. Kids with autism have difficult to create relations with others but in the case of my son he is a really loving boy that cares os the people that surround him. What to transmit of that kindness / love he gives to the others in this video.
 
 ![](img/love.png)
 
 ### About the process:
+
 * What tools have you used and why?
+
+For this part of the story I used the app of instagram. There you can search for different filters and also choose between different format for create media ( video, loops, reels and also include specific audio or text).
+See instagram as a tool were many people express what they are going through on their daily life. Influencers and companies get a lot of attention. They use the tools that instagram offer and help them to create different narratives depending on the purpose want to approach.  
+I see part of the story that im telling on my projects as a diary, that we  can compare with the histories on instagram reason I decide to introduce on my project what a tools as instagram can offer to us in as digital narrative.
+- Also used a video editor as Shotcut to remove the sound and be able to have other format as the gif . (Instagram create video as .mov)
+
 * What do you portray with your work?
+
+Want to capture a moment that a kid is able to express love as he kisses his panda bear. An intimate moment with someone he loves.
+Symbolises tender love that can be found on the kids.
+
 * How did the process of creating your production work?
-* Vilka verktyg har du använt dig av och varför?
-  (Ex. Googles bildsök och GIMP)
 
-* Vad gestaltar du med ditt verk?
-  (Ex. Att Stefan Löfven byter karriärbana och att framtiden är oklar för honom.)
+On a first instance did research of the different option that offer instagram to create media. The filters of virtual reality that can be found and how they work.
+For this video decide to use a  background animation ( hearts in movement around the kid  and the teddy bear ).
+To capture the idea of the kid hugging with love the panda needed to shoot the video 3 times to get the correct angle. As didn't want the face of the kids be the one calling the attention, what I want to emphasize was the action between the two of them. Show only part of the face, over the shoulder was a better option for this purpose.
+Once I got the shot as .mov format  I imported also to Shotcut video editor to delete the audio and create a gif.  On the web used the .mov and on the markdown the gif.
 
-
-Digitala spridningsvägar
-* Hur gick processen till med att skapa din produktion?
-  (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
-
+![](img/love.gif)
 
 ### 7. Different interest : MAth, dinosaurier, solar system, natur and Minekraft.
 

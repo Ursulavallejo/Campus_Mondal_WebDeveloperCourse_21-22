@@ -116,13 +116,13 @@ Around main image the other narratives. Create  balance between them, as are 7 s
 ### About the process:
 
 * What tools have you used and why?
+
 To be able to configurate the webpage I used Webstorm to create the HTML and include the content I created to illustrate the narrative of the idea of my project. The type of formats used are video, gif, sound and image(.mov,.gif,.png and .mp4). 
 - I used this format as was posible to show different narrations at the same time and make them perceive more dynamic for the person that has access to them. 
 
 * What do you portray with your work?
+
   With this I want to transmit that many kids face a different development on his life, that  every kid is not the same and that those differences  can also be seen as strengths.  A boy that is a superhero for his mother, as he showed to her that those particulates  are a power to approach the world in a different way and that sometimes people put limits of what others can learn, and they shouldn't do so. Fight for been a  better person and let the others have opportunities to evolve in life.
-
-
 
 * How did the process of creating your production work?
 
@@ -164,22 +164,17 @@ The image of wonder woman were taken the idea of the stars.
 
 * What do you portray with your work? 
 
-* Vilka verktyg har du använt dig av och varför?
-  (Ex. Googles bildsök och GIMP)
+With the picture want to transmit that my son is a superhero for me.  Select to use a homemade costume with regular things we have at home as is a daily home game and not posing for a scene. Taking a more natural context that anyone can see on his daily life   while kids are playing at home. On my daily life my son is my superhero.
 
-* Vad gestaltar du med ditt verk?
-  (Ex. Att Stefan Löfven byter karriärbana och att framtiden är oklar för honom.)
-
-
-Digitala spridningsvägar
 * How did the process of creating your production work?
+
 - first I used a camera to shoot a serie of photos as the original idea was to used them to create a gif. In total around 3 sets of 80 photos were shot for that purpose.
 - After the decision to maintain this main image still I overlook all the ones I had and select one to work on.
 - The image was imported to Photoshop where I:
 1. remove the background to have it transparent ( that way integrate better on the web page).
-2. Balance teh colors on the image.
-3. Ampliate the image to remove the white pixels on the contour of the image.
-4. Duplicate the image and delete all except the area that I would like to change the color to red.
+2. Balance the colors on the image.
+3. Amplify the image to remove the white pixels on the contour of the image.
+4. Duplicate the image and delete all content, except the area that I would like to change the color to red.
 5. Have the idea to add a mask but actually decided to keep the original as he used swim glasses . Usually kids plays to dress that way to play so decided to keep it as is their own way to express.
 6. After I draw some starts with a brush to try to make relation with the comic iconography of the superheros. For example the wonder woman.
 7. Export the images as png to keep the transparent background.
@@ -191,69 +186,106 @@ Some images from the process:
 ![](img/olivermainsuperh.png)
 
 ## Step 3: Text Head
--typography
 
--retouch image and filter.
+For the letters that I plan to have as main tittle want to keep a relation with the idea of a superhero. This topic is mainly viewed in comic magazines reason  decide to use a Typography inspired on the superheros comics. Have something more specific typography and not a standar one in HTML.
 
-- information take it on internet and retouch it. 
-original  and transformation.
+### About the process:
+
+* What tools have you used and why?
+
+As I decide to use a specific typography that I search it on internet need to use some image-editor to be able to transform it with the content I need it. For that purpose I used Photoshop to modify the typography.
+
+* What do you portray with your work?
+
+With that typography want to transmit a relation with the comic books, make it more specific and not a generic font-letter found in a library of the HTML. Follow the main idea of the project and create a relation with the content on it, for example the main photo of teh superhero and the typography used on comic book with that topic.
+
+* How did the process of creating your production work?
+
+- On a first instance try to find some images on the web with different typographies that could work to transmit the idea of the comic books and the overall text of the title.
+I found the following two images to work:
 
 ![](img/originaltitle.png)
+![](img/mamas%20text%20web.jpg)
+
+-I import them to photoshop:
+For the Superhältar image: Was needed it to retouch and remove elements on the image. After duplicate one letter and place it at the end to have the correct text that I need it. At the end place drawing filter to try to have the sense of more kids drawing  and not only a vektor drawing. And place it on a transparent background in format png.
+For the Mamas text, delete the text was not need it. Duplicate the letter need it to create the title and place it on a transparent background. At the end distort the angle of the text to be more dynamic.
+
+ You can see the  original above  and transformation below:
 
 ![](img/title%20superhero1.png)
 
-![](img/mamas%20text%20web.jpg)
-
-![](img/mamas.png)
+![](img/titleMama.png)
 ![](img/title%20superhero.png)
-
-### About the process:
-* What tools have you used and why?
-* What do you portray with your work?
-* How did the process of creating your production work?
-* Vilka verktyg har du använt dig av och varför?
-  (Ex. Googles bildsök och GIMP)
-
-* Vad gestaltar du med ditt verk?
-  (Ex. Att Stefan Löfven byter karriärbana och att framtiden är oklar för honom.)
-
-
-Digitala spridningsvägar
-* Hur gick processen till med att skapa din produktion?
-  (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
 
 
 ## Step 4: Text and sound
 
+On the webpage the idea was to have a history narrated from the kid's perspective. This is included  for  let user  understand the whole project and the different relations that take place on the  narratives. The audio and text explain the connections that are inside the project. The audio and the text are the same.
+
+The page include:
+- Control for the sound below him.
+- Button that open the text to be read.
+
 ![](img/iconsound.png)
 
-- they are related.
-- -work in a history related  with the experience of the grown upp of my son . Particularities of the kids that have TEA. Why mom see him as a super hero. After all the difficulties he is loving child that have a lot of interests and how have teach us as  parents at never give upp and don't let anyone  put boundaries for what he can do.
-For that I wrote the particularities he had when was lite and are common for TEA and at the end was make him what he is know ... how he has evolved and identify him.
-Have select 7 different aspects to show in the history and each has a gif or video that reflectes it but all are part of the main history that is played with the narrative in the sound.
-
-- when start web side start automatic the sound.
-- we have a button that open the text to be read.
-- perspective of the story as the kid tell it.
-
-
 ### About the process:
+
 * What tools have you used and why?
+
+For create and the audio and the text was needed it to use a Text editor as Word , a microphone, audio recorder device and an audio-editing tool.
+The text was worked in Word to be able to have a draft adn be translated to swedish. Also work to have already in a digital version to be copy and paste it on the HTML dropmenu in the project.
+The history was taped with a microphone on the iPhone and used it on Audacity to modify the acoustic and include some background sound to the history. 
+
 * What do you portray with your work?
+
+With the Audio and the text want the viewer to be able to understand why I see my son as a superhero. All the different aspect on his development and hear the story as he was telling it to them.  
+
 * How did the process of creating your production work?
-* Vilka verktyg har du använt dig av och varför?
-  (Ex. Googles bildsök och GIMP)
 
-* Vad gestaltar du med ditt verk?
-  (Ex. Att Stefan Löfven byter karriärbana och att framtiden är oklar för honom.)
+- First I focus to work in a history related  with the experience of the grown upp of my son as the following topics:  Particularities of the kids that have Autism. 
+The reason why mom see him as a superhero. 
+ After all the difficulties he is loving child that have a lot of interests and how have taught us as  parents at never give upp and don't let anyone  put boundaries for what he can do.
+  For that I wrote the particularities he had when was lite and are common for autism and at the end was make him what he is know ... how he has evolved and identify him.
+  Have select 7 different aspects to show in the history and each has a gif or video that reflectes it but all are part of the main history that is played with the narrative in the sound.
+- The draft was written in spanish as is my mother language, and after I was happy with the narration the second step was to translated to swedish with help of my husband to keep the essence of the text.
+- I record a first draft with the text in spanish to test how sound the audio with the iphone and see how can reduce some possible noise at the background.
+- Did 3 different records of teh voice of my husband to see which one had better sound quality. At the end choose one.
+- The audio track that I choose need to be transformed from m4a to and mp3 format. Reason I use an online converter to do it.
+- Imported to Audacity (audio editor) and import the background music that I choose from an audio library to create some atmosphere to the history.
+- After I exported and included on the draft I have created on the HTML web page.
 
+### Text Narrative Spanish: (first Draft)
 
-Digitala spridningsvägar
-* Hur gick processen till med att skapa din produktion?
-  (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
+No hace mucho tiempo atrás, mi realidad era muy diferente.
+A los 2 años fui diagnosticado con autismo.
+¿Pero qué significa esto?
+Muchas personas lo ven como una discapacidad, pero es una forma diferente de relacionarse con el mundo.
 
+Cuando era pequeño me molestaba mucho ir de compras a tiendas de ropa, allí ponen música muy alta y me ponía muy nervioso.
+En el bus, me afectaban los olores fuertes, como el de los perfumes. No los aguantaba, y me tocaba bajarme del bus y esperar al próximo.
+A la hora de comer, me molestaban mucho las diferentes texturas de los alimentos, como el de las frutas y no lograba comerlas.
+Hasta los 4 años, hablaba muy poco y me costaba mucho enfocar mi atención en alguien.
+Al jugar, me gustaba mucho hacerlo solo y poner en orden repetitivo mis juguetes.
+Estos son rasgos característicos de los niños con autismo, por si no lo sabías.
+Ahora tengo 7 años y muchas de esas cosas las he ido dejando atrás. Bueno, aún no logro comer trozos de fruta; me da vueltas la cabeza al intentarlo. También me gusta que la gente siga las normas, o ¿para qué están hechas?
 
-### Text Narrative:
+Mis padres me dicen que yo soy capaz de hacer lo que quiera, de aprender y ser una buena persona.
+Que siempre intente primero como me siento al hacer las cosas que me interesan, antes de decir que no puedo. Y nunca creer a los que intentan ponerme barreras a lo que puedo llegar a hacer.
+
+Para mi mamá soy su superhéroe, porque día a día se emociona al verme crecer y evolucionar. Al ver todos los intereses que tengo; de como me apasiono por un tema e indago hasta conocer muchos aspectos de él. A mí me gustan mucho las matemáticas, los dinosaurios, ir a pescar con mi papá y puedo identificar que pez ha picado. Actualmente me interesa mucho Minecraft y hablo mucho de todo lo que se puede construir allí.
+
+Tengo un superpoder especial, el de dar mucho cariño, otro de poder contar todas esas cosas que me interesan y enseñarlas a mis amigos. Explicarlas en español a mamá y en sueco a papá.
+
+Soy el superhéroe de mamá, y ella me enseña que nunca debo dejar de creer en mis superpoderes. Porque cada persona es única e importante.
+
+First Audio Draft Spanish can be found on img folder: spanishHistory.mp3
+
+![](img/spanishHistory.mp3)
+
+### Text Narrative Swedish: 
+
+Audio swedish can be found on img folder: swedishHistory.mp3
 
 
 ## Step 5: Seven narratives related with the story
@@ -277,6 +309,11 @@ Digitala spridningsvägar
 * Hur gick processen till med att skapa din produktion?
   (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
 
+![](img/soundSenceFinal.mov)
+
+<video  height="240" controls muted="muted">
+  <source src="img/soundSenceFinal.mov" type="video/mp4">
+</video>
 
 ### 2. Sensitive to smell:
 

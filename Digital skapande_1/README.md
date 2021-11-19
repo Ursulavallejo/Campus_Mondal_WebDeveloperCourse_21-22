@@ -41,7 +41,7 @@ After I decided I would like to do the project based on my son I did a brainstor
 
 On a first stage after doing the brainstorm thought that would like to do a video to narrate and history based on my son's development, and what he has reached. Also try to transmit the idea to don't let anyone put boundaries to kids, as we all are in certain way different from each other, and these particularities most be seen as and different way to approach the reality, and  as power they have, that in certain way makes them stronger. I see my son proudly as a warrior or superhero that every day has taught me the truly important value of things in life and to never give up and to fight to be a better person.
 
-As my plan was to do a narration with different aspects, my first approach was to think on a video, as is the most common used tool nowadays to describe what going on in our daily lives. For example: instagram, facebook and YouTube. And for been able to create a narrative my fist taught was the video as was the nearest, but after the selection of the items would like to include in the project, I thought that as well a tool as a webpage can also work for that purpose. Also adding that at the moment im studying the course of web development and believed was more pertinent to try to express my idea of the narrative of my son through that media.
+As my plan was to do a narration with different aspects, my first approach was to think on a video, as is the most common used tool nowadays to describe what going on in our daily lives. For example: instagram, facebook and YouTube. And for been able to create a narrative my fist taught was the video as was the nearest. After the selection of the items that I would like to include in the project, I thought that  a tool as a webpage can also work for that purpose. Also adding value that at the moment im studying the course for web development and believed was more pertinent to try to express my idea of the narrative of my son through that media.
 
 After the brainstorm I took 7 main ideas that could implement in my project as are some particularities with the kids with ASD( Autism spectrum disorder), related with the perception of the environment as: 
 -sensitivity to the sound.
@@ -60,23 +60,23 @@ Other aspects related with that how I perceive my son nowadays:
 
 On the second stage of the project, once the idea of the project was clear and knew with aspects would like to work on it,  I started to try to create a diagram or a draft of how I would like to create a layout for the webpage that you can see below:
 
-
 ### Diagram projektet :
 
 ![](img/projektDigitalSkapande.jpg)
 
 ### Main concept for the  HTML page:
 
-As the idea was to generate a narration around few aspects of my son, and him as a superhero, decide that I would like to use a layout where he is in the center of attention of the web page as a superhero and the different narrations surround him and are in loop so anyone can read visually them in any stage.
-To make sure that someone is able to understand what I would like to transmit, and that also is able to create  the different relations with the images that are showed in the webpage, I decide to include a sound on the page with a narration, a story that I wrote using the perspective of a boy that narrates how was his development, and describes the power his moms sees on him.
-The seven narratives of those aspects I select previously, decided that would like them to be dynamic, that the general project has some movement that's why I decide that would use video and gif format on them. More playful as has relation with a childhood that learn concepts through playing.
-For each narrative try to visualice the main concept to figure out the approach that better suit for generate that content, and image that describe the idea. This will be explained ahead in the documentation, where I describe each of the seven ideas.
+As the idea was to generate a narration around few aspects of my son, and him as a superhero, decide that I would like to use a layout where he is in the center of attention of the web page as a superhero, and surrounding him place the different narrations  that  are in loop, so anyone can read visually them in any stage.
+To make sure that someone is able to understand what I would like to transmit, and  see the different relations with the images that are showed in the webpage. For that reason I decide to include  sound to the page with a narration, a story that I wrote using the perspective of a boy that narrates how was his development, and describes the power that his mom sees on him.
+
+For the seven narratives of the aspects I select previously, decided that would like them to be dynamic; that the general project has some movement. That's why I decide that would use video and gif format for create them. Also try to include some playful relation with the childhood as they  learn concepts through playing ( drawings, puppets , toys).
+For each narrative I tried to visualice the main concept, to figure out the approach that better suit for generate that content, and select an image that describe the idea. This will be explained ahead in the documentation, where I describe each of the seven narrations.
 
 ### Phase 3: Development
 
 To be able to start with this phase it was needed  to have a draft of what would like to have on the webpage (layout) and the concept of the project.  I planned a time frame to  have time to create all the content need it. 
-Each  visual content was based on the analysis that was done previously, on how express each of the seven narratives on the formats that I choose as video and gif. After these was ready I was able to start with the process of creation of the content to create the general project.
-At the same time that I was working on this process tried to keep a record of the stages I followed in the creation, to be able to describe the digital creative process that was needed it for the course of  'Digital Skapande'.
+Each  visual content was based on the analysis that was done previously, on how express each of the seven narratives on the formats that I choose as video and gif. After these was ready I was able to start with the process of creation of the content for the general project.
+At the same time that I was working on this process, tried to keep a record of the stages I followed in the creation, to be able to describe the digital creative process that was needed it for the course of  'Digital Skapande'.
 The process I followed and the information on this developing process could be read more in detail on the documentation part, as each process is described there.
 
 ### Phase 4: Launch, testing
@@ -118,15 +118,15 @@ Around main image the other narratives. Create  balance between them, as are 7 s
 * What tools have you used and why?
 
 To be able to configurate the webpage I used Webstorm to create the HTML and include the content I created to illustrate the narrative of the idea of my project. The type of formats used are video, gif, sound and image(.mov,.gif,.png and .mp4). 
-- I used this format as was posible to show different narrations at the same time and make them perceive more dynamic for the person that has access to them. 
+- I used this format as was posible to show different narrations at the same time and make them perceive more dynamic for the person that has access to them (viewer). 
 
 * What do you portray with your work?
 
-  With this I want to transmit that many kids face a different development on his life, that  every kid is not the same and that those differences  can also be seen as strengths.  A boy that is a superhero for his mother, as he showed to her that those particulates  are a power to approach the world in a different way and that sometimes people put limits of what others can learn, and they shouldn't do so. Fight for been a  better person and let the others have opportunities to evolve in life.
+  With this I want to transmit that many kids face a different development on his life, that  every kid is not the same and that those differences  can also be seen as strengths.  A boy that is a superhero for his mother, as he showed to her that those particulates,  are a power to approach the world in a different way and that sometimes people put limits of what others can learn, and they shouldn't do so. Fight for been a  better person and let the others have opportunities to evolve in life.
 
 * How did the process of creating your production work?
 
-- First work in creating the general layout of the project using only some image for configurate the position and the functions inside the web page.
+- First work in creating the general layout of the project using only some image for configurate the position and the functions inside the web page.(HTML)
 - Check the video play automatically and do a loop. The new version of Chrome only show videos that are muted so for been able to know this checked few forum as was not working for me.
 - On the audio test that we can add it to the web and the format that work with it. In this step saw the need to transform the M4a format witch  the iphone's used by default  and convert it to a mp3;  the audio control do not handle the original format of the iphone's.
 - create the CSS style for been able to place and organice the elements accordingly with the diagram of the idea that I did on the first phase. Using a Grid to place the elements on place.
@@ -147,28 +147,27 @@ Final Layout:  !!!!!
 
 ## Step 2: Central Main image 
 
-The original idea was to create and animation for the photos of the superhero that I took for that purpose but after creating the draft of the HTML realice that visually was not necessary. All the other content involve movement and saw  that if the center one was still will be like the anchor of the rest of the images and the idea was that all the other histories are related to that one, reason I  decided that actually was better that center superhero image stay still as work as an anchor for the other ones. 
-
+The original idea was to create and animation for the superhero.To be able to do so took several photos but after creating the draft of the HTML realice that visually was not necessary. All the other content involve movement and saw  that if the center image was still will work as an anchor for the rest of the images. The idea was that all the other histories were related to that one, reason I  decided that actually was better that the center superhero image stay still as work as an anchor for the other ones. 
 
 ### About the process:
 
 * What tools have you used and why?
 
-- For the production of this narration was needed a camera and a photo-editor. 
+- For the production of this narration was needed a camera, hand-made costume and a photo-editor. 
   The first idea was to create a gif for that reason I shoot several pictures but afterwards decide was better to keep the main image still as an ankor for the rest of the histories on the web page.  As I would like to keep the idea to use homemade costume as a superhero,  emphasize the iconography of the comics ( stars coming from the background as wonder woman posters) and change the red color of the superhero cape. For that reason was needed it a photo editor. I decided to use Photoshop as im used to work with that  program and like the different type of brushes and edition option that we can implement. 
-- The original photo was created with my son that is the main character and try different position to try to find an angle that shows as him with the arm extended and a hand made costume as they were playing in the house to make it more natural and close to everyone.
+- The original photo was created with my son that is the main character. Tried different position until could  find an angle that shows  him with the arm extended and with a hand made costume (as they were playing in the house to make it more natural and close to everyone ).
 
-The image of wonder woman were taken the idea of the stars.
+The image of wonder woman were the idea of the stars was taken .
 
 ![](img/wonderwoman.png)
 
 * What do you portray with your work? 
 
-With the picture want to transmit that my son is a superhero for me.  Select to use a homemade costume with regular things we have at home as is a daily home game and not posing for a scene. Taking a more natural context that anyone can see on his daily life   while kids are playing at home. On my daily life my son is my superhero.
+With the picture want to transmit that my son is a superhero for me.  Select to use a homemade costume with regular things we have at home, as is a daily home game and not posing for a scene. Taking a more natural context that anyone can see on his daily life   while kids are playing at home. On my daily life my son is my superhero.
 
 * How did the process of creating your production work?
 
-- first I used a camera to shoot a serie of photos as the original idea was to used them to create a gif. In total around 3 sets of 80 photos were shot for that purpose.
+- First I used a camera to shoot a serie of photos as the original idea was to used them to create a gif. In total around 3 sets of around 80 photos were shot for that purpose.
 - After the decision to maintain this main image still I overlook all the ones I had and select one to work on.
 - The image was imported to Photoshop where I:
 1. remove the background to have it transparent ( that way integrate better on the web page).
@@ -187,17 +186,17 @@ Some images from the process:
 
 ## Step 3: Text Head
 
-For the letters that I plan to have as main tittle want to keep a relation with the idea of a superhero. This topic is mainly viewed in comic magazines reason  decide to use a Typography inspired on the superheros comics. Have something more specific typography and not a standar one in HTML.
+For the letters placed for the main tittle, the intention was  to keep a relation with the idea of a superhero. This topic is mainly find in comic magazines, books. For that reason  I decide to use a Typography inspired on the superheros comics. Use a more specific typography and not a standar one that is part of an HTML preset.
 
 ### About the process:
 
 * What tools have you used and why?
 
-As I decide to use a specific typography that I search it on internet need to use some image-editor to be able to transform it with the content I need it. For that purpose I used Photoshop to modify the typography.
+As I decide to use a specific typography. For that I search it on the internet. As I took some content was already made I need to use some image-editor to be able to transform it with the content I need it. For that purpose I used Photoshop to modify the typography.
 
 * What do you portray with your work?
 
-With that typography want to transmit a relation with the comic books, make it more specific and not a generic font-letter found in a library of the HTML. Follow the main idea of the project and create a relation with the content on it, for example the main photo of teh superhero and the typography used on comic book with that topic.
+With that typography want to transmit a relation with the comic books, make it more specific and not a generic font-letter found in a library on the HTML. Want that the typography follows the main idea of the project and create a relation with the content has on the web page, for example the main photo of the superhero and the typography used on comic book with that topic.
 
 * How did the process of creating your production work?
 
@@ -221,7 +220,7 @@ For the Mamas text, delete the text was not need it. Duplicate the letter need i
 
 ## Step 4: Text and sound
 
-On the webpage the idea was to have a history narrated from the kid's perspective. This is included  for  let user  understand the whole project and the different relations that take place on the  narratives. The audio and text explain the connections that are inside the project. The audio and the text are the same.
+On the webpage the idea was to have a history narrated from the kid's perspective. This is included  to let user/viewer understand the whole project and been able to see the different relations that take place on the  narratives. The audio and text explain the connections that are inside the project. The audio and the text are the same.
 
 The page include:
 - Control for the sound below him.
@@ -234,8 +233,8 @@ The page include:
 * What tools have you used and why?
 
 For create and the audio and the text was needed it to use a Text editor as Word , a microphone, audio recorder device and an audio-editing tool.
-The text was worked in Word to be able to have a draft adn be translated to swedish. Also work to have already in a digital version to be copy and paste it on the HTML dropmenu in the project.
-The history was taped with a microphone on the iPhone and used it on Audacity to modify the acoustic and include some background sound to the history. 
+The text was worked in Word to be able to have a draft and be translated to swedish. Also use it on word worked to have already in a digital version to be copy and paste it on the HTML dropmenu of the project.
+The history was record with a microphone on the iPhone and used it on Audacity to modify the acoustic and include some background sound to the history. 
 
 * What do you portray with your work?
 
@@ -285,6 +284,24 @@ First Audio Draft Spanish can be found on img folder: spanishHistory.mp3
 
 ### Text Narrative Swedish: 
 
+För inte så länge sedan var min verklighet väldigt annorlunda.
+Vid 2 års ålder fick jag diagnosen autism.
+Men vad betyder det här?
+Många ser det som en funktionsnedsättning, men det är ett annat sätt att relatera till världen.
+När jag var liten var jag väldigt störd av att shoppa i klädbutiker, där de spelade väldigt hög musik och jag blev väldigt nervös.
+På bussen drabbades jag av starka dofter, som parfymer. Jag stod inte ut med dem, och jag var tvungen att gå av bussen och vänta på nästa.
+När det var dax att äta blev jag väldigt besvärad av matens olika texturer, såsom frukter, och kunde inte äta dem.
+Tills jag var 4 år gammal pratade jag väldigt lite och hade svårt att fokusera min uppmärksamhet på någon.
+När jag lekte gillade jag verkligen att göra det ensam och sätta mina leksaker i repetitiv ordning.
+Dessa är ett karakteristiskt drag hos barn med autism, om du inte visste det.
+Jag är nu 7 år gammal och många av dessa saker har jag lämnat efter mig.Men jag kan fortfarande inte äta fruktbitar. Jag gillar också att folk följer reglerna, Det är väl därför som dom finns?
+Mina föräldrar säger att jag är kapabel att göra vad jag vill, att lära mig och vara en bra person.
+Jag försök alltid tänka efter och prova göra de saker som intresserar mig, innan jag säger att jag inte kan. Och jag tro aldrig på dem som försöker sätta hinder för vad jag kan göra.
+
+För min mamma är jag hennes superhjälte. För varje dag som hon ser mig växa och utvecklas, med alla intressen jag har; om hur jag brinner för ett ämne och jag forskar tills jag vet så mycket jag kan om det så får jag mer och mer krafter.  Jag gillar verkligen matte, dinosaurier, att fiska med min pappa och jag kan identifiera alla fisk som har fiskat. För närvarande är jag mycket intresserad av Minecraft och jag pratar mycket on all man kan göra och byggas där.
+Jag har flera superkrafter: en som ger mycket kärlek, en annan för att kunna berätta alla de saker som intresserar mig och lära ut dem till mina vänner och förklara dem på spanska för mamma och på svenska för pappa.
+Jag är mammas superhjälte, och hon lär mig att jag aldrig ska sluta tro på mina superkrafter. Eftersom varje person är unik och viktig.
+
 Audio swedish can be found on img folder: swedishHistory.mp3
 
 
@@ -299,6 +316,7 @@ One of the characteristics of the kids with autism are that they are sensitive t
 ### About the process:
 
 * What tools have you used and why?
+
 For this part of the story I used the app of instagram. There you can search for different filters and also choose between different format for create media ( video, loops, reels and also include specific audio or text).
 See instagram as a tool were many people express what they are going through on their daily life. Influencers and companies get a lot of attention. They use the tools that instagram offer and help them to create different narratives depending on the purpose want to approach.  
 I see part of the story that im telling on my projects as a diary, that we  can compare with the histories on instagram reason I decide to introduce on my project what a tools as instagram can offer to us in as digital narrative.
@@ -340,12 +358,15 @@ Digitala spridningsvägar
 
 ### 3. Toys in order:
 
+One of the characteristic of the kids with autism are that they have a different mindset  that can be identified where they play. Most of them like to place the toys in order, or do repetitive movement with the same element over and over again. My son when was lite love to place ir order all his cars and trains reason I choose to use the cars for this narration.
+
 ![](img/toys.png)
 
 ### About the process:
 * What tools have you used and why?
 
-For create this narrative on the project was used a camera, tripod, shot remote-control, a program to edit photos as Gimp.
+For create this narrative on the project was used a camera, alot of cars, tripod, shot remote-control, a program to edit photos as Gimp.
+
 The idea was to generate a sequencer of cars that follow some order, to be able to create that felling, choose better to do a gif as on a video don't have the felling to be in different frames that's come one after the other, but a gift as is slower and get the sense that cut every images one after the other.   To have that effect on the narration was the reason decide that a gif worked better as the cars follow an order and are following each other by place them in the space.
 
 * What do you portray with your work?
@@ -393,16 +414,53 @@ Digitala spridningsvägar
 
 ### 5. Communication 
 
+Usually the kids with autism has some delay speaking and some of them don't develop those skills properly. To help them to comunicate with the others is used a system based in images called pictograms that also is used in therapies to help them gain more knowledge of concepts to try to speak. 
+I took the idea to use a puppet as I was a child sesame street teach the kids the concepts of numbers, vocabulary etc. Nowadays is also used in some psychological therapies to help tp catch the attention of the kids and be able to teach to them.
+As my son used that system to help him to develop the speech and the communication is important for us as humans, took the idea of the puppet show to us the pictograms as he was speaking to the viewer.
 
 ![](img/marioneta.png)
 ![](img/pictogramer.png)
 
 ### About the process:
+
 * What tools have you used and why?
+
+  For create this narrative for the project I used a camera, tripod, shot remote-control, and a program to edit photos as Gimp.
+  The idea was to generate a gif with the puppet where he seems that talk to us showing a pictogram poster that is at the back.
+  Use the gif for animate the puppet and the able to generate a narrative accordingly with the idea of the project where the communication was a key point. 
+ The hand made puppet belows to a daily landscape on the kid's iconography as Sesame street do in their show.
+
 * What do you portray with your work?
+
+With this narrative what to transmit the idea of the importance that is to try to comunicate with the others. If is not possible with a speech can be possible by  showing pictograms. Communication is  a key to make understand our values, needs and affection to the others.
+
 * How did the process of creating your production work?
 
+For create the gif was needed to took around 80 photos to create the felling that  the puppet was communicating and move around showing to us the pictogram poster at the back.
 
+For create the gif took 3 different set of images until got one that seems was working  with the sequence that I want to create.
+
+On the first shoot were big gaps between the  image's for that reason the sequence was not having the felling to have flow between them (movement was cutting).
+
+On the second shoot realized that the sequence created was too short and didn't get the felling the puppet was talking to us. Also realized that actually part of my arms was showed on the photos . The skin was making that the attention moved to other parts of the image reason I decided to take the set of photos again and cover my arms to avoid this disturbance and take more photos to capture the puppet moving on the screen.
+See below gif of the second shoot:
+
+![](img/marioneta1.gif)
+
+At the end the shoot that I selected to work with it was the last one as correct the aspects that saw before.
+Once I had the sequencer of photos that worked for the project I used Gimp editor to  adjust the light of the photos and create a gif with the animation filter.
+
+See below gif of the third shoot:
+
+![](img/marioneta2.gif)
+
+ At the end saw that the gif was moving too fast on the html project in relation with the other histories reason I  decided to exported again but using more frames to make some delay between the images. The Gig was exported making the frame interval lite slower as the one comes by default 
+
+See below gif of the final gif :
+
+![](img/marionetaSlow.gif)
+
+Some Sesame street puppet inspiration:
 
 ![](img/sesameStreet.png)
 
@@ -440,7 +498,7 @@ Once I got the shot as .mov format  I imported also to Shotcut video editor to d
 
 ![](img/love.gif)
 
-### 7. Different interest : MAth, dinosaurier, solar system, natur and Minekraft.
+### 7. Different interest : MAth, dinosaurier, solar system, natur and Minecraft.
 
 ![](img/estimulacion-cognitiva-ninos.png)
 

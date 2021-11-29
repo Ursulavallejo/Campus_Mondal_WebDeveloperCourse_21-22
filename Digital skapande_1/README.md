@@ -501,17 +501,12 @@ Once I got the shot as .mov format  I imported also to Shotcut video editor to d
 * What tools have you used and why?
 * What do you portray with your work?
 * How did the process of creating your production work?
-* Vilka verktyg har du använt dig av och varför?
-  (Ex. Googles bildsök och GIMP)
-
-* Vad gestaltar du med ditt verk?
-  (Ex. Att Stefan Löfven byter karriärbana och att framtiden är oklar för honom.)
-
-
-Digitala spridningsvägar
-* Hur gick processen till med att skapa din produktion?
-  (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
-
+* 
+  ![](img/process3.png)
+![](img/border.png)
+![](img/edicion.png)
+![](img/testGfVideo.gif)
+![](img/intresen.gif)
 
 ## 3. Uppgifter Info
 

@@ -17,7 +17,7 @@
         - [4. Problems texture food](#4-problems-texture-food)
         - [5. Communication ](#5-communication)
         - [6. Loving kid](#6-loving-kid)
-        - [ 7. Different interest](#7-different-interest--math-dinosaurier-solar-system-natur-and-minekraft)
+        - [ 7. Different interest](#7-different-interest--math-dinosaurier-solar-system-natur-and-minecraft)
 - [3.Uppgifter Info](#3-uppgifter-info)
 
 # 1. General Project :
@@ -232,7 +232,7 @@ The page include:
 
 * What tools have you used and why?
 
-For create and the audio and the text was needed it to use a Text editor as Word , a microphone, audio recorder device and an audio-editing tool.
+For create and the audio and the text was needed it to use a Text editor as Word , a microphone, audio recorder device and an audio-editing tool (Audacity).
 The text was worked in Word to be able to have a draft and be translated to swedish. Also use it on word worked to have already in a digital version to be copy and paste it on the HTML dropmenu of the project.
 The history was record with a microphone on the iPhone and used it on Audacity to modify the acoustic and include some background sound to the history. 
 
@@ -251,9 +251,14 @@ The reason why mom see him as a superhero.
 - I record a first draft with the text in spanish to test how sound the audio with the iphone and see how can reduce some possible noise at the background.
 - Did 3 different records of teh voice of my husband to see which one had better sound quality. At the end choose one.
 - The audio track that I choose need to be transformed from m4a to and mp3 format. Reason I use an online converter to do it.
-- Imported to Audacity (audio editor) and import the background music that I choose from an audio library to create some atmosphere to the history.
-- After I exported and included on the draft I have created on the HTML web page.
+- Imported to Audacity (audio editor): 
+  * Import the voice record to the editor program where I choose 3 different filters to minimize the acoustic of the room and any possible sound that can create disturbance.  The filters I used over the voice sound are: noise reduction, normalize, loudness normalization.
+  * After import a background audio. I searched it in different webpages where are sound libraries and found one that worked to create the atmosphere that I wanted it on the story. ( happy and playful that is near the childhood).  For  the background, was needed it to divide the sound file to be able to create fade in and out of the sound and a duplicate the background on a second layer to be able to reduce the volume on that track for  been able to listen the story.
+- After I exported as mp3 and included on the draft I have created on the HTML web page.
 
+- ![](img/ljudtext.png)
+- [Sound Library ](https://pixabay.com/es/music/search/genre/melod%C3%ADas%20para%20ni%C3%B1os%20felices/?mood=relajado)
+  
 ### Text Narrative Spanish: (first Draft)
 
 No hace mucho tiempo atrás, mi realidad era muy diferente.
@@ -278,9 +283,9 @@ Tengo un superpoder especial, el de dar mucho cariño, otro de poder contar toda
 
 Soy el superhéroe de mamá, y ella me enseña que nunca debo dejar de creer en mis superpoderes. Porque cada persona es única e importante.
 
-First Audio Draft Spanish can be found on img folder: spanishHistory.mp3
+ * First Audio Draft Spanish can be found on img folder: spanishHistory.mp3
 
-![](img/spanishHistory.mp3)   !!!!!!!!!!LINK DO NOT WORK
+
 
 ### Text Narrative Swedish: 
 
@@ -293,16 +298,19 @@ På bussen drabbades jag av starka dofter, som parfymer. Jag stod inte ut med de
 När det var dax att äta blev jag väldigt besvärad av matens olika texturer, såsom frukter, och kunde inte äta dem.
 Tills jag var 4 år gammal pratade jag väldigt lite och hade svårt att fokusera min uppmärksamhet på någon.
 När jag lekte gillade jag verkligen att göra det ensam och sätta mina leksaker i repetitiv ordning.
-Dessa är ett karakteristiskt drag hos barn med autism, om du inte visste det.
-Jag är nu 7 år gammal och många av dessa saker har jag lämnat efter mig.Men jag kan fortfarande inte äta fruktbitar. Jag gillar också att folk följer reglerna, Det är väl därför som dom finns?
+Dessa är karakteristiska drag hos barn med autism, om du inte visste det.
+Jag är nu 7 år gammal och många av dessa saker har jag lämnat bakom mig.
+Men jag kan fortfarande inte äta frukt.
+Jag gillar också att folk följer reglerna, Det är väl därför som dom finns?
 Mina föräldrar säger att jag är kapabel att göra vad jag vill, att lära mig och vara en bra person.
-Jag försök alltid tänka efter och prova göra de saker som intresserar mig, innan jag säger att jag inte kan. Och jag tro aldrig på dem som försöker sätta hinder för vad jag kan göra.
-
-För min mamma är jag hennes superhjälte. För varje dag som hon ser mig växa och utvecklas, med alla intressen jag har; om hur jag brinner för ett ämne och jag forskar tills jag vet så mycket jag kan om det så får jag mer och mer krafter.  Jag gillar verkligen matte, dinosaurier, att fiska med min pappa och jag kan identifiera alla fisk som har fiskat. För närvarande är jag mycket intresserad av Minecraft och jag pratar mycket on all man kan göra och byggas där.
-Jag har flera superkrafter: en som ger mycket kärlek, en annan för att kunna berätta alla de saker som intresserar mig och lära ut dem till mina vänner och förklara dem på spanska för mamma och på svenska för pappa.
+Jag försöker alltid tänka efter och prova att göra de saker som intresserar mig, innan jag säger att jag inte kan. Och jag tro aldrig på dem som försöker sätta hinder för vad jag kan göra.
+För min mamma är jag hennes superhjälte, för varje dag ser hon mig växa och utvecklas, med alla mina intressen.
+Hittar jag ett ämne som jag brinner för så forskar jag det tills jag vet så mycket som jag kan om det ämnet, och då får jag mer och mer krafter. Jag gillar verkligen matte, dinosaurier och att fiska med min pappa och jag kan identifiera alla fisk som jag har fiskat. För närvarande är jag mycket intresserad av Minecraft och jag pratar mycket om allt man kan göra och byggas där.
+Jag har flera superkrafter: en som ger mycket kärlek, en annan för att kunna berätta alla de saker som intresserar mig och lära ut dem till mina vänner.   Och jag kan förklara dem på spanska till mamma och på svenska till pappa.
 Jag är mammas superhjälte, och hon lär mig att jag aldrig ska sluta tro på mina superkrafter. Eftersom varje person är unik och viktig.
 
-Audio swedish can be found on img folder: swedishHistory.mp3
+
+* Audio swedish can be found on img folder: berättelseWeb.mp3
 
 
 ## Step 5: Seven narratives related with the story
@@ -342,6 +350,7 @@ Once I got the shot as .mov format  I imported also to Shotcut video editor to d
 
 ### About the process:
 * What tools have you used and why?
+  [Lens Studio](https://lensstudio.snapchat.com/)
 * What do you portray with your work?
 * How did the process of creating your production work?
 * Vilka verktyg har du använt dig av och varför?
@@ -398,6 +407,7 @@ Once I had the sequencer of photos that worked for the project I used Gimp edito
 
 ### About the process:
 * What tools have you used and why?
+  [Spark AR](https://sparkar.facebook.com/ar-studio/)
 * What do you portray with your work?
 * How did the process of creating your production work?
 * Vilka verktyg har du använt dig av och varför?

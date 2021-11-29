@@ -85,3 +85,7 @@ S
 #Digital skapande_1/css/dropdown.css,4\0\401c31d41625f0e8c9d40f49a031f9906ec4fc71
 L
 Digital skapande_1/script.js,b\c\bc1f75072090b0e56fafdcfef6220e654205a0d9
+M
+Digital skapande_1/index.html,d\8\d85b9312781dc81abba3eccca1d4145e747a567e
+L
+Digital skapande_1/README.md,f\c\fc22cd933ea3ec3b572296a8ae50887bdaf48c81

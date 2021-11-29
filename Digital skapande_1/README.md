@@ -504,6 +504,8 @@ Once I got the shot as .mov format  I imported also to Shotcut video editor to d
 * 
   ![](img/process3.png)
 ![](img/border.png)
+![](img/process1.png)
+
 ![](img/edicion.png)
 ![](img/testGfVideo.gif)
 ![](img/intresen.gif)

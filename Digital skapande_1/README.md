@@ -141,9 +141,6 @@ See below the draft of the process:
 
 ![](img/html2draft.png)
 
-Final Layout:  !!!!!
- 
-
 
 ## Step 2: Central Main image 
 
@@ -353,11 +350,9 @@ Once I got the shot as .mov format  I imported also to Shotcut video editor to d
   [Lens Studio](https://lensstudio.snapchat.com/)
 * What do you portray with your work?
 * How did the process of creating your production work?
-* Vilka verktyg har du använt dig av och varför?
-  (Ex. Googles bildsök och GIMP)
 
-* Vad gestaltar du med ditt verk?
-  (Ex. Att Stefan Löfven byter karriärbana och att framtiden är oklar för honom.)
+![](img/draftSmell2.gif)
+![](img/finalSmell.gif)
 
 
 Digitala spridningsvägar
@@ -410,18 +405,8 @@ Once I had the sequencer of photos that worked for the project I used Gimp edito
   [Spark AR](https://sparkar.facebook.com/ar-studio/)
 * What do you portray with your work?
 * How did the process of creating your production work?
-* Vilka verktyg har du använt dig av och varför?
-  (Ex. Googles bildsök och GIMP)
 
-* Vad gestaltar du med ditt verk?
-  (Ex. Att Stefan Löfven byter karriärbana och att framtiden är oklar för honom.)
-
-
-Digitala spridningsvägar
-* Hur gick processen till med att skapa din produktion?
-  (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
-
-
+![](img/reelFood.gif)
 ### 5. Communication 
 
 Usually the kids with autism has some delay speaking and some of them don't develop those skills properly. To help them to comunicate with the others is used a system based in images called pictograms that also is used in therapies to help them gain more knowledge of concepts to try to speak. 

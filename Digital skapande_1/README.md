@@ -183,7 +183,7 @@ Some images from the process:
 
 ## Step 3: Text Head
 
-For the letters placed for the main tittle, the intention was  to keep a relation with the idea of a superhero. This topic is mainly find in comic magazines, books. For that reason  I decide to use a Typography inspired on the superheros comics. Use a more specific typography and not a standar one that is part of an HTML preset.
+For the letters placed for the main tittle, the intention was to keep a relation with the idea of a superhero. This topic is mainly find in comic magazines, books. For that reason  I decide to use a Typography inspired on the superheros comics. Use a more specific typography and not a standar one that is part of an HTML preset.
 
 ### About the process:
 
@@ -204,7 +204,7 @@ I found the following two images to work:
 ![](img/mamas%20text%20web.jpg)
 
 -I import them to photoshop:
-For the Superhältar image: Was needed it to retouch and remove elements on the image. After duplicate one letter and place it at the end to have the correct text that I need it. At the end place drawing filter to try to have the sense of more kids drawing  and not only a vektor drawing. And place it on a transparent background in format png.
+For the Superhero image: Was needed it to retouch and remove elements on the image. After duplicate one letter and place it at the end to have the correct text that I need it. At the end place drawing filter to try to have the sense of more kids drawing  and not only a vektor drawing. And place it on a transparent background in format png.
 For the Mamas text, delete the text was not need it. Duplicate the letter need it to create the title and place it on a transparent background. At the end distort the angle of the text to be more dynamic.
 
  You can see the  original above  and transformation below:
@@ -221,7 +221,7 @@ On the webpage the idea was to have a history narrated from the kid's perspectiv
 
 The page include:
 - Control for the sound below him.
-- Button that open the text to be read.
+- Button that open the text to be read (dropdown).
 
 ![](img/iconsound.png)
 
@@ -283,7 +283,6 @@ Soy el superhéroe de mamá, y ella me enseña que nunca debo dejar de creer en 
  * First Audio Draft Spanish can be found on img folder: spanishHistory.mp3
 
 
-
 ### Text Narrative Swedish: 
 
 För inte så länge sedan var min verklighet väldigt annorlunda.
@@ -325,7 +324,7 @@ One of the characteristics of the kids with autism are that they are sensitive t
 For this part of the story I used the app of instagram. There you can search for different filters and also choose between different format for create media ( video, loops, reels and also include specific audio or text).
 See instagram as a tool were many people express what they are going through on their daily life. Influencers and companies get a lot of attention. They use the tools that instagram offer and help them to create different narratives depending on the purpose want to approach.  
 I see part of the story that im telling on my projects as a diary, that we  can compare with the histories on instagram reason I decide to introduce on my project what a tools as instagram can offer to us in as digital narrative.
-* Also used a video editor as Shotcut to remove the sound and be able to have other format as the gif . (Instagram create video as .mov)
+* Also used a video editor as ShotCut to remove the sound and be able to have other format as the gif . (Instagram create video as .mov)
 
 * What do you portray with your work?
 
@@ -337,7 +336,7 @@ On a first instance did research of the different option that offer instagram to
 Found interesting that not necessary the content need to be published can be saved on your device. That way you can export it to other programs to edit them or place it in other context as I did in using it on my webpage project.
 For my video decide to use a responsive filter as they track the movement of the person in front of teh camera, and it's modify with the interaction ( music notes that are generated with the movements of the face).
 To capture the idea of the kid getting overwhelmed with the music notes, was needed it to shoot the video 5 times. The first time the light  of the room was darker  and in other occasions  the composition of the image was not creating the atmosphere that was looking for.
-Once I got the shot as .mov format  I imported also to Shotcut video editor to delete the audio and create a gif.  On the web used the .mov and on the markdown the gif.
+Once I got the shot as .mov format  I imported also to ShotCut video editor to delete the audio and create a gif.  On the web used the .mov and on the markdown the gif.
 
 ![](img/soundv2.gif)
 
@@ -369,7 +368,7 @@ One of the characteristic of the kids with autism are that they have a different
 ### About the process:
 * What tools have you used and why?
 
-For create this narrative on the project was used a camera, alot of cars, tripod, shot remote-control, a program to edit photos as Gimp.
+For create this narrative on the project was used a camera, a lot of cars, tripod, shot remote-control, a program to edit photos as Gimp.
 
 The idea was to generate a sequencer of cars that follow some order, to be able to create that felling, choose better to do a gif as on a video don't have the felling to be in different frames that's come one after the other, but a gift as is slower and get the sense that cut every images one after the other.   To have that effect on the narration was the reason decide that a gif worked better as the cars follow an order and are following each other by place them in the space.
 
@@ -406,7 +405,20 @@ Once I had the sequencer of photos that worked for the project I used Gimp edito
 * What do you portray with your work?
 * How did the process of creating your production work?
 
+![](img/lensStudio1.png)
+![](img/lens2.png)
+![](img/lens3.png)
+![](img/lenstracking.png)
+![](img/templateslens.png)
+![](img/lens4layer.png)
+![](img/lens5layer.png)
+![](img/fruits.png)
+![](img/backgroundlens.png)
+![](img/fruitbackground.png)
+![](img/snapchatcode.png)
+
 ![](img/reelFood.gif)
+
 ### 5. Communication 
 
 Usually the kids with autism has some delay speaking and some of them don't develop those skills properly. To help them to comunicate with the others is used a system based in images called pictograms that also is used in therapies to help them gain more knowledge of concepts to try to speak. 
@@ -466,7 +478,7 @@ Create my own puppet ( handmade with a sock) :
 
 ### 6. Loving kid:
 
-On this part of teh project want to narrate that my son has accomplished to be able to express love surround him. Kids with autism have difficult to create relations with others but in the case of my son he is a really loving boy that cares os the people that surround him. What to transmit of that kindness / love he gives to the others in this video.
+On this part of the project want to narrate that my son has accomplished to be able to express love surround him. Kids with autism have difficult to create relations with others but in the case of my son he is a really loving boy that cares os the people that surround him. What to transmit of that kindness / love he gives to the others in this video.
 
 ![](img/love.png)
 
@@ -493,21 +505,56 @@ Once I got the shot as .mov format  I imported also to Shotcut video editor to d
 
 ![](img/love.gif)
 
-### 7. Different interest : MAth, dinosaurier, solar system, natur and Minecraft.
+### 7. Different interest : Math, dinosaurier, solar system, natur and Minecraft.
+
+On this narration my idea was to capture the different interest my son has. He is at the center of the image, point it out to us with the finger the topic he liked.  When he likes something  he really focuses on a topic and  like  to acknowledge as more he can on that topic.
 
 ![](img/estimulacion-cognitiva-ninos.png)
 
 ### About the process:
+
 * What tools have you used and why?
+
+  For create this narrative for the project I used a camera, tripod, shot remote-control, and a program to edit photos as Gimp.
+  The idea was to generate a gif with my son showing to us the different interest he has. I have chosen to create a gif as the idea was to incorporate the images of the interest he has around him and thought to superimpose them on a photo edition program was the better alternative for my project, and also give me the possibility  to have the background transparent.
+
 * What do you portray with your work?
+
+On this narrative want the viewer to see the interest my son has and that he is capable to learn many things and that sometimes our concept of kids with autism's is biased with prejudices .
+
 * How did the process of creating your production work?
-* 
-  ![](img/process3.png)
+
+- The first step on this process was to take pictures to be able to generate the png photos for the gif.  For this purpose I took 4 different series of sequences of the movement of the finger pointing to the wall.
+- Once I had different options ,look at them in speed to see witch of them can work to create the surrounding movement.  After I selected 26 photos.
+- For each photo delete the background for only keep my son and create a transparent background.
+- After amplify the image and delete all the white pixels remaining on the siluett of my son.With the transparent background over the color of the web page, the white pixels call a lot the of my son attention of the eyes and interfere.
+- Once have the background transparent export the photos as png to be able to creat the gif.
+- For the images of the things he shows to us, first search for them on internet and after did the same process to delete the background and export them as png.
+- Once I had all the photos and images ready create a project on the image editor and create different layers to be able to generate an order of appearance of the images (Minecraft, solar system, dinosaurs...) related where he is point out the finger at the background.
+- After used the filter of animation to create the gif. Where I exported changed the number of frames for don't show fast.
+- For the final result saw that the previous images on a transparent background are showed. I thought that each image will show independent but decided to keep it that way as show a sequence of movement and do not interfere with his face ...create a more playful idea.
+
+See below some images of the process:
+
+* The original photo:
+![](img/originalIntressen.JPG)
+
+* Delete Background:
+![](img/process3.png)
+
+* Delete surrounding pixels:
 ![](img/border.png)
+
+* Create a png with transparent background:
 ![](img/process1.png)
 
+* Try to use ShootCut to create the gif but convert the png to black background:
 ![](img/edicion.png)
+
+* Test on ShootCut:
 ![](img/testGfVideo.gif)
+
+* Using Gimp to create the gif:
 ![](img/intresen.gif)
 
 ## 3. Uppgifter Info

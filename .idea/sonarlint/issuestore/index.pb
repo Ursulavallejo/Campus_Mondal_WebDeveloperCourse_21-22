@@ -43,8 +43,6 @@ V
 &Programmering_1/assigment/css/card.css,0\6\06c6e057acf32177095b4a00eda5e8968d72fc06
 V
 &Programmering_1/assigment/css/cart.css,e\3\e342b369311f19f18bb116653ee2ef4c8040b502
-Z
-*Programmering_1/assigment/css/dropdown.css,a\0\a0270de4304633236fa3775596138e53e6871855
 X
 (Programmering_1/assigment/css/header.css,b\e\bec12d3ed7e4f1296aeb529ab7a8f27b8f847726
 V
@@ -63,8 +61,6 @@ S
 #Programmering_1/assigment/README.md,7\f\7f2d0af6047c174b0933c92ceb74eb431ca275c8
 g
 7Webbutveckling_1/new_version_assigment/css/styleAll.css,c\8\c8778a6823d1308719008d6efa840c1e2b575759
-W
-'Programmering_1/assigment/css/style.css,5\1\517e7783319510796de65d0cdd26608188a0afbc
 a
 1Webbutveckling_1/new_version_assigment/about.html,e\f\ef0f5f2356ef0f5e0a857fc9f976f8464ee85139
 T
@@ -75,17 +71,5 @@ T
 $Programmering_1/assigment/js/card.js,2\4\24dbe960e98df9223027d746a61f129b49694f9f
 X
 (Programmering_1/assigment/js/dropdown.js,8\3\8360aa385fe7dab7c3a1c230aae36ae59b9a4a00
-Q
-!Digital skapande_1/css/footer.css,9\0\90cc53758adb0b6a9312962d9028fa237e0d92c8
 j
 :Webbutveckling_1/new_version_assigment/css/styleFooter.css,2\b\2ba05a23edef2c6b800ba77108e4c5b52abb87ac
-P
- Digital skapande_1/css/style.css,a\c\acf9c7355cc20f00866b9526599ed0268b838668
-S
-#Digital skapande_1/css/dropdown.css,4\0\401c31d41625f0e8c9d40f49a031f9906ec4fc71
-L
-Digital skapande_1/script.js,b\c\bc1f75072090b0e56fafdcfef6220e654205a0d9
-M
-Digital skapande_1/index.html,d\8\d85b9312781dc81abba3eccca1d4145e747a567e
-L
-Digital skapande_1/README.md,f\c\fc22cd933ea3ec3b572296a8ae50887bdaf48c81

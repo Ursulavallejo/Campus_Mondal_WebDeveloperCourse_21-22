@@ -43,7 +43,7 @@ On a first stage after doing the brainstorm thought that would like to do a vide
 
 As my plan was to do a narration with different aspects, my first approach was to think on a video, as is the most common used tool nowadays to describe what going on in our daily lives. For example: instagram, facebook and YouTube. And for been able to create a narrative my fist taught was the video as was the nearest. After the selection of the items that I would like to include in the project, I thought that  a tool as a webpage can also work for that purpose. Also adding value that at the moment im studying the course for web development and believed was more pertinent to try to express my idea of the narrative of my son through that media.
 
-After the brainstorm I took 7 main ideas that could implement in my project as are some particularities with the kids with ASD( Autism spectrum disorder), related with the perception of the environment as: 
+After the brainstorm I took 7 main ideas that could implement in my project as are some particularities with the kids with ASD (Autism spectrum disorder), related with the perception of the environment as: 
 -sensitivity to the sound.
 -sensitivity to strong smells.
 -Problems with some textures with the food.
@@ -205,7 +205,7 @@ I found the following two images to work:
 
 -I import them to photoshop:
 For the Superhero image: Was needed it to retouch and remove elements on the image. After duplicate one letter and place it at the end to have the correct text that I need it. At the end place drawing filter to try to have the sense of more kids drawing  and not only a vektor drawing. And place it on a transparent background in format png.
-For the Mamas text, delete the text was not need it. Duplicate the letter need it to create the title and place it on a transparent background. At the end distort the angle of the text to be more dynamic.
+For the Mamas text, delete the text was not need it. Duplicate the letter needed it to create the title and place it on a transparent background. At the end distort the angle of the text to be more dynamic.
 
  You can see the  original above  and transformation below:
 
@@ -350,33 +350,51 @@ Kids on tne autistic spectrum are oversensitive on their senses. The most common
 
 * What tools have you used and why?
 
+I choose to use a program of augmented reality as Spark AR. This program is powered by Facebook and Instagram. It works  to create different experiences with tracking technology, built-in features to create interactivity on the camera.
+Along other new technologies I consider that the AR is changing our way to express over the social media. Also give companies a new landscape for advertisement and for 2d and 3d creators to express, or even a simple users can create their own filters with the built-in interfaces that can react with the voice, body movement of facial expressions. Can include sound, text and any animation.
+Is a useful tools to create narrations , reason I choose to use it as for me seems really interest to understand and learn how this new AR technologies can be used. Is a new way to create histories in social media and web interfaces that I see is getting everyday more importance in the daily live of a lot of people.
 
-
+See below the link of the program:
 [Spark AR](https://sparkar.facebook.com/ar-studio/)
 
-[SketchFab](https://sketchfab.com/)
-
-  
 * What do you portray with your work?
+
+On this narrative I want to show to the viewer that the smell can cause severe discomfort. My son was really sensitive to the smells and people usually tend to use a lot of parfym so maybe this can help to create a conscience of what we use, not all like the same smells as we do and in strong quantities can be really disturbing for others.
+
 * How did the process of creating your production work?
-* 
+
+-First needed to install the Spark AR program on my computer and do the introduction to be able to understand how it worked.
+- On the program is need to create a project and built in the scene and the effects you want to apply to the filter. Is possible to modify the light, create a face mesh to track the movements .
+
   ![](img/2objects.png)
+- When create my project select the option to create elements that was my idea to include and effect that interact with my son, in this case the idea of a smell.
+
 ![](img/1%20elements.png)
+
+You can import other objects to interact with the subject that has the mesh ( my son in this case).  By default, this option let manipulate water, fire and clouds around the main person and create an interaction.
 
 ![](img/project.png)
 
+As my idea was to have some gas that shows as the smell , went to the Ar library and saw different effect that are build-in.  On the section of the #D you can import effect to your project.
 ![](img/3arLibrary.png)
 ![](img/4object3D.png)
+
+On the library you can also see build-in effects created on Sketchfab , that way you have more options to choose.
+
 ![](img/sketchfab.png)
+[SketchFab](https://sketchfab.com/)
+
+Once you have the effect you liked on the projects can be published on instagram to be able to use it.
+
 ![](img/publish.png)
+
+The filter on Instagram will be imported, and you can select it to use and determine if you want to do a boomerang, video or a gif. The one I selected was to create a video.
+
 ![](img/filterinstagram.jpg)
 
+A photo frame of the final video :
+
 ![](img/smellPhotoFinal.png)
-
-
-Digitala spridningsvägar
-* Hur gick processen till med att skapa din produktion?
-  (Beskriv så noga och utförligt som möjligt stegen som du har gått igenom)
 
 
 ### 3. Toys in order:

@@ -346,7 +346,8 @@ Once I got the shot as .mov format  I imported also to ShotCut video editor to d
 
 ### About the process:
 * What tools have you used and why?
-  [Lens Studio](https://lensstudio.snapchat.com/)
+* [Spark AR](https://sparkar.facebook.com/ar-studio/)
+  
 * What do you portray with your work?
 * How did the process of creating your production work?
 
@@ -397,27 +398,57 @@ Once I had the sequencer of photos that worked for the project I used Gimp edito
 
 ### 4. Problems texture food:
 
+Usually kids with some autistic disorder are sensitive to textures in the food,that makes sometimes really hard to have different options at the time to eat. In the case of my son specially is on the texture of the fruits, actually the only he likes is coconut all other if not are in a juice he doesn't eat them. In this narrative want to show hes disapproval at the moment to eat fruits.
+
 ![](img/food.png)
 
 ### About the process:
+
 * What tools have you used and why?
-  [Spark AR](https://sparkar.facebook.com/ar-studio/)
+
+I choose to use a program of augmented reality as Lens Studio. This program is powered by Snapchat to be able to create different experiences with tracking technology, built-in features to create interactivity on the camera.
+Along other new technologies I consider that the AR is changing our way to express over the social media. Also give companies a new landscape for advertisement and for 2d and 3d creators to express, or even a simple users can create their own filters with the built-in interfaces that can react with the voice, body movement of facial expressions. Can include sound, text and any animation.
+Is a useful tools to create narrations , reason I choose to use it as for me seems really interest to understand and learn how this new AR technologies can be used.
+
+  [Lens Studio](https://lensstudio.snapchat.com/)
+
 * What do you portray with your work?
+
+On this work want to show to the viewer the difficulty that my son has with certain food. In his case is specific to the textures of the fruits. We can see his reaction to an Apple with a negative movement of his head and also see fruits around him on the filter.
+
 * How did the process of creating your production work?
 
+- First need to download the Lens Studio to my computer and did an introductory tutorial to be able to understand how it works.
+- Started creating a new project and selected the segmentation template to be able to change teh background of the filter.
+
 ![](img/lensStudio1.png)
+Once selected was able to configure for example for what type of device want to create the interface, manipulate the texture to uses (background) as the one come by defect are with heard. Also, can be changed the light of the user will be showed on the pictures ( light filters) and the source of the light.
 ![](img/lens2.png)
 ![](img/lens3.png)
+You need to select the object you want to track to activate the filter you are creating. To be responsive with it. As below:
 ![](img/lenstracking.png)
+YOu can also add different interaction inside the filter with a library of 3D ,2D. mesh, textures etc..   See below other options:
 ![](img/templateslens.png)
+Over the project you can use different layes to manipulate teh light and the object you will take for the interactivity. Other layes can be added it for example in my case use one for the background and other for the fruits with transparent background that move around the figure.
+
 ![](img/lens4layer.png)
 ![](img/lens5layer.png)
+
+For the background image try few that I found on internet with a png format. Can be also used jpg if you don't want to use any transparency.
+Example of the image:
 ![](img/fruits.png)
+
+Import the image to the Lens studio as a texture to have it as a background and other on other layer to have movement.
+
 ![](img/backgroundlens.png)
+
+With the preview you can see how actually the filter worked.
 ![](img/fruitbackground.png)
+To be able to use the filter you have created need to pair the lens Studio with a QR Code and that way you can use it on your telephone app of snapChat.
+
 ![](img/snapchatcode.png)
 
-![](img/reelFood.gif)
+![](img/finalFruit.png)
 
 ### 5. Communication 
 

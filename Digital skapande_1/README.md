@@ -342,17 +342,36 @@ Once I got the shot as .mov format  I imported also to ShotCut video editor to d
 
 ### 2. Sensitive to smell:
 
+Kids on tne autistic spectrum are oversensitive on their senses. The most common  is being sensitive to smell. Usually parfym or other strong smells can cause that kids turn nervous and unconformable, reason why in many therapeutic places to can see posters that they are a parfym free zone.
+
 ![](img/smell.png)
 
 ### About the process:
+
 * What tools have you used and why?
-* [Spark AR](https://sparkar.facebook.com/ar-studio/)
+
+
+
+[Spark AR](https://sparkar.facebook.com/ar-studio/)
+
+[SketchFab](https://sketchfab.com/)
+
   
 * What do you portray with your work?
 * How did the process of creating your production work?
+* 
+  ![](img/2objects.png)
+![](img/1%20elements.png)
 
-![](img/draftSmell2.gif)
-![](img/finalSmell.gif)
+![](img/project.png)
+
+![](img/3arLibrary.png)
+![](img/4object3D.png)
+![](img/sketchfab.png)
+![](img/publish.png)
+![](img/filterinstagram.jpg)
+
+![](img/smellPhotoFinal.png)
 
 
 Digitala spridningsvägar

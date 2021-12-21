@@ -12,7 +12,7 @@
 - [4. Fonts](#4-fonts-)
 - [5. Färgschema](#5-frgschema-)
 - [6. Dokumentation](#6-dokumentation-)
-    - [ Draw.io](#drawio)
+    - [ Draw.io : Persona Profil](#drawio---persona)
     - [ Figma](#figma)
     - [ HTML](#html)
     - [ CSS](#css)
@@ -42,7 +42,22 @@ Detta program hjälper dig att tydligt visualisera de avsnitt du arbetar med ino
 På så sätt kan du hålla reda på vad som fungerar och vad som behöver göras. Således är man mer medveten om var projektet är och garanterar ett bättre resultat genom att inte utelämna saker på grund av glömska.
 
 Jag tyckte personligen att det var mycket användbart att kunna styra och övervaka varje steg i projektet.
+
 # 2. Personas :
+
+Jag har skapat personas från observationer om möjliga riktiga användare.
+
+Webbsidan förvaltas av fiskeklubben där de visar olika information.
+
+Jag har skapat 4 olika personas baserat på de olika scenarierna där användarna främst interagerar med webbsidan.
+
+![](img/persona1Kim.jpg)
+
+![](img/persona2Jenny.jpg)
+
+![](img/persona3Nils.jpg)
+
+![](img/persona4Tommy.jpg)
 
 # 3. Wireframes (mobiler, tablets och desktop) :
 ## A. Low fidelity:
@@ -51,6 +66,8 @@ Jag tyckte personligen att det var mycket användbart att kunna styra och överv
 
 # 4. Fonts :
 # 5. Färgschema :
+
+## Color Style:
 
 # 6. Dokumentation :
 
@@ -90,7 +107,18 @@ Vi ser detta nedan:
 
 Nedan finns 3 avsnitt ett för html, ett annat för css och slutligen för JS där jag beskriver processen mer detaljerat i den process jag har haft i samband med utvecklingen av dessa i mitt projekt
 
-##  DRAW.IO
+##  DRAW.IO  / Persona
+
+För att kunna skapa Personas-profilen var mitt första steg att läsa några artiklar för att kunna förstå vilken information som verkligen behövdes och syftet att skapa en persona för UX-designen.
+
+10-steget för att skapa en persona profil hjälper mig verkligen att förstå och se vilken inverkan det har på UX-designen. Ha olika aspekter av användaren i åtanke och de olika scenarierna innan vi startar vårt projekt är verkligen viktigt eftersom det påverkar vad vi vill överföra och att kunna fokusera på målet och syftet med webbsidan vi skapar. . Se nedan de olika steg som rekommenderas att följa:
+
+![](img/personaSteps.jpg)
+
+![](img/personaLayout.jpg)
+Länkar till artiklarna:
+
+
 ##  FIGMA
 ##  HTML
 

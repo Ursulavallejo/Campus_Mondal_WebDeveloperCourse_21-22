@@ -12,8 +12,9 @@
 - [4. Fonts](#4-fonts-)
 - [5. Färgschema](#5-frgschema-)
 - [6. Dokumentation](#6-dokumentation-)
-    - [ Draw.io : Persona Profil](#drawio---persona)
-    - [ Figma](#figma)
+    - [ Persona Profil ](#persona-profil)
+    - [ Font ](#fonts)
+    - [ Color ](#fonts)
     - [ HTML](#html)
     - [ CSS](#css)
     - [ JS](#js)
@@ -67,7 +68,22 @@ Jag har skapat 4 olika personas baserat på de olika scenarierna där användarn
 # 4. Fonts :
 # 5. Färgschema :
 
+Klubben har redan en logotyp som de använde och är nöjda med den. De vill behålla som möjligt vissa färger kan matcha vad de brukar använda: orange, grått, svart och vitt.
+
+Se nedan logotypen de har och någon broschyr de gör för evenemang:
+
+![](img/sportfiske.png)
+![](img/events.png)
+
 ## Color Style:
+
+Jag har tagit idé att klubben är min klient och behöver anpassa sig och försöka tillgodose vad kunden frågar, eftersom de har klart vill behålla samma logotyp.  Under den förutsättningen måste rymma en rad färger som kan fungera med de som de använde (orange och grå).
+
+
+
+##Final Color Palette:
+
+!!! add here the one decide to implement !!
 
 # 6. Dokumentation :
 
@@ -107,19 +123,104 @@ Vi ser detta nedan:
 
 Nedan finns 3 avsnitt ett för html, ett annat för css och slutligen för JS där jag beskriver processen mer detaljerat i den process jag har haft i samband med utvecklingen av dessa i mitt projekt
 
-##  DRAW.IO  / Persona
+## PERSONA PROFIL 
 
 För att kunna skapa Personas-profilen var mitt första steg att läsa några artiklar för att kunna förstå vilken information som verkligen behövdes och syftet att skapa en persona för UX-designen.
 
-10-steget för att skapa en persona profil hjälper mig verkligen att förstå och se vilken inverkan det har på UX-designen. Ha olika aspekter av användaren i åtanke och de olika scenarierna innan vi startar vårt projekt är verkligen viktigt eftersom det påverkar vad vi vill överföra och att kunna fokusera på målet och syftet med webbsidan vi skapar. . Se nedan de olika steg som rekommenderas att följa:
+10-steget för att skapa en persona profil hjälper mig verkligen att förstå och se vilken inverkan det har på UX-designen (Interaction Design Foundation). Ha olika aspekter av användaren i åtanke och de olika scenarierna innan vi startar vårt projekt är verkligen viktigt eftersom det påverkar vad vi vill överföra och att kunna fokusera på målet och syftet med webbsidan vi skapar. Se nedan de olika steg som rekommenderas att följa:
 
 ![](img/personaSteps.jpg)
 
+För att skapa a template Layout för personas-profilen använde jag programmet _Draw.io_ som du kan se nedan:
+
 ![](img/personaLayout.jpg)
+- [Draw.io](https://app.diagrams.net/)
+
 Länkar till artiklarna:
 
+- [Piet Alberts: How to create user personas in UX design](https://pietalberts.com/create-personas-ux-design/#:~:text=The%20main%20reason%20behind%20creating%20Personas%20in%20UX,your%20team%20can%20make%20more%20confident%20design%20decisions.)
 
-##  FIGMA
+- [Interaction Design Foundation: Personas – A Simple Introduction ](https://www.interaction-design.org/literature/article/personas-why-and-how-you-should-use-them)
+
+- [Adobe XD Ideas:Putting Personas to Work in UX Design ](https://xd.adobe.com/ideas/process/user-research/putting-personas-to-work-in-ux-design/)
+
+##  FONTS
+
+Innan jag valde vilken typ som ska användas i projektet har jag tagit hänsyn till att man redan användes i klubbens logotyp.  Detta är geometriskt och rent (sans).
+
+Jag började undersöka hur man använder olika typsnitt i ett projekt och det rekommenderades att använda högst 3, och ha olika aspekter av brevets storlek och stil när jag väljer vilken som ska användas för att arbeta tillsammans.
+
+I vissa artiklar har jag läst rekommenderade verktyg som Cava och Type-scale för att bättre kunna visualisera typen av bokstäver, deras storlekar och ta idé om Type-face som kan fungera tillsammans.
+
+På Cava-sidan har jag tagit som inspirationsteckensnitt som kan fungera bra tillsammans. Att ta som grund för att de var lätta att läsa, med en stark geometrisk bas för att arbeta med logotypen och ta hänsyn till att de flesta användare kommer in på webben är för en mer praktisk funktion. De flesta användare har en mer maskulin profil som är i linje med ett mindre utsmyckat och lättare typsnitt.
+
+Det här var de idéerna om type-face som kan fungera tillsammans som fungerade som utgångspunkt för mig:
+
+![](img/formFunction.png)
+
+![](img/industrial.png)
+
+Type-scape fungerade som ett verktyg för att se hur olika typer av type-face fungerade tillsammans, som fanns i google-fonts och de olika storleksskalorna. Det ansågs också att bokstäverna i det svenska alfabetet inkluderades.
+
+Nedan kan vi se de tre olika typerna av type-face som jag väljer använd i projekten:
+
+__* Oswald :__
+![](img/oswaldScale.png)
+
+__* Montserrat :__
+![](img/montserratScale.png)
+
+__* Source Sans Pro :__
+![](img/sourceSansproScale.png)
+
+Detta verktyg ger oss möjlighet att se hur två typer av typ-ansikte fungerar samtidigt. Vilket är mycket användbart.
+
+Nedan kan vi se hur Oswald arbetar med Montserrat:
+![](img/typescale2.png)
+
+Nedan kan vi se hur Montserrat arbetar med Source Sans Pro:
+![](img/typescale1.png)
+
+Länkar :
+- [Type-Scale](https://type-scale.com/)
+
+- [Canva: Typography guide ](https://www.canva.com/learn/typography-guide/)
+
+- [Canva: Font pairing ](https://www.canva.com/learn/the-ultimate-guide-to-font-pairing/)
+
+- [MIZKO: Create a RESPONSIVE Typography Scale for Mobile & Tablet](https://www.youtube.com/watch?v=LYCt_AOJRss)
+
+## COLOR
+
+För att skapa färgpaletten som jag äntligen kommer att använda i projektet, undersök de olika aspekterna av paletten baserat på orange och grått. I logotypen dominerar orange så undersök olika egenskaper för att se vilka typer av varianter jag kan använda.
+
+Nedan kan du se de olika aspekterna som beaktas i processen att skapa paletten att använda:
+
+![](img/color%20palette.png)
+
+Palette generated by Material Palette - materialpalette.com/blue-grey/deep-orange:
+```
+.dark-primary-color    { background: #455A64; }
+.default-primary-color { background: #607D8B; }
+.light-primary-color   { background: #CFD8DC; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FF5722; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+```
+Adobe Color-wheel : Monokrom för färger #FF5722
+![](img/orangeMonocrom.png)
+
+Adobe Color-wheel : Nyanser för färger #FF5722
+![](img/colorNyanser.png)
+
+De verktyg som användes i denna forskning var:
+
+- [Adobe Color-Wheel ](https://color.adobe.com/sv/create/color-wheel)
+
+- [Material design palette ](https://www.materialpalette.com/)
+- 
 ##  HTML
 
 Detta är de steg som jag har följt när det gäller HTML för utvecklingen av detta projekt som jag också inkluderar om jag har haft några svårigheter och hur jag har löst det.

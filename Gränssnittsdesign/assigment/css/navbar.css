@@ -1,0 +1,44 @@
+/* Mobile First*/
+#navbar{
+
+    background: #000000;
+    padding:1em;
+    text-align:center;
+
+}
+.navStyle {
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .2s;
+    -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+    -moz-transition-property: all;
+
+}
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav  {
+    color: var(--background-color);
+    font-weight:200;
+    font-family: Oswald-Bold,  serif;
+}
+
+.navbar-link {
+    color: var(--text-icons);
+    background: black;
+    padding:10px 20px;
+    font-size:12px;
+    text-decoration:none;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+.navbar-link:hover{
+    border:none;
+    background:rgba(0, 0, 0, 0.4);
+    background:#fff;
+    padding:20px 20px;
+    color:#1b1b1b;
+}

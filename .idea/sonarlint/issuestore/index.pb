@@ -33,8 +33,6 @@ V
 0Webbutveckling_1/new_version_assigment/README.md,a\0\a016ff8f826b0d921f307e3ad96becae8c2dfaef
 X
 (Programmering_1/assigment/css/navbar.css,f\2\f2fedb0f05e01c2671fe22e80cdb24c6a3802122
-g
-7Webbutveckling_1/new_version_assigment/css/styleAll.css,c\8\c8778a6823d1308719008d6efa840c1e2b575759
 j
 :Webbutveckling_1/new_version_assigment/css/styleFooter.css,2\b\2ba05a23edef2c6b800ba77108e4c5b52abb87ac
 a

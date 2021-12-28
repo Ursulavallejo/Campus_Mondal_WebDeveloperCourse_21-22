@@ -10,13 +10,6 @@
     --background-color:#ff7c2a ;
 }
 
-
-body, html {
-    height: 100%;
-    margin: 0;
-    background-color: var(--background-color);
-}
-
 @font-face {
     font-family: 'Oswald-Bold';
     src: url('../fonts/Oswald/Oswald-Bold.ttf')
@@ -36,22 +29,240 @@ body, html {
 
 h1 {
     font-family: Oswald-Bold, serif;
-    font-size: 70px;
+    font-size: 35px;
     color: var(--text-icons);
 }
 
 h2 {
     font-family: Montserrat-ExtraBold, serif;
-    font-size: 23px;
+    font-size: 18px;
 
 }
-h3 {
+h3  {
     font-family: Montserrat-Bold, serif;
-    font-size: 17px;
+    font-size: 16px;
     color: var(--primary-text);
+}
+h4  {
+    font-family: Montserrat-Bold, serif;
+    font-size: 15px;
+    color: var(--primary-text);
+    font-weight: 700;
 }
 p {
     font-family: SourceSansPro-Regular, serif;
-    font-size: 16px;
+    font-size: 14px;
     color: var(--text-icons);
 }
+
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: var(--background-color);
+}
+/*General Layout page content*/
+
+.introText {
+    padding: 1.2em 1em;
+    text-align: center;
+    margin-left: 0;
+
+}
+
+.rightColumn .leftColumn {
+    width: 100%;
+    padding: 0;
+}
+.leftColumn {
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+
+.infoText-img {
+    text-align: center;
+}
+
+
+.infoText-img img {
+    width: 70%;
+    min-width: 225px;
+    max-width: 300px;
+
+}
+
+.card {
+width: 80%;
+    background-color: var(--primary-color);
+    padding: 1em;
+    margin: 2em 1em 1em 2em;
+    border-radius: 5px;
+}
+.card2 {
+
+    width: 80%;
+    border-radius: 5px;
+    text-align: left;
+    padding: 1em;
+    margin: 2em 1em 1em 2em;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 9px 20px;
+    margin: 1em;
+    color: black;
+    background-color: var(--background-color);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Montserrat-Bold, serif;
+}
+
+.card button:hover {
+    background-color: var(--dark-primary-color);
+    color: var(--text-icons);
+}
+
+.linkLogo img{
+    padding-left: 2.5em;
+    height: 60px ;
+margin-right: 1.5em;
+}
+.socialMediaButton :hover {
+    transform: scale(1.1)
+}
+
+.socialMediaButton :hover:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.searchArea input {
+    font-family: SourceSansPro-Regular, serif;
+    text-align: center;
+    color: var(--background-color);
+    font-weight: 200;
+
+}
+/* Tablet */
+@media screen and (min-width: 768px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 17px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .introText {
+        padding: 1.2em 2.3em;
+    }
+    .infoText-img img {
+        width: 80%;
+        min-width: 250px;
+        max-width: 350px;
+    }
+
+    .searchArea button{
+        padding:  0.5em 1em;
+        margin-left: 4em;
+    }
+    .searchArea input{
+        font-weight: 600;
+    }
+    .card {
+        width: 80%;
+        background-color: var(--primary-color);
+        padding: 1em;
+        margin: 2em 1em 1em 1em;
+        border-radius: 5px;
+    }
+
+    .card2 {
+        width: 80%;
+        margin: 1em 1em 1em 1em;
+    }
+    .card2 h2{
+        font-size: 18px;
+    }
+    .linkLogo img{
+        padding-left: 1em;
+        height: 50px ;
+        margin-right: 1em;
+    }
+}
+
+/* laptop/Desktop */
+@media screen and (min-width: 992px) {
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    h1 {
+        font-size: 67px;
+    }
+    h2 {
+        font-size: 34px;
+    }
+    .introText {
+        padding: 2em ;
+    }
+    .infoText-img img {
+        width: 80%;
+        min-width: 300px;
+        max-width: 450px;
+    }
+
+    .searchArea button{
+        padding:  0.5em 1em;
+        margin-left: 4em;
+    }
+    .searchArea input{
+        font-weight: 600;
+    }
+    .card {
+        width: 80%;
+        background-color: var(--primary-color);
+        padding: 1em;
+        margin: 2em 1em 1em 1em;
+        border-radius: 5px;
+    }
+
+    .card2 {
+        width: 80%;
+        margin: 1em 1em 1em 1em;
+    }
+    .card2 h2{
+        font-size: 18px;
+    }
+    .linkLogo img{
+        padding-left: 1em;
+        height: 50px ;
+        margin-right: 1em;
+    }
+}
+
+

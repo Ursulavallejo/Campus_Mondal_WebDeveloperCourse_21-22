@@ -1,8 +1,8 @@
 /* Mobile First*/
 #navbar{
 
-    background: #000000;
-    padding:1em;
+    background: var( --primary-text);
+    padding: 0.5em;
     text-align:center;
 
 }
@@ -29,7 +29,7 @@ nav  {
 .navbar-link {
     color: var(--text-icons);
     background: black;
-    padding:10px 20px;
+    padding:0.5em 0.5em;
     font-size:12px;
     text-decoration:none;
     letter-spacing:2px;
@@ -41,4 +41,21 @@ nav  {
     background:#fff;
     padding:20px 20px;
     color:#1b1b1b;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    #navbar{
+        padding: 0.8em;
+    }
+    .navbar-link {
+        padding:0.6em 0.6em;
+        font-size:16px;
+    }
+}
+/* laptop/Desktop */
+@media screen and (min-width: 992px) {
+        #navbar{
+            padding:1em;
+        }
 }

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/hem.css">
+    <link rel="stylesheet" href="css/dropdown.css">
     <link rel="stylesheet" href="css/footer.css">
     <title>Gråbo Sportfiske & Fiskevårdsförening</title>
 </head>
@@ -21,7 +22,26 @@
         <a href="https://www.ifiske.se/fiskekort-lilla-lovsjon.htm" target="_blank">
             <button>FISKEKORT</button>
         </a>
-        <button>SWISHA OSS</button>
+
+        <div class="dropdownSwish">
+            <div >
+                <button  onclick="openMenu()">
+                    SWISHA OSS
+                </button>
+            </div>
+            <div id="dropdown" class="dropdown-content">
+                <h3>Tack för ditt bidrag!</h3>
+                <p>Med detta hjälper vi till att bevara sjöarna och att kunna köpa virke för ditt bruk!</p>
+                <hr/>
+                <img  src="img/swish.png" alt="swishLogo">
+                <p>För Swish oss til No.7078654, eller</p>
+                <img id="qrSwish" src="img/QRWhite.png" alt="QR">
+                <hr/>
+                    <button onclick="closeMenu()">Close</button>
+            </div>
+        </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -147,5 +167,6 @@
     <span>Journummer 0761-036 317  Kontakt oss : info@grabosportfiske.se  Ljungslättsvägen 127,Gråbo</span>
 
 </footer>
+<script src="js/dropdownSwish.js"></script>
 </body>
 </html>

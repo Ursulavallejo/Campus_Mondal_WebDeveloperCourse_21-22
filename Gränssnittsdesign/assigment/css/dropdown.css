@@ -1,7 +1,16 @@
 
-.dropdownSwish {
+.dropdownSwish  {
     position: relative;
     display: inline-block;
+}
+
+.dropdownStyrelsen {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+    padding: 2em;
+    margin: 1em;
+
 }
 .dropdownSwish img{
     width: 90px;
@@ -34,6 +43,21 @@
     right: 0;
 }
 
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: var(--primary-color);
+    min-width: 280px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 15px;
+    right: 0;
+    padding: 1em;
+}
+.dropdown-content2 button {
+    margin-left: 7em;
+}
 .dropdown-content h2 {
     text-align: center;
     font-style: oblique;

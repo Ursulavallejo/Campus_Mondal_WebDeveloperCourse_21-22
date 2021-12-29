@@ -44,4 +44,3 @@ function createContentHeader() {
 `
 }
 
-document.getElementById('header').innerHTML = createContentHeader()

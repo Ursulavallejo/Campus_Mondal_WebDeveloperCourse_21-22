@@ -81,13 +81,7 @@ b
 2Gränssnittsdesign/assigment/css/testFontColor.css,1\3\13fb2f6c5b749884815d856bcdb94ea8adcd6d39
 Y
 )Gränssnittsdesign/assigment/css/hero.css,3\8\382ebc5c5783489d7cdb943a54c0397f8fdd5a65
-T
-$Programmering_1/assigment/index.html,6\e\6efbcec081bb07e5c09625e4e73512c8c1cf2755
-V
-&Programmering_1/assigment/js/header.js,0\d\0d3b25aec59328458bfd84606985feb0e68eb06a
 X
 (Programmering_1/assigment/js/dropdown.js,8\3\8360aa385fe7dab7c3a1c230aae36ae59b9a4a00
-Z
-*Gränssnittsdesign/assigment/css/style.css,b\2\b26c24f930d01513d09f195e34cba464cb7a04ac
 Z
 *Programmering_1/assigment/css/dropdown.css,a\0\a0270de4304633236fa3775596138e53e6871855

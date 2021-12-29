@@ -61,6 +61,23 @@ Jag har skapat 4 olika personas baserat på de olika scenarierna där användarn
 ![](img/persona4Tommy.jpg)
 
 # 3. Wireframes (mobiler, tablets och desktop) :
+
+navigation menu
+https://codepen.io/karimbalaa/pen/WboBBY/
+navbar
+https://www.w3schools.com/css/css_navbar_horizontal.asp
+
+ideas layout
+https://codepen.io/celincky/details/zdqso
+https://freefrontend.com/css-menu/
+
+hero>
+https://www.w3schools.com/howto/howto_css_hero_image.asp
+
+fish etc
+https://codepen.io/jomohop/pen/BEwywr
+https://codepen.io/thebabydino/pen/rNzRQWq
+https://codepen.io/loganliffick/pen/ZEXKqyv
 ## A. Low fidelity:
 ## B. Prototyp :
 ### UI och UX:

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hem.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Gråbo Sportfiske - Nyheter</title>
+</head>
+<body>
+
+<div class="hero-image">
+    <div class="hero-text">
+        <img src="img/logoGrabo.png" alt="">
+        <h1 >VÄLKOMMEN TILL GRÅBO</h1>
+        <H2>LILLA LÖVSJÖN & STORE LÖVSJÖN</H2>
+
+        <a href="https://www.ifiske.se/fiskekort-lilla-lovsjon.htm" target="_blank">
+            <button>FISKEKORT</button>
+        </a>
+
+        <div class="dropdownSwish">
+            <div >
+                <button  onclick="openMenu()">
+                    SWISHA OSS
+                </button>
+            </div>
+            <div id="dropdown" class="dropdown-content">
+                <h3>Tack för ditt bidrag!</h3>
+                <p>Med detta hjälper vi till att bevara sjöarna och att kunna köpa virke för ditt bruk!</p>
+                <hr/>
+                <img  src="img/swish.png" alt="swishLogo">
+                <p>För Swish oss til No.7078654, eller</p>
+                <img id="qrSwish" src="img/QRWhite.png" alt="QR">
+                <hr/>
+                <button onclick="closeMenu()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+<nav>
+    <div class="navStyle">
+        <ul id="navbar">
+            <a  href="index.html" class="navbar-link " >Hem</a>
+            <a  href="#" class="navbar-link " id="active">Nyheter</a>
+            <a  href="omFiske.html" class="navbar-link ">Om Fiske</a>
+            <a  href="regler.html" class="navbar-link">Regler</a>
+            <a  href="medlem.html" class="navbar-link ">Medlem</a>
+
+        </ul>
+
+    </div>
+</nav>
+<div class="grid-container">
+    <main >
+        <section class="introText">
+            <h2>NYHETER</h2>
+
+            <p>gråbo sportfiske gör specifika aktiviteter för flugfiskeintresserade men även för dem som är intresserade av att njuta av naturen. Här kan du hitta informationen vi tillhandahåller för att njuta av sjöarna:</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo incidunt laboriosam laudantium, odio quod vitae voluptatibus! Aliquid animi aspernatur dolorum ducimus inventore placeat ratione rem reprehenderit tenetur, voluptas voluptatem voluptatum!</p>
+
+        </section>
+        <section class="row">
+            <div class="leftColumn">
+
+                <article class="card" id="nyheter4">
+                    <h3>NYBÖRJARKURS I FLUGFISKE </h3>
+                    <h5>Publicerat maj 10, 2021</h5>
+
+                    <div class="infoText-img" >
+                        <img src="img/lillaWB2.jpg" alt="lillaLövsjönPhoto">
+
+                    </div>
+                    <p>Har du kanske haft en suktande längtan efter att likt Brad Pitt i ”Där Floden Flyter Fram” svinga ett flugspö efter vakande öringar eller kanske tänkte att det vore trevligt att dryga ut matsäcken under fjällvandringen med en egenfångad röding eller så kanske du tar tagit åtskilliga promenader runt Lilla Lövsjön och tänkt att ”här vore spännande att fiska, men hur gör man egentligen”?</p>
+                    <p>Nu har du chansen att prova på Flugfiske under lättsamma former och lära dig grunderna i denna ädla konst! Den 5 juni 2021 erbjuder Gråbo Sportfiske och Fiskevårdsförening i samarbete med Guideline Sweden AB in till en  heldags flugfiskekurs vid Lilla Lövsjön. Syftet med kursen är att du ska lära dig grunderna i flugfisket så som kastteknik, utrustningens olika delar, strategi för att fånga fisk m.m.</p>
+                    <p>Anmälan görs till <a href="mailto:info@grabosportfiske.se" target="_blank" rel="noreferrer noopener">info@grabosportfiske.se</a>. Antalet platser är begränsade till 6 personer (först till kvarn). Kostnad för kursen är 600 kr och då ingår lån av utrustning, lunch, fika och fiskekort. Kursen erbjuds till dig som är mellan 11 och 111 år.</p>
+
+                </article>
+                <article class="card" id="nyheter3">
+                    <h3>PORLANDE BÄCK</h3>
+                    <h5>Publicerat april 19, 2021</h5>
+                    <div class="infoText-img" >
+                        <img src="img/lake.jpeg" alt="storeLövsjönPhoto">
+                    </div>
+
+
+                    <p>På söndagen var vattenvårdsgruppen ute och tittade på sjöar och bäckar i det strålande vädret.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cum dignissimos, eos facilis fuga, hic labore magni nemo perferendis placeat quae, quaerat quas qui quisquam quos repudiandae tenetur voluptate voluptatum!.</p>
+
+                </article>
+                <article class="card" id="nyheter2">
+                    <h3>ISFRITT LILLA LÖVSJÖN</h3>
+                    <h5>PPublicerat mars 24, 2021</h5>
+                    <div class="infoText-img" >
+                        <img src="img/lake.jpeg" alt="storeLövsjönPhoto">
+                    </div>
+
+
+                    <p>Nu är det isfritt på Lilla Lövsjön. Så ni är välkomna att fiska igen.</p>
+                    <p>OBS: Under perioden 1:a December och 31:a Mars säljs det fiskekort endast via Ifiske..</p>
+
+                </article>
+                <article class="card" id="nyheter1">
+                    <h3>SJÖSANDSLÄNDAN KLÄCKER</h3>
+                    <h5>Publicerat maj 14, 2019</h5>
+                    <div class="infoText-img" >
+                        <img src="img/lake.jpeg" alt="storeLövsjönPhoto">
+                    </div>
+
+
+                    <p>Nu kläcker Sjösansländan (Ephemera Vulgata) för fullt i Lilla Lövsjön och fisken är helt tokig i dessa!</p>
+                    <p>Så passa på att åka upp och ha ett oförglömligt fiske!.</p>
+
+                </article>
+            </div>
+
+        </section>
+    </main>
+    <aside class="rightColumn">
+
+        <div class="card">
+            <div class="searchArea">
+                <label>
+                    <input type="text" value="vad letar du efter?" />
+                </label>
+                <button onclick="#">SÖK</button>
+            </div>
+            <h3>Följ oss:</h3>
+            <div class="linkLogo">
+                <p>Här kan du hitta bilder och information om andra personer som har kommit för att träffa oss</p>
+                <a class="socialMediaButton" href="https://www.facebook.com/grabo.sportfiskeforening" target="_blank">
+                    <img src="img/facebook.png" alt="logoFacebook">
+                </a>
+                <a class="socialMediaButton" href="https://www.instagram.com/explore/tags/gr%C3%A5bo/" target="_blank">
+                    <img src="img/instagram.png" alt="logoInstagram">
+                </a>
+            </div>
+        </div>
+        <div class="card2">
+            <h2>Senaste Nyheter :</h2>
+            <div class="senasteText">
+                <a href="#nyheter4">
+                    <h4>- Nybörjarkurs i Flugfiske</h4>
+                </a>
+            </div>
+            <div class="senasteText">
+                <a href="#nyheter3" >
+                    <h4>- Porlande bäck</h4>
+                </a>
+            </div>
+            <div class="senasteText">
+                <a href="#nyheter2">
+                    <h4>- Isfritt Lilla Lövsjön</h4>
+                </a>
+            </div>
+            <div class="senasteText">
+                <a href="#nyheter1">
+                    <h4>- Sjösandsländan kläcker!!!</h4>
+                </a>
+            </div>
+        </div>
+    </aside>
+</div>
+<footer >
+    <span>Journummer 0761-036 317  Kontakt oss : <a href="mailto:info@grabosportfiske.se" target="_blank" rel="noreferrer noopener">info@grabosportfiske.se</a>  Ljungslättsvägen 127,Gråbo</span>
+
+</footer>
+<script src="js/dropdownSwish.js"></script>
+</body>
+</html>

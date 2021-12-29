@@ -35,8 +35,6 @@ X
 (Programmering_1/assigment/css/navbar.css,f\2\f2fedb0f05e01c2671fe22e80cdb24c6a3802122
 j
 :Webbutveckling_1/new_version_assigment/css/styleFooter.css,2\b\2ba05a23edef2c6b800ba77108e4c5b52abb87ac
-a
-1Webbutveckling_1/new_version_assigment/index.html,4\0\4012684b27341bfd270b72b29a68b10f230a9fc7
 L
 Digital skapande_1/README.md,f\c\fc22cd933ea3ec3b572296a8ae50887bdaf48c81
 T
@@ -55,7 +53,41 @@ e
 5Gränssnittsdesign/assigment/fonts/Montserrat/OFL.txt,e\5\e522c8c4ec2cae79da57c594646cc6f1ec02594b
 i
 9Webbutveckling_1/new_version_assigment/css/styleAbout.css,b\f\bfe85adb35037686c596dcac5cbda90c9bf7b103
-j
-:Webbutveckling_1/new_version_assigment/css/styleNavBar.css,8\7\87368f770a6bf679a941cce875b28e648b87c0c9
+M
+Digital skapande_1/index.html,d\8\d85b9312781dc81abba3eccca1d4145e747a567e
+S
+#Digital skapande_1/css/dropdown.css,4\0\401c31d41625f0e8c9d40f49a031f9906ec4fc71
+a
+1Webbutveckling_1/new_version_assigment/about.html,e\f\ef0f5f2356ef0f5e0a857fc9f976f8464ee85139
+c
+3Webbutveckling_1/new_version_assigment/courses.html,7\3\73173200dad91a2de4d70ad8c351edeb25455f72
+a
+1Webbutveckling_1/new_version_assigment/other.html,3\8\385f7b22c1354acfb82abefd17587b43a463a8ad
+d
+4Webbutveckling_1/new_version_assigment/products.html,d\4\d471791b704a24aa852479294f8444fe5c9bcd67
+l
+<Webbutveckling_1/new_version_assigment/css/styleProducts.css,c\5\c55de7e28671aafa08bc7cea7636b553dab4857c
+g
+7Webbutveckling_1/new_version_assigment/css/styleAll.css,c\8\c8778a6823d1308719008d6efa840c1e2b575759
+h
+8Webbutveckling_1/new_version_assigment/css/styleBlog.css,e\5\e5329f87d96fbd94ea635c56de24f0e61809e513
+[
++Gränssnittsdesign/assigment/css/footer.css,0\9\093c8142408d376d4754fb04c9892944853eab9c
+X
+(Gränssnittsdesign/assigment/css/hem.css,0\7\070d1956d5a329da415793bf668bb486ce15407e
+_
+/Gränssnittsdesign/assigment/testFontColor.html,0\3\03678011869c67c335674502a3e12e69e9476331
+b
+2Gränssnittsdesign/assigment/css/testFontColor.css,1\3\13fb2f6c5b749884815d856bcdb94ea8adcd6d39
+Y
+)Gränssnittsdesign/assigment/css/hero.css,3\8\382ebc5c5783489d7cdb943a54c0397f8fdd5a65
+T
+$Programmering_1/assigment/index.html,6\e\6efbcec081bb07e5c09625e4e73512c8c1cf2755
 V
-&Gränssnittsdesign/assigment/README.md,8\7\874149da13baa6ffdc00c5cde9c544e63bb7dd5d
+&Programmering_1/assigment/js/header.js,0\d\0d3b25aec59328458bfd84606985feb0e68eb06a
+X
+(Programmering_1/assigment/js/dropdown.js,8\3\8360aa385fe7dab7c3a1c230aae36ae59b9a4a00
+Z
+*Gränssnittsdesign/assigment/css/style.css,b\2\b26c24f930d01513d09f195e34cba464cb7a04ac
+Z
+*Programmering_1/assigment/css/dropdown.css,a\0\a0270de4304633236fa3775596138e53e6871855

@@ -13,6 +13,7 @@
     -moz-transition-property: all;
 
 }
+
 nav ul {
     list-style-type: none;
     text-decoration: none;
@@ -24,6 +25,11 @@ nav  {
     color: var(--background-color);
     font-weight:200;
     font-family: Oswald-Bold,  serif;
+}
+/*color stay orange when in active not working*/
+
+#active {
+   color: var(--background-color);
 }
 
 .navbar-link {
@@ -42,6 +48,8 @@ nav  {
     padding:20px 20px;
     color:#1b1b1b;
 }
+
+
 
 /* Tablet */
 @media screen and (min-width: 768px) {

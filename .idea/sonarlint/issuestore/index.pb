@@ -73,8 +73,6 @@ h
 8Webbutveckling_1/new_version_assigment/css/styleBlog.css,e\5\e5329f87d96fbd94ea635c56de24f0e61809e513
 [
 +Gränssnittsdesign/assigment/css/footer.css,0\9\093c8142408d376d4754fb04c9892944853eab9c
-X
-(Gränssnittsdesign/assigment/css/hem.css,0\7\070d1956d5a329da415793bf668bb486ce15407e
 _
 /Gränssnittsdesign/assigment/testFontColor.html,0\3\03678011869c67c335674502a3e12e69e9476331
 b

@@ -1,0 +1,10 @@
+.comment-form {
+    font-family: Montserrat-Bold, serif;
+    font-size: 12px;
+}
+.comment-form input{
+    padding-left: 5em ;
+    text-align: center;
+    font-family: Montserrat-Bold, serif;
+    background-color: var(--background-color);
+}

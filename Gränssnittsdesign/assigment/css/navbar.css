@@ -13,12 +13,17 @@
     -moz-transition-property: all;
 
 }
-
 nav ul {
-    list-style-type: none;
-    text-decoration: none;
+    display: flex;
     margin: 0;
     padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+nav li {
+    list-style-type: none;
+    text-decoration: none;
+
 }
 
 nav  {
@@ -49,7 +54,33 @@ nav  {
     color:#1b1b1b;
 }
 
+li:hover {
+    background: white;
+    cursor: pointer;
+}
 
+ul li ul {
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
 
 /* Tablet */
 @media screen and (min-width: 768px) {

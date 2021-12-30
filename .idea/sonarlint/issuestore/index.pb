@@ -77,8 +77,6 @@ _
 /Gränssnittsdesign/assigment/testFontColor.html,0\3\03678011869c67c335674502a3e12e69e9476331
 b
 2Gränssnittsdesign/assigment/css/testFontColor.css,1\3\13fb2f6c5b749884815d856bcdb94ea8adcd6d39
-Y
-)Gränssnittsdesign/assigment/css/hero.css,3\8\382ebc5c5783489d7cdb943a54c0397f8fdd5a65
 X
 (Programmering_1/assigment/js/dropdown.js,8\3\8360aa385fe7dab7c3a1c230aae36ae59b9a4a00
 Z

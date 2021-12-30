@@ -220,7 +220,7 @@ body, html {
 
     .searchArea button {
         padding: 0.5em 1em;
-        margin-left: 4em;
+        margin: 0;
     }
 
     .searchArea input {
@@ -271,7 +271,7 @@ body, html {
     .introText {
         padding: 2em;
     }
-
+    /* aqui poner limite a las imagenes !!  ipad y iphone ok pero aqui no me va*/
     .infoText-img img {
         width: 80%;
         min-width: 300px;

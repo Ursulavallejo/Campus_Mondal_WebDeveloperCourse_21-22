@@ -71,8 +71,6 @@ g
 7Webbutveckling_1/new_version_assigment/css/styleAll.css,c\8\c8778a6823d1308719008d6efa840c1e2b575759
 h
 8Webbutveckling_1/new_version_assigment/css/styleBlog.css,e\5\e5329f87d96fbd94ea635c56de24f0e61809e513
-[
-+Gränssnittsdesign/assigment/css/footer.css,0\9\093c8142408d376d4754fb04c9892944853eab9c
 _
 /Gränssnittsdesign/assigment/testFontColor.html,0\3\03678011869c67c335674502a3e12e69e9476331
 b

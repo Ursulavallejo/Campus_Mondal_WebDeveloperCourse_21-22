@@ -86,12 +86,12 @@ body, html {
 
 }
 
-.rightColumn .leftColumn {
+.rightColumn .leftColumn .rightColumn {
     width: 100%;
-    padding: 0;
+
 }
 
-.leftColumn {
+.leftColumn .rightColumn {
     padding-left: 1em;
     padding-top: 1em;
 }
@@ -101,7 +101,12 @@ body, html {
     text-align: center;
 }
 
-
+.subInfoText-img {
+    width: 70%;
+    min-width: 225px;
+    max-width: 300px;
+    alignment: left;
+}
 .infoText-img img {
     width: 70%;
     min-width: 225px;
@@ -125,7 +130,6 @@ body, html {
     padding: 0;
 }
 .card2 {
-
     width: 80%;
     border-radius: 5px;
     text-align: left;
@@ -214,15 +218,9 @@ body, html {
 
     }
 
-    /*    poner boton al lado del searchfiled*/
     .searchArea {
         display: flex;
     }
-
- /*   .searchArea button {
-        padding: 0.5em 1em;
-        margin: 0;
-    }*/
 
     .searchArea input {
         font-weight: 600;
@@ -283,13 +281,13 @@ body, html {
     .introText {
         padding: 2em;
     }
-    /* aqui poner limite a las imagenes !!  ipad y iphone ok pero aqui no me va*/
+/*mirar bien el tamano de las imagenes  nyheter*/
     .infoText-img img {
         width: 80%;
-        min-width: 300px;
-        max-width: 450px;
-        max-height: 450px;
-
+        min-width: 320px;
+        max-width: 390px;
+        height: auto;
+        max-height: 500px;
     }
 
     .searchArea button {
@@ -320,6 +318,10 @@ body, html {
         padding-left: 1em;
         height: 50px;
         margin-right: 1em;
+    }
+    .rightColumn {
+        margin-left: 0;
+        padding-left: 0;
     }
 }
 

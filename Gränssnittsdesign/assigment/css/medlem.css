@@ -1,10 +1,21 @@
-.comment-form {
+.card3 {
     font-family: Montserrat-Bold, serif;
     font-size: 12px;
+    width: 80%;
+    background-color: var(--primary-color);
+    padding: 1em;
+    margin: 2em 1em 1em 2em;
+    border-radius: 5px;
 }
-.comment-form input{
-    padding-left: 5em ;
+.card3 input{
+    padding-left: 1.5em ;
     text-align: center;
     font-family: Montserrat-Bold, serif;
     background-color: var(--background-color);
 }
+.card3 label{
+    margin-left: 1em;
+}
+
+
+

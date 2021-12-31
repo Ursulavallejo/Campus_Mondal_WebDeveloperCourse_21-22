@@ -136,7 +136,6 @@ body, html {
     padding: 1em;
     margin: 2em 1em 1em 2em;
 }
-
 .card button {
     border: none;
     outline: 0;
@@ -178,6 +177,7 @@ body, html {
     color: var(--background-color);
     font-weight: 200;
 }
+/*centrar los botones en medlem iphone etc*/
 
 /* Tablet */
 @media screen and (min-width: 768px) {

@@ -150,11 +150,26 @@ body, html {
     font-family: Montserrat-Bold, serif;
 }
 
-.card button:hover {
+.card  button:hover {
     background-color: var(--dark-primary-color);
     color: var(--text-icons);
 }
-
+#buttonSearch:hover {
+    background-color: var(--dark-primary-color);
+    color: var(--text-icons);
+}
+#buttonSearch {
+    border: none;
+    outline: 0;
+    margin: 0;
+    padding: 0.4em 1em;
+    color: black;
+    background-color: var(--background-color);
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Montserrat-Bold, serif;
+}
 .linkLogo img {
     padding-left: 2.5em;
     height: 60px;
@@ -176,6 +191,9 @@ body, html {
     text-align: center;
     color: var(--background-color);
     font-weight: 200;
+    height: 28px;
+    margin-right: 0.5em;
+}
 }
 /*centrar los botones en medlem iphone etc*/
 
@@ -232,19 +250,6 @@ body, html {
         margin-left: 2.5em;
     }
 
-    #buttonSearch {
-        border: none;
-        outline: 0;
-        padding: 9px 20px;
-        margin: 0;
-        color: black;
-        background-color: var(--background-color);
-        text-align: center;
-        cursor: pointer;
-        border-radius: 10px;
-        font-family: Montserrat-Bold, serif;
-    }
-
     .card2 {
         width: 80%;
         margin: 1em 1em 1em 1em;
@@ -259,6 +264,9 @@ body, html {
         height: 50px;
         margin-right: 1em;
     }
+}
+#buttonSearch {
+    padding: 0.45em 1.5em;
 }
 
 /* laptop/Desktop */
@@ -290,11 +298,6 @@ body, html {
         max-height: 500px;
     }
 
-    .searchArea button {
-        padding: 0.5em 1em;
-        margin-left: 0.2em;
-    }
-
     .searchArea input {
         font-weight: 600;
         height: 33px;
@@ -323,6 +326,10 @@ body, html {
         margin-left: 0;
         padding-left: 0;
     }
+    #buttonSearch {
+        padding: 0.6em 1.5em;
+    }
+
 }
 
 

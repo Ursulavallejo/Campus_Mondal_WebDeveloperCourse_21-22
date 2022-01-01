@@ -6,6 +6,7 @@
     padding: 1em;
     margin: 2em 1em 1em 2em;
     border-radius: 5px;
+    text-align: left;
 }
 
 .card3 input {
@@ -51,6 +52,11 @@
 @media screen and (min-width: 992px) {
     .buttonInfoGrabo button {
         width: 22%;
+    }
+    .card3 {
+     
+        display: inline-block;
+        max-width: 70%;
     }
 }
 

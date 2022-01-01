@@ -20,8 +20,6 @@
     font-family: Oswald-Bold, serif;
     align-items: center;
 
-
-
 }
 
 .menuStyle li, a {
@@ -31,6 +29,10 @@
 }
 .menuItem {
     font-size: 11px;
+    text-align: center;
+    padding: 13px 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 /*    float: inherit;*/
 }
 .menuItem a {
@@ -47,20 +49,10 @@
     color: var(--background-color);
 }
 
-
 #active {
     color: var(--background-color);
 }
 
-/*mirar margen aqui*/
-.menuItem {
-    text-align: center;
-    padding: 13px 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-/*mirar margen aqui*/
 .menuItem:hover {
     border: none;
     background: var(--text-icons);
@@ -68,9 +60,6 @@
     cursor: pointer;
     color: var(--primary-text);
 }
-
-
-/*hacer cambios padding aqui y margen*/
 
 .subMenuItem li:hover {
     background: white;
@@ -111,6 +100,8 @@ ul li ul li {
 }
 /* laptop/Desktop */
 @media screen and (min-width: 992px) {
-
+    .menuItem {
+        font-size:17px;
+    }
 }
 

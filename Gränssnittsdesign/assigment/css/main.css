@@ -14,8 +14,6 @@ body, html {
     padding: 1.2em 1em;
     text-align: center;
     margin-left: 0;
-    text-align: center;
-
 }
 
 .rightColumn .leftColumn {
@@ -128,8 +126,9 @@ body, html {
     font-family: SourceSansPro-Regular, serif;
     text-align: center;
     color: var(--background-color);
-    font-weight: 200;
+    font-weight: 300;
     height: 28px;
+    width: 15em;
     margin-right: 0.5em;
 }
 
@@ -153,12 +152,15 @@ body, html {
 
     .searchArea {
         display: flex;
+
     }
 
     .searchArea input {
         font-weight: 600;
         height: 33px;
+        padding-right: 3em;
         margin-right: 0.5em;
+        width: 13em;
     }
 
     .card {
@@ -213,6 +215,7 @@ body, html {
         font-weight: 600;
         height: 33px;
         margin-right: 0.5em;
+        width: 18em;
     }
 
     .card {

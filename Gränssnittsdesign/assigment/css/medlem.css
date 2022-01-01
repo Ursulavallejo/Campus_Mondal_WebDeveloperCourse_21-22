@@ -29,6 +29,7 @@
 .buttonInfoGrabo button {
     height: 100%;
     width: 90%;
+    margin: 0.5em 0;
 }
 
 .buttonsMedlemMain {
@@ -52,9 +53,11 @@
 @media screen and (min-width: 992px) {
     .buttonInfoGrabo button {
         width: 22%;
+        margin: 0.5em 1em;
+
     }
     .card3 {
-     
+
         display: inline-block;
         max-width: 70%;
     }

@@ -73,7 +73,3 @@ X
 (Programmering_1/assigment/js/dropdown.js,8\3\8360aa385fe7dab7c3a1c230aae36ae59b9a4a00
 a
 1Webbutveckling_1/new_version_assigment/index.html,4\0\4012684b27341bfd270b72b29a68b10f230a9fc7
-j
-:Webbutveckling_1/new_version_assigment/css/styleNavBar.css,8\7\87368f770a6bf679a941cce875b28e648b87c0c9
-a
-1Webbutveckling_1/new_version_assigment/blogg.html,8\4\84c040c2b59761f68e294ed942c606d097495b15

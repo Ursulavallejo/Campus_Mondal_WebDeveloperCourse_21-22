@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     justify-content: center;
+ /*   overflow: hidden;*/
+
 
 }
 
@@ -18,6 +20,8 @@
     font-family: Oswald-Bold, serif;
     align-items: center;
 
+
+
 }
 
 .menuStyle li, a {
@@ -27,7 +31,7 @@
 }
 .menuItem {
     font-size: 11px;
-
+/*    float: inherit;*/
 }
 .menuItem a {
     color: var(--text-icons);

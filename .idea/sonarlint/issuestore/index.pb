@@ -27,8 +27,6 @@ V
 &Programmering_1/assigment/css/cart.css,e\3\e342b369311f19f18bb116653ee2ef4c8040b502
 X
 (Programmering_1/assigment/css/header.css,b\e\bec12d3ed7e4f1296aeb529ab7a8f27b8f847726
-V
-&Programmering_1/assigment/js/navbar.js,d\a\da678f10493a45f728fecd37bd7ac9a8a63f9986
 `
 0Webbutveckling_1/new_version_assigment/README.md,a\0\a016ff8f826b0d921f307e3ad96becae8c2dfaef
 X
@@ -37,8 +35,6 @@ j
 :Webbutveckling_1/new_version_assigment/css/styleFooter.css,2\b\2ba05a23edef2c6b800ba77108e4c5b52abb87ac
 L
 Digital skapande_1/README.md,f\c\fc22cd933ea3ec3b572296a8ae50887bdaf48c81
-T
-$Programmering_1/assigment/js/card.js,2\4\24dbe960e98df9223027d746a61f129b49694f9f
 \
 ,Programmering_1/assigment/js/dataProducts.js,6\3\632cc7e4004fbfae09793b6dd0398ee919f3e6a2
 _
@@ -57,8 +53,6 @@ M
 Digital skapande_1/index.html,d\8\d85b9312781dc81abba3eccca1d4145e747a567e
 S
 #Digital skapande_1/css/dropdown.css,4\0\401c31d41625f0e8c9d40f49a031f9906ec4fc71
-a
-1Webbutveckling_1/new_version_assigment/about.html,e\f\ef0f5f2356ef0f5e0a857fc9f976f8464ee85139
 c
 3Webbutveckling_1/new_version_assigment/courses.html,7\3\73173200dad91a2de4d70ad8c351edeb25455f72
 a
@@ -77,5 +71,9 @@ b
 2Gränssnittsdesign/assigment/css/testFontColor.css,1\3\13fb2f6c5b749884815d856bcdb94ea8adcd6d39
 X
 (Programmering_1/assigment/js/dropdown.js,8\3\8360aa385fe7dab7c3a1c230aae36ae59b9a4a00
-Z
-*Programmering_1/assigment/css/dropdown.css,a\0\a0270de4304633236fa3775596138e53e6871855
+a
+1Webbutveckling_1/new_version_assigment/index.html,4\0\4012684b27341bfd270b72b29a68b10f230a9fc7
+j
+:Webbutveckling_1/new_version_assigment/css/styleNavBar.css,8\7\87368f770a6bf679a941cce875b28e648b87c0c9
+a
+1Webbutveckling_1/new_version_assigment/blogg.html,8\4\84c040c2b59761f68e294ed942c606d097495b15

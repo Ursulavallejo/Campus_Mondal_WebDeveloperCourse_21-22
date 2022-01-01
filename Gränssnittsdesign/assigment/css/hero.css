@@ -1,4 +1,5 @@
 /* Mobile First*/
+
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/greyLanscape.jpg");
     min-height: 400px;
@@ -39,37 +40,21 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-
- /*   .hero-image {
-        height: 60%;
-    }*/
-
     .hero-logo img{
         height: 260px;
         padding-top: 2em;
-        margin-bottom: 1em;
     }
 
     .hero-text button {
         padding: 10px 25px;
-        color: black;
         margin-top: 2.5em;
         font-size: 13px;
     }
-
-    }
+}
 /* laptop/Desktop */
 @media screen and (min-width: 992px) {
-
-
-    .hero-logo img{
-            margin-bottom: 1em;
-        }
-
-        .hero-text button {
-            padding: 10px 25px;
-            color: black;
-            margin-top: 1.5em;
-            font-size: 15px;
-        }
+    .hero-text button {
+        margin-top: 1.5em;
+        font-size: 15px;
+    }
 }

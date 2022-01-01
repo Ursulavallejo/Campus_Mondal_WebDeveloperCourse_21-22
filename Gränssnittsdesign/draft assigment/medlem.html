@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/navMenu.css">
+ <!--   <link rel="stylesheet" href="css/navbar.css">-->
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/medlem.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Gråbo Sportfiske - Medlem</title>
+</head>
+<body>
+
+<div class="hero-image">
+    <div class="hero-logo">
+        <img src="img/logoGrabo.png" alt="">
+    </div>
+
+    <div class="hero-text">
+        <h1>VÄLKOMMEN TILL GRÅBO</h1>
+        <H2>LILLA LÖVSJÖN & STORE LÖVSJÖN</H2>
+
+        <a href="https://www.ifiske.se/fiskekort-lilla-lovsjon.htm" target="_blank">
+            <button>FISKEKORT</button>
+        </a>
+
+        <div class="dropdownSwish">
+            <div>
+                <button onclick="openMenu()">
+                    SWISHA OSS
+                </button>
+            </div>
+            <div id="dropdown" class="dropdown-content">
+                <h3>Tack för ditt bidrag!</h3>
+                <p>Med detta hjälper vi till att bevara sjöarna och att kunna köpa virke för ditt bruk!</p>
+                <hr/>
+                <img src="img/swish.png" alt="swishLogo">
+                <p>För Swish oss til No.7078654, eller</p>
+                <img id="qrSwish" src="img/QRWhite.png" alt="QR">
+                <hr/>
+                <button onclick="closeMenu()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<nav>
+    <div class="menuStyle">
+        <ul id="navbarMenu">
+            <li class="menuItem"><a href="index.html" >Hem</a>
+                <ul>
+                    <li class="subMenuItem"><a href="index.html#lillaLovsjon">Lilla Lövsjön</a></li>
+                    <li class="subMenuItem"><a href="index.html#storeLovsjon">Store Lövsjön</a></li>
+                </ul>
+            </li>
+            <li class="menuItem"><a href="nyheter.html"  >Nyheter</a></li>
+            <li class="menuItem"><a href="omFiske.html" >Om Fiske</a>
+                <ul>
+
+                    <li class="subMenuItem"><a href="omFiske.html">Fiskekort</a></li>
+                    <li class="subMenuItem"><a href="omFiske.html">Fisketips</a></li>
+                    <li class="subMenuItem"><a href="omFiske.html">Flugfiske</a></li>
+                    <li class="subMenuItem"><a href="omFiske.html">Fångstrapporter</a></li>
+                </ul>
+            </li>
+            <li class="menuItem"><a href="regler.html" >Regler</a>
+                <ul>
+                    <li class="subMenuItem"><a href="regler.html">Fiskeregler</a></li>
+                    <li class="subMenuItem"><a href="regler.html">Allemansrätt</a></li>
+                    <li class="subMenuItem"><a href="regler.html">Bevakning</a></li>
+                </ul>
+            </li>
+            <li class="menuItem"><a href="#"  id="active">Medlem</a>
+                <ul>
+                    <li class="subMenuItem"><a href="medlem.html">Om Gråbo Sportfiske</a></li>
+                    <li class="subMenuItem"><a href="medlem.html">Bli Medlem</a></li>
+                    <li class="subMenuItem"><a href="medlem.html">Profilkläder</a></li>
+                    <li class="subMenuItem"><a href="medlem.html">Kontakt Oss</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+<div class="grid-container">
+    <main>
+        <section class="introText">
+            <h2>INFORMATIONEN OM KLUBB</h2>
+
+            <p>Om du är intresserad av att vara medlem och vill veta mer om oss så är du på rätt plats.</p>
+            <p>Om du redan är medlem i vår klubb kan du även här hitta användbar information och vår styrelse och
+                Stadgar.</p>
+            <p>Eventuella frågor eller förslag kan du kontakta oss genom formuläret som du hittar till höger.</p>
+            <p>Gillar du fiske och natur är du välkommen att besöka oss.</p>
+
+        </section>
+        <section class="row">
+            <div class="leftColumn">
+                <article class="card" id="omClub">
+                    <h3>OM GRÅBO SPORTFISKE</h3>
+                    <div class="infoText-img">
+                        <img src="img/logoGrabo.png" alt="logoClub">
+                    </div>
+
+
+                    <p>Vi är en liten ideell förening som består av fiskeintresserade person i Gråbo med omnejd.
+                        Föreningen bildades 1977 och är ansluten till Sveriges Sportfiske och Fiskevårdsförbund och har
+                        som syfte att genom avtal med fiskerättsinnehavare (LFVO) bereda medlemmar och allmänheten
+                        tillfälle till sportfiske i dessa sjöar..</p>
+                    <p>Vi tar hand om naturen och främjar ett ansvarsfullt fiske. Vi brukar göra fiskeaktiviteter för
+                        alla typer av allmänheten.</p>
+                    <h4>Klubblokalen:</h4>
+                    <p>Vi befinner oss vid Lilla Lövsjön. Huset ligger på höger sida om infarten till Lilla Lövsjön.
+                        Ljungslättsvägen 127, Gråbo</p>
+                    <div class="buttonInfoGrabo">
+                    <span class="buttonsMedlemMain">
+                     <a href="https://www.hitta.se/kartan!~57.87612,12.28251,16z/tr!i=hKF3QaHD/geocode!l=57.87633:12.28452"
+                        target="_blank"><button >KARTA</button>
+                     </a>    </span>
+                        <span class="buttonsMedlemMain">
+                                <button  onclick="openMenu3()">
+                                    CONTACT OSS
+                                </button>
+
+                            <span id="dropdown3" class="dropdown-content2">
+                                <h3>Gråbo Sportfiske & Fiskevårdsförening</h3>
+                                <p>Box 4059</p>
+                                <p>433 12 Gråbo</p>
+                                <hr/>
+                                <p>Mail: <a href="mailto:info@grabosportfiske.se" target="_blank"
+                                            rel="noreferrer noopener">info@grabosportfiske.se</a></p>
+                                <hr/>
+                                <button onclick="closeMenu3()">Close</button>
+                            </span>
+                        </span>
+                        <span class="buttonsMedlemMain">
+                                <button  onclick="openMenu2()">
+                                    STYRELSEN
+                                </button>
+                            </span>
+                        <span id="dropdown2" class="dropdown-content2">
+                                <h3>Styrelsen 2020:</h3>
+                                <span>
+                                <p>Ordförande: Christopher Nävås <a href="mailto:  ordforande@grabosportfiske.se"
+                                                                    target="_blank" rel="noreferrer noopener">  ordforande@grabosportfiske.se</a></p>
+                                <hr/>
+                                <p>Sekreterare: Stefan Lundgren</p>
+                                <p>Kassör: Elsa D´Arcy</p>
+                                <p>Ledamot: Nils Sahlqvist</p>
+                                <p>Ledamot: Jakob Vinblad</p>
+                                <p>Ledamot: Mikael Hagman</p>
+                                <p>Ledamot: Björn Meyer</p>
+                                <hr/>
+                                <p>Suppleant: Conny Andersson Fridell</p>
+                                <p>Suppleant: Hans Sahlqvist</p>
+                                <p>Revisor: Åke Hallberg</p>
+
+                            </span>
+                                <hr/>
+                                <h3>Övriga förtroendeuppdrag:</h3>
+                                <p>Fiskekortsansvarig: Elsa D´Arcy</p>
+                                <p>Vattenvårdsansvarig: Nils Sahlqvist</p>
+                                <hr/>
+                                <button onclick="closeMenu2()">Close</button>
+                            </span>
+                        <span class="buttonsMedlemMain">
+                            <button >
+                                STADGAR
+                            </button>
+                        </span>
+                    </div>
+                </article>
+                <article class="card" id="bliMedlem">
+                    <h3>BLI MEDLEM</h3>
+
+                    <div class="infoText-img">
+                        <img src="img/mdl_kort.jpg" alt="nyborjarInfo">
+
+                    </div>
+                    <h4>Intresserad att bli medlem i Gråbo Sportfiske & Fiskevårdsförening?.</h4>
+                    <hr/>
+                    <h4>Prisuppgifter 2021:</h4>
+                    <p>Inträdesavgift (endast A-medlem): 1000 SEK</p>
+                    <p>Årsavgift A-medlem: 1500 SEK</p>
+                    <p>Ungdomsmedlem: 500 SEK</p>
+                    <p>Stödmedlem: 300 SEK</p>
+                    <hr/>
+                    <p>Anmälan görs till <a href="mailto:info@grabosportfiske.se" target="_blank"
+                                            rel="noreferrer noopener">info@grabosportfiske.se</a>. </p>
+                    <h4>Om du har frågor kontakta oss. På denna sida hittar du ett formulär som du kan skriva till
+                        oss.</h4>
+
+                </article>
+
+                <article class="card" id="profiklader">
+                    <h3>PROFILKLÄDER</h3>
+
+                    <div class="infoText-img">
+                        <img src="img/southWest.png" alt="SWKläder">
+                    </div>
+
+                    <p>GSFF har tagit fram en helt ny kollektion kläder från South West i samband med att vi tog fram
+                        vårt nya klubbmärke. En riktigt bra och prisvärt klädmärke in fin kvalitet..</p>
+                    <p>Alla beställningar förskottbetalas och hämtas i Göteborg hos Urban eller lämnas ut i samband med
+                        styrelsemöte i GSFF klubblokal i Gråbo.
+                        Leveranstid cirka 7 dagar.</p>
+                </article>
+
+            </div>
+
+        </section>
+    </main>
+    <aside class="rightColumn">
+
+        <div class="card">
+            <div class="searchArea">
+                <label>
+                    <input type="text" value="vad letar du efter?"/>
+                </label>
+                <button id="buttonSearch" onclick="">SÖK</button>
+            </div>
+            <h3>Följ oss:</h3>
+            <div class="linkLogo">
+                <p>Här kan du hitta bilder och information om andra personer som har kommit för att träffa oss</p>
+                <a class="socialMediaButton" href="https://www.facebook.com/grabo.sportfiskeforening" target="_blank">
+                    <img src="img/facebook.png" alt="logoFacebook">
+                </a>
+                <a class="socialMediaButton" href="https://www.instagram.com/explore/tags/gr%C3%A5bo/" target="_blank">
+                    <img src="img/instagram.png" alt="logoInstagram">
+                </a>
+            </div>
+        </div>
+        <div class="card2">
+            <h2>Senaste Nyheter :</h2>
+            <div class="senasteText">
+                <a href="nyheter.html#nyheter4">
+                    <h4>- Nybörjarkurs i Flugfiske</h4>
+                </a>
+            </div>
+            <div class="senasteText">
+                <a href="nyheter.html#nyheter3">
+                    <h4>- Porlande bäck</h4>
+                </a>
+            </div>
+            <div class="senasteText">
+                <a href="nyheter.html#nyheter2">
+                    <h4>- Isfritt Lilla Lövsjön</h4>
+                </a>
+            </div>
+            <div class="senasteText">
+                <a href="nyheter.html#nyheter1">
+                    <h4>- Sjösandsländan kläcker!!!</h4>
+                </a>
+            </div>
+        </div>
+        <div class="card3">
+            <form class="comment-form">
+                <label>Name:
+                    <input type="text">
+                </label>
+                <label>Email:
+                    <input type="email">
+                </label>
+
+                <label>Meddelande:
+                    <textarea name="message" rows="10" cols="30">Frågor om att vara medlem eller om oss?</textarea>
+                </label>
+                <input type="submit">
+            </form>
+        </div>
+    </aside>
+</div>
+<footer>
+    <span>Journummer 0761-036 317  Kontakt oss : <a href="mailto:info@grabosportfiske.se" target="_blank"
+                                                    rel="noreferrer noopener">info@grabosportfiske.se</a>   Ljungslättsvägen 127,Gråbo</span>
+
+</footer>
+<script src="js/dropdown.js"></script>
+
+</body>
+</html>

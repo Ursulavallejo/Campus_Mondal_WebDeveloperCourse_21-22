@@ -5,82 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/hero.css">
-    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/navMenu.css">
     <link rel="stylesheet" href="css/footer.css">
+
     <title>Gråbo Sportfiske & Fiskevårdsförening</title>
 </head>
 <body>
-
-<div class="hero-image">
-    <div class="hero-logo">
-        <img src="img/logoGrabo.png" alt="">
-    </div>
-
-    <div class="hero-text">
-        <h1>VÄLKOMMEN TILL GRÅBO</h1>
-        <H2>LILLA LÖVSJÖN & STORE LÖVSJÖN</H2>
-
-        <a href="https://www.ifiske.se/fiskekort-lilla-lovsjon.htm" target="_blank">
-            <button>FISKEKORT</button>
-        </a>
-
-        <div class="dropdownSwish">
-            <div>
-                <button onclick="openMenu()">
-                    SWISHA OSS
-                </button>
-            </div>
-            <div id="dropdown" class="dropdown-content">
-                <h3>Tack för ditt bidrag!</h3>
-                <p>Med detta hjälper vi till att bevara sjöarna och att kunna köpa virke för ditt bruk!</p>
-                <hr/>
-                <img src="img/swish.png" alt="swishLogo">
-                <p>För Swish oss til No.7078654, eller</p>
-                <img id="qrSwish" src="img/QRWhite.png" alt="QR">
-                <hr/>
-                <button onclick="closeMenu()">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-<nav>
-    <div class="navStyle">
-        <ul id="navbar">
-            <li><a href="#" class="navbar-link " id="active">Hem</a>
-                <ul>
-                    <li>Lilla Lövsjön</li>
-                    <li>Store Lövsjön</li>
-                </ul></li>
-            <li><a href="nyheter.html" class="navbar-link ">Nyheter</a></li>
-            <li><a href="omFiske.html" class="navbar-link ">Om Fiske</a>
-                <ul>
-
-                    <li>Fiskekort</li>
-                    <li>Fisketips</li>
-                    <li>Flugfiske</li>
-                    <li>Fångstrapporter</li>
-                </ul>
-            </li>
-            <li><a href="regler.html" class="navbar-link" >Regler</a>
-                <ul>
-                    <li>Fiskeregler</li>
-                    <li>Allemansrätt</li>
-                    <li>Bevakning</li>
-                </ul>
-            </li>
-            <li><a href="medlem.html" class="navbar-link ">Medlem</a>
-                <ul>
-                    <li>Om Gråbo Sportfiske</li>
-                    <li>Bli Medlem</li>
-                    <li>Profilkläder</li>
-                    <li>Kontakt Oss</li>
-                </ul>
-            </li>
-        </ul>
-
-    </div>
-</nav>
+<header id="hero"></header>
+<nav id="navbar"></nav>
 <div class="grid-container">
     <main>
         <section class="introText">
@@ -100,7 +34,7 @@
         <section class="row">
             <div class="leftColumn">
 
-                <article class="card">
+                <article class="card" id="lillaLovsjon">
                     <h3>LILLA LÖVSJÖN</h3>
 
                     <div class="infoText-img">
@@ -123,7 +57,7 @@
 
 
                 </article>
-                <article class="card">
+                <article class="card" id="storeLovsjon">
                     <h3>STORE LÖVSJÖN</h3>
                     <div class="infoText-img">
                         <img src="img/lake.jpeg" alt="storeLövsjönPhoto">
@@ -194,12 +128,12 @@
         </div>
     </aside>
 </div>
-<footer>
-    <span>Journummer 0761-036 317  Kontakt oss : <a href="mailto:info@grabosportfiske.se" target="_blank"
-                                                    rel="noreferrer noopener">info@grabosportfiske.se</a>   Ljungslättsvägen 127,Gråbo</span>
+<footer id="footer"></footer>
 
-</footer>
 <script src="js/dropdown.js"></script>
+<script src="js/hero.js"></script>
+<script src="js/navMenu.js"></script>
+<script src="js/footer.js"></script>
 
 </body>
 </html>

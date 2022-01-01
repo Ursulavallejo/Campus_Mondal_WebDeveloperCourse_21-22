@@ -1,0 +1,75 @@
+/* Mobile First*/
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/greyLanscape.jpg");
+    min-height: 400px;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-logo img{
+    padding-top: 1em;
+    height: 160px;
+    margin-bottom: 1em;
+}
+.hero-logo {
+    text-align: center;
+}
+.hero-text {
+    text-align: center;
+    color: white;
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    padding: 0.41em;
+    color: black;
+    background-color: var(--background-color);
+    text-align: center;
+    cursor: pointer;
+    font-family: Montserrat-Bold, serif;
+    font-size: 11px;
+    margin: 0.6em;
+}
+
+.hero-text button:hover {
+    background-color: var(--dark-primary-color);
+    color: var(--text-icons);
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+
+ /*   .hero-image {
+        height: 60%;
+    }*/
+
+    .hero-logo img{
+        height: 260px;
+        padding-top: 2em;
+        margin-bottom: 1em;
+    }
+
+    .hero-text button {
+        padding: 10px 25px;
+        color: black;
+        margin-top: 2.5em;
+        font-size: 13px;
+    }
+
+    }
+/* laptop/Desktop */
+@media screen and (min-width: 992px) {
+
+
+    .hero-logo img{
+            margin-bottom: 1em;
+        }
+
+        .hero-text button {
+            padding: 10px 25px;
+            color: black;
+            margin-top: 1.5em;
+            font-size: 15px;
+        }
+}

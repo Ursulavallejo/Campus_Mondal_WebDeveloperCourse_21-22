@@ -1,0 +1,95 @@
+/* Mobile First*/
+
+#navbarMenu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.menuStyle {
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .2s;
+    -moz-transition-timing-function: cubic-bezier(100, 50, 21, 6);
+    -moz-transition-property: all;
+    background: var(--primary-text);
+    font-weight: 200;
+    font-family: Oswald-Bold, serif;
+    align-items: center;
+}
+
+.menuStyle li, a {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.menuItem a {
+    color: var(--text-icons);
+}
+.menuItem a:hover {
+    color: var(--primary-text);
+}
+
+.subMenuItem {
+    text-align: left;
+}
+.subMenuItem a {
+    color: var(--background-color);
+}
+
+
+#active {
+    color: var(--background-color);
+}
+
+/*mirar margen aqui*/
+.menuItem {
+    text-align: center;
+    padding: 13px 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/*mirar margen aqui*/
+.menuItem:hover {
+    border: none;
+    background: var(--text-icons);
+    padding: 13px 10px;
+    cursor: pointer;
+    color: var(--primary-text);
+}
+}
+
+/*hacer cambios padding aqui y margen*/
+
+.subMenuItem li:hover {
+    background: white;
+    cursor: pointer;
+    color: var(--primary-text);
+}
+
+ul li ul {
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 17px;
+    display: none;
+    padding: 10px;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+

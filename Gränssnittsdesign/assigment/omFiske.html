@@ -3,113 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/hero.css">
-    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/navMenu.css">
     <link rel="stylesheet" href="css/footer.css">
-    <title>Gråbo Sportfiske - Om Fiske</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>TGråbo Sportfiske - Om Fiske</title>
 </head>
 <body>
-
-
-<div class="hero-image">
-    <div class="hero-logo">
-        <img src="img/logoGrabo.png" alt="">
-    </div>
-
-    <div class="hero-text">
-        <h1>VÄLKOMMEN TILL GRÅBO</h1>
-        <H2>LILLA LÖVSJÖN & STORE LÖVSJÖN</H2>
-
-        <a href="https://www.ifiske.se/fiskekort-lilla-lovsjon.htm" target="_blank">
-            <button>FISKEKORT</button>
-        </a>
-
-        <div class="dropdownSwish">
-            <div>
-                <button onclick="openMenu()">
-                    SWISHA OSS
-                </button>
-            </div>
-            <div id="dropdown" class="dropdown-content">
-                <h3>Tack för ditt bidrag!</h3>
-                <p>Med detta hjälper vi till att bevara sjöarna och att kunna köpa virke för ditt bruk!</p>
-                <hr/>
-                <img src="img/swish.png" alt="swishLogo">
-                <p>För Swish oss til No.7078654, eller</p>
-                <img id="qrSwish" src="img/QRWhite.png" alt="QR">
-                <hr/>
-                <button onclick="closeMenu()">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<nav>
-    <div class="navStyle">
-        <ul id="navbar">
-            <li><a href="index.html" class="navbar-link ">Hem</a>
-                <ul>
-                    <li>Lilla Lövsjön</li>
-                    <li>Store Lövsjön</li>
-                </ul></li>
-            <li><a href="nyheter.html" class="navbar-link ">Nyheter</a></li>
-            <li><a href="#" class="navbar-link " id="active">Om Fiske</a>
-                <ul>
-
-                    <li>Fiskekort</li>
-                    <li>Fisketips</li>
-                    <li>Flugfiske</li>
-                    <li>Fångstrapporter</li>
-                </ul>
-            </li>
-            <li><a href="regler.html" class="navbar-link" >Regler</a>
-                <ul>
-                    <li>Fiskeregler</li>
-                    <li>Allemansrätt</li>
-                    <li>Bevakning</li>
-                </ul>
-            </li>
-            <li><a href="medlem.html" class="navbar-link ">Medlem</a>
-                <ul>
-                    <li>Om Gråbo Sportfiske</li>
-                    <li>Bli Medlem</li>
-                    <li>Profilkläder</li>
-                    <li>Kontakt Oss</li>
-                </ul>
-            </li>
-        </ul>
-
-    </div>
-</nav>
+<header id="hero"></header>
+<nav id="navbar"></nav>
 <div class="grid-container">
-    <main >
+    <main>
         <section class="introText">
             <h2>INFORMATION OM FISKE </h2>
 
             <p>Här hittar du information relaterad till fiske för att göra din upplevelse mest tillfredsställande.</p>
-            <p>Besök gärna vår regelsida där du hittar information om hur du fiskar ansvarsfullt och njuter av naturen och vad den erbjuder oss.</p>
-<p>Eventuella frågor eller förslag står vi till ditt förfogande.</p>
+            <p>Besök gärna vår regelsida där du hittar information om hur du fiskar ansvarsfullt och njuter av naturen
+                och vad den erbjuder oss.</p>
+            <p>Eventuella frågor eller förslag står vi till ditt förfogande.</p>
         </section>
         <section class="row">
             <div class="leftColumn">
 
                 <article class="card" id="fiskeKort">
                     <h3>FISKEKORT </h3>
-                    <div class="infoText-img" >
+                    <div class="infoText-img">
                         <img src="img/skylt-fiskekort.png" alt="imageFiskekort">
                     </div>
                     <p>- Lilla Lövsjön är öppen året runt vid isfri sjö.</p>
                     <p>- Ett fiskekort är giltigt i 24 timmar och är personligt (Pris 200 SEK).</p>
-                    <p>- Flytringsfiske är tillåtet året runt vid isfri sjö med undantag för utloppsviken som ej får beträdas av flytringar  (Pris Flytringskort 250 SEK). Flytring med åror är ej tillåtet.</p>
+                    <p>- Flytringsfiske är tillåtet året runt vid isfri sjö med undantag för utloppsviken som ej får
+                        beträdas av flytringar (Pris Flytringskort 250 SEK). Flytring med åror är ej tillåtet.</p>
                     <hr/>
                     <p>Under fiskeregler kan du läsa exakt vad som gäller för fiske i Lilla Lövsjön.</p>
                     <hr/>
                     <h3>2021 kan du köpa fiskekort på följande platser:</h3>
-<p>OBS: Under perioden 1:a December och 31:a Mars säljs det fiskekort endast via Ifiske.</p>
-                    <p>(Notera att med visa betalkort behövs bankdosa eller bank-id så ni ej glömmer dessa hemma om ni vill köpa fiskekort på vägen till sjön.
+                    <p>OBS: Under perioden 1:a December och 31:a Mars säljs det fiskekort endast via Ifiske.</p>
+                    <p>(Notera att med visa betalkort behövs bankdosa eller bank-id så ni ej glömmer dessa hemma om ni
+                        vill köpa fiskekort på vägen till sjön.
                         3G täckningen kan också variera lite vid Lilla Lövsjön beroende på abonnemang)</p>
                     <hr/>
                     <p>1:a April till 30:e November kan du köpa fiskekort på följande inköpsställen.</p>
@@ -119,35 +52,50 @@
                 </article>
                 <article class="card" id="fiskeTips">
                     <h3>FISKETIPS</h3>
-                    <div class="infoText-img" >
+                    <div class="infoText-img">
                         <img src="img/fisketips.jpg" alt="porlandePhoto">
                     </div>
-                    <p>Här kommer lite fisketips skrivet av Urban Aheinen som även driver  <a class="socialMediaButton" href="http://simmsurban.se" target="_blank">
+                    <p>Här kommer lite fisketips skrivet av Urban Aheinen som även driver <a class="socialMediaButton"
+                                                                                             href="http://simmsurban.se"
+                                                                                             target="_blank">
                         Simmsurban.se
                     </a>
-                        Urban ger dig lite vägledning i valet av fiskeutrustning och en insyn i vad flugfiske kan kosta, vad man behöver ha som en grund för att kunna påbörja sitt flugfiske och dom bästa flugorna för ett lyckat fiske i Lilla Lövsjön..</p>
+                        Urban ger dig lite vägledning i valet av fiskeutrustning och en insyn i vad flugfiske kan kosta,
+                        vad man behöver ha som en grund för att kunna påbörja sitt flugfiske och dom bästa flugorna för
+                        ett lyckat fiske i Lilla Lövsjön..</p>
                     <hr/>
                     <h3>Flugor som funkar bra i Lilla Lövsjön</h3>
-                    <p>Sjösandsländan förekommer rikligt på våren och försommaren i området så en rejäl uppsättning med sländimitiationer är ett måste i asken.</p>
-                    <img src="img/tips1.jpg" alt="tipsPhoto"  class="subInfoText-img">
+                    <p>Sjösandsländan förekommer rikligt på våren och försommaren i området så en rejäl uppsättning med
+                        sländimitiationer är ett måste i asken.</p>
+                    <img src="img/tips1.jpg" alt="tipsPhoto" class="subInfoText-img">
                 </article>
                 <article class="card" id="fluFisk">
                     <h3>FLUGFISKE</h3>
-                    <div class="infoText-img" >
+                    <div class="infoText-img">
                         <img src="img/flugFisk.jpg" alt="flugPhoto">
                     </div>
                     <h4>Flugbindning</h4>
-                    <p>Mikael Hagman är en av landets bästa flugbindare med lång erfarenhet av fiskevatten, flugfiske och insekts livet under årets alla perioder.</p>
+                    <p>Mikael Hagman är en av landets bästa flugbindare med lång erfarenhet av fiskevatten, flugfiske
+                        och insekts livet under årets alla perioder.</p>
                     <p>I flikarna kan ni läsa om olika bindbeskrivningar och mönster till olika arters fiske.</p>
                     <hr/>
                     <h4>Foambagge</h4>
-                    <img src="img/foam-bagge.jpg" alt="foamPhoto"  class="subInfoText-img">
-                    <p>Sugen på att testa något annat än Booby nymf till sjunklinefisket? Bra för då har jag ett tips som också är användbart under en stor del, ja faktiskt hela säsongen. En flytande skalbagge med glittrig rygg. Lite olika storlekar och färger och du har ett mönster som lurat mycket regnbåge och öring för mig. Abborrar har också mycket svårt för denna gobit. Skalbaggar är en stor grupp insekter (cirka 300 000 arter) och de har många arter som utvecklats till ett aktivt liv under vatten (Sverige cirka 450 arter) där många är fruktade rovdjur som inte backar för stort eller smått, till och med småfisk och grodyngel får se upp! Bristen på gälar gör att de med jämna mellanrum måste ta sig upp till ytan för att fylla på luftförrådet. Många arter är duktiga simmare men det gör ändå detta till ett utsatt ögonblick som syns väl och bevakas av större fiskar som inte tvekar att slå till. Överlevande småfiskars hämnd är ljuv och välsmakande</p>
+                    <img src="img/foam-bagge.jpg" alt="foamPhoto" class="subInfoText-img">
+                    <p>Sugen på att testa något annat än Booby nymf till sjunklinefisket? Bra för då har jag ett tips
+                        som också är användbart under en stor del, ja faktiskt hela säsongen. En flytande skalbagge med
+                        glittrig rygg. Lite olika storlekar och färger och du har ett mönster som lurat mycket regnbåge
+                        och öring för mig. Abborrar har också mycket svårt för denna gobit. Skalbaggar är en stor grupp
+                        insekter (cirka 300 000 arter) och de har många arter som utvecklats till ett aktivt liv under
+                        vatten (Sverige cirka 450 arter) där många är fruktade rovdjur som inte backar för stort eller
+                        smått, till och med småfisk och grodyngel får se upp! Bristen på gälar gör att de med jämna
+                        mellanrum måste ta sig upp till ytan för att fylla på luftförrådet. Många arter är duktiga
+                        simmare men det gör ändå detta till ett utsatt ögonblick som syns väl och bevakas av större
+                        fiskar som inte tvekar att slå till. Överlevande småfiskars hämnd är ljuv och välsmakande</p>
 
                 </article>
                 <article class="card" id="fångstrapporter">
                     <h3>FÅNGSTRAPPORTER</h3>
-                    <div class="infoText-img" >
+                    <div class="infoText-img">
                         <img src="img/rapport.png" alt="djurPhoto">
                     </div>
 
@@ -156,7 +104,7 @@
                         Rapporterna gäller Lilla Lövsjön.</p>
                     <p>Vi önskar er en trevlig fiskedag!.</p>
                     <span>
-            <a href="https://www.ifiske.se/fisketips-lilla-lovsjon.htm?fishing_reports=show"  target="_blank">
+            <a href="https://www.ifiske.se/fisketips-lilla-lovsjon.htm?fishing_reports=show" target="_blank">
             <button>IFiske Rapport</button>
             </a>
 </span>
@@ -194,7 +142,7 @@
                 </a>
             </div>
             <div class="senasteText">
-                <a href="nyheter.html#nyheter3" >
+                <a href="nyheter.html#nyheter3">
                     <h4>- Porlande bäck</h4>
                 </a>
             </div>
@@ -211,10 +159,10 @@
         </div>
     </aside>
 </div>
-<footer >
-    <span>Journummer 0761-036 317  Kontakt oss : <a href="mailto:info@grabosportfiske.se" target="_blank" rel="noreferrer noopener">info@grabosportfiske.se</a>   Ljungslättsvägen 127,Gråbo</span>
-
-</footer>
+<footer id="footer"></footer>
 <script src="js/dropdown.js"></script>
+<script src="js/hero.js"></script>
+<script src="js/navMenu.js"></script>
+<script src="js/footer.js"></script>
 </body>
 </html>

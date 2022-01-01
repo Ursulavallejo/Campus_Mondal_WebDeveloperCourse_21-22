@@ -1,5 +1,5 @@
 /* Mobile First*/
-footer {
+Footer {
     font-size:14px;
     color:var(--text-icons);
     clear:both;
@@ -16,7 +16,7 @@ footer {
 }
 /* Tablet */
 @media screen and (min-width: 768px) {
-    footer{
+Footer{
         font-size:16px;
         font-weight: 500;
     }

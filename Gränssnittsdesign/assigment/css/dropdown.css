@@ -1,34 +1,9 @@
-
+/*button Swish*/
 .dropdownSwish  {
     position: relative;
     display: inline-block;
 }
 
-.dropdownStyrelsen {
-    position: relative;
-    display: inline-block;
-    z-index: 0;
-    padding: 2em;
-    margin: 1em;
-
-}
-
-.dropdownStyrelsen {
-    position: relative;
-    display: inline-block;
-    z-index: 0;
-    padding: 2em;
-    margin: 1em;
-
-}
-.dropdownContact {
-    position: relative;
-    display: inline-block;
-    z-index: 0;
-    padding: 2em;
-    margin: 1em;
-
-}
 .dropdownSwish img{
     width: 90px;
     height: auto;
@@ -36,7 +11,6 @@
     margin-bottom: 0;
 }
 .dropdownSwish p{
-
     padding-bottom: 0;
     margin-bottom: 0;
 }
@@ -45,7 +19,6 @@
     height: auto;
     padding-bottom: 0;
     margin-bottom: 0;
-
 }
 
 .dropdown-content {
@@ -57,7 +30,44 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 15px;
-    right: 0;
+    right: -12%;
+
+
+}
+
+.dropdown-content h2 {
+    text-align: center;
+    font-style: oblique;
+}
+
+.show {
+    display: block;
+}
+/*buttons main/
+
+
+/*buttons Medlem.html*/
+.dropdownStyrelsen {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+    padding: 2em;
+    margin: 1em;
+}
+
+.dropdownStyrelsen {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+    padding: 2em;
+    margin: 1em;
+}
+.dropdownContact {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+    padding: 2em;
+    margin: 1em;
 }
 
 .dropdown-content2 {
@@ -75,15 +85,16 @@
 .dropdown-content2 button {
     margin-left: 7em;
 }
-.dropdown-content h2 {
-    text-align: center;
-    font-style: oblique;
+
+
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .dropdownSwish  {
+
+    }
 }
+/* laptop/Desktop */
+@media screen and (min-width: 992px) {
 
-.show {
-    display: block;
 }
-
-
-
-

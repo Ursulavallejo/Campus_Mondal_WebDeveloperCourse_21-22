@@ -1,0 +1,27 @@
+/* Mobile First*/
+footer {
+    font-size:14px;
+    color:var(--text-icons);
+    clear:both;
+    display:block;
+    letter-spacing:5px;
+    border:1px solid var(--text-icons);
+    padding:15px;
+    text-decoration:none;
+    width:80%;
+    margin: 100px auto 2em auto ;
+    text-align: center;
+    background-color: var(--secondary-text) ;
+
+}
+/* Tablet */
+@media screen and (min-width: 768px) {
+    footer{
+        font-size:16px;
+        font-weight: 500;
+    }
+}
+/* laptop/Desktop */
+@media screen and (min-width: 992px) {
+
+}

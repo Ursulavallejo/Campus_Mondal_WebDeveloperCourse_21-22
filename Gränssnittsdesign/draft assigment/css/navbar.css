@@ -1,17 +1,22 @@
 /* Mobile First*/
-#navbar{
+#navbarMenu{
 
     background: var( --primary-text);
     padding: 0.5em;
     text-align:center;
 
 }
-.navStyle {
+.menuStyle {
     -webkit-transition-property: all;
     -webkit-transition-duration: .2s;
     -moz-transition-timing-function: cubic-bezier(100,50,21,6);
     -moz-transition-property: all;
+}
 
+.menuStyle a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--background-color);
 }
 nav ul {
     display: flex;
@@ -84,7 +89,7 @@ ul li ul li {
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-    #navbar{
+    #navbarMenu{
         padding: 0.8em;
     }
     .navbar-link {
@@ -94,7 +99,7 @@ ul li ul li {
 }
 /* laptop/Desktop */
 @media screen and (min-width: 992px) {
-        #navbar{
+        #navbarMenu{
             padding:1em;
         }
 }

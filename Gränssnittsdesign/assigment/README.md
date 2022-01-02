@@ -25,24 +25,25 @@
 
 # 1. General Projektplan :
 
-I informationen om projektet i trello jag utarbetade det baserat på den analys som jag gjorde av projektet på musikwebbplatsen och lägga till de delar av kraven krävs i detta.
+I projektet för gränssnittsdesignkursen tog jag upp idé om att omformulera en befintlig webbsida. Ta som utgångspunkt att fiskeklubben är min kund och har bett mig att förbättra sin hemsida.
+
+Ta som referens informationen på följande webbplats:
+
+[Gråbo Sportfiske & Fiskevårdsförening](http://grabosportfiske.se/)
+
+För att föreslå utformningen av den nya webbplatsen har jag tagit hänsyn till vilken typ av användare som kommer åt den (Personas), vilken användning den har för att förbättra sitt UI och UX.
+I utvecklingen som jag kommer att förklara senare kommer du att kunna se detaljerna i denna process.
+
+En del av projektet är att ha en projektutvecklingsplan vars beståndsdelar är nedbrutna i Trello.
+
+I informationen om projektet i trello jag utarbetade det baserat på den analys som jag gjorde av projektet på fiskeKlubb Gråbo webbplatsen och lägga till de delar av kraven krävs i detta.
 
 De punkter som delar upp projektet kan ses mer detaljerat i dokumentationsavsnittet.
-
-I mitt projekt kan du se en karta för varje Steg i projektet, en beskrivning av kraven i varje och de detaljer som arbetades med.
-Också ett kort för varje som krävs för att få kvalifikationer.
 
 Du kan se mitt projektplan i länken nedan:
 
 [Trello Webbsida ](https://trello.com/invite/b/KVlhfkQC/606a06b2fe878c42961db2f0933b0367/gr%C3%A4nssnittsdesign)
 
-I kursen har vi använt Trello-programmet för att kunna följa en organiserad arbetsplan, som styr projektmålen och kvalifikationskraven.
-
-Detta program hjälper dig att tydligt visualisera de avsnitt du arbetar med inom ett projekt.
-
-På så sätt kan du hålla reda på vad som fungerar och vad som behöver göras. Således är man mer medveten om var projektet är och garanterar ett bättre resultat genom att inte utelämna saker på grund av glömska.
-
-Jag tyckte personligen att det var mycket användbart att kunna styra och övervaka varje steg i projektet.
 
 # 2. Personas :
 

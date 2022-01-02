@@ -29,6 +29,17 @@
     font-family: 'SourceSansPro-Regular';
     src: url('../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf')
 }
+#layoutFont{
+    padding-left: 1.5em;
+}
+#fontNavbar{
+    font-family: Oswald-Bold, serif;
+    size: 16px;
+
+}
+body{
+    padding-left: 2em;
+}
 
 a {
     text-decoration: none;

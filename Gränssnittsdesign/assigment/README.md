@@ -47,11 +47,21 @@ Du kan se mitt projektplan i länken nedan:
 
 # 2. Personas :
 
-Jag har skapat personas från observationer om möjliga riktiga användare.
+I Gråbos omgivningar finns två sjöar där man kan njuta av naturen och även fiska. Fiskeklubben tar hand om dessa platser och sköter fiskekorten, för vilka den tillhandahåller information och möjlighet att köpa dem och ta emot ekonomiska donationer på sin hemsida.
 
-Webbsidan förvaltas av fiskeklubben där de visar olika information.
+För att utveckla projektet beaktas potentiella användares profiler. Jag har skapat personas från observationer om möjliga riktiga användare:
 
-Jag har skapat 4 olika personas baserat på de olika scenarierna där användarna främst interagerar med webbsidan.
+1. En invånare i Sverige som gillar att fiska och brukar fiska mycket i den sjön, så han är intresserad av att få tillgång till fiskekort och leta efter information om hur man går med i klubben. Han har nyligen köpt ett sommarhus i området.
+
+2. En pensionär från Sverige som gillar att göra utomhusaktiviteter som yoga, promenader, plocka bär och göra brasor. Hon bidrar ekonomiskt till att underhålla sjön, till exempel ge pengar genom att swish för ved och ge information till de grupper hon organiserar om lagarna för Allemansrätt.
+
+3. En turist från Tyskland som letar efter destinationer för att flugfiska. Han behöver information om sjöns läge, fiskereglerna, värdet på fiskekortet för att kunna organisera hans resa. Han kan också ha möjlighet att vilja kontakta klubben för eventuella frågor under hans besök.
+
+4. Medlem i fiskeklubben sedan 80-talet, intresserad av att främja fiskeevenemang och aktiviteter på sjön. Tillsammans med andra medlemmar är de intresserade av att kunna marknadsföra klubben på webben och sociala medier för att samla in mer pengar samtidigt som de engagerar sig för underhåll och hållbar utveckling av miljön. 
+
+För närvarande görs webben i wordpressWebbsidan och förvaltas av fiskeklubben där de visar olika information.
+
+Jag har skapat 4 olika personas baserat på de olika scenarierna som jag beskrev tidigare där användarna främst interagerar med webbsidan:
 
 ![](img/persona1Kim.jpg)
 
@@ -84,6 +94,23 @@ https://codepen.io/loganliffick/pen/ZEXKqyv
 ### UI och UX:
 
 # 4. Fonts :
+
+För att utveckla hemsidan valde jag 3 olika typer av typeface som har en markerad geometrisk bas som överensstämmer med den befintliga klubbens logotyp. Detta förklarar jag mer i detalj i dokumentationsdelen.
+
+Typaface jag valde var följande:
+
+1. Oswald
+2. Montserrat
+3. SourceSansPro
+
+När mitt urval gjordes efter researchprocessen testade jag dem på webblasaren för att se om de verkligen fungerade bra tillsammans. Vilket du kan se nedan:
+
+![](img/fontPreview.png)
+
+##Final Fonts , sizes and color:
+
+![](img/fontsLayout.jpg)
+
 # 5. Färgschema :
 
 Klubben har redan en logotyp som de använde och är nöjda med den. De vill behålla som möjligt vissa färger kan matcha vad de brukar använda: orange, grått, svart och vitt.
@@ -97,11 +124,9 @@ Se nedan logotypen de har och någon broschyr de gör för evenemang:
 
 Jag har tagit idé att klubben är min klient och behöver anpassa sig och försöka tillgodose vad kunden frågar, eftersom de har klart vill behålla samma logotyp.  Under den förutsättningen måste rymma en rad färger som kan fungera med de som de använde (orange och grå).
 
-
-
 ##Final Color Palette:
 
-!!! add here the one decide to implement !!
+![](img/colorpalette.jpg)
 
 # 6. Dokumentation :
 

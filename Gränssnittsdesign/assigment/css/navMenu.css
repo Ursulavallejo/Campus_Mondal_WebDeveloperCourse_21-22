@@ -5,10 +5,8 @@
     margin: 0;
     padding: 0;
     justify-content: center;
- /*   overflow: hidden;*/
-
-
 }
+
 
 .menuStyle {
     -webkit-transition-property: all;
@@ -33,13 +31,14 @@
     padding: 13px 10px;
     letter-spacing: 2px;
     text-transform: uppercase;
-/*    float: inherit;*/
+
 }
 .menuItem a {
     color: var(--text-icons);
 }
-.menuItem a:hover {
-    color: var(--primary-text);
+
+.menuItem#active  a{
+    color: var(--background-color);
 }
 
 .subMenuItem {
@@ -48,12 +47,12 @@
 .subMenuItem a {
     color: var(--background-color);
 }
-
-#active {
-    color: var(--background-color);
+.subMenuItem a:hover {
+    color: var(--primary-text);
 }
 
-.menuItem:hover {
+
+.menuItem:hover > a  {
     border: none;
     background: var(--text-icons);
     padding: 13px 10px;
@@ -61,7 +60,7 @@
     color: var(--primary-text);
 }
 
-.subMenuItem li:hover {
+li:hover {
     background: white;
     cursor: pointer;
     color: var(--primary-text);
@@ -69,14 +68,13 @@
 
 ul li ul {
     background: white;
-    visibility: hidden;
-    opacity: 0;
     min-width: 5rem;
     position: absolute;
     transition: all 0.5s ease;
-    margin-top: 17px;
+    margin-top: 14px;
     display: none;
     padding: 10px;
+    border-top: solid 4px var(--background-color);
 }
 
 ul li:hover > ul,

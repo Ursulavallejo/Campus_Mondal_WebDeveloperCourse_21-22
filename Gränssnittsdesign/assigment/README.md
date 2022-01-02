@@ -75,6 +75,8 @@ Jag har skapat 4 olika personas baserat på de olika scenarierna som jag beskrev
 
 Tanken är att de olika sidorna delar samma layoutformat, och att informationen presenteras på ett tydligt och organiserat sätt.
 Nedan kan vi se den första skissen på tillvägagångssättet för hemsidan för fiskeklubben:
+
+
 ![](img/lowFrameHem.png)
 
 ![](img/lowFrameNyheter.png)
@@ -88,7 +90,7 @@ Nedan kan vi se den första skissen på tillvägagångssättet för hemsidan fö
 
 Utvecklingen av Wireframes för projektet utvecklades i Figma, för vilket jag inbjuder dig att se utvecklingen av detta i följande länk:
 
-[FIGMA ](https://www.figma.com/file/DigiQII48pqsoi3BTXHqTk/Gr%C3%A4nssnittsdesign-FiskeKlubb?node-id=0%3A1)
+[PROTOTYP FIGMA PROJECT ](https://www.figma.com/file/DigiQII48pqsoi3BTXHqTk/Gr%C3%A4nssnittsdesign-FiskeKlubb?node-id=0%3A1)
 
 
 ### UI och UX:

@@ -15,9 +15,7 @@
     - [ Persona Profil ](#persona-profil)
     - [ Font ](#fonts)
     - [ Color ](#fonts)
-    - [ HTML](#html)
-    - [ CSS](#css)
-    - [ JS](#js)
+    - [ Wireframes](#wireframes)
     - [ Konklusionen](#konklusionen)
    
 
@@ -73,31 +71,67 @@ Jag har skapat 4 olika personas baserat på de olika scenarierna som jag beskrev
 
 # 3. Wireframes (mobiler, tablets och desktop) :
 
-navigation menu
-https://codepen.io/karimbalaa/pen/WboBBY/
-navbar
-https://www.w3schools.com/css/css_navbar_horizontal.asp
-
-ideas layout
-https://codepen.io/celincky/details/zdqso
-https://freefrontend.com/css-menu/
-
-hero>
-https://www.w3schools.com/howto/howto_css_hero_image.asp
-
-fish etc
-https://codepen.io/jomohop/pen/BEwywr
-https://codepen.io/thebabydino/pen/rNzRQWq
-https://codepen.io/loganliffick/pen/ZEXKqyv
 ## A. Low fidelity:
+
+Tanken är att de olika sidorna delar samma layoutformat, och att informationen presenteras på ett tydligt och organiserat sätt.
+Nedan kan vi se den första skissen på tillvägagångssättet för hemsidan för fiskeklubben:
+![](img/lowFrameHem.png)
+
+![](img/lowFrameNyheter.png)
+
+![](img/lowFrameRegOmFiske.png)
+
+![](img/lowFrameMedlem.png)
+
+
 ## B. Prototyp :
+
+Utvecklingen av Wireframes för projektet utvecklades i Figma, för vilket jag inbjuder dig att se utvecklingen av detta i följande länk:
+
+[FIGMA ](https://www.figma.com/file/DigiQII48pqsoi3BTXHqTk/Gr%C3%A4nssnittsdesign-FiskeKlubb?node-id=0%3A1)
+
+
 ### UI och UX:
+
+För att utveckla mitt UI/UX baserar jag mig på informationen från People och den hemsida som fiskeklubben driver.
+
+![](img/menuGraboweb.png)
+
+- När man går in på den aktuella hemsidan finns det ingen hänvisning till logotypen, så fort man kommer in på webben finns den på en sida utan betydelse då jag bestämde mig för att prioritera den nya designen så att de som besöker webben kommer ihåg att de är de som hanterar den plattformen. Planera att göra en Hero där logotypen (som ändrar färg från grå till svart för mer vikt visuellt) har en visuell läsprioritet.
+
+- När jag skapade personerna identifierade jag att det finns många användare som behöver ha snabb tillgång till alternativen för att köpa fiskekortet eller möjligheten att göra en swish, för vilket jag valde att ha två knappar på den del av hjälten som är markerade från bakgrunden för att ha dem visuellt och lättillgängliga.
+
+![](img/ux1.png)
+
+- I menyn på den aktuella sidan som vi ser ovan finns 15 olika alternativ så det är inte lätt att se innehållet. Efter vad vi såg i klassen om informationsarkitektur, grupperade jag dem i 5 huvudalternativ: HEM, NYHETER, OM FISKE, REGLER och MEDLEM.
+  Av dessa 5 menyer visar information relaterad till dem för att förbättra användargränssnittet.
+
+Nedan kan vi se undermenyerna:
+
+![](img/optionerHem.png)
+
+![](img/optionerOmfiske.png)
+
+![](img/optionerRegler.png)
+
+![](img/optionerMedlem.png)
+
+- På huvudsidan anses det vara relevant att ha informationen om Gråbosjöarna då de personer som kommer åt denna sida relaterar till varandra eftersom de ska besöka dessa sjöar för sin motivation och en kort introduktion av var Gråbo ligger och vad det gör Fiskeklubban. Denna aspekt som inte fanns på den tidigare hemsidan och jag anser vara viktig för att försätta användaren i en situation.
+
+- För att få en visuell balans på webbsidan, välj att förena ikonerna för andra plattformar som t.ex. Facebook, instagram eller Swish med färgpaletten som används på webben. Också för att hitta denna visuella förening med bilder mestadels i svartvitt.
+
+- Höjknappar som sticker ut med bakgrundsfärgen där annan information kan nås: från externa sidor eller dropdown Menu ( Button Medlem sida: Contact, styrelse eller Swisha ) med kompletterande information.
+
+- Ha samma layout för Main, där samma struktur föreslås med en sida där de senaste nyheterna finns, ett sökfält och möjlighet att följa dem på sociala medier. Allt detta är samma schema på alla webben.
+- Den enda sidan där detta varierar är Medlem där även ett kontaktformulär läggs till.
+
+- I Footer väljer du att sätta informationen om nödtelefonnumret så att det alltid finns till hands och kontakten till fiskeklubben.
 
 # 4. Fonts :
 
 För att utveckla hemsidan valde jag 3 olika typer av typeface som har en markerad geometrisk bas som överensstämmer med den befintliga klubbens logotyp. Detta förklarar jag mer i detalj i dokumentationsdelen.
 
-Typaface jag valde var följande:
+Typeface jag valde var följande:
 
 1. Oswald
 2. Montserrat
@@ -130,41 +164,9 @@ Jag har tagit idé att klubben är min klient och behöver anpassa sig och förs
 
 # 6. Dokumentation :
 
-Projektet består av att göra en musik-CD-butik där en kundvagn visas.  I kundvagnen kan du öka mängden av produkterna och ge oss en delsumma och ett totalt värde på kundvagnen.
-I varukorgen får vi också information om det totala antalet CD nummer som har lagts till den och om inköpsvärdet gör att vi väljer gratis frakt eller hur mycket vi behöver för att komma åt detta.
+Därefter berättar jag om processen som jag har haft för att utveckla de olika aspekterna av projektet.
 
-Det första steget jag tog var att ta de 2 bilderna av projektet och gå in där vilka funktioner som ska höjas från vad som visualiseras i dokumentet på webben.
-
-Vi ser detta nedan:
-
-
-
-
-
-### Från diagrammet ovan hittade jag följande element som jag måste utveckla i projektet:
-
-
-
-### Från den första analysen utarbetade jag en karta över de steg som jag var tvungen att följa för utarbetandet av projektet som består av följande:
-
-1.Skapa projektet i trello med de olika stegen att följa som jag identifierar i mitt projekt.
-
-2.Skapa en allmän projektmapp som innehåller:
-* img mapp, README.md, index.html, style.css och script.js.
-
-3.Generera html-innehåll för att kunna skriva den allmänna layouten för innehållet i musikarkivet med semantisk inledning.
-
-4.Arbeta med CSS för att kunna ha butikens visuella layout.
-
-5.Börja med javascript för att utveckla de funktioner som du bryter ut i analysdiagrammet för projektbilden som vi ser i början av den här dokumentationen.
-
-6. Kontrollera att sidan fungerar korrekt och att det inte finns några felmeddelanden på den.
-
-7. Senaste Layoutinställningarna med CSS.
-
-8. Den dokumentation som har genererats under utarbetandet av projektet kommer att vidarebefordras i README.
-
-Nedan finns 3 avsnitt ett för html, ett annat för css och slutligen för JS där jag beskriver processen mer detaljerat i den process jag har haft i samband med utvecklingen av dessa i mitt projekt
+Den är uppdelad efter de olika ämnen som är relaterade till uppgiften.
 
 ## PERSONA PROFIL 
 
@@ -263,62 +265,55 @@ De verktyg som användes i denna forskning var:
 - [Adobe Color-Wheel ](https://color.adobe.com/sv/create/color-wheel)
 
 - [Material design palette ](https://www.materialpalette.com/)
-- 
-##  HTML
 
-Detta är de steg som jag har följt när det gäller HTML för utvecklingen av detta projekt som jag också inkluderar om jag har haft några svårigheter och hur jag har löst det.
+##  WIREFRAMES
 
-1. Söka efter 8 bilder, Store logo och information för  musikbutiksprodukter för att kunna koppla dem till projektet.
-   ```<img>```
-    * lösning av problemet:
+I avsnittet UX / UI som vi såg tidigare kan vi hitta användbar information för att förstå de beslut som togs.
 
-   Bildens logotyp kom inte med en transparent bakgrund genom vilken den passerar i png-format och omvandlar den för att radera bakgrunden med Photoshop.
+I det här avsnittet visar jag ett exempel på manipulation av logotyper för att förena dem med designen:
+![](img/QR.png)
+![](img/QRWhite.png)
 
+Vi kan även nedan se de olika källorna som jag besöker för att få idéer om hur man gör designen.
+Några idéer att tittade på för navigeringsmenyn:
 
-2.I webbhuvudet jag har skapat en Header med butikens logotyp ett sökfält och en knapp + en bild av kundvagnen.
+- [CodePen](https://codepen.io/karimbalaa/pen/WboBBY/
+  navbar)
+- [W3 Schools](https://www.w3schools.com/css/css_navbar_horizontal.asp)
 
+Några idéer att tittade på för Layout:
+- [CodePen](https://codepen.io/celincky/details/zdqso)
+- [Free Frontend](https://freefrontend.com/css-menu/)
 
-3.Skapat en NavBar med optioner men inte functional.
-```<navbar> / <ul>```
-
-4.Skriva textinnehållet i huvudavsnittet.
-```html <main> / <section> / <h1> <p>```
-
-5.Skapat en Template för produktartiklar i html.
-```html <main> / <section> / <article>```
-
-## CSS
+För Hero:
+- [W3 Schools](https://www.w3schools.com/howto/howto_css_hero_image.asp)
 
 
-
-https://ionic.io/ionicons
-```ion icons : usage (copy script) and add it to `<script src>`
-the other link find installation (copy it) and add it to the head <link href:' '  rel:'stylesheet'>
-before the style.css```
-
-https://fonts.google.com/
-
-
-## JS
-
-
-
-
-- ## funktioner som jag skapade:
-
-
-
-- ## Svårigheter och hur de löstes:
-
-
+Letar efter idéer om ämnet fiske för att se om jag skulle implementera dem, men jag bestämde mig för att inte göra det eftersom de grafiskt sett är vackra men de hade inte ett konsekvent förhållande till bilden jag letade efter på webbplatsen för fiskeklubben.
+- [Code Pen](https://codepen.io/jomohop/pen/BEwywr)
+- [Code Pen](https://codepen.io/thebabydino/pen/rNzRQWq)
+- [Code Pen](https://codepen.io/loganliffick/pen/ZEXKqyv)
 
 ## Konklusionen
 
+Jag anser att det är ett mycket användbart verktyg att överväga vem som ska använda vår produkt innan man gör den för att kunna bli mer framgångsrik när man överväger en design.
 
+I mitt fall frågar jag mig själv en fiktiv klient; Fiskeklubben hjälpte mig att försätta mig i en verklig situation där jag hade en referensram för att optimera en redan befintlig information (klubbens hemsida).
 
+I den första fasen var det nyttigt att analysera de olika personerna som kunde komma åt hemsidan, till detta kommer att jag även har kunnat gå för att se sidan i verkligheten och hur allt är organiserat.
 
+I en andra fas för att se hur de hade lyft sin webbplats och vilket innehåll som var relevant för min förmodade kund. Därifrån kunde jag dra värdefulla slutsatser för att överväga projektsidans UI.
 
+En av svårigheterna som jag hade när jag gjorde wireframes är att jag vid vissa tillfällen frågade konstruktioner som med den kunskap jag har för närvarande om kursen och den tid vi fick för att utveckla projektet var det inte lätt att utveckla så jag kasserade dem.
+Jag kunde till exempel ha gjort ett intro till Hero som animerade logotypen och texten som jag gick till CodePens hemsida för idéer, men tackade nej eftersom jag tyckte det var svårt att implementera med den grund jag har för närvarande.
 
+I utvecklingsdelen av webben var det vid flera tillfällen svårt för mig att organisera elementen i den stil jag letade efter. Förstå hur de olika display (block, inline och float) fungerar och samt göra Labels och input responsiva i CC. 
+
+Jag försökte göra navBar Menu i JS men jag hittade svårigheten att när jag ville använda alternativet att när en del av menyn är aktiverad hålls bokstaven i en färg (som visar att den finns i det innehållet) med alternativet aktiv men jag var tvungen att kassera den eftersom jag inte kunde utveckla den i JS så jag skickade den till HTML och jag kunde aktivera den med CSS.
+
+Att utföra detta arbete hjälpte mig att se hur ett projekt kan struktureras med hänsyn till UI, fräscha upp kunskapen som vi hade från tidigare lektioner men framför allt när jag har svårt att tänka hur de kan lösas genom att söka information eller fråga i forum.
+
+Jag tror att det finns saker som skulle kunna utvecklas bättre på utvecklingsnivå, men med nuvarande kunskap försökte jag göra så gott jag kunde.
 
 # 3. Uppgifter Info
 

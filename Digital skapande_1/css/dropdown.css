@@ -14,7 +14,7 @@
     z-index: 1;
     border-radius: 15px;
     font-family: Tahoma, Helvetica, sans-serify;
-
+    right: -20em;
 }
 
 .dropdown-content h1 {

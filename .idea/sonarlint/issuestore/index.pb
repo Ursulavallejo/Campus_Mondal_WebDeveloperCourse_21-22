@@ -139,3 +139,15 @@ Y
 )Gränssnittsdesign/assigment/css/main.css,7\b\7bdf2cee885b17974b70a5d63ba27ddfad425845
 Y
 )Gränssnittsdesign/assigment/nyheter.html,9\1\919fd8957b1874f6d6e6ed8fa170e28b095f309b
+W
+'Gränssnittsdesign/assigment/index.html,9\4\944db8029910311ef3bf6951fc7c0c066fce9f36
+\
+,Gränssnittsdesign/assigment/css/navMenu.css,5\b\5b2c19bf4b5f5c8584dfa7b89f5aade9fdf4a6eb
+S
+#Digital skapande_1/css/dropdown.css,4\0\401c31d41625f0e8c9d40f49a031f9906ec4fc71
+P
+ Digital skapande_1/css/style.css,a\c\acf9c7355cc20f00866b9526599ed0268b838668
+V
+&Gränssnittsdesign/assigment/README.md,8\7\874149da13baa6ffdc00c5cde9c544e63bb7dd5d
+M
+Digital skapande_1/index.html,d\8\d85b9312781dc81abba3eccca1d4145e747a567e

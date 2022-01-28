@@ -35,8 +35,6 @@ j
 :Webbutveckling_1/new_version_assigment/css/styleFooter.css,2\b\2ba05a23edef2c6b800ba77108e4c5b52abb87ac
 L
 Digital skapande_1/README.md,f\c\fc22cd933ea3ec3b572296a8ae50887bdaf48c81
-\
-,Programmering_1/assigment/js/dataProducts.js,6\3\632cc7e4004fbfae09793b6dd0398ee919f3e6a2
 _
 /Programmering_1/draftAssigment/indexprueba.html,b\f\bffb0c49ca2e066e3082ff087eb0ecdc3d4571ab
 V
@@ -67,8 +65,6 @@ a
 1Webbutveckling_1/new_version_assigment/index.html,4\0\4012684b27341bfd270b72b29a68b10f230a9fc7
 a
 1Gränssnittsdesign/assigment/fonts/Oswald/OFL.txt,6\c\6cd939f777d17257d8e218e5293659f865604f74
-T
-$Programmering_1/assigment/js/card.js,2\4\24dbe960e98df9223027d746a61f129b49694f9f
 V
 &Programmering_1/assigment/js/header.js,0\d\0d3b25aec59328458bfd84606985feb0e68eb06a
 V

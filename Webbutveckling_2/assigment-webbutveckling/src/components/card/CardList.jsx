@@ -4,7 +4,7 @@ import dataProducts from "../../utils/data/dataProducts";
 
 const CardList = (props) => {
     return (
-        <>
+        <div className='tc ba b--red br3 pa3'>
             {
                 dataProducts.map((user, index) => {
                     return (
@@ -18,7 +18,7 @@ const CardList = (props) => {
                     )
                 })
             }
-        </>
+        </div>
     )
 }
 

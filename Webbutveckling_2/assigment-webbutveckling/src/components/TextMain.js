@@ -2,8 +2,8 @@
 function TextMain( ){
 
     return (
-       <>
-            <section >
+       <div className='tc pa03 ph4'>
+            <section  >
                 <h1>WHO WE ARE ?</h1>
                 <p>
                     Since 1990, Amoeba Music has welcomed independent music lovers of
@@ -25,7 +25,7 @@ function TextMain( ){
                 <h2>MUSIC WE LIKE</h2>
                 <h3>Great deals</h3>
             </section>
-       </>
+       </div>
     );
 }
 

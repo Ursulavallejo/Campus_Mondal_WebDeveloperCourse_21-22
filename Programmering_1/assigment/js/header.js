@@ -43,4 +43,5 @@ function createContentHeader() {
         </section>
 `
 }
+document.getElementById('header').innerHTML = createContentHeader()
 

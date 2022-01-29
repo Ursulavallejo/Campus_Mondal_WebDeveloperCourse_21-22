@@ -15,7 +15,7 @@ const dataProducts = [
         album: "Echo",
         tag: "cd1",
         price: 79,
-        img: productOne,
+        image: productOne,
     },
     {
         id:2,
@@ -23,7 +23,7 @@ const dataProducts = [
         album: "Tale of Us",
         tag: "cd2",
         price: 68,
-        img: productTwo,
+        image: productTwo,
     },
     {
         id:3,
@@ -31,7 +31,7 @@ const dataProducts = [
         album: "Morning View",
         tag: "cd3",
         price: 70,
-        img: productThree,
+        image: productThree,
     },
     {
         id:4,
@@ -39,7 +39,7 @@ const dataProducts = [
         album: "Live It Out",
         tag: "cd4",
         price: 76,
-        img: productFour,
+        image: productFour,
     },
     {
         id:5,
@@ -47,7 +47,7 @@ const dataProducts = [
         album: "Late Night Tales",
         tag: "cd5",
         price: 60,
-        img: productFive,
+        image: productFive,
     },
     {
         id:6,
@@ -55,7 +55,7 @@ const dataProducts = [
         album: "Electric Possessed",
         tag: "cd6",
         price: 64,
-        img: productSex,
+        image: productSex,
     },
     {
         id:7,
@@ -63,7 +63,7 @@ const dataProducts = [
         album: "Sexor",
         tag: "cd7",
         price: 78,
-        img: productSeven ,
+        image: productSeven ,
     },
     {
         id:8,
@@ -71,7 +71,7 @@ const dataProducts = [
         album: "Late Night Tales",
         tag: "cd8",
         price: 72,
-        img: productEight ,
+        image: productEight ,
     },
 ]
 

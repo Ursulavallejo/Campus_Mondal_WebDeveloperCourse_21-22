@@ -16,7 +16,7 @@ function CardItem(props) {
                 <p>Price: {props.price} Kr</p>
             </div>
             <div>
-                <button>BUY</button>
+                <button id={props.id}>BUY</button>
             </div>
 
         </article>

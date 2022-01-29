@@ -10,7 +10,7 @@ const CardList = (props) => {
                     return (
                         <CardItem key={ index }
                               id={ dataProducts[index].id }
-                              image={ dataProducts[index].img }
+                              image={ dataProducts[index].image }
                               artist={ dataProducts[index].artist }
                               album={ dataProducts[index].album }
                               price={ dataProducts[index].price }

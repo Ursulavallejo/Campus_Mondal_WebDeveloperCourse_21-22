@@ -13,6 +13,8 @@ function Modal(props) {
     return (
         <div className='modal'>
             <section >
+                <h2> Your Cart</h2>
+                <hr/>
                 <article >
                     <p>No Articles add it to the cart</p>
                 </article>

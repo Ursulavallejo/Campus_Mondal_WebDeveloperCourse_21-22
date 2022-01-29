@@ -12,7 +12,19 @@ function Modal(props) {
 
     return (
         <div className='modal'>
-            <h1>Carrito compra</h1>
+            <section >
+                <article >
+                    <p>No Articles add it to the cart</p>
+                </article>
+                <article >
+                    <p>
+                        SUMMARY: (<span >0</span><span> CD's</span>) TOTAL to PAY:
+                        <span ></span><span> SEK</span>
+                    </p>
+                    <p >You need to buy 259 Kr to Free fright!</p>
+                </article>
+            </section>
+
             <button className='btn btn--alt' onClick={ cancelHandler }>Close</button>
             <button className='btn' onClick={ paymentHandler }>Payment</button>
         </div>

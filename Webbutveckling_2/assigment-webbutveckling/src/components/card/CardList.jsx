@@ -1,5 +1,5 @@
 import CardItem from "./CardItem";
-import dataProducts from "../utils/data/dataProducts";
+import dataProducts from "../../utils/data/dataProducts";
 
 
 const CardList = (props) => {

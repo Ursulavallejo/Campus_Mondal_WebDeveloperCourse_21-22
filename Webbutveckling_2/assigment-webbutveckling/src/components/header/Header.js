@@ -4,6 +4,7 @@ import Modal from "../Modal";
 import Backdrop from "../Backdrop";
 import {useState} from "react";
 import css from "./Header.module.css";
+import BasketList from "../basket/BasketList";
 
 function Header(props) {
     const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -35,8 +36,7 @@ function Header(props) {
                     <button onClick={cartHandler} className= {css.checkoutDropdownButton}><i
     className="fas fa-cart-arrow-down"/><span className={css.label}>ShopKart</span></button>
                 </div>
-                {modalIsOpen && <Modal onCancel={closeModalHandler} onConfirm={messageExitPayment}/>}
-                {modalIsOpen && <Backdrop onCancel={closeModalHandler}/>}
+                <BasketList/>
             </div>
 
         </header>

@@ -9,11 +9,11 @@ const CardList = (props) => {
                 dataProducts.map((user, index) => {
                     return (
                         <CardItem key={ index }
-                              id={ dataProducts[index].id }
-                              image={ dataProducts[index].image }
-                              artist={ dataProducts[index].artist }
-                              album={ dataProducts[index].album }
-                              price={ dataProducts[index].price }
+                                  id={ dataProducts[index].id }
+                                  image={ dataProducts[index].image }
+                                  artist={ dataProducts[index].artist }
+                                  album={ dataProducts[index].album }
+                                  price={ dataProducts[index].price }
                         />
                     )
                 })

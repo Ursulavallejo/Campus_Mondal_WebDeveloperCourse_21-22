@@ -1,4 +1,4 @@
-// import CardOnBuy from "../components/card/CardOnBuy";
+// import BasketItem from "../components/card/BasketItem";
 //
 // const myCartShop = []
 //
@@ -19,7 +19,7 @@
 //             {
 //                 myCartShop.map((user, index) => {
 //                     return (
-//                         <CardOnBuy key={ index }
+//                         <BasketItem key={ index }
 //                                   id={ myCartShop[index].id }
 //                                   image={ myCartShop[index].image }
 //                                   artist={ myCartShop[index].artist }

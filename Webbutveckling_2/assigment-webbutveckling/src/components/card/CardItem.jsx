@@ -1,4 +1,4 @@
-
+import {InsertItemCart} from "../InsertItemCart";
 
 
 function CardItem(props) {
@@ -16,7 +16,7 @@ function CardItem(props) {
                 <p>Price: {props.price} Kr</p>
             </div>
             <div>
-                <button id={props.id}>BUY</button>
+                {/*<button id={props.id} onClick={ InsertItemCart }>BUY</button>*/}
             </div>
 
         </article>

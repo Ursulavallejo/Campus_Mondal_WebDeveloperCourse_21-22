@@ -1,22 +1,22 @@
 import logoShop from '../../utils/images/amoeba.gif'
-import shoppingCart from '../../utils/images/shoppingCart.png'
 import Modal from "../Modal";
 import Backdrop from "../Backdrop";
+
 import {useState} from "react";
 import css from "./Header.module.css";
 import BasketList from "../basket/BasketList";
 
 function Header(props) {
-    const [modalIsOpen, setModalIsOpen] = useState(false);
+    const [cartIsOpen, setCartIsOpen] = useState(false);
 
     function cartHandler() {
-        setModalIsOpen(true);
+        setCartIsOpen(true);
         console.log('clicked')
         console.log(props.text)
     }
 
-    function closeModalHandler() {
-        setModalIsOpen(false);
+    function closeCartHandler() {
+        setCartIsOpen(false);
     }
 
     function messageExitPayment() {
@@ -33,10 +33,12 @@ function Header(props) {
             </div>
             <div className={css.checkOut}>
                 <div >
-                    <button onClick={cartHandler} className= {css.checkoutDropdownButton}><i
-    className="fas fa-cart-arrow-down"/><span className={css.label}>ShopKart</span></button>
+                    <button onClick={ cartHandler } className= {css.checkoutDropdownButton}><i
+    className="fas fa-cart-arrow-down"/><span className={css.label}>ShopCart</span></button>
                 </div>
-                <BasketList/>
+                {cartIsOpen && <BasketList onCancel={closeCartHandler} onConfirm={messageExitPayment}/>}
+
+                {/*<BasketList/>*/}
             </div>
 
         </header>

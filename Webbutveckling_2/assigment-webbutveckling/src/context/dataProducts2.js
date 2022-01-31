@@ -7,7 +7,7 @@ import productThree from '../utils/images/img3.jpg'
 const dataProducts2 = [
     {
         id:1,
-        artist: "Brandt Brauer Frick",
+        artist: "Brandt Brauer",
         album: "Echo",
         tag: "cd1",
         price: 79,

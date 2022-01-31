@@ -1,30 +1,28 @@
 import css from "./NavBar.module.css";
-// import { Link } from 'react-router-dom'
+import RoutingPath from '../../routing/RoutingPaht'
+import { Link } from 'react-router-dom'
 
 const NavBar = () =>  {
     return (
         <nav>
             <ul className={css.navBar}>
-                <li className={css.navbarItem}>
-                    <a className={css.navbarLink}>New Releases</a>
+                <li className={${css.navbarItem}${css.active}}>
+                    <Link className={css.navbarLink} to={ RoutingPath.homeView }>Home</Link>
                 </li>
                 <li className={css.navbarItem} >
-                    <a className={css.navbarLink} >Best Sellers</a>
+                    <Link className={css.navbarLink} to={ RoutingPath.newReleasesView }>New Releases</Link>
                 </li>
                 <li className={css.navbarItem}>
-                    <a className={css.navbarLink} >News & Contests</a>
+                    <Link className={css.navbarLink} to={ RoutingPath.bestSellersView }>Best Sellers</Link>
                 </li>
                 <li className={css.navbarItem}>
-                    <a className={css.navbarLink} >Gift Cards</a>
+                    <Link className={css.navbarLink} to={ RoutingPath.newReleasesView }>News & Contests</Link>
                 </li>
                 <li className={css.navbarItem}>
-                    <a className={css.navbarLink} >SALES</a>
+                    <Link className={css.navbarLink} to={ RoutingPath.salesView }>SALES</Link>
                 </li>
                 <li className={css.navbarItem}>
-                    <a className={css.navbarLink}>About Us</a>
-                </li>
-                <li className={css.navbarItem}>
-                    <a className={css.navbarLink} >Contact Us</a>
+                    <Link className={css.navbarLink} to={ RoutingPath.contactView}>Contact Us</Link>
                 </li>
             </ul>
         </nav>

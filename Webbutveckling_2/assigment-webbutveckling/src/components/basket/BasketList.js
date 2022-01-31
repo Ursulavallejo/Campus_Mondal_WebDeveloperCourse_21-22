@@ -1,18 +1,26 @@
+
 import css from "./BasketList.module.css";
 import BasketItem from "./BasketItem";
 import dataProducts2 from "../../context/dataProducts2";
 
 
-export default function BasketList() {
+export default function BasketList(props) {
+
+    function cancelHandler(){
+        props.onCancel();
+    }
+
+    function paymentHandler(){
+        props.onConfirm();
+    }
 
     return (
 <div>
 
-        <div id="dropdown" className={`${css.dropdownContent} ${css.show}`} >
+        <div className={`${css.dropdownContent} ${css.show} ${css.dropdown}`} >
             <h2>Your Cart</h2>
             <hr/>
-                <section className="grid-container-ShopCart">
-                    <div className='tc   br3 pa3 fl'>
+                    <div className={css.gridItem1}>
                         {
                             dataProducts2.map((user, index) => {
                                 return (
@@ -27,17 +35,17 @@ export default function BasketList() {
                             })
                         }
                     </div>
-                    <article className="grid-item1 area-item3">
+                    <article className={css.gridItem1} >
                         <p>
-                            SUMMARY: (<span id="totalCds">1</span><span> CD's</span>) TOTAL to PAY:
-                            <span id="totalPay">170</span><span> SEK</span>
+                            SUMMARY: (<span id="totalCds">x</span><span> CD's</span>) TOTAL to PAY:
+                            <span id="totalPay">0</span><span> SEK</span>
                         </p>
-                        <p id="freeShipmt">Need to buy 89 kr more items cd to free freight!</p>
+                        <p id="freeShipmt">Need to buy <span>XX</span> kr more items cd to free freight!</p>
                     </article>
 
-                    <button onClick="closeMenu()">Close</button>
-                    <button onClick="toCheckout()">Checkout</button>
-                </section>
+                    <button className={`${css.btn} ${css.btnAlt}`} onClick={ cancelHandler }>Close</button>
+                    <button className={css.btn} onClick={ paymentHandler }>Checkout</button>
+
         </div>
 </div>
 )

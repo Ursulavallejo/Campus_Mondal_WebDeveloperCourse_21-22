@@ -147,3 +147,19 @@ V
 &Gr√§nssnittsdesign/assigment/README.md,8\7\874149da13baa6ffdc00c5cde9c544e63bb7dd5d
 M
 Digital skapande_1/index.html,d\8\d85b9312781dc81abba3eccca1d4145e747a567e
+\
+,Programmering_1/assigment/js/dataProducts.js,6\3\632cc7e4004fbfae09793b6dd0398ee919f3e6a2
+T
+$Programmering_1/assigment/js/card.js,2\4\24dbe960e98df9223027d746a61f129b49694f9f
+f
+6Webbutveckling_2/assigment-webbutveckling/package.json,5\c\5c1c3c30e50bd37a21ffa73ffb7b4949759ed96a
+f
+6Webbutveckling_2/assigment-webbutveckling/src/index.js,9\f\9f863f484f93c286c4650016e1a8ee8d1d51a031
+Å
+QWebbutveckling_2/assigment-webbutveckling/src/components/navBar/NavBar.module.css,c\7\c788f2f98434c90a4623ec11f467763e888c2197
+Å
+QWebbutveckling_2/assigment-webbutveckling/src/components/header/Header.module.css,2\6\267aae9da2de99254a169924cb93bf29321812fc
+k
+;Webbutveckling_2/assigment-webbutveckling/public/index.html,1\9\192e846085714861ea3b841cbc489a3c94364515
+t
+DWebbutveckling_2/assigment-webbutveckling/src/components/TextMain.js,0\1\01dd68033afd9753543529180dd7977a5a47a789

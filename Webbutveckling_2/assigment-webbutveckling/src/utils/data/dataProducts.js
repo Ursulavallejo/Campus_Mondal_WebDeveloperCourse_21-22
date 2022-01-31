@@ -11,7 +11,7 @@ import productEight from '../images/img8.jpg'
 const dataProducts = [
     {
         id:1,
-        artist: "Brandt Brauer Frick",
+        artist: "Brandt Brauer",
         album: "Echo",
         tag: "cd1",
         price: 79,

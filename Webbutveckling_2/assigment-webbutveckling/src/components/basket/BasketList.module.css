@@ -1,3 +1,12 @@
+.gridItem1 {
+    background-color: floralwhite;
+    border: 1px solid black;
+    padding: 0;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0.5em;
+}
+
 
 .dropdown {
     position: relative;
@@ -9,31 +18,42 @@
     position: absolute;
     background-color: ghostwhite;
     min-width: 160px;
+    max-width: 600px;
     overflow: auto;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 15px;
-    right: 0;
-}
-
-.dropdown-content h2 {
-    text-align: center;
-    font-style: oblique;
+    right: 3em;
 }
 
 .show {
     display: block;
 }
 
-
-.area-item1 {
-    grid-area: side;
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    margin: 1em;
 }
 
-.area-item2 {
-    grid-area: top;
+.btn:hover {
+    background-color: lightslategray;
+    border-color: #9c1458;
 }
 
-.area-item3 {
-    grid-area: bottom;
+.btnAlt {
+    background-color: transparent;
+    color: #800040;
 }
+
+.btn--alt:hover {
+    background-color: lightslategray;
+}
+
+
+

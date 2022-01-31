@@ -1,5 +1,3 @@
-import {InsertItemCart} from "../InsertItemCart";
-
 
 function CardItem(props) {
 
@@ -18,7 +16,6 @@ function CardItem(props) {
             <div>
                 <button id={props.id} >BUY</button>
             </div>
-
         </article>
     )
 }

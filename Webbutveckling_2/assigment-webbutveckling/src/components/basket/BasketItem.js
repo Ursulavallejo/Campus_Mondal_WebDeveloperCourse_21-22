@@ -1,7 +1,6 @@
-import CardItem from "../card/CardItem";
 
 import css from "./BasketItem.module.css";
-import StoreContext from "../../store/storeContext";
+
 
 function BasketItem(props){
 

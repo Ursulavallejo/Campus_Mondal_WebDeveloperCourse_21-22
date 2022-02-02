@@ -1,9 +1,13 @@
+import TextMain from "../components/TextMain";
+import CardList from "../components/card/CardList";
+
+
 const HomeView = () => {
 
     return (
         <>
-            <h1>HomeView</h1>
-
+            <TextMain/>
+            <CardList/>
         </>
     )
 }

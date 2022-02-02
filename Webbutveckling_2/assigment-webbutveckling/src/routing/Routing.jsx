@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import RoutingPath from './RoutingPaht'
+import RoutingPath from './RoutingPath'
 import HomeView from '../views/HomeView'
 import NewReleasesView from '../views/NewReleasesView'
 import BestSellersView from "../views/BestSellersView";
@@ -16,11 +16,11 @@ const Routing = (props) => {
             { props.children }
             <Routes>
                 <Route path={ RoutingPath.homeView } element={ <HomeView/> }/>
-                <Route path={ RoutingPath.signInView } element={ <NewReleasesView/> }/>
-                <Route path={ RoutingPath.signedInView } element={ <BestSellersView/> }/>
-                <Route path={ RoutingPath.signedInView } element={ <NewsView/> }/>
-                <Route path={ RoutingPath.signedInView } element={ <SalesView/> }/>
-                <Route path={ RoutingPath.signedInView } element={ <ContactView/> }/>
+                <Route path={ RoutingPath.newReleasesView} element={ <NewReleasesView/> }/>
+                <Route path={ RoutingPath.bestSellersView } element={ <BestSellersView/> }/>
+                <Route path={ RoutingPath.newReleasesView } element={ <NewsView/> }/>
+                <Route path={ RoutingPath.salesView } element={ <SalesView/> }/>
+                <Route path={ RoutingPath.contactView } element={ <ContactView/> }/>
             </Routes>
         </BrowserRouter>
     )

@@ -1,5 +1,26 @@
+import { useContext} from "react";
+import StoreContext from '../../store/storeContext'
+// import dataProducts2 from "../../context/dataProducts2";
 
 function CardItem(props) {
+    const productOnCartCtx = useContext(StoreContext);
+
+    const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
+
+    function toggleProductOnCartStatusHandler(){
+if (itemIsOnCart) {
+    productOnCartCtx.removeProduct(props.id)
+} else {
+    productOnCartCtx.addProduct({
+        id: props.id,
+        image: props.image,
+        artist: props.artist,
+        album: props.album,
+        price: props.price,
+    });
+}
+
+    }
 
 
     return (
@@ -14,7 +35,7 @@ function CardItem(props) {
                 <p>Price: {props.price} Kr</p>
             </div>
             <div>
-                <button id={props.id} >BUY</button>
+                <button id={props.id} onClick={toggleProductOnCartStatusHandler}>{itemIsOnCart ? 'Remove from Cart' : 'BUY'}</button>
             </div>
         </article>
     )

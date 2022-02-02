@@ -1,12 +1,13 @@
-import css from "./NavBar.module.css";
-import RoutingPath from '../../routing/RoutingPaht'
+
+import RoutingPath from '../../routing/RoutingPath'
 import { Link } from 'react-router-dom'
+import css from "./NavBar.module.css";
 
 const NavBar = () =>  {
     return (
         <nav>
-            <ul className={css.navBar}>
-                <li className={${css.navbarItem}${css.active}}>
+            <ul className={css.navBar} >
+                <li className={`${css.navbarItem} ${css.active} `} >
                     <Link className={css.navbarLink} to={ RoutingPath.homeView }>Home</Link>
                 </li>
                 <li className={css.navbarItem} >
@@ -27,7 +28,6 @@ const NavBar = () =>  {
             </ul>
         </nav>
     )
-
 }
 
 export default NavBar

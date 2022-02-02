@@ -1,11 +1,12 @@
-
+import { useContext } from "react";
 import css from "./BasketList.module.css";
 import BasketItem from "./BasketItem";
-import dataProducts2 from "../../context/dataProducts2";
+import StoreContext from '../../store/storeContext'
+
 
 
 export default function BasketList(props) {
-
+    const productOnCartCtx = useContext(StoreContext);
     function cancelHandler(){
         props.onCancel();
     }
@@ -22,14 +23,15 @@ export default function BasketList(props) {
             <hr/>
                     <div className={css.gridItem1}>
                         {
-                            dataProducts2.map((user, index) => {
+                            productOnCartCtx.map((user, index) => {
                                 return (
-                                    <BasketItem key={ index }
-                                                id={ dataProducts2[index].id }
-                                                image={ dataProducts2[index].image }
-                                                artist={ dataProducts2[index].artist }
-                                                album={ dataProducts2[index].album }
-                                                price={ dataProducts2[index].price }
+                                    <BasketItem
+                                        key={ index }
+                                                id={ productOnCartCtx[index].id }
+                                                image={ productOnCartCtx[index].image }
+                                                artist={ productOnCartCtx[index].artist }
+                                                album={ productOnCartCtx[index].album }
+                                                price={ productOnCartCtx[index].price }
                                     />
                                 )
                             })

@@ -1,8 +1,11 @@
 import CardItem from "../card/CardItem";
-import dataProducts from "../../utils/data/dataProducts";
+
 import css from "./BasketItem.module.css";
+import StoreContext from "../../store/storeContext";
 
 function BasketItem(props){
+
+
     return(
 <div className={css.products} >
         <ul >

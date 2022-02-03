@@ -27,11 +27,16 @@ function Header(props) {
         <header className={css.gridContainerHeader}>
             <div className={css.logo}>
                 <img src={logoShop} alt="Logo Amoeba"/>
+
             </div>
-            <div className={css.searchArea}>
-                <input type="text" placeholder='artist name, keywords'/>
-                <button>SEARCH</button>
+            <div className={css.title}>
+                <h1>AMOEBA STORE: The Best Music</h1>
             </div>
+
+            {/*<div className={css.searchArea}>*/}
+            {/*    <input type="text" placeholder='artist name, keywords'/>*/}
+            {/*    <button>SEARCH</button>*/}
+            {/*</div>*/}
             <div className={css.checkOut}>
                 <div>
                     <button

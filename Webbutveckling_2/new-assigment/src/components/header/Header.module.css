@@ -1,44 +1,45 @@
 
 .gridContainerHeader {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 
 .logo img {
     padding-top: 1.5em;
     margin: 1em auto;
-    width: 120px;
+    width: 100px;
 }
 
-.logo, .searchArea{
+.logo, .title{
     text-align: center;
 }
 
-.searchArea {
+.title {
     margin-top:  4em;
+    font-size: 20px;
 }
 
-.searchArea input{
-    padding:0.5em 7em;
-    text-align: left;
-}
+/*.searchArea input{*/
+/*    padding:0.5em 7em;*/
+/*    text-align: left;*/
+/*}*/
 
-.searchArea button{
-    padding: 0.5em;
-}
+/*.searchArea button{*/
+/*    padding: 0.5em;*/
+/*}*/
 .checkOut {
     text-align: center;
     margin-bottom: 2em;
 }
 
 .checkoutDropdownButton{
-    color: white;
+    color: var( --secondary-text);
     padding: 20px 20px;
     border: none;
     border-radius: 4px;
     outline: none;
     margin-top: 3.5em;
-    background-color: black;
+    background-color: var(--primary-text);
     font-size: 1em;
     cursor: pointer;
 }

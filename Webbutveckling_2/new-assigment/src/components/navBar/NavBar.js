@@ -8,7 +8,7 @@ const NavBar = () =>  {
         <nav>
             <ul className={css.navBar} >
                 <li className={`${css.navbarItem} ${css.active} `} >
-                    <Link className={css.navbarLink} to={ RoutingPath.homeView }>Home</Link>
+                    <Link className={`${css.navbarLink} ${css.blackFont}`} to={ RoutingPath.homeView }>Home</Link>
                 </li>
                 <li className={css.navbarItem} >
                     <Link className={css.navbarLink} to={ RoutingPath.newReleasesView }>New Releases</Link>

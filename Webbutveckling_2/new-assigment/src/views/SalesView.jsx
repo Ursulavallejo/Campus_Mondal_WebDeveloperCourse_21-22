@@ -4,7 +4,7 @@ const SalesView = () => {
 
     return (
         <section>
-            <h1>SalesView </h1>
+            <h2>SalesView </h2>
             <p>Test Cart</p>
 
 

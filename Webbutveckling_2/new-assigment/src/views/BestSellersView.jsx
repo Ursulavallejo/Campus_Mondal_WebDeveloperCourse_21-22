@@ -2,7 +2,7 @@ const BestSellersView = () => {
 
     return (
         <>
-            <h1>BestSellersView</h1>
+            <h2>BestSellersView</h2>
 
         </>
     )

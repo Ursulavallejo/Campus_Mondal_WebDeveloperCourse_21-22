@@ -2,7 +2,7 @@ const NewReleasesView = () => {
 
     return (
         <>
-            <h1>NewReleasesView</h1>
+            <h2>NewReleasesView</h2>
 
         </>
     )

@@ -23,15 +23,15 @@ export default function BasketList(props) {
             <hr/>
                     <div className={css.gridItem1}>
                         {
-                            productOnCartCtx.map((user, index) => {
+                            productOnCartCtx.productOnCart.map((user, index) => {
                                 return (
                                     <BasketItem
                                         key={ index }
-                                                id={ productOnCartCtx[index].id }
-                                                image={ productOnCartCtx[index].image }
-                                                artist={ productOnCartCtx[index].artist }
-                                                album={ productOnCartCtx[index].album }
-                                                price={ productOnCartCtx[index].price }
+                                                id={ productOnCartCtx.productOnCart[index].id }
+                                                image={ productOnCartCtx.productOnCart[index].image }
+                                                artist={ productOnCartCtx.productOnCart[index].artist }
+                                                album={ productOnCartCtx.productOnCart[index].album }
+                                                price={ productOnCartCtx.productOnCart[index].price }
                                     />
                                 )
                             })

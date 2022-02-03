@@ -1,6 +1,4 @@
 
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 i
 9Webbutveckling_1/new_version_assigment/css/styleIndex.css,d\d\dde415b90e81b9ff3402f2527eb7d799e3e65346
 i
@@ -151,8 +149,6 @@ M
 ,Programmering_1/assigment/js/dataProducts.js,6\3\632cc7e4004fbfae09793b6dd0398ee919f3e6a2
 T
 $Programmering_1/assigment/js/card.js,2\4\24dbe960e98df9223027d746a61f129b49694f9f
-f
-6Webbutveckling_2/assigment-webbutveckling/package.json,5\c\5c1c3c30e50bd37a21ffa73ffb7b4949759ed96a
 Å
 QWebbutveckling_2/assigment-webbutveckling/src/components/header/Header.module.css,2\6\267aae9da2de99254a169924cb93bf29321812fc
 k
@@ -173,3 +169,43 @@ GWebbutveckling_2/assigment-webbutveckling/src/views/BestSellersView.jsx,5\8\58
 UWebbutveckling_2/assigment-webbutveckling/src/components/basket/BasketList.module.css,f\e\fec97c7493a0ce0316c3bb8fc1da4e0a67ef6fac
 s
 CWebbutveckling_2/assigment-webbutveckling/src/views/ContactView.jsx,a\7\a7788798c2e2c0a3402bebe6a9209f95062cd370
+Ö
+UWebbutveckling_2/assigment-webbutveckling/src/components/basket/BasketItem.module.css,0\a\0a78179a9cdf6c8dbab52b99143d318c6befe038
+t
+DWebbutveckling_2/assigment-webbutveckling/src/routing/RoutingPath.js,4\6\46c186c6473075c7023e87ed802e97bf06f80b1a
+q
+AWebbutveckling_2/assigment-webbutveckling/src/routing/Routing.jsx,5\f\5f6f7e84361b395f63e26fd3e94266cdac33c635
+Å
+QWebbutveckling_2/assigment-webbutveckling/src/components/navBar/NavBar.module.css,c\7\c788f2f98434c90a4623ec11f467763e888c2197
+y
+IWebbutveckling_2/assigment-webbutveckling/src/components/navBar/NavBar.js,5\6\56f64360f43ebf20e53ccf9f0c4223883fce45e3
+d
+4Webbutveckling_2/assigment-webbutveckling/src/App.js,b\b\bbffe8b00feae743cb759872b745302bd8e67f82
+q
+AWebbutveckling_2/assigment-webbutveckling/src/components/Modal.js,d\c\dc8bdf3dc6d89f8f675530d2bec4a56f8903e774
+t
+DWebbutveckling_2/assigment-webbutveckling/src/components/Backdrop.js,8\2\82e72ddb5cf2f932c3ed372d85ffb5e9bd419be9
+v
+FWebbutveckling_2/assigment-webbutveckling/src/context/dataProducts2.js,2\5\256a2d593f80521caf29ed3bb87031f3f9e0a1f7
+}
+MWebbutveckling_2/assigment-webbutveckling/src/components/basket/BasketItem.js,a\f\afad041bfca140b6d7c7a8566e4645b658b86ec7
+}
+MWebbutveckling_2/assigment-webbutveckling/src/components/basket/BasketList.js,f\b\fb1a53a9171fe8fdf17ca1b741c6924820a30caf
+q
+AWebbutveckling_2/assigment-webbutveckling/src/views/SalesView.jsx,c\5\c5f04dfaa29c070781838db62152d2cd300f8a0d
+z
+JWebbutveckling_2/assigment-webbutveckling/src/components/card/CardItem.jsx,0\f\0fb43419b3c25debb8e68605bed9afda136975e7
+z
+JWebbutveckling_2/assigment-webbutveckling/src/components/card/CardList.jsx,a\5\a5254b45681bb28d172775ef31acc0fad31f5143
+f
+6Webbutveckling_2/assigment-webbutveckling/src/index.js,9\f\9f863f484f93c286c4650016e1a8ee8d1d51a031
+s
+CWebbutveckling_2/assigment-webbutveckling/src/store/storeContext.js,d\7\d77a59d59dc3417921be294661199f993625dcc7
+p
+@Webbutveckling_2/assigment-webbutveckling/src/views/HomeView.jsx,e\9\e915d2a102517ec30f7ec8e445c3d24db762601f
+y
+IWebbutveckling_2/assigment-webbutveckling/src/components/header/Header.js,a\1\a18d00470b807f4a7714e7964e8a9d5294b9947a
+k
+;Webbutveckling_2/assigment-webbutveckling/package-lock.json,8\8\88b8bdc48555e9736c420aab71fcd7ce5f47bec3
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

@@ -7,7 +7,7 @@ function CardItem(props) {
 
     const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
 
-    function toggleProductOnCartStatusHandler(){
+ function toggleProductOnCartStatusHandler(){
 if (itemIsOnCart) {
     productOnCartCtx.removeProduct(props.id)
 } else {

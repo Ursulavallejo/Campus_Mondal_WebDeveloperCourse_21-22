@@ -3,6 +3,7 @@
     width: 50rem;
     max-width: 95%;
     margin: 0.5em auto;
+    font-size: 12px;
 }
 
 .products ul {
@@ -10,6 +11,10 @@
     margin: 0;
     padding: 0;
 }
+.products h3 {
+    font-size: 16px;
+}
+
 
 .products li {
     padding: 1rem;
@@ -18,7 +23,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: small;
+
 }
 .products input {
     margin-top: 0.5em;

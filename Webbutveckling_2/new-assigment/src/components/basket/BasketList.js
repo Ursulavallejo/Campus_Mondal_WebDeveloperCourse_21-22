@@ -19,7 +19,7 @@ export default function BasketList(props) {
 <div>
 
         <div className={`${css.dropdownContent} ${css.show} ${css.dropdown}`} >
-            <h2>Your Cart</h2>
+            <h3>Your Cart</h3>
             <hr/>
                     <div className={css.gridItem1}>
                         {

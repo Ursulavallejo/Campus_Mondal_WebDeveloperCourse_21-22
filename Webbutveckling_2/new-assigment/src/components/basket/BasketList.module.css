@@ -17,13 +17,13 @@
     display: none;
     position: absolute;
     background-color: ghostwhite;
-    min-width: 160px;
-    max-width: 600px;
+    min-width: 180px;
+    max-width: 620px;
     overflow: auto;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 15px;
-    right: 3em;
+    right: 10em;
 }
 
 .show {
@@ -32,7 +32,7 @@
 
 .btn {
     font: inherit;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5em 1em;
     cursor: pointer;
     border-radius: 4px;
     background-color: red;

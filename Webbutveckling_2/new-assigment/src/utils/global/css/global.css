@@ -37,19 +37,19 @@ h1 {
 
 h2 {
   font-family: 'ArchitectsDaughter-Regular', serif;
-  font-size: 20px;
+  font-size: 40px;
   color: var(--primary-color);
 }
 
 h3 {
   font-family: 'ArchitectsDaughter-Regular', serif;
-  font-size: 18px;
+  font-size: 30px;
   color: var( --primary-color);
 }
 
 h4 {
   font-family: 'ArchitectsDaughter-Regular', serif;
-  font-size: 16px;
+  font-size: 22px;
   color: var(--light-primary-color);
   font-weight: 700;
 }

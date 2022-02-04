@@ -12,15 +12,21 @@ export function StoreContextProvider(props) {
 
     function addProductOnCartHandler(selectedItem) {
         console.log(selectedItem)
-           if (cartIsEmpty()) {
-               insertProductOnCartHandler(selectedItem);
-    } else {
-        if (itemIsProductOnCartHandler(selectedItem.id)) {
-            updateQuantityAndPrice(selectedItem);
-        } else {
+        if (cartIsEmpty()) {
+            console.log('if')
             insertProductOnCartHandler(selectedItem);
+        } else {
+            console.log('else')
+            if (itemIsProductOnCartHandler(selectedItem.id)) {
+                console.log('if2')
+                updateQuantityAndPrice(selectedItem.id);
+            } else {
+                console.log('else2')
+                insertProductOnCartHandler(selectedItem.id);
+            }
         }
     }
+
 
 
     function removeProductOnCartHandler(productId) {
@@ -43,13 +49,20 @@ export function StoreContextProvider(props) {
     function cartIsEmpty() {
         return itemsSelected.length === 0
     }
-    function updateQuantityAndPrice(selectedItem){
-            if (itemsSelected.id === selectedItem) {
-                itemsSelected.quantity += 1
-                itemsSelected.totalSum = itemsSelected.price * itemsSelected.quantity
+
+    function updateQuantityAndPrice(productId){
+        console.log('updateQuantityAndPrice')
+        console.log(productId)
+        itemsSelected.map((currentItem)=>{
+            if (currentItem.id === productId) {
+                currentItem.quantity += 1
+                console.log('number cds', currentItem.quantity)
+                currentItem.totalSum = currentItem.price * currentItem.quantity
+                console.log('price', currentItem.totalSum)
             }
-        }
+        });
     }
+
     const context = {
         productOnCart: itemsSelected,
         totalProductOnCart: itemsSelected.length,

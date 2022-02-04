@@ -15,3 +15,13 @@ D
 assigment/js/card.js,3\0\30f856b2fd974964fbdbac1d66c03ee6d0f5152e
 F
 assigment/css/cart.css,1\6\16aba06f7a95a29b450a4e6f0635ac30119ef32b
+J
+assigment/css/dropdown.css,1\5\1501e95430f9ac4bf91980664b5477faba3c55b7
+G
+assigment/css/style.css,4\9\49c12e41af68772fe537bb636218ca3c5e331ac4
+H
+assigment/js/dropdown.js,a\6\a6b7c952dc6915f0bdddeb33a5e63c0e1eee22fe
+D
+assigment/index.html,1\7\174d0ef7cf63d4a785dfb3ec1ff63a2646fc327c
+F
+assigment/js/script.js,1\d\1df501baadf7c7288a56d6a7560d05af05e9f630

@@ -18,15 +18,19 @@
     margin-top:  4em;
     font-size: 20px;
 }
+.searchArea {
+    text-align: center;
+    padding: 1.5em 0;
+}
+.searchArea input{
+    padding:0.5em 6em;
+    text-align: center;
 
-/*.searchArea input{*/
-/*    padding:0.5em 7em;*/
-/*    text-align: left;*/
-/*}*/
+}
 
-/*.searchArea button{*/
-/*    padding: 0.5em;*/
-/*}*/
+.searchArea button{
+    padding: 0.5em;
+}
 .checkOut {
     text-align: center;
     margin-bottom: 2em;

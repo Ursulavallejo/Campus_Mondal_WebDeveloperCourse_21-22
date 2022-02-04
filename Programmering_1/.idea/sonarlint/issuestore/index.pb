@@ -11,8 +11,6 @@ L
 assigment/js/dataProducts.js,0\5\054323d960476eb3a7cc0a7f975f0fb7eef7c8c6
 H
 assigment/css/header.css,3\0\30b9a6d549e0555f0cfcf1ade88cec3307caae02
-F
-assigment/js/script.js,1\d\1df501baadf7c7288a56d6a7560d05af05e9f630
 D
 assigment/js/card.js,3\0\30f856b2fd974964fbdbac1d66c03ee6d0f5152e
 F

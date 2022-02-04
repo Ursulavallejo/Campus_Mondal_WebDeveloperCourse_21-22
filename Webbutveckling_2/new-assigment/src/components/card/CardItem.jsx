@@ -7,19 +7,18 @@ function CardItem(props) {
 
     const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
 
- function toggleProductOnCartStatusHandler(){
-if (itemIsOnCart) {
-    productOnCartCtx.removeProduct(props.id)
-} else {
+ function addNewProductToCartHandler(){
     productOnCartCtx.addProduct({
         id: props.id,
         image: props.image,
         artist: props.artist,
         album: props.album,
         price: props.price,
+        quantity: 1,
+        totalPrice: props.price
     });
 }
-    }
+
 
     return (
         <article className='tc grow bg-washed-yellow br3 pa3 ma2 dib bw2 shadow-5  ' >
@@ -33,7 +32,7 @@ if (itemIsOnCart) {
                 <p>Price: {props.price} Kr</p>
             </div>
             <div>
-                <button id={props.id} onClick={toggleProductOnCartStatusHandler}>{itemIsOnCart ? 'Remove from Cart' : 'BUY'}</button>
+                <button id={props.id} onClick={addNewProductToCartHandler}>Add to Cart</button>
             </div>
         </article>
     )

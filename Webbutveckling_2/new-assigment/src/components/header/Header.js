@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logoShop from '../../utils/images/amoeba.gif'
+import { FaCartArrowDown } from "react-icons/fa";
 
 import css from "./Header.module.css";
 import BasketList from "../basket/BasketList";
@@ -24,33 +25,31 @@ function Header(props) {
     }
 
     return (
-        <header className={css.gridContainerHeader}>
+        <header >
+            <div className={css.gridContainerHeader}>
             <div className={css.logo}>
                 <img src={logoShop} alt="Logo Amoeba"/>
-
             </div>
             <div className={css.title}>
                 <h1>AMOEBA STORE: The Best Music</h1>
             </div>
-
-            {/*<div className={css.searchArea}>*/}
-            {/*    <input type="text" placeholder='artist name, keywords'/>*/}
-            {/*    <button>SEARCH</button>*/}
-            {/*</div>*/}
             <div className={css.checkOut}>
                 <div>
                     <button
                         onClick={() => {
                             cartHandler()
                             closeCartHandler()
-                        }} className={css.checkoutDropdownButton}><i
-                        className="fas fa-cart-arrow-down"/><span className={css.label}>ShopCart</span></button>
+                        }} className={css.checkoutDropdownButton}>
+                        <FaCartArrowDown/>
+                        <span className={css.label}>ShopCart</span></button>
                 </div>
                 {cartIsOpen && <BasketList onCancel={closeCartHandler} onConfirm={messageExitPayment}/>}
-
-
             </div>
-
+            </div>
+            <div className={css.searchArea}>
+                <input type="text" placeholder='artist name, keywords'/>
+                <button>SEARCH</button>
+            </div>
         </header>
     )
 

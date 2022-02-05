@@ -4,14 +4,13 @@ const StoreContext = createContext({
     productOnCart: [],
     totalProductOnCart: 0,
     totalPriceOnCart: 0
-
 });
 
 export function StoreContextProvider(props) {
     const [ itemsSelected, setItemsSelected ] = useState([]);
 
     function addProductOnCartHandler(selectedItem) {
-        console.log(selectedItem)
+        // console.log(selectedItem)
         if (cartIsEmpty()) {
             console.log('if')
             insertProductOnCartHandler(selectedItem);
@@ -24,6 +23,7 @@ export function StoreContextProvider(props) {
                 console.log('else2')
                 insertProductOnCartHandler(selectedItem.id);
             }
+            console.log(selectedItem)
         }
     }
 
@@ -51,12 +51,11 @@ export function StoreContextProvider(props) {
     }
 
     function updateQuantityAndPrice(productId){
-        console.log('updateQuantityAndPrice')
-        console.log(productId)
+        console.log('updateQuantityAndPrice:', productId)
         itemsSelected.map((currentItem)=>{
             if (currentItem.id === productId) {
                 currentItem.quantity += 1
-                console.log('number cds', currentItem.quantity)
+                console.log('number cds ', currentItem.quantity)
                 currentItem.totalSum = currentItem.price * currentItem.quantity
                 console.log('price', currentItem.totalSum)
             }

@@ -8,7 +8,7 @@ function CardItem(props) {
     const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
 
  function addNewProductToCartHandler(){
-    productOnCartCtx.addProduct({
+     productOnCartCtx.addProduct({
         id: props.id,
         image: props.image,
         artist: props.artist,
@@ -21,7 +21,7 @@ function CardItem(props) {
 
 
     return (
-        <article className='tc grow bg-washed-yellow br3 pa3 ma2 dib bw2 shadow-5  ' >
+        <article className='tc bg-washed-yellow br3 pa3 ma2 dib bw2 shadow-5  ' >
             <div>
                 <img src={props.image} alt={props.artist}/>
             </div>

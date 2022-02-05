@@ -21,7 +21,7 @@ export function StoreContextProvider(props) {
                 updateQuantityAndPrice(selectedItem.id);
             } else {
                 console.log('else2')
-                insertProductOnCartHandler(selectedItem.id);
+                insertProductOnCartHandler(selectedItem);
             }
             console.log(selectedItem)
         }

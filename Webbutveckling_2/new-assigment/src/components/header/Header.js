@@ -31,24 +31,24 @@ function Header(props) {
                 <img src={logoShop} alt="Logo Amoeba"/>
             </div>
             <div className={css.title}>
-                <h1>AMOEBA STORE: The Best Music</h1>
+                <h1 data-testid='header'>AMOEBA STORE: The Best Music</h1>
             </div>
             <div className={css.checkOut}>
                 <div>
-                    <button
+                    <button data-testid='openBtnCart'
                         onClick={() => {
                             cartHandler()
                             closeCartHandler()
                         }} className={css.checkoutDropdownButton}>
                         <FaCartArrowDown/>
-                        <span className={css.label}>ShopCart</span></button>
+                        <span data-testid='btnCart' className={css.label}>ShopCart</span></button>
                 </div>
                 {cartIsOpen && <BasketList onCancel={closeCartHandler} onConfirm={messageExitPayment}/>}
             </div>
             </div>
             <div className={css.searchArea}>
-                <input type="text" placeholder='artist name, keywords'/>
-                <button>SEARCH</button>
+                <input data-testid='input' type="text" placeholder='artist name, keywords'/>
+                <button data-testid='btnSearch' >SEARCH</button>
             </div>
         </header>
     )

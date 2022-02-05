@@ -28,7 +28,7 @@ function CardItem(props) {
             <div>
                 <h3>{props.artist}</h3>
                 <h1>{props.text}</h1>
-                <p>Album: {props.album}</p>
+                <p >Album: {props.album}</p>
                 <p>Price: {props.price} Kr</p>
             </div>
             <div>

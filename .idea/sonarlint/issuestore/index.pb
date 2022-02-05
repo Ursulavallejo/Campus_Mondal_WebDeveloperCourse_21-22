@@ -193,8 +193,6 @@ i
 9Webbutveckling_2/new-assigment/src/routing/RoutingPath.js,f\5\f5428e741040c4d6d3f85e72c31bec45e87c7ee1
 `
 0Webbutveckling_2/new-assigment/public/index.html,6\c\6c9a926465393af2d18b045a4afbd85aa50a82a8
-o
-?Webbutveckling_2/new-assigment/src/components/card/CardList.jsx,b\3\b35e212feb7f256178a481fc56dd797627600a8c
 f
 6Webbutveckling_2/assigment-webbutveckling/package.json,5\c\5c1c3c30e50bd37a21ffa73ffb7b4949759ed96a
 €
@@ -223,8 +221,6 @@ v
 FWebbutveckling_2/new-assigment/src/components/header/Header.module.css,b\d\bd3dfc2e3a270e4f601d47804cbbde01b7003909
 n
 >Webbutveckling_2/new-assigment/src/utils/global/css/global.css,b\d\bdcd924965e2e24c510fd071da84cf8b80eeed3e
-Y
-)Webbutveckling_2/new-assigment/src/App.js,b\5\b54027c2af358bf61d7f2054dc6c6ae0857293c4
 [
 +Webbutveckling_2/new-assigment/src/index.js,8\9\89e0de6bfe572a2cb3d11a1242617d6a04fff781
 z
@@ -233,10 +229,6 @@ z
 JWebbutveckling_2/new-assigment/src/components/basket/BasketList.module.css,2\a\2a32649ac6fd71d8740cc6a619c6fb7a98cc21b5
 r
 BWebbutveckling_2/new-assigment/src/components/basket/BasketList.js,d\f\df1f73d38727bf988e55a778e6ea96cc82a41d0d
-n
->Webbutveckling_2/new-assigment/src/components/header/Header.js,5\9\592d0a07e60f2b45e8c155254e235e4714776039
-r
-BWebbutveckling_2/new-assigment/src/components/basket/BasketItem.js,9\b\9b60b5f3b868198ffed5e32638c068898d48cbd6
 s
 CWebbutveckling_2/assigment-webbutveckling/src/store/storeContext.js,d\7\d77a59d59dc3417921be294661199f993625dcc7
 y

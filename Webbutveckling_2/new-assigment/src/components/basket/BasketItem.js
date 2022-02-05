@@ -20,8 +20,9 @@ function BasketItem(props){
                 <h3 >{props.artist}</h3>
                 <p>Album: <span >{props.album}</span></p>
                 <p>Price: <span >{props.price}</span> Kr </p>
-                <input  type="number" name="amount" value={ `${inputValue}` }
-                       onChange="addMore('cd2')"/>
+                <input data-testid='input'  type="number" name="amount" value={ inputValue }
+                        min={1}
+                       onChange={event => setInputValue(parseInt(event.target.value))}/>
                 <p ><span>Total value</span> Kr</p>
                 <button  id={props.id} type="button" onClick=''>X</button>
             </li>

@@ -34,7 +34,8 @@ function BasketItem(props){
                         min={1}
                        onChange={event => setInputValue(parseInt(event.target.value))}/>
                 <p ><span>Total value</span>{props.quantity * props.price} Kr</p>
-                <button  id={props.id} type="button" onClick={removeProductInCartHandler}>X</button>
+                <button  id={props.id} type="button" onClick={removeProductInCartHandler}
+                >X</button>
             </li>
         </ul>
 </div>

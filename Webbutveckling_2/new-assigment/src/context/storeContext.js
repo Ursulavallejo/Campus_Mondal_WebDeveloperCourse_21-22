@@ -43,6 +43,25 @@ export function StoreContextProvider(props) {
     }
 
 
+    // function removeProductFromCart (productId)  {
+    //     console.log('Removing product with id: ' + productId);
+    //     const updatedCart = [itemsSelected.productOnCart];
+    //     const updatedItemIndex = updatedCart.findIndex(
+    //         item => item.id === productId
+    //     );
+    //
+    //     const updatedItem = {
+    //         ...updatedCart[updatedItemIndex]
+    //     };
+    //     updatedItem.quantity--;
+    //     if (updatedItem.quantity <= 0) {
+    //         updatedCart.splice(updatedItemIndex, 1);
+    //     } else {
+    //         updatedCart[updatedItemIndex] = updatedItem;
+    //     }
+    // }
+
+
     function itemIsProductOnCartHandler(productId) {
         return itemsSelected.some(product => product.id === productId);
     }

@@ -257,3 +257,15 @@ o
 ?Webbutveckling_2/new-assigment/src/components/card/CardList.jsx,b\3\b35e212feb7f256178a481fc56dd797627600a8c
 z
 JWebbutveckling_2/new-assigment/src/components/__test__/BasketItem.test.jsx,f\0\f02f47553d1b2a6128a67fe4a4c63ccd05f4ae43
+[
++Webbutveckling_2/new-assigment/package.json,9\b\9bf20f58522e7cc65b5af8307b38ad4aed165e5b
+Y
+)Webbutveckling_2/new-assigment/src/App.js,b\5\b54027c2af358bf61d7f2054dc6c6ae0857293c4
+^
+.Webbutveckling_2/new-assigment/src/App.test.js,9\c\9c54fe0d6b7ce3bccedeeb24a34ee3eafdf6a794
+|
+LWebbutveckling_2/new-assigment/src/components/__test__/HeaderScreen.test.jsx,a\2\a294a2c06ba67c8a140b26c66a51882c8646ddee
+v
+FWebbutveckling_2/new-assigment/src/components/__test__/Header.test.jsx,d\d\dd1d83c81b3fd94f3d573a3b4d5d6ac250a8913c
+n
+>Webbutveckling_2/new-assigment/src/components/header/Header.js,5\9\592d0a07e60f2b45e8c155254e235e4714776039

@@ -2,6 +2,7 @@ import { useContext } from "react";
 import css from "./BasketList.module.css";
 import BasketItem from "./BasketItem";
 import StoreContext from '../../context/storeContext'
+import { FaShoppingBasket,  } from 'react-icons/fa';
 
 
 
@@ -25,7 +26,9 @@ export default function BasketList(props) {
 <div>
 
         <div className={`${css.dropdownContent} ${css.show} ${css.dropdown}`} >
-            <h3>Your Cart</h3>
+            {productOnCartCtx.productOnCart.length === 0 && <h3 >Your cart is Empty </h3>}
+            {productOnCartCtx.productOnCart.length > 0 && <h3 >Your Cart</h3>}
+
             <hr/>
                     <div className={css.gridItem1}>
                         {

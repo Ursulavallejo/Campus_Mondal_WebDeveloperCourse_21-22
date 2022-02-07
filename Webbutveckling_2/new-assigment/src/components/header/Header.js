@@ -11,7 +11,7 @@ function Header(props) {
 
     function cartHandler() {
         setCartIsOpen(true);
-        // console.log('clicked')
+
     }
 
     function closeCartHandler() {
@@ -21,7 +21,7 @@ function Header(props) {
     }
 
     function messageExitPayment() {
-        alert('Thanks for your purchase!!')
+        alert('Thanks for your purchase!! Hope to see you again')
     }
 
     return (

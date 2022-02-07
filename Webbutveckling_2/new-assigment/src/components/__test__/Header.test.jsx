@@ -10,25 +10,6 @@ beforeEach(() =>{
 })
 
 
-
-// test('header render with correct text 1', () => {
-//     const component = render(<Header/>)
-//     const headerElement = component.getByTestId('header')
-//     expect(headerElement.textContent).toBe('AMOEBA STORE: The Best Music')
-// })
-//
-// test('header render with correct text 2', () => {
-//     const {getByTestId} = render(<Header/>)
-//     const headerElement = getByTestId('header')
-//     expect(headerElement.textContent).toBe('AMOEBA STORE: The Best Music')
-// })
-//
-// test('header render with correct text 3', () => {
-//     const {getByTestId} = render(<Header/>)
-//
-//     expect(getByTestId('header').textContent).toBe('AMOEBA STORE: The Best Music')
-// })
-
 test('header render with correct text 4', () => {
     expect(getByTestId('header').textContent).toBe('AMOEBA STORE: The Best Music')
 })

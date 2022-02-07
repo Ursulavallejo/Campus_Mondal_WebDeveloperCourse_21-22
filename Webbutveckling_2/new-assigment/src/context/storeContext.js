@@ -18,7 +18,7 @@ export function StoreContextProvider(props) {
             console.log('else')
             if (itemIsProductOnCartHandler(selectedItem.id)) {
                 console.log('if2')
-                updateQuantityAndPrice(selectedItem.id);
+                // updateQuantityAndPrice(selectedItem.id);
             } else {
                 console.log('else2')
                 insertProductOnCartHandler(selectedItem);
@@ -30,10 +30,18 @@ export function StoreContextProvider(props) {
 
 
     function removeProductOnCartHandler(productId) {
-        setItemsSelected(prevItemsSelected => {
-            return prevItemsSelected.filter(product => product.id !== productId );
-        });
+        const productIsOnCart = itemsSelected.find((product) => product.id === productId.id)
+        if (productIsOnCart.quantity === 1) {
+            setItemsSelected(itemsSelected.filter((product) => product.id !== productId));
+            return productIsOnCart;
+        } else {
+            setItemsSelected(itemsSelected.map((product) => product.id === productId.id ? {
+                ...productIsOnCart,
+                quantity: productIsOnCart.quantity - 1
+            } : product))
+        }
     }
+
 
     function itemIsProductOnCartHandler(productId) {
         return itemsSelected.some(product => product.id === productId);
@@ -50,25 +58,31 @@ export function StoreContextProvider(props) {
         return itemsSelected.length === 0
     }
 
-    function updateQuantityAndPrice(productId){
-        console.log('updateQuantityAndPrice:', productId)
-        itemsSelected.map((currentItem)=>{
-            if (currentItem.id === productId) {
-                currentItem.quantity += 1
-                console.log('number cds ', currentItem.quantity)
-                currentItem.totalSum = currentItem.price * currentItem.quantity
-                console.log('price', currentItem.totalSum)
-            }
+    function updateQuantityAndPrice(productId) {
+        // console.log('updateQuantityAndPrice:', productId)
+        setItemsSelected(prevItemsSelected => {
+            return prevItemsSelected.map((currentItem) =>{
+                if (currentItem.id === productId) {
+                    currentItem.quantity += 1
+                    console.log('number cds ', currentItem.quantity)
+                    currentItem.totalSum = currentItem.price * currentItem.quantity
+                    console.log('price', currentItem.totalSum)
+                }
+            });
         });
     }
+
 
     const context = {
         productOnCart: itemsSelected,
         totalProductOnCart: itemsSelected.length,
         totalPriceOnCart: 0,
+        insertProduct:  insertProductOnCartHandler,
         addProduct: addProductOnCartHandler,
         removeProduct: removeProductOnCartHandler,
         itemIsOnCart: itemIsProductOnCartHandler,
+        // updateProductQuantityPrice:  updateQuantityAndPrice,
+        cartEmpty: cartIsEmpty,
     };
 
     return (
@@ -78,4 +92,4 @@ export function StoreContextProvider(props) {
     )
 }
 
-export default StoreContext;
+export default StoreContext

@@ -253,15 +253,7 @@ z
 JWebbutveckling_2/assigment-webbutveckling/src/components/card/CardItem.jsx,0\f\0fb43419b3c25debb8e68605bed9afda136975e7
 X
 (Webbutveckling_2/new-assigment/README.md,e\a\ea6a14648aef1a16b5bb8069633079145602f61c
-j
-:Webbutveckling_2/new-assigment/src/context/storeContext.js,8\7\873d73d90269c42401481244bebe679d38ecbf50
 o
 ?Webbutveckling_2/new-assigment/src/components/card/CardList.jsx,b\3\b35e212feb7f256178a481fc56dd797627600a8c
-o
-?Webbutveckling_2/new-assigment/src/components/card/CardItem.jsx,8\6\86ea814552a727ee7101d1da136088a540e4caa6
-n
->Webbutveckling_2/new-assigment/src/components/header/Header.js,5\9\592d0a07e60f2b45e8c155254e235e4714776039
 z
 JWebbutveckling_2/new-assigment/src/components/__test__/BasketItem.test.jsx,f\0\f02f47553d1b2a6128a67fe4a4c63ccd05f4ae43
-v
-FWebbutveckling_2/new-assigment/src/components/__test__/Header.test.jsx,d\d\dd1d83c81b3fd94f3d573a3b4d5d6ac250a8913c

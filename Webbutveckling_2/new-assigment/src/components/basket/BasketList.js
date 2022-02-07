@@ -6,7 +6,10 @@ import StoreContext from '../../context/storeContext'
 
 
 export default function BasketList(props) {
+    // const [productOnCart, setproductOnCart] = useContext(StoreContext);
     const productOnCartCtx = useContext(StoreContext);
+
+
     function cancelHandler(){
         props.onCancel();
     }
@@ -14,6 +17,9 @@ export default function BasketList(props) {
     function paymentHandler(){
         props.onConfirm();
     }
+
+    const totalPrice = productOnCartCtx.productOnCart.reduce((price, selectedItem) => price + selectedItem.quantity * selectedItem.price, 0)
+    const freeFreight = 259
 
     return (
 <div>
@@ -32,6 +38,7 @@ export default function BasketList(props) {
                                                 artist={ productOnCartCtx.productOnCart[index].artist }
                                                 album={ productOnCartCtx.productOnCart[index].album }
                                                 price={ productOnCartCtx.productOnCart[index].price }
+
                                     />
                                 )
                             })
@@ -39,10 +46,10 @@ export default function BasketList(props) {
                     </div>
                     <article className={css.gridItem1} >
                         <p>
-                            SUMMARY: (<span id="totalCds">x</span><span> CD's</span>) TOTAL to PAY:
-                            <span id="totalPay">0</span><span> SEK</span>
+                            SUMMARY: (<span id="totalCds"></span>{productOnCartCtx.productOnCart.reduce((total, album) => total + album.quantity, 0)}<span> CD's</span>) TOTAL to PAY:
+                            <span id="totalPay"> {totalPrice} </span><span> SEK</span>
                         </p>
-                        <p id="freeShipmt">Need to buy <span>XX</span> kr more items cd to free freight!</p>
+                        {totalPrice >= 259 ? <p >Congratulations! You are entitled to free freight!</p>  :<p >Need to buy {freeFreight - totalPrice}  kr more items cd to free freight!</p>}
                     </article>
 
                     <button className={`${css.btn} ${css.btnAlt}`} onClick={ cancelHandler }>Close</button>

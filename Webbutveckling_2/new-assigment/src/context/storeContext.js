@@ -29,17 +29,23 @@ export function StoreContextProvider(props) {
 
 
 
-    function removeProductOnCartHandler(productId) {
-        const productIsOnCart = itemsSelected.find((product) => product.id === productId.id)
-        if (productIsOnCart.quantity === 1) {
-            setItemsSelected(itemsSelected.filter((product) => product.id !== productId));
-            return productIsOnCart;
-        } else {
-            setItemsSelected(itemsSelected.map((product) => product.id === productId.id ? {
-                ...productIsOnCart,
-                quantity: productIsOnCart.quantity - 1
-            } : product))
-        }
+    // function removeProductOnCartHandler(productId) {
+    //     const productIsOnCart = itemsSelected.find((product) => product.id === productId.id)
+    //     if (productIsOnCart.quantity === 1) {
+    //         setItemsSelected(itemsSelected.filter((product) => product.id !== productId));
+    //         return productIsOnCart;
+    //     } else {
+    //         setItemsSelected(itemsSelected.map((product) => product.id === productId.id ? {
+    //             ...productIsOnCart,
+    //             quantity: productIsOnCart.quantity - 1
+    //         } : product))
+    //     }
+    // }
+
+    function removeProductHandler(productId) {
+        setItemsSelected (prevItemsSelected => {
+            return prevItemsSelected.filter(product => product.id !== productId);
+        });
     }
 
 
@@ -98,7 +104,7 @@ export function StoreContextProvider(props) {
         totalPriceOnCart: 0,
         insertProduct:  insertProductOnCartHandler,
         addProduct: addProductOnCartHandler,
-        removeProduct: removeProductOnCartHandler,
+        removeProduct: removeProductHandler,
         itemIsOnCart: itemIsProductOnCartHandler,
         // updateProductQuantityPrice:  updateQuantityAndPrice,
         cartEmpty: cartIsEmpty,

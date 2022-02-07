@@ -1,12 +1,15 @@
 import { useState } from "react";
+import { useContext } from "react";
 import logoShop from '../../utils/images/amoeba.gif'
-import { FaCartArrowDown } from "react-icons/fa";
+import { FaCartArrowDown, FaShoppingBasket  } from "react-icons/fa";
 
 import css from "./Header.module.css";
 import BasketList from "../basket/BasketList";
+import StoreContext from "../../context/storeContext";
 
 
 function Header(props) {
+    const productOnCartCtx = useContext(StoreContext);
     const [cartIsOpen, setCartIsOpen] = useState(false);
 
     function cartHandler() {
@@ -34,14 +37,15 @@ function Header(props) {
                 <h1 data-testid='header'>AMOEBA STORE: The Best Music</h1>
             </div>
             <div className={css.checkOut}>
-                <div>
+                <div  onClick={() => {
+                    cartHandler()
+                    closeCartHandler()
+                }}>
+
                     <button data-testid='openBtnCart'
-                        onClick={() => {
-                            cartHandler()
-                            closeCartHandler()
-                        }} className={css.checkoutDropdownButton}>
+                        className={css.checkoutDropdownButton}>({productOnCartCtx.productOnCart.reduce((total, album) => total + album.quantity, 0)})
                         <FaCartArrowDown/>
-                        <span data-testid='btnCart' className={css.label}>ShopCart</span></button>
+                        <span data-testid='btnCart' className={css.label}>ShopCart</span> </button>
                 </div>
                 {cartIsOpen && <BasketList onCancel={closeCartHandler} onConfirm={messageExitPayment}/>}
             </div>

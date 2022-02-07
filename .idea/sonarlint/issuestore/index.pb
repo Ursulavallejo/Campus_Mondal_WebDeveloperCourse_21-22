@@ -267,5 +267,3 @@ Y
 LWebbutveckling_2/new-assigment/src/components/__test__/HeaderScreen.test.jsx,a\2\a294a2c06ba67c8a140b26c66a51882c8646ddee
 v
 FWebbutveckling_2/new-assigment/src/components/__test__/Header.test.jsx,d\d\dd1d83c81b3fd94f3d573a3b4d5d6ac250a8913c
-n
->Webbutveckling_2/new-assigment/src/components/header/Header.js,5\9\592d0a07e60f2b45e8c155254e235e4714776039

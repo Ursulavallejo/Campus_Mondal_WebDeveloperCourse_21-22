@@ -49,7 +49,7 @@ export default function BasketList(props) {
                     </div>
                     <article className={css.gridItem1} >
                         <p>
-                            SUMMARY: (<span id="totalCds"></span>{productOnCartCtx.productOnCart.reduce((total, album) => total + album.quantity, 0)}<span> CD's</span>) TOTAL to PAY:
+                            SUMMARY: (<span >{productOnCartCtx.productOnCart.reduce((total, album) => total + album.quantity, 0)}</span><span> CD's</span>) TOTAL to PAY:
                             <span id="totalPay"> {totalPrice} </span><span> SEK</span>
                         </p>
                         {totalPrice >= 259 ? <p >Congratulations! You are entitled to free freight!</p>  :<p >Need to buy {freeFreight - totalPrice}  kr more items cd to free freight!</p>}

@@ -28,7 +28,7 @@ export function StoreContextProvider(props) {
     }
 
     /*    To remove the product on teh cart on the btn X*/
-    function removeProductHandler(productId) {
+    function removeProductBtnHandler(productId) {
         setItemsSelected (prevItemsSelected => {
             return prevItemsSelected.filter(product => product.id !== productId);
         });
@@ -128,6 +128,7 @@ export function StoreContextProvider(props) {
         insertProduct:  insertProductOnCartHandler,
         addProduct: addProductOnCartHandler,
         removeProduct: removeProductOnCartHandler,
+        removeBtn:removeProductBtnHandler,
         itemIsOnCart: itemIsProductOnCartHandler,
         // updateCart: updateAddProductoCart,
         updateProductQuantityPrice:  updateQuantityAndPrice,

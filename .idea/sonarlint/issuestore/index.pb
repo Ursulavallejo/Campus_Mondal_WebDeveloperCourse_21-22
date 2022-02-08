@@ -265,5 +265,3 @@ v
 FWebbutveckling_2/new-assigment/src/components/__test__/Header.test.jsx,d\d\dd1d83c81b3fd94f3d573a3b4d5d6ac250a8913c
 o
 ?Webbutveckling_2/new-assigment/src/components/card/CardItem.jsx,8\6\86ea814552a727ee7101d1da136088a540e4caa6
-r
-BWebbutveckling_2/new-assigment/src/components/basket/BasketItem.js,9\b\9b60b5f3b868198ffed5e32638c068898d48cbd6

@@ -7,14 +7,14 @@ import StoreContext from "../../context/storeContext";
 
 function BasketItem(props){
     const productOnCartCtx = useContext(StoreContext);
-    const [inputValue, setInputValue] = useState(1)
+    const [inputValue, setInputValue] = useState(props.quantity)
 
 
     const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
 
     function removeProductInCartHandler() {
         if (itemIsOnCart) {
-            productOnCartCtx.removeProduct(props.id)
+            productOnCartCtx.removeBtn(props.id)
         }
     }
 

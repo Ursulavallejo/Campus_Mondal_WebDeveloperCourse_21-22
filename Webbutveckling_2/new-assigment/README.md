@@ -23,102 +23,124 @@
 
 # 1. General Projektplan :
 
+I Web Development 2-projektet tog jag mitt tidigare projekt från klassen programmering_1 och gjorde om det i REACT.
 
-problems:
+Projektet är att göra en musikbutik där funktionerna att lägga till i varukorgen, ta bort och uppdatera data på artiklarna finns.
 
-test:
-Test Suites: 0 of 1 total
-Tests:       1 failed, 1 total
-● renders learn react link
+Jag tar som referens en webbsida i en musikbutik som är specialiserad och har en bredare aspekt av produkter som inte är typiska för mainstream.
 
-    TypeError: productOnCartCtx.itemIsOnCart is not a function
+Här kan du se originalsidan:
+[AMOEBA MUSIC](https://www.amoeba.com/)
 
-       6 |     const productOnCartCtx = useContext(StoreContext);
-       7 |
-    >  8 |     const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
-         |                                           ^
-       9 |
-      10 |  function addNewProductToCartHandler(){
-      11 |      itemIsOnCart.addProduct({
-
-      at CardItem (src/components/card/CardItem.jsx:8:43)
-      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
-      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
-      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
-      at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:3945:14)
-      at HTMLUnknownElement.callTheUserObjectsOperation (node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
-      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
-      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
-      at HTMLUnknownElementImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
-      at HTMLUnknownElementImpl.dispatchEvent (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)
-      at HTMLUnknownElement.dispatchEvent (node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)
-      at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:3994:16)
-      at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:4056:31)
-      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23964:7)
-      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22779:12)
-      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22707:5)
-      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:22670:7)
-      at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:22293:18)
-      at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21881:7)
-      at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:25482:3)
-      at node_modules/react-dom/cjs/react-dom.development.js:26021:7
-      at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:22431:12)
-      at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:26020:5)
-      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:26103:10)
-      at node_modules/@testing-library/react/dist/pure.js:101:25
-      at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:22380:12)
-      at act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)
-      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
-      at Object.<anonymous> (src/App.test.js:5:3)
-
-----------------------------------------------------
-*
-Uncaught TypeError: this.props.data.map is not a function
-https://stackoverflow.com/questions/30142361/react-js-uncaught-typeerror-this-props-data-map-is-not-a-function
-
-*Failed form propType: You provided a `value` prop to a form field without an `onChange` handler
-
-https://stackoverflow.com/questions/43556212/failed-form-proptype-you-provided-a-value-prop-to-a-form-field-without-an-on
-
-
-
-I projektet för gränssnittsdesignkursen tog jag upp idé om att omformulera en befintlig webbsida. Ta som utgångspunkt att fiskeklubben är min kund och har bett mig att förbättra sin hemsida.
-
-Ta som referens informationen på följande webbplats:
-
-[Gråbo Sportfiske & Fiskevårdsförening](http://grabosportfiske.se/)
-
-För att föreslå utformningen av den nya webbplatsen har jag tagit hänsyn till vilken typ av användare som kommer åt den (Personas), vilken användning den har för att förbättra sitt UI och UX.
-I utvecklingen som jag kommer att förklara senare kommer du att kunna se detaljerna i denna process.
+För att utveckla layouten för mitt projekt tog jag som grund logotypen som användes för att posera de olika stilarna som vi kommer att se mer detaljerat i motsvarande avsnitt.
 
 En del av projektet är att ha en projektutvecklingsplan vars beståndsdelar är nedbrutna i Trello.
 
-I informationen om projektet i trello jag utarbetade det baserat på den analys som jag gjorde av projektet på fiskeKlubb Gråbo webbplatsen och lägga till de delar av kraven krävs i detta.
-
-De punkter som delar upp projektet kan ses mer detaljerat i dokumentationsavsnittet.
-
 Du kan se mitt projektplan i länken nedan:
 
-[Trello Webbsida ](https://trello.com/invite/b/KVlhfkQC/606a06b2fe878c42961db2f0933b0367/gr%C3%A4nssnittsdesign)
+[Trello Webbsida ](https://trello.com/invite/b/rqes8n1G/f6fc2d9657cdb567d8b8453acf6bea44/webbutveckilng2)
+
+## Installera följande npm paket i min projekt:
+
+```shell
+
+   npm install react-router-dom@6
+   npm install react-icons
+   npm install tachyons@4.12.0
+   
+```
+
+<details>
+<summary> # Getting Started with Create React App </summary>
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+</details>
 
 
 # 2. Personas :
 
-I Gråbos omgivningar finns två sjöar där man kan njuta av naturen och även fiska. Fiskeklubben tar hand om dessa platser och sköter fiskekorten, för vilka den tillhandahåller information och möjlighet att köpa dem och ta emot ekonomiska donationer på sin hemsida.
+
 
 För att utveckla projektet beaktas potentiella användares profiler. Jag har skapat personas från observationer om möjliga riktiga användare:
 
-1. En invånare i Sverige som gillar att fiska och brukar fiska mycket i den sjön, så han är intresserad av att få tillgång till fiskekort och leta efter information om hur man går med i klubben. Han har nyligen köpt ett sommarhus i området.
+1. 
 
-2. En pensionär från Sverige som gillar att göra utomhusaktiviteter som yoga, promenader, plocka bär och göra brasor. Hon bidrar ekonomiskt till att underhålla sjön, till exempel ge pengar genom att swish för ved och ge information till de grupper hon organiserar om lagarna för Allemansrätt.
+2. 
 
-3. En turist från Tyskland som letar efter destinationer för att flugfiska. Han behöver information om sjöns läge, fiskereglerna, värdet på fiskekortet för att kunna organisera hans resa. Han kan också ha möjlighet att vilja kontakta klubben för eventuella frågor under hans besök.
+3. 
 
-4. Medlem i fiskeklubben sedan 80-talet, intresserad av att främja fiskeevenemang och aktiviteter på sjön. Tillsammans med andra medlemmar är de intresserade av att kunna marknadsföra klubben på webben och sociala medier för att samla in mer pengar samtidigt som de engagerar sig för underhåll och hållbar utveckling av miljön.
 
-För närvarande görs webben i wordpressWebbsidan och förvaltas av fiskeklubben där de visar olika information.
 
-Jag har skapat 4 olika personas baserat på de olika scenarierna som jag beskrev tidigare där användarna främst interagerar med webbsidan:
+
+Jag har skapat 3 olika personas :
 
 ![](img/persona1Kim.jpg)
 
@@ -126,7 +148,7 @@ Jag har skapat 4 olika personas baserat på de olika scenarierna som jag beskrev
 
 ![](img/persona3Nils.jpg)
 
-![](img/persona4Tommy.jpg)
+
 
 # 3. Wireframes (mobiler, tablets och desktop) :
 
@@ -154,11 +176,11 @@ Utvecklingen av Wireframes för projektet utvecklades i Figma, för vilket jag i
 
 ### UI och UX:
 
-För att utveckla mitt UI/UX baserar jag mig på informationen från People och den hemsida som fiskeklubben driver.
+För att utveckla mitt UI/UX baserar jag mig på information från People och på layouten som jag har skapat utifrån stilen på logotypen de har.
 
-![](img/menuGraboweb.png)
+![](./src/utils/images/amoebaShop.png)
 
-- När man går in på den aktuella hemsidan finns det ingen hänvisning till logotypen, så fort man kommer in på webben finns den på en sida utan betydelse då jag bestämde mig för att prioritera den nya designen så att de som besöker webben kommer ihåg att de är de som hanterar den plattformen. Planera att göra en Hero där logotypen (som ändrar färg från grå till svart för mer vikt visuellt) har en visuell läsprioritet.
+- 
 
 - När jag skapade personerna identifierade jag att det finns många användare som behöver ha snabb tillgång till alternativen för att köpa fiskekortet eller möjligheten att göra en swish, för vilket jag valde att ha två knappar på den del av hjälten som är markerade från bakgrunden för att ha dem visuellt och lättillgängliga.
 
@@ -378,185 +400,61 @@ Jag tror att det finns saker som skulle kunna utvecklas bättre på utvecklingsn
 
 # 3. Uppgifter Info
 
-### Frågeställningen
-
-Hur kan vi göra en hemsida som vi planerat med både personas och WireFrames?
-
-### Mål
-
-I detta projektet ska ni göra en hemsida med hjälp av antingen vanilla HTML/CSS/JS eller med React.
-
-Ett valfritt mål är att göra inlämningen i både vanilla JavaScript och i React.
 
 
-### Avgränsning
+problems:
 
+test:
+Test Suites: 0 of 1 total
+Tests:       1 failed, 1 total
+● renders learn react link
 
-Ni ska använda:
+    TypeError: productOnCartCtx.itemIsOnCart is not a function
 
-- Vanilla HTML/CSS/JS
+       6 |     const productOnCartCtx = useContext(StoreContext);
+       7 |
+    >  8 |     const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
+         |                                           ^
+       9 |
+      10 |  function addNewProductToCartHandler(){
+      11 |      itemIsOnCart.addProduct({
 
-eller
+      at CardItem (src/components/card/CardItem.jsx:8:43)
+      at renderWithHooks (node_modules/react-dom/cjs/react-dom.development.js:14985:18)
+      at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:17811:13)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19049:16)
+      at HTMLUnknownElement.callCallback (node_modules/react-dom/cjs/react-dom.development.js:3945:14)
+      at HTMLUnknownElement.callTheUserObjectsOperation (node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+      at HTMLUnknownElementImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+      at HTMLUnknownElementImpl.dispatchEvent (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:94:17)
+      at HTMLUnknownElement.dispatchEvent (node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:231:34)
+      at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:3994:16)
+      at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:4056:31)
+      at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23964:7)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22779:12)
+      at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22707:5)
+      at renderRootSync (node_modules/react-dom/cjs/react-dom.development.js:22670:7)
+      at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:22293:18)
+      at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21881:7)
+      at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:25482:3)
+      at node_modules/react-dom/cjs/react-dom.development.js:26021:7
+      at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:22431:12)
+      at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:26020:5)
+      at Object.render (node_modules/react-dom/cjs/react-dom.development.js:26103:10)
+      at node_modules/@testing-library/react/dist/pure.js:101:25
+      at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:22380:12)
+      at act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:1042:14)
+      at render (node_modules/@testing-library/react/dist/pure.js:97:26)
+      at Object.<anonymous> (src/App.test.js:5:3)
 
-- React
+----------------------------------------------------
+*
+Uncaught TypeError: this.props.data.map is not a function
+https://stackoverflow.com/questions/30142361/react-js-uncaught-typeerror-this-props-data-map-is-not-a-function
 
-Valfria verktyg för att göra Wireframes så länge som ni kan exportera bilder eller spara bilder på er design och
-redovisa dem utan att man behöver installera några program på datorn.
+*Failed form propType: You provided a `value` prop to a form field without an `onChange` handler
 
+https://stackoverflow.com/questions/43556212/failed-form-proptype-you-provided-a-value-prop-to-a-form-field-without-an-on
 
-
-### Syfte
-
-Få en förståelse för hur man bygger responsiva webbplatser med ett snyggt UI samt genomtänkt UX design.
-
-### Vad ska ni leverera?
-
-
-Ni ska leverera:
-
-- Wireframes (en grov skiss (Low Fidelity) på vad ni tänkt)
-- En snyggare Prototyp på hur ni tänkt er resultatet
-- Personas (2-3 st) "inom rätt kontext"
-- Genomtänkta/enhetliga fonter
-- Genomtänkt/enhetligt färgschema
-- Genomtänkt UI (Användargränssnitt) som ska ge en bra UX (Användarupplevelse)
-- Er sida ska se bra ut på mobiler, tablets samt desktop. (en Wireframe för varje läge)
-
-
-### Övrigt
-
-- Ni bör använda er av Trello för projektplanering
-- Strukturera upp ert arbete
-- Dokumentation på ert arbete
-
-
-# Projekt Uppgift
-
-## Tema
-
-Ni får välja ett valfritt tema på er sida men det ska finnas inslag av olika element såsom knappar, sökfält mm.
-
-## Fokus
-
-Fokus ligger på UI samt UX design så det är det ni kommer bedömas på.
-
-## Bonus
-
-Sväva gärna ut och var påhittiga, se det som ett portfolio projekt som ni vill visa en framtida arbetsgivare. Glöm dock
-inte av vad som är fokus med uppgiften.
-
-## Generellt för er kodning (Webbdesign)
-
-<details>
-
-<summary>Ert betyg påverkas inte av Webbdesign delen (kodning) här men det står med som bra att tänka på.</summary>
-
-
-#### Betyg E
-
-- Planera lösningsförslag innan uppgiften påbörjas med till exempel:
-    - Hur du tänker försöka lösa uppgiften.
-    - Pseudokod.
-    - Diagram.
-- Konsekvent kod stil:
-    - Tydlig namngivning av variabler.
-    - Strukturerad och enkelt kommenterad källkod med tillfredsställande resultat.
-    - **Lättläst kod.**
-- Gör en enklare kontroll/manuella tester så att dina funktioner fungerar som de ska.
-
-#### Betyg C
-
-- Dela upp din kod i strukturerade komponenter
-- Kontrollera dina funktioner inte har sidoeffekter:
-    - det vill säga kontrollera vad som matar sin i funktionerna och säkerställ att programmet inte kraschar vid
-      felaktig inmatning.
-    - Kontrollera så att du inte får orimliga resultat beroende på inmatning.
-- Se till så att det inte finns programlogiska fel
-- Manuella och automatiserade tester finns
-
-#### Betyg A
-
-- Skriv så tydlig kod så kommentarer ofta blir onödiga.
-- Där du använder kommentarer ska de _**noggranna och utförliga/tydliga**_.
-- **Väldigt lättläst kod** dvs någon med mindre-/nybörjar-kunskaper ska kunna läsa och förstå er kod.
-- Majoriteten av din kod ska bestå av strukturerade komponenter samt återanvända komponenter.
-- Produkten är av god kvalitet när det gäller funktion vilket eleven kontrollerar med hjälp av flera tester, även
-  manuella. Dessutom kontrollerar eleven med säkerhet produktens tillgänglighet med automatiserade tester och
-  simuleringar samt manuella tester.
-
-</details>
-
-# Betygskrav
-
-## Gränssnittsdesign - Detta betygssätts ni på!
-
-## För Betyget E
-
-- Eleven gör en enkel projektplan för att utveckla ett gränssnitt till en applikation. Projektplanen innehåller en enkel
-  problemformulering utifrån identifikation av målgruppen och dess behov.
-- För att utveckla gränssnittet hämtar eller skapar eleven texter, bilder och eventuell annan media samt infogar dessa i
-  gränssnittet till applikationen.
-- Eleven utvecklar en prototyp med tillfredsställande resultat i fråga om funktion, utseende och användbarhet. Dessutom
-  testar eleven prototypens användbarhet med några enkla metoder. Prototypen kompletteras med en stilguide som täcker
-  någon av designens viktigaste delar.
-
-### Dokumentation för betyget E
-
-**I en README.md fil!**
-
-- Gör en enkel dokumentation på ditt arbete, till exempel:
-    - Beskriv lite olika lösningar du gjort.
-    - Beskriv något som var besvärligt att få till.
-    - Beskriv om du fått byta lösning och varför i sådana fall.
-    - Använd korrekta begrepp och syntax i dina beskrivningar.
-- I utvärderingen diskuterar eleven översiktligt hur det egna gränssnittet förhåller sig till generella principer för
-  hur en god användarupplevelse skapas.
-
-## För Betyget C
-
-Allt i [Betyg E](#betyg-e) ska vara uppfyllt samt:
-
-- Eleven gör en genomarbetad projektplan för att utveckla ett gränssnitt till en applikation. Projektplanen innehåller
-  en problemformulering utifrån kundönskemål, identifikation av målgruppen och dess behov samt projektets tekniska
-  förutsättningar.
-- Resultatet är tillfredsställande anpassat till användarens behov utifrån några principer för användbarhet. Detta gör
-  eleven genom att anpassa den visuella designen och interaktionen så att gränssnittet har en tillfredsställande
-  kvalitet i fråga om uppfattningsbarhet och användbarhet också för användare med funktionsned-sättningar.
-
-### Dokumentation för betyget C
-
-Din dokumentation ska utöver det i [Betyg E](#betyg-e) innehålla:
-
-- Beskriv hur du felsökt ditt program när det uppstått problem
-- Utvärdera din inlämning
-    - Vad gick bra
-    - Vad gick dåligt
-    - Vad har du lärt dig
-- Vilka möjligheter ser du med de kunskaper du fått under kursen.
-- Eleven gör en noggrann dokumentation av sitt arbete med **UX** samt utvärderar med nyanserade omdömen sitt arbete och
-  resultat utifrån projektplanen.
-
-## För Betyget A
-
-Allt i [Betyg C](#betyg-c) ska vara uppfyllt samt:
-
-- Eleven gör en genomarbetad projektplan för att utveckla ett gränssnitt till en applikation. Projektplanen innehåller
-  en problemformulering utifrån kundönskemål, identifikation av målgruppen och dess behov. Eleven värderar med
-  nyanserade omdömen sin projektplan ur flera perspektiv samt föreslår vid behov förbättringar av planen.
-- För att utveckla gränssnittet hämtar eleven eller skapar eleven texter, bilder och eventuell annan media samt infogar
-  dessa i gränssnittet till applikationen.
-- Detta gör eleven genom att anpassa den visuella designen och interaktionen så att gränssnittet har en god kvalitet i
-  fråga om uppfattningsbarhet och användbarhet också för användare med funktionsned-sättningar.
-- Ordentlig Prototyp på hur er färdiga produkt kommer att se ut.
-
-### Dokumentation för betyget A
-
-Din dokumentation ska utöver det i [Betyg C](#betyg-c) innehålla:
-
-- Motivera varför du valt en specifik lösning.
-- Lämna förslag på förbättringar av din kod.
-- Lämna exempel på lösningar du valde att **inte** implementera
-
-# Sista inlämningstid
-
-2 Januari kl 23:59

@@ -18,7 +18,7 @@ export function StoreContextProvider(props) {
             console.log('else')
             if (itemIsProductOnCartHandler(selectedItem.id)) {
                 console.log('if2')
-                // updateQuantityAndPrice(selectedItem.id);
+                updateQuantityAndPrice(selectedItem.id);
             } else {
                 console.log('else2')
                 insertProductOnCartHandler(selectedItem);
@@ -34,20 +34,20 @@ export function StoreContextProvider(props) {
         });
     }
 
-/*    below twoideas  for remove product with if statement but ccoudnt make them  work*/
+/*    below two ideas  for remove product with if statement but coudnt make them  work*/
 
-    // function removeProductOnCartHandler(productId) {
-    //     const productIsOnCart = itemsSelected.find((product) => product.id === productId.id)
-    //     if (productIsOnCart.quantity === 1) {
-    //         setItemsSelected(itemsSelected.filter((product) => product.id !== productId));
-    //         return productIsOnCart;
-    //     } else {
-    //         setItemsSelected(itemsSelected.map((product) => product.id === productId.id ? {
-    //             ...productIsOnCart,
-    //             quantity: productIsOnCart.quantity - 1
-    //         } : product))
-    //     }
-    // }
+    function removeProductOnCartHandler(productId) {
+        const productFromCart = itemsSelected.find((product) => product.id === productId)
+        if (productFromCart.quantity === 1) {
+            setItemsSelected(itemsSelected.filter((product) => product.id !== productId));
+            return productFromCart;
+        } else {
+            setItemsSelected(itemsSelected.map((product) => product.id === productId ? {
+                ...product,
+                quantity: product.quantity - 1
+            } : product))
+        }
+    }
 
 
 // Try to use this one but do not work.
@@ -96,6 +96,7 @@ export function StoreContextProvider(props) {
                     currentItem.totalSum = currentItem.price * currentItem.quantity
                     console.log('price', currentItem.totalSum)
                 }
+                return currentItem
             });
         });
     }
@@ -126,10 +127,10 @@ export function StoreContextProvider(props) {
         totalPriceOnCart: 0,
         insertProduct:  insertProductOnCartHandler,
         addProduct: addProductOnCartHandler,
-        removeProduct: removeProductHandler,
+        removeProduct: removeProductOnCartHandler,
         itemIsOnCart: itemIsProductOnCartHandler,
         // updateCart: updateAddProductoCart,
-        // updateProductQuantityPrice:  updateQuantityAndPrice,
+        updateProductQuantityPrice:  updateQuantityAndPrice,
         cartEmpty: cartIsEmpty,
     };
 

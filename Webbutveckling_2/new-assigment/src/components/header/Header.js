@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useContext } from "react";
 import logoShop from '../../utils/images/amoeba.gif'
-import { FaCartArrowDown, FaShoppingBasket  } from "react-icons/fa";
+import { FaCartArrowDown  } from "react-icons/fa";
+import { BsBasketFill } from "react-icons/bs";
 
 import css from "./Header.module.css";
 import BasketList from "../basket/BasketList";
@@ -43,9 +44,10 @@ function Header(props) {
                 }}>
 
                     <button data-testid='openBtnCart'
-                        className={css.checkoutDropdownButton}>({productOnCartCtx.productOnCart.reduce((total, album) => total + album.quantity, 0)})
-                        <FaCartArrowDown/>
+                        className={css.checkoutDropdownButton}>
+                        <BsBasketFill/>
                         <span data-testid='btnCart' className={css.label}>ShopCart</span> </button>
+                    <h4>( {productOnCartCtx.productOnCart.reduce((total, album) => total + album.quantity, 0)} )<FaCartArrowDown/></h4>
                 </div>
                 {cartIsOpen && <BasketList onCancel={closeCartHandler} onConfirm={messageExitPayment}/>}
             </div>

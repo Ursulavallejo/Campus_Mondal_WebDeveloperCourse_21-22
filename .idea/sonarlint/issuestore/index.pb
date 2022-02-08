@@ -183,8 +183,6 @@ q
 AWebbutveckling_2/assigment-webbutveckling/src/views/SalesView.jsx,c\5\c5f04dfaa29c070781838db62152d2cd300f8a0d
 k
 ;Webbutveckling_2/assigment-webbutveckling/package-lock.json,8\8\88b8bdc48555e9736c420aab71fcd7ce5f47bec3
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 m
 =Webbutveckling_2/new-assigment/src/utils/data/dataProducts.js,c\c\cc1e6b716e407562958e2ab6a9c4da435c461edd
 f
@@ -251,8 +249,6 @@ MWebbutveckling_2/assigment-webbutveckling/src/components/basket/BasketItem.js,
 MWebbutveckling_2/assigment-webbutveckling/src/components/basket/BasketList.js,f\b\fb1a53a9171fe8fdf17ca1b741c6924820a30caf
 z
 JWebbutveckling_2/assigment-webbutveckling/src/components/card/CardItem.jsx,0\f\0fb43419b3c25debb8e68605bed9afda136975e7
-X
-(Webbutveckling_2/new-assigment/README.md,e\a\ea6a14648aef1a16b5bb8069633079145602f61c
 o
 ?Webbutveckling_2/new-assigment/src/components/card/CardList.jsx,b\3\b35e212feb7f256178a481fc56dd797627600a8c
 z
@@ -267,3 +263,7 @@ Y
 LWebbutveckling_2/new-assigment/src/components/__test__/HeaderScreen.test.jsx,a\2\a294a2c06ba67c8a140b26c66a51882c8646ddee
 v
 FWebbutveckling_2/new-assigment/src/components/__test__/Header.test.jsx,d\d\dd1d83c81b3fd94f3d573a3b4d5d6ac250a8913c
+o
+?Webbutveckling_2/new-assigment/src/components/card/CardItem.jsx,8\6\86ea814552a727ee7101d1da136088a540e4caa6
+r
+BWebbutveckling_2/new-assigment/src/components/basket/BasketItem.js,9\b\9b60b5f3b868198ffed5e32638c068898d48cbd6

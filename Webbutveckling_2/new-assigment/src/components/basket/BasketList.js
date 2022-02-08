@@ -41,6 +41,7 @@ export default function BasketList(props) {
                                                 artist={ productOnCartCtx.productOnCart[index].artist }
                                                 album={ productOnCartCtx.productOnCart[index].album }
                                                 price={ productOnCartCtx.productOnCart[index].price }
+                                                quantity={ productOnCartCtx.productOnCart[index].quantity }
 
                                     />
                                 )

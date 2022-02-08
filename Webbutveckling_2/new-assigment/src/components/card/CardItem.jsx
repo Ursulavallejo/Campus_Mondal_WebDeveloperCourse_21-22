@@ -5,7 +5,14 @@ import StoreContext from '../../context/storeContext'
 function CardItem(props) {
     const productOnCartCtx = useContext(StoreContext);
 
-    const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
+    // create ths to call the function on the context
+    // const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
+    //
+    // function upddateAddproductToCart(){
+    //     if (itemIsOnCart) {
+    //         productOnCartCtx.updateCart(props.id)
+    //     }
+    // }
 
  function addNewProductToCartHandler(){
      productOnCartCtx.addProduct({

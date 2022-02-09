@@ -1,15 +1,10 @@
-import { useState } from 'react'
 import { useContext } from "react";
 import css from "./BasketItem.module.css";
 import StoreContext from "../../context/storeContext";
 
 
-
 function BasketItem(props){
     const productOnCartCtx = useContext(StoreContext);
-    // const [inputValue, setInputValue] = useState(props.quantity)
-
-
     const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
 
     function removeProductInCartHandler() {
@@ -19,14 +14,10 @@ function BasketItem(props){
     }
 
     function updateProductInCartHandler(newValue) {
-        console.log('new value',newValue);
         if (itemIsOnCart) {
-            productOnCartCtx.updateProduct(props.id, newValue);
+            productOnCartCtx.updateProduct(newValue,props.id);
         }
     }
-
-
-
 
 
     return(
@@ -51,7 +42,6 @@ function BasketItem(props){
             </li>
         </ul>
 </div>
-
 
     )
 }

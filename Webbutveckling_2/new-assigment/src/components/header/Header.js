@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { useContext } from "react";
+import { useState, useContext  } from "react";
 import logoShop from '../../utils/images/amoeba.gif'
 import { FaCartArrowDown  } from "react-icons/fa";
 import { BsBasketFill } from "react-icons/bs";
@@ -9,13 +8,12 @@ import BasketList from "../basket/BasketList";
 import StoreContext from "../../context/storeContext";
 
 
-function Header(props) {
+function Header( ) {
     const productOnCartCtx = useContext(StoreContext);
     const [cartIsOpen, setCartIsOpen] = useState(false);
 
     function cartHandler() {
         setCartIsOpen(true);
-
     }
 
     function closeCartHandler() {

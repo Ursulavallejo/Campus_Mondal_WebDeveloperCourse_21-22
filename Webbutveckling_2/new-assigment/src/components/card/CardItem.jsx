@@ -1,18 +1,9 @@
 import { useContext} from "react";
 import StoreContext from '../../context/storeContext'
-
+import css from "./CardItem.module.css";
 
 function CardItem(props) {
     const productOnCartCtx = useContext(StoreContext);
-
-    // create ths to call the function on the context
-    // const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
-    //
-    // function upddateAddproductToCart(){
-    //     if (itemIsOnCart) {
-    //         productOnCartCtx.updateCart(props.id)
-    //     }
-    // }
 
  function addNewProductToCartHandler(){
      productOnCartCtx.addProduct({

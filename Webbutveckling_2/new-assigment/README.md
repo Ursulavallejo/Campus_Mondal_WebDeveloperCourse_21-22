@@ -458,3 +458,42 @@ https://stackoverflow.com/questions/30142361/react-js-uncaught-typeerror-this-pr
 
 https://stackoverflow.com/questions/43556212/failed-form-proptype-you-provided-a-value-prop-to-a-form-field-without-an-on
 
+
+// Try to use this one but do not work.
+// function removeProductFromCart (productId)  {
+//     console.log('Removing product with id: ' + productId);
+//     const updatedCart = [itemsSelected.productOnCart];
+//     const updatedItemIndex = updatedCart.findIndex(
+//         item => item.id === productId
+//     );
+//
+//     const updatedItem = {
+//         ...updatedCart[updatedItemIndex]
+//     };
+//     updatedItem.quantity--;
+//     if (updatedItem.quantity <= 0) {
+//         updatedCart.splice(updatedItemIndex, 1);
+//     } else {
+//         updatedCart[updatedItemIndex] = updatedItem;
+//     }
+// }
+
+
+/*  version that max has in the tutorial of redux*/
+// function updateAddProductoCart(productId){
+//     const updatedCart = [...this.state.productOnCart];
+//     const updatedItemIndex = updatedCart.findIndex(
+//         item => item.id === productId.id
+//     );
+//
+//     if (updatedItemIndex < 0) {
+//         updatedCart.push({ ...productId, quantity: 1 });
+//     } else {
+//         const updatedItem = {
+//             ...updatedCart[updatedItemIndex]
+//         };
+//         updatedItem.quantity++;
+//         updatedCart[updatedItemIndex] = updatedItem;
+//     }
+// }
+

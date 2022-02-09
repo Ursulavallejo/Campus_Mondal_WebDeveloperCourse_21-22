@@ -2,14 +2,14 @@ import { useContext } from "react";
 import css from "./BasketList.module.css";
 import BasketItem from "./BasketItem";
 import StoreContext from '../../context/storeContext'
-import { FaShoppingBasket,  } from 'react-icons/fa';
-
 
 
 export default function BasketList(props) {
-    // const [productOnCart, setproductOnCart] = useContext(StoreContext);
     const productOnCartCtx = useContext(StoreContext);
 
+    // Used for create values on the cart (Total sum, freeFreight)
+    const totalPrice = productOnCartCtx.productOnCart.reduce((price, selectedItem) => price + selectedItem.quantity * selectedItem.price, 0)
+    const freeFreight = 259
 
     function cancelHandler(){
         props.onCancel();
@@ -18,9 +18,6 @@ export default function BasketList(props) {
     function paymentHandler(){
         props.onConfirm();
     }
-
-    const totalPrice = productOnCartCtx.productOnCart.reduce((price, selectedItem) => price + selectedItem.quantity * selectedItem.price, 0)
-    const freeFreight = 259
 
     return (
 <div>
@@ -42,18 +39,20 @@ export default function BasketList(props) {
                                                 album={ productOnCartCtx.productOnCart[index].album }
                                                 price={ productOnCartCtx.productOnCart[index].price }
                                                 quantity={ productOnCartCtx.productOnCart[index].quantity }
-
                                     />
                                 )
                             })
                         }
                     </div>
                     <article className={css.gridItem1} >
-                        <p>
-                            SUMMARY: (<span >{productOnCartCtx.productOnCart.reduce((total, album) => total + album.quantity, 0)}</span><span> CD's</span>) TOTAL to PAY:
+                        {productOnCartCtx.productOnCart.length === 0 && <p >We have great offers!!</p>}
+                        {productOnCartCtx.productOnCart.length > 0 && <p>
+                            SUMMARY: (<span data-testid='amountCD'>{productOnCartCtx.productOnCart.reduce((total, album) => total + album.quantity, 0)}</span><span> CD's</span>) TOTAL to PAY:
                             <span id="totalPay"> {totalPrice} </span><span> SEK</span>
-                        </p>
-                        {totalPrice >= 259 ? <p >Congratulations! You are entitled to free freight!</p>  :<p >Need to buy {freeFreight - totalPrice}  kr more items cd to free freight!</p>}
+                        </p>}
+                        {productOnCartCtx.productOnCart.length === 0 && <h2 > Free freight over 259Kr</h2>}
+                        {productOnCartCtx.productOnCart.length > 0 && <p >{totalPrice >= 259 ? <p >Congratulations! You are entitled to free freight!</p>  :<p >Need to buy {freeFreight - totalPrice}  kr more items cd to free freight!</p>}</p>}
+
                     </article>
 
                     <button className={`${css.btn} ${css.btnAlt}`} onClick={ cancelHandler }>Close</button>

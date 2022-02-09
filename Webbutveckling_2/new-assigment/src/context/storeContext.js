@@ -9,9 +9,6 @@ const StoreContext = createContext({
 export function StoreContextProvider(props) {
     const [ itemsSelected, setItemsSelected ] = useState([]);
 
-    const [ totalAlbum, setTotalAlbum] = useState(0);
-
-
     function addProductOnCartHandler(selectedItem) {
         // console.log(selectedItem)
         if (cartIsEmpty()) {
@@ -21,7 +18,8 @@ export function StoreContextProvider(props) {
             console.log('else')
             if (itemIsProductOnCartHandler(selectedItem.id)) {
                 console.log('if2')
-                updateQuantityAndPrice(selectedItem.quantity,selectedItem.id);
+                const productFromCart = itemsSelected.find((product) => product.id === selectedItem.id)
+                updateQuantityAndPrice(productFromCart.quantity+1,selectedItem.id);
             } else {
                 console.log('else2')
                 insertProductOnCartHandler(selectedItem);
@@ -30,14 +28,12 @@ export function StoreContextProvider(props) {
         }
     }
 
-    /*    To remove the product on teh cart on the btn X*/
+    /*    To remove the product on the cart on the btn X*/
     function removeProductBtnHandler(productId) {
         setItemsSelected (prevItemsSelected => {
             return prevItemsSelected.filter(product => product.id !== productId);
         });
     }
-
-/*    below two ideas  for remove product with if statement but coudnt make them  work*/
 
     function removeProductOnCartHandler(productId) {
         const productFromCart = itemsSelected.find((product) => product.id === productId)
@@ -51,27 +47,6 @@ export function StoreContextProvider(props) {
             } : product))
         }
     }
-
-
-// Try to use this one but do not work.
-    // function removeProductFromCart (productId)  {
-    //     console.log('Removing product with id: ' + productId);
-    //     const updatedCart = [itemsSelected.productOnCart];
-    //     const updatedItemIndex = updatedCart.findIndex(
-    //         item => item.id === productId
-    //     );
-    //
-    //     const updatedItem = {
-    //         ...updatedCart[updatedItemIndex]
-    //     };
-    //     updatedItem.quantity--;
-    //     if (updatedItem.quantity <= 0) {
-    //         updatedCart.splice(updatedItemIndex, 1);
-    //     } else {
-    //         updatedCart[updatedItemIndex] = updatedItem;
-    //     }
-    // }
-
 
     function itemIsProductOnCartHandler(productId) {
         return itemsSelected.some(product => product.id === productId);
@@ -88,14 +63,13 @@ export function StoreContextProvider(props) {
         return itemsSelected.length === 0
     }
 
-    // this function is not called as have some problem that could find. not sure how is teh correct way to write it
+    // update new array with products selected
     function updateQuantityAndPrice(newValue,productId) {
 
-        // console.log('updateQuantityAndPrice:', productId)
         setItemsSelected(prevItemsSelected => {
             return prevItemsSelected.map((currentItem) => {
                 if (currentItem.id === productId) {
-                    currentItem.quantity += 1
+                    currentItem.quantity = newValue
                     console.log('number cds ', currentItem.quantity)
                     currentItem.totalSum = currentItem.price * currentItem.quantity
                     console.log('price', currentItem.totalSum)
@@ -104,26 +78,6 @@ export function StoreContextProvider(props) {
             });
         });
     }
-
-
-  /*  version that max has in the tutorial of redux*/
-    // function updateAddProductoCart(productId){
-    //     const updatedCart = [...this.state.productOnCart];
-    //     const updatedItemIndex = updatedCart.findIndex(
-    //         item => item.id === productId.id
-    //     );
-    //
-    //     if (updatedItemIndex < 0) {
-    //         updatedCart.push({ ...productId, quantity: 1 });
-    //     } else {
-    //         const updatedItem = {
-    //             ...updatedCart[updatedItemIndex]
-    //         };
-    //         updatedItem.quantity++;
-    //         updatedCart[updatedItemIndex] = updatedItem;
-    //     }
-    // }
-
 
 
     const context = {
@@ -135,7 +89,6 @@ export function StoreContextProvider(props) {
         removeProduct: removeProductOnCartHandler,
         removeBtn:removeProductBtnHandler,
         itemIsOnCart: itemIsProductOnCartHandler,
-        // updateCart: updateAddProductoCart,
         updateProduct:  updateQuantityAndPrice,
         cartEmpty: cartIsEmpty,
     };

@@ -28,7 +28,6 @@
   src: url('../fonts/permanentMarker/PermanentMarker-Regular.ttf')
 }
 
-
 h1 {
   font-family: 'PermanentMarker-Regular', serif;
   font-size: 20px;
@@ -66,7 +65,6 @@ p {
   font-size: 16px;
   color: var( --text-icons);
 }
-
 
 body {
   margin: 0;

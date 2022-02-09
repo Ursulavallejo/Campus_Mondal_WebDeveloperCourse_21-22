@@ -2,6 +2,8 @@
 .gridContainerHeader {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .logo img {
@@ -19,16 +21,20 @@
     font-size: 20px;
 }
 .searchArea {
+    border-radius: 4px;
     text-align: center;
     padding: 1.5em 0;
 }
 .searchArea input{
     padding:0.5em 6em;
     text-align: center;
+
 }
 
 .searchArea button{
-    padding: 0.5em;
+    padding: 0.6em;
+    border-radius: 4px;
+
 }
 .checkOut {
     text-align: center;
@@ -49,6 +55,13 @@
 
 .checkoutDropdownButton:hover, .checkoutDropdownButton:focus {
     background-color: lightslategray;
+    color:var(--primary-text)
+}
+.iconCart{
+    cursor: pointer;
+}
+.iconCart:hover {
+    color: var(--divider-color)
 }
 
 .label {

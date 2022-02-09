@@ -1,0 +1,30 @@
+.btnBuy {
+    border-radius: 5px;
+    color: var(--primary-text);
+    background-color: var(--primary-color);
+    border: 1px solid var(--secondary-text);
+    cursor: pointer;
+
+
+}
+.btnBuy:hover{
+    color: var(--primary-color);
+    background-color: var(--primary-text);
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.grow {
+    display: inline-flex;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.grow:hover,
+.grow:focus {
+    transform: scale(1.05);
+}

@@ -23,7 +23,7 @@ export default function BasketList(props) {
 <div>
 
         <div className={`${css.dropdownContent} ${css.show} ${css.dropdown}`} >
-            {productOnCartCtx.productOnCart.length === 0 && <h3 >Your cart is Empty </h3>}
+            {productOnCartCtx.productOnCart.length === 0 && <h3 >Your cart is Empty !!</h3>}
             {productOnCartCtx.productOnCart.length > 0 && <h3 >Your Cart</h3>}
 
             <hr/>
@@ -44,15 +44,14 @@ export default function BasketList(props) {
                             })
                         }
                     </div>
-                    <article className={css.gridItem1} >
-                        {productOnCartCtx.productOnCart.length === 0 && <p >We have great offers!!</p>}
+                    <article className={css.gridItem1}>
+                        {productOnCartCtx.productOnCart.length === 0 && <p  >We have great offers!!</p>  }
                         {productOnCartCtx.productOnCart.length > 0 && <p>
                             SUMMARY: (<span data-testid='amountCD'>{productOnCartCtx.productOnCart.reduce((total, album) => total + album.quantity, 0)}</span><span> CD's</span>) TOTAL to PAY:
                             <span id="totalPay"> {totalPrice} </span><span> SEK</span>
                         </p>}
-                        {productOnCartCtx.productOnCart.length === 0 && <h2 > Free freight over 259Kr</h2>}
+                        {productOnCartCtx.productOnCart.length === 0 && <h3 > Free freight over 259Kr</h3>}
                         {productOnCartCtx.productOnCart.length > 0 && <p >{totalPrice >= 259 ? <p >Congratulations! You are entitled to free freight!</p>  :<p >Need to buy {freeFreight - totalPrice}  kr more items cd to free freight!</p>}</p>}
-
                     </article>
 
                     <button className={`${css.btn} ${css.btnAlt}`} onClick={ cancelHandler }>Close</button>

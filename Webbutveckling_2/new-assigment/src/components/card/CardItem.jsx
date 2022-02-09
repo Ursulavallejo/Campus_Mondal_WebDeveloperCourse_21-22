@@ -19,8 +19,9 @@ function CardItem(props) {
 
 
     return (
-        <article className='tc bg-washed-yellow br3 pa3 ma2 dib bw2 shadow-5  ' >
-            <div>
+        <div className={css.grow}>
+        <article  className='tc bg-washed-yellow br3 pa3 ma2  bw2 shadow-5 ' >
+            <div  >
                 <img src={props.image} alt={props.artist}/>
             </div>
             <div>
@@ -30,9 +31,10 @@ function CardItem(props) {
                 <p>Price: {props.price} Kr</p>
             </div>
             <div>
-                <button id={props.id} onClick={addNewProductToCartHandler}>Add to Cart</button>
+                <button className={css.btnBuy} id={props.id} onClick={addNewProductToCartHandler}>Add to Cart</button>
             </div>
         </article>
+        </div>
     )
 }
 

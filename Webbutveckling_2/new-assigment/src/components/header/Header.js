@@ -40,12 +40,11 @@ function Header( ) {
                     cartHandler()
                     closeCartHandler()
                 }}>
-
                     <button data-testid='openBtnCart'
                         className={css.checkoutDropdownButton}>
-                        <BsBasketFill/>
+                        <BsBasketFill />
                         <span data-testid='btnCart' className={css.label}>ShopCart</span> </button>
-                    <h4>( {productOnCartCtx.productOnCart.reduce((total, album) => total + album.quantity, 0)} )<FaCartArrowDown/></h4>
+                    <h4 className={css.iconCart}>( {productOnCartCtx.productOnCart.reduce((total, album) => total + album.quantity, 0)} )<FaCartArrowDown/></h4>
                 </div>
                 {cartIsOpen && <BasketList onCancel={closeCartHandler} onConfirm={messageExitPayment}/>}
             </div>

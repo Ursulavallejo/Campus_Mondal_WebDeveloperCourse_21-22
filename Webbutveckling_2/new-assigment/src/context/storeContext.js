@@ -9,6 +9,9 @@ const StoreContext = createContext({
 export function StoreContextProvider(props) {
     const [ itemsSelected, setItemsSelected ] = useState([]);
 
+    const [ totalAlbum, setTotalAlbum] = useState(0);
+
+
     function addProductOnCartHandler(selectedItem) {
         // console.log(selectedItem)
         if (cartIsEmpty()) {
@@ -18,7 +21,7 @@ export function StoreContextProvider(props) {
             console.log('else')
             if (itemIsProductOnCartHandler(selectedItem.id)) {
                 console.log('if2')
-                updateQuantityAndPrice(selectedItem.id);
+                updateQuantityAndPrice(selectedItem.quantity,selectedItem.id);
             } else {
                 console.log('else2')
                 insertProductOnCartHandler(selectedItem);
@@ -86,18 +89,28 @@ export function StoreContextProvider(props) {
     }
 
     // this function is not called as have some problem that could find. not sure how is teh correct way to write it
-    function updateQuantityAndPrice(productId) {
+    function updateQuantityAndPrice(newValue,productId) {
+        let currentItems = [];
         // console.log('updateQuantityAndPrice:', productId)
         setItemsSelected(prevItemsSelected => {
-            return prevItemsSelected.map((currentItem) =>{
+            return prevItemsSelected.map((currentItem) => {
                 if (currentItem.id === productId) {
-                    currentItem.quantity += 1
+                    // currentItem.quantity += 1
+                    currentItem.quantity = newValue + 1
                     console.log('number cds ', currentItem.quantity)
                     currentItem.totalSum = currentItem.price * currentItem.quantity
                     console.log('price', currentItem.totalSum)
                 }
+                currentItems = prevItemsSelected;
                 return currentItem
             });
+        });
+        setTotalAlbum(prevTotalAlbum => {
+            prevTotalAlbum = 0;
+            for (const currentItem of currentItems) {
+                prevTotalAlbum += currentItem.quantity;
+            }
+            return prevTotalAlbum;
         });
     }
 
@@ -131,7 +144,7 @@ export function StoreContextProvider(props) {
         removeBtn:removeProductBtnHandler,
         itemIsOnCart: itemIsProductOnCartHandler,
         // updateCart: updateAddProductoCart,
-        updateProductQuantityPrice:  updateQuantityAndPrice,
+        updateProduct:  updateQuantityAndPrice,
         cartEmpty: cartIsEmpty,
     };
 

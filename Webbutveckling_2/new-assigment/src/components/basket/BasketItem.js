@@ -7,7 +7,7 @@ import StoreContext from "../../context/storeContext";
 
 function BasketItem(props){
     const productOnCartCtx = useContext(StoreContext);
-    const [inputValue, setInputValue] = useState(props.quantity)
+    // const [inputValue, setInputValue] = useState(props.quantity)
 
 
     const itemIsOnCart = productOnCartCtx.itemIsOnCart(props.id);
@@ -18,7 +18,12 @@ function BasketItem(props){
         }
     }
 
-
+    function updateProductInCartHandler(newValue) {
+        console.log(newValue);
+        if (itemIsOnCart) {
+            productOnCartCtx.updateProduct(props.id, newValue);
+        }
+    }
 
 
 
@@ -33,9 +38,12 @@ function BasketItem(props){
                 <h3 >{props.artist}</h3>
                 <p>Album: <span >{props.album}</span></p>
                 <p>Price: <span >{props.price}</span> Kr </p>
-                <input data-testid='input'  type="number" name="amount" value={ inputValue}
+                <input data-testid='input'
+                       type="number"
+                       name="amount"
+                       value={props.quantity}
                         min={1}
-                       onChange={event => setInputValue(parseInt(event.target.value))}/>
+                       onChange={event => updateProductInCartHandler(parseInt(event.target.value))}/>
                 <p ><span>Total value</span>{props.quantity * props.price} Kr</p>
                 <button  id={props.id} type="button" onClick={removeProductInCartHandler}
                 >X</button>

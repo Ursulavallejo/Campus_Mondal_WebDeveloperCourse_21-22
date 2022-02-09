@@ -23,7 +23,7 @@
 .searchArea {
     border-radius: 4px;
     text-align: center;
-    padding: 1.5em 0;
+    margin-bottom: 0.5em;
 }
 .searchArea input{
     padding:0.5em 6em;
@@ -47,7 +47,7 @@
     border: none;
     border-radius: 4px;
     outline: none;
-    margin-top: 3.5em;
+    margin-top: 5em;
     background-color: var(--primary-text);
     font-size: 1em;
     cursor: pointer;
@@ -59,6 +59,9 @@
 }
 .iconCart{
     cursor: pointer;
+    padding-top: 1em;
+  margin: 0;
+
 }
 .iconCart:hover {
     color: var(--divider-color)

@@ -96,7 +96,7 @@ export function StoreContextProvider(props) {
             return prevItemsSelected.map((currentItem) => {
                 if (currentItem.id === productId) {
                     // currentItem.quantity += 1
-                    currentItem.quantity = newValue + 1
+                    currentItem.quantity = newValue += 1
                     console.log('number cds ', currentItem.quantity)
                     currentItem.totalSum = currentItem.price * currentItem.quantity
                     console.log('price', currentItem.totalSum)

@@ -19,7 +19,7 @@ function BasketItem(props){
     }
 
     function updateProductInCartHandler(newValue) {
-        console.log(newValue);
+        console.log('new value',newValue);
         if (itemIsOnCart) {
             productOnCartCtx.updateProduct(props.id, newValue);
         }

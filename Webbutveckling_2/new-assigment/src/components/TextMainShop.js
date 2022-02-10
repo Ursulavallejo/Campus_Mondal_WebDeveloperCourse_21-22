@@ -1,11 +1,10 @@
-
-function TextMain( ){
+function TextMainShop() {
 
     return (
-       <div className='tc pa03 ph4'>
-            <section  >
+        <div className='tc pa03 ph4'>
+            <section>
                 <h2>WHO WE ARE ?</h2>
-                <h5>
+                <p>
                     Since 1990, Amoeba Music has welcomed independent music lovers of
                     all kinds to our unique, vibrant stores in Berkeley, San Francisco
                     and Hollywood. We stock every kind of music and movies -- from the
@@ -19,14 +18,14 @@ function TextMain( ){
                     outlet, a website, a popular live performance venue, and together
                     with our customers we're a meeting place for California's most
                     colorful community of progressive and creative minds.
-                </h5>
+                </p>
             </section>
             <section>
                 <h3>MUSIC WE LIKE</h3>
                 <h4>Great deals</h4>
             </section>
-       </div>
+        </div>
     );
 }
 
-export default TextMain
+export default TextMainShop

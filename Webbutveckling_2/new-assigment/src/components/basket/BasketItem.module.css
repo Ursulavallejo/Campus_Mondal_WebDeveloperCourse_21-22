@@ -24,7 +24,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .products input {
@@ -48,11 +47,17 @@
 }
 
 .btnTrash {
-font-size: 16px;
+    font-size: 16px;
 }
+
 .products button:hover {
     background-color: lightslategray;
     border-color: #9c1458;
+}
+.colorSpaceChangeCart{
+    color: var(--text-icons);
+    letter-spacing: 1px;
+    border-spacing: 2px;
 }
 
 

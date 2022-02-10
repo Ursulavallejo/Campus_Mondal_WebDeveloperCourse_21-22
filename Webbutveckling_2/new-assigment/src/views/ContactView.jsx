@@ -1,10 +1,12 @@
+import LayoutTextViews from "../components/LayoutTextViews";
+
 const ContactView = () => {
 
     return (
-        <>
-            <h2>ContactView</h2>
-
-        </>
+        <div className='tc'>
+            <h1 className='tracked'>Contact View</h1>
+            <LayoutTextViews/>
+        </div>
     )
 }
 

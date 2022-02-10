@@ -12,37 +12,38 @@
     width: 100px;
 }
 
-.logo, .title{
+.logo, .title {
     text-align: center;
 }
 
 .title {
-    margin-top:  4em;
+    margin-top: 4em;
     font-size: 20px;
 }
+
 .searchArea {
     border-radius: 4px;
     text-align: center;
     margin-bottom: 0.5em;
 }
-.searchArea input{
-    padding:0.5em 6em;
-    text-align: center;
 
+.searchArea input {
+    padding: 0.5em 6em;
+    text-align: center;
 }
 
-.searchArea button{
+.searchArea button {
     padding: 0.6em;
     border-radius: 4px;
-
 }
+
 .checkOut {
     text-align: center;
     margin-bottom: 2em;
 }
 
-.checkoutDropdownButton{
-    color: var( --secondary-text);
+.checkoutDropdownButton {
+    color: var(--secondary-text);
     padding: 20px 20px;
     border: none;
     border-radius: 4px;
@@ -55,14 +56,15 @@
 
 .checkoutDropdownButton:hover, .checkoutDropdownButton:focus {
     background-color: lightslategray;
-    color:var(--primary-text)
+    color: var(--primary-text)
 }
-.iconCart{
+
+.iconCart {
     cursor: pointer;
     padding-top: 1em;
-  margin: 0;
-
+    margin: 0;
 }
+
 .iconCart:hover {
     color: var(--divider-color)
 }

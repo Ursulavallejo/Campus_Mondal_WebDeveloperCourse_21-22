@@ -1,10 +1,12 @@
+import LayoutTextViews from "../components/LayoutTextViews";
+
 const NewsView = () => {
 
     return (
-        <>
-            <h2>NewsView</h2>
-
-        </>
+        <div className='tc'>
+            <h1 className='tracked'>News View</h1>
+            <LayoutTextViews/>
+        </div>
     )
 }
 

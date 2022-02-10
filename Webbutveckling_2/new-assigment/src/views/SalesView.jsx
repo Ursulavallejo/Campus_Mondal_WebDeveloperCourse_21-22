@@ -1,15 +1,12 @@
+import LayoutTextViews from "../components/LayoutTextViews";
 
 const SalesView = () => {
 
 
     return (
-        <section>
-            <h2>SalesView </h2>
-            <p>Test Cart</p>
-
-
-
-
+        <section className='tc'>
+            <h1 className='tracked'>Sales View </h1>
+            <LayoutTextViews/>
         </section>
     )
 }

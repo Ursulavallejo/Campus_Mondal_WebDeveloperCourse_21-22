@@ -33,6 +33,7 @@ h1 {
     font-family: 'PermanentMarker-Regular', serif;
     font-size: 20px;
     color: var(--divider-color);
+    letter-spacing: 1px;
 }
 
 /*fonts for rest webpage*/
@@ -40,12 +41,14 @@ h2 {
     font-family: 'ArchitectsDaughter-Regular', serif;
     font-size: 40px;
     color: var(--primary-color);
+    letter-spacing: 2px;
 }
 
 h3 {
     font-family: 'ArchitectsDaughter-Regular', serif;
     font-size: 30px;
     color: var(--primary-color);
+    letter-spacing: 2px;
 }
 
 h4 {
@@ -53,20 +56,35 @@ h4 {
     font-size: 22px;
     color: var(--light-primary-color);
     font-weight: 700;
+    letter-spacing: 2px;
 }
+
+/*h5 {*/
+/*    font-family: 'PatrickHand-Regular', serif;*/
+/*    font-size: 16px;*/
+/*    color: var(--primary-text);*/
+/*    letter-spacing: 2px;*/
+/*    border-spacing: 5px;*/
+/*}*/
+
+/*p {*/
+/*    font-family: 'PatrickHand-Regular', serif;*/
+/*    font-size: 16px;*/
+/*    color: var(--text-icons);*/
+/*}*/
 
 h5 {
     font-family: 'PatrickHand-Regular', serif;
     font-size: 16px;
-    color: var(--primary-text);
-    letter-spacing: 2px;
-    border-spacing: 5px;
+    color: var(--text-icons);
 }
 
 p {
     font-family: 'PatrickHand-Regular', serif;
     font-size: 16px;
-    color: var(--text-icons);
+    color: var(--primary-text);
+    letter-spacing: 2px;
+    border-spacing: 5px;
 }
 
 body {

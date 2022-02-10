@@ -1,12 +1,12 @@
 import CardList from "../components/card/CardList";
-import TextMain from "../components/TextMain";
+import TextMainShop from "../components/TextMainShop";
 
 
 const HomeView = () => {
 
     return (
         <>
-            <TextMain/>
+            <TextMainShop/>
             <CardList/>
         </>
     )

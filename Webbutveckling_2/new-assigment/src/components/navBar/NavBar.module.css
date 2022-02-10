@@ -18,6 +18,7 @@
     background-color: var(--dark-primary-color);
     font-size: 16px;
 }
+
 .navbarItem:hover {
     background-color: lightslategray;
 }
@@ -29,10 +30,11 @@
     padding: 0.5em;
     text-decoration: none;
 }
+
 .active {
     background-color: var(--light-primary-color);
-
 }
+
 .blackFont {
     color: black;
 }

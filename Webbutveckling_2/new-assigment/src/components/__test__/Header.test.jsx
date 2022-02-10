@@ -34,7 +34,6 @@ test('input contains correct type text', () => {
     expect(getByTestId('input').type).toBe('text')
 })
 
-
 test("change placeholder of input works correctly ", () => {
     const inputElement = getByTestId('input');
     fireEvent.change(inputElement, {

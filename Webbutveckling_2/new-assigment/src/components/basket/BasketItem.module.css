@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
 }
+
 .products h3 {
     font-size: 16px;
 }
@@ -25,19 +26,33 @@
     align-items: center;
 
 }
+
 .products input {
     margin-top: 0.5em;
     height: 1.8em;
-    width: 4em;
+    width: 3.5em;
+    border-radius: 5px;
 }
 
 .products img {
     width: 100px;
 }
+
 .products button {
-        color: white;
-        background-color: red;
-        cursor: pointer;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.btnTrash {
+font-size: 16px;
+}
+.products button:hover {
+    background-color: lightslategray;
+    border-color: #9c1458;
 }
 
 

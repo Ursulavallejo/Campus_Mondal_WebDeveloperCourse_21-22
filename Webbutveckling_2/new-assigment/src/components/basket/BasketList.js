@@ -50,8 +50,8 @@ export default function BasketList(props) {
                             SUMMARY: (<span data-testid='amountCD'>{productOnCartCtx.productOnCart.reduce((total, album) => total + album.quantity, 0)}</span><span> CD's</span>) TOTAL to PAY:
                             <span id="totalPay"> {totalPrice} </span><span> SEK</span>
                         </p>}
-                        {productOnCartCtx.productOnCart.length === 0 && <h3 > Free freight over 259Kr</h3>}
-                        {productOnCartCtx.productOnCart.length > 0 && <p >{totalPrice >= 259 ? <p >Congratulations! You are entitled to free freight!</p>  :<p >Need to buy {freeFreight - totalPrice}  kr more items cd to free freight!</p>}</p>}
+                        {productOnCartCtx.productOnCart.length === 0 && <h3 > Free freight over 259Kr</h3>  }
+                        {productOnCartCtx.productOnCart.length > 0 && <p >{totalPrice >= 259 ? <p className={css.green}>Congratulations! You are entitled to free freight!</p>  :<p className={css.red} >Need to buy {freeFreight - totalPrice}  kr more items cd to free freight!</p>}</p>}
                     </article>
 
                     <button className={`${css.btn} ${css.btnAlt}`} onClick={ cancelHandler }>Close</button>

@@ -56,5 +56,15 @@
     background-color: lightslategray;
 }
 
+/*color change for ternary operator on the cart*/
+
+.green {
+    color: green;
+}
+
+.red {
+    color: #D32F2F;
+}
+
 
 

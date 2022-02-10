@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import css from "./BasketItem.module.css";
 import StoreContext from "../../context/storeContext";
-
+import { FaTrashAlt } from "react-icons/fa";
 
 function BasketItem(props){
     const productOnCartCtx = useContext(StoreContext);
@@ -38,7 +38,7 @@ function BasketItem(props){
                        onChange={event => updateProductInCartHandler(parseInt(event.target.value))}/>
                 <p ><span>Total value</span>{props.quantity * props.price} Kr</p>
                 <button  id={props.id} type="button" onClick={removeProductInCartHandler}
-                >X</button>
+                ><FaTrashAlt className={css.btnTrash}/></button>
             </li>
         </ul>
 </div>

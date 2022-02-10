@@ -1,92 +1,98 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 :root {
-  --dark-primary-color: #D32F2F;
-  --light-primary-color: #FFCDD2;
-  --primary-color: #F44336;
-  --primary-text: #FFFFFF;
-  --secondary-text: #744336;
-  --divider-color: #FFEB3B;
-  --text-icons: #000;
-  --background-color: #whitesmoke;
+    --dark-primary-color: #D32F2F;
+    --light-primary-color: #FFCDD2;
+    --primary-color: #F44336;
+    --primary-text: #FFFFFF;
+    --secondary-text: #744336;
+    --divider-color: #FFEB3B;
+    --text-icons: #000;
+    --background-color: #whitesmoke;
 }
 
 @font-face {
-  font-family: 'ArchitectsDaughter-Regular';
-  src: url('../fonts/architectsDaughter/ArchitectsDaughter-Regular.ttf')
+    font-family: 'ArchitectsDaughter-Regular';
+    src: url('../fonts/architectsDaughter/ArchitectsDaughter-Regular.ttf')
 }
 
 @font-face {
-  font-family: 'PatrickHand-Regular';
-  src: url('../fonts/patrickHand/PatrickHand-Regular.ttf')
+    font-family: 'PatrickHand-Regular';
+    src: url('../fonts/patrickHand/PatrickHand-Regular.ttf')
 }
 
 @font-face {
-  font-family: 'PermanentMarker-Regular';
-  src: url('../fonts/permanentMarker/PermanentMarker-Regular.ttf')
+    font-family: 'PermanentMarker-Regular';
+    src: url('../fonts/permanentMarker/PermanentMarker-Regular.ttf')
 }
 
+/*font on title header*/
 h1 {
-  font-family: 'PermanentMarker-Regular', serif;
-  font-size: 20px;
-  color: var(--divider-color);
+    font-family: 'PermanentMarker-Regular', serif;
+    font-size: 20px;
+    color: var(--divider-color);
 }
 
+/*fonts for rest webpage*/
 h2 {
-  font-family: 'ArchitectsDaughter-Regular', serif;
-  font-size: 40px;
-  color: var(--primary-color);
+    font-family: 'ArchitectsDaughter-Regular', serif;
+    font-size: 40px;
+    color: var(--primary-color);
 }
 
 h3 {
-  font-family: 'ArchitectsDaughter-Regular', serif;
-  font-size: 30px;
-  color: var( --primary-color);
+    font-family: 'ArchitectsDaughter-Regular', serif;
+    font-size: 30px;
+    color: var(--primary-color);
 }
 
 h4 {
-  font-family: 'ArchitectsDaughter-Regular', serif;
-  font-size: 22px;
-  color: var(--light-primary-color);
-  font-weight: 700;
+    font-family: 'ArchitectsDaughter-Regular', serif;
+    font-size: 22px;
+    color: var(--light-primary-color);
+    font-weight: 700;
 }
+
 h5 {
-  font-family: 'PatrickHand-Regular', serif;
-  font-size: 16px;
-  color: var(--primary-text);
-  letter-spacing: 2px;
-  border-spacing: 5px;
+    font-family: 'PatrickHand-Regular', serif;
+    font-size: 16px;
+    color: var(--primary-text);
+    letter-spacing: 2px;
+    border-spacing: 5px;
 }
 
 p {
-  font-family: 'PatrickHand-Regular', serif;
-  font-size: 16px;
-  color: var( --text-icons);
+    font-family: 'PatrickHand-Regular', serif;
+    font-size: 16px;
+    color: var(--text-icons);
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  background-color:  var( --dark-primary-color) ;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-primary-color);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 .pageLayout {
-  max-width: 1200px;
-  min-width: 720px;
-  margin: 20px auto;
-  padding: 0 25px;
-background: var(--text-icons);
-  line-height: 1.5em;
-  border-radius: 20px;
+    max-width: 1200px;
+    min-width: 720px;
+    margin: 20px auto;
+    padding: 0 25px;
+    background: var(--text-icons);
+    line-height: 1.5em;
+    border-radius: 20px;
 }
+
+

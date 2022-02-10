@@ -1,6 +1,6 @@
 import { useState, useContext  } from "react";
 import logoShop from '../../utils/images/amoeba.gif'
-import { FaCartArrowDown  } from "react-icons/fa";
+import { FaCartArrowDown } from "react-icons/fa";
 import { BsBasketFill } from "react-icons/bs";
 
 import css from "./Header.module.css";

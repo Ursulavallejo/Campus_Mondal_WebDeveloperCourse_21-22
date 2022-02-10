@@ -215,8 +215,6 @@ i
 9Webbutveckling_2/new-assigment/src/components/TextMain.js,a\f\af43eaddd1c4b3c6cee78271ad60b4dd5e217d57
 [
 +Webbutveckling_2/new-assigment/src/index.js,8\9\89e0de6bfe572a2cb3d11a1242617d6a04fff781
-z
-JWebbutveckling_2/new-assigment/src/components/basket/BasketItem.module.css,e\4\e4372c97a63d171cd942526c7ea9119b4cb36c39
 s
 CWebbutveckling_2/assigment-webbutveckling/src/store/storeContext.js,d\7\d77a59d59dc3417921be294661199f993625dcc7
 y

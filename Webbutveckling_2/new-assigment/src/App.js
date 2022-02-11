@@ -6,7 +6,7 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-   <div className='pageLayout'>
+   <div className='pageLayout'>Layout
        <Header/>
        <Routing>
            <NavBar/>

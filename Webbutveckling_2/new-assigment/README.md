@@ -152,7 +152,7 @@ Nedan kan vi se den första skissen på tillvägagångssättet för hemsidan fö
 
 Utvecklingen av Wireframes för projektet utvecklades i Figma, för vilket jag inbjuder dig att se utvecklingen av detta i följande länk:
 
-[PROTOTYP FIGMA PROJECT ]()
+[PROTOTYP FIGMA PROJECT ](https://www.figma.com/file/MzJPhwWIfjyYR7DESWF9zn/AMOEBA-MusicShop?node-id=0%3A1)
 
 
 ### UI och UX:
@@ -204,7 +204,9 @@ AMOEBA Music shop har redan en logotyp som har färgerna rött och gult. Jag anv
 ##Final Color Palette:
 
 Här färgskalan du använde i projektet:
+
 ![](./src/utils/images/colorpaletteSHOP.jpg)
+
 
 # 6. Projektgenomförande :
 

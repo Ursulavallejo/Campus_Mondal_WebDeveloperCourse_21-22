@@ -7,10 +7,10 @@
     --light-primary-color: #FFCDD2;
     --primary-color: #F44336;
     --primary-text: #FFFFFF;
-    --secondary-text: #744336;
+    --secondary-text: #757575;
     --divider-color: #FFEB3B;
     --text-icons: #000;
-    --background-color: #whitesmoke;
+    --background-color: #FFFCEB;
 }
 
 @font-face {
@@ -59,19 +59,6 @@ h4 {
     letter-spacing: 2px;
 }
 
-/*h5 {*/
-/*    font-family: 'PatrickHand-Regular', serif;*/
-/*    font-size: 16px;*/
-/*    color: var(--primary-text);*/
-/*    letter-spacing: 2px;*/
-/*    border-spacing: 5px;*/
-/*}*/
-
-/*p {*/
-/*    font-family: 'PatrickHand-Regular', serif;*/
-/*    font-size: 16px;*/
-/*    color: var(--text-icons);*/
-/*}*/
 
 h5 {
     font-family: 'PatrickHand-Regular', serif;

@@ -20,7 +20,7 @@
 }
 
 .navbarItem:hover {
-    background-color: lightslategray;
+    background-color: var(--secondary-text);
 }
 
 .navbarLink {
@@ -36,5 +36,5 @@
 }
 
 .blackFont {
-    color: black;
+    color: var(--text-icons);
 }

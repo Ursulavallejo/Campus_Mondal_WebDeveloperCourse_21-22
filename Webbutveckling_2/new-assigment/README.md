@@ -142,11 +142,9 @@ Länkar:
 ## A. Low fidelity:
 
 Tanken är att de olika sidorna delar samma layoutformat, och att informationen presenteras på ett tydligt och organiserat sätt.
-Nedan kan vi se den första skissen på tillvägagångssättet för hemsidan för fiskeklubben:
+Nedan kan vi se den första skissen på tillvägagångssättet för hemsidan men en kundkorg:
 
-
-
-
+![](./src/utils/images/low-fi-shop.jpg)
 
 ## B. Prototyp :
 

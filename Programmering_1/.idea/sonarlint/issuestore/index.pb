@@ -19,3 +19,11 @@ L
 assigment/js/dataProducts.js,0\5\054323d960476eb3a7cc0a7f975f0fb7eef7c8c6
 D
 assigment/js/card.js,3\0\30f856b2fd974964fbdbac1d66c03ee6d0f5152e
+D
+assigment/index.html,1\7\174d0ef7cf63d4a785dfb3ec1ff63a2646fc327c
+F
+assigment/js/script.js,1\d\1df501baadf7c7288a56d6a7560d05af05e9f630
+H
+assigment/js/dropdown.js,a\6\a6b7c952dc6915f0bdddeb33a5e63c0e1eee22fe
+C
+assigment/README.md,6\a\6a92950b7deac0c47435a40eada038540e653ccd

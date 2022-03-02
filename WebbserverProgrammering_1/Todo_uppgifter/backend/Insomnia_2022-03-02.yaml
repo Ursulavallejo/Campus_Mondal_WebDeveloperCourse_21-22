@@ -1,0 +1,524 @@
+_type: export
+__export_format: 4
+__export_date: 2022-03-02T13:53:11.092Z
+__export_source: insomnia.desktop.app:v2021.7.2
+resources:
+  - _id: req_8aec3bad305b4ab788dd27fbc88bf653
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646171471082
+    created: 1646169094258
+    url: localhost:3002/
+    name: API Alive
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646169094258
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    parentId: null
+    modified: 1646168116419
+    created: 1646168116419
+    name: TODO Inlämningen
+    description: ""
+    scope: design
+    _type: workspace
+  - _id: req_72f5474f3bc74b58bf71feec9c7184f9
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646169159389
+    created: 1646169153471
+    url: http://localhost:3002/randomUrl
+    name: Wrong Path
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646147033614.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_bf73afea9a0941b58e44421727f3041c
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646208848552
+    created: 1646208664305
+    url: localhost:3002/getAllTodos
+    name: GetUsers
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646147033589.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_0a05a34c77914079ae981e1e3b777e83
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646208953761
+    created: 1646208924253
+    url: localhost:3002/getUserNames/name
+    name: GetUsersNames
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646147033577
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_a8e582d9b09e43e485891787af48ce34
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646228852636
+    created: 1646208356760
+    url: localhost:3002/createTodo/
+    name: CreateUserTodo
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	      "id": "TodoDatabase.length",
+        	      "name": "Magnus",
+        	      "task": "go shopping"
+                
+        	      
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_1aa0b543bba0497aacaf826d9f5d14bb
+    authentication: {}
+    metaSortKey: -1646147033564.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_ff6e6155277041cd9bb355c16a2d1caa
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646216183221
+    created: 1646209011510
+    url: localhost:3002/getUserByName/Magnus
+    name: GetUsersByName-Magnus
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646147033514.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_dd14667b600e4de684a8e6a75d348588
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646228929310
+    created: 1646209365622
+    url: localhost:3002/updateTodoDataByName/
+    name: UpdateUserTodo
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	      "id": "TodoDatabase.length",
+        	      "name": "Magnus",
+        	      "newName": "Oliver",
+              	"task": "dansar"
+              
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_1aa0b543bba0497aacaf826d9f5d14bb
+    authentication: {}
+    metaSortKey: -1646147033464.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_9171d3cfe15c48859121b5a766d83abf
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646209894884
+    created: 1646209824153
+    url: localhost:3002/getUserByName/Oliver
+    name: GetUsersByName-Oliver
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646147033414.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_d20857745264439aae6607a03187ee5a
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646210423171
+    created: 1646210107629
+    url: localhost:3002/deleteTodoDataByName/Magnus
+    name: DeleteUsersByName-Magnus
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646141518303.625
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_f1279868321e4b7e9e11c6e5773e1285
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646210493553
+    created: 1646210210375
+    url: localhost:3002/getUserByName/Magnus
+    name: GetUsersByName-Magnus
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646138760748.1875
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_4305eb489574443ca6ca48b2ae822106
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646210434025
+    created: 1646210085565
+    url: localhost:3002/deleteTodoDataByName/Oliver
+    name: DeleteUsersByName-Oliver
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646136003192.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_9f380f98a71f4012b1a533a654e886b2
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646210224601
+    created: 1646210221799
+    url: localhost:3002/getUserByName/Oliver
+    name: GetUsersByName-Oliver
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1646136003042.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_9ab794c91b7aec648c2c40bf4724c8cc1638d1ad
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646168116426
+    created: 1646168116426
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1646168116426
+    _type: environment
+  - _id: jar_9ab794c91b7aec648c2c40bf4724c8cc1638d1ad
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646168116429
+    created: 1646168116429
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_89cb93e3249b42a2b363b12325a300ed
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646168116419
+    created: 1646168116419
+    fileName: TODO Inlämningen
+    contents: ""
+    contentType: yaml
+    _type: api_spec
+  - _id: uts_62b9c78ec9c947eca36b1d625c258895
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646210675693
+    created: 1646210675693
+    name: Alive functions
+    _type: unit_test_suite
+  - _id: uts_8792236e461c416fb1324e02c6a670b0
+    parentId: wrk_d120e9a0208a4f8fa43535b28b9dfe58
+    modified: 1646211618735
+    created: 1646211618735
+    name: Users functions
+    _type: unit_test_suite
+  - _id: ut_96ab19473a5c4549937fc0d30cae43dc
+    parentId: uts_62b9c78ec9c947eca36b1d625c258895
+    modified: 1646214661837
+    created: 1646210713391
+    requestId: req_8aec3bad305b4ab788dd27fbc88bf653
+    name: Alive Returns 200
+    code: |-
+      const response1 = await insomnia.send();
+      expect(response1.status).to.equal(200);
+      expect(response1.data).to.equal('API is Alive!!')
+    _type: unit_test
+  - _id: ut_b408ae7041334fa5b9da52c198c6f7ba
+    parentId: uts_62b9c78ec9c947eca36b1d625c258895
+    modified: 1646214665507
+    created: 1646210808395
+    requestId: req_72f5474f3bc74b58bf71feec9c7184f9
+    name: Alive Returns 404
+    code: |
+      const response1 = await insomnia.send();
+      expect(response1.status).to.equal(404);
+    _type: unit_test
+  - _id: ut_ff3b350d053d422a9ecdda7a1fd85b35
+    parentId: uts_8792236e461c416fb1324e02c6a670b0
+    modified: 1646229037360
+    created: 1646211702935
+    requestId: req_bf73afea9a0941b58e44421727f3041c
+    name: Get Users Returns 200
+    code: |+
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data);
+      const user = body[1]
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('array');
+      expect(body.length).to.equal(4)
+
+      expect(user).to.be.an('object');
+      expect(user.name).to.equal('Carin');
+      expect(user.id).to.equal(1);
+      expect(user.task).to.equal('Go to the gym');
+
+    _type: unit_test
+  - _id: ut_59e407c964a64209a5d881f50edfe277
+    parentId: uts_8792236e461c416fb1324e02c6a670b0
+    modified: 1646229042378
+    created: 1646212751336
+    requestId: req_0a05a34c77914079ae981e1e3b777e83
+    name: Get Users Names Returns 200
+    code: |
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data);
+      const user = body[1]
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('array');
+      expect(body.length).to.equal(4);
+
+      expect(user).to.be.an('object');
+      expect(user.name).to.equal('Carin');
+    _type: unit_test
+  - _id: ut_0502fa6a54a44552bd04d94affb42702
+    parentId: uts_8792236e461c416fb1324e02c6a670b0
+    modified: 1646229056746
+    created: 1646212975520
+    requestId: req_a8e582d9b09e43e485891787af48ce34
+    name: Create User Returns 201
+    code: "const response1 = await insomnia.send();
+
+      const body = JSON.parse(response1.data);
+
+      const user = body[4]
+
+
+      expect(response1.status).to.equal(201);
+
+
+      expect(body).to.be.an('array');
+
+      expect(body.length).to.equal(5)
+
+
+      expect(user).to.be.an('object');
+
+      expect(user.name).to.equal('Magnus');
+
+      expect(user.id).to.equal(4);
+
+      expect(user.task).to.equal('go shopping');
+
+
+
+
+      \  "
+    _type: unit_test
+  - _id: ut_9f0b8250a5cc46af9cca2d4e0c66b4fb
+    parentId: uts_8792236e461c416fb1324e02c6a670b0
+    modified: 1646229067126
+    created: 1646213874602
+    requestId: req_ff6e6155277041cd9bb355c16a2d1caa
+    name: Get User by Name - Magnus Returns 200
+    code: |+
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data);
+
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('object');
+      expect(body.name).to.equal('Magnus');
+      expect(body.id).to.equal(4);
+      expect(body.task).to.equal('go shopping');
+
+    _type: unit_test
+  - _id: ut_332346473fbb4108bacdce85795e3eed
+    parentId: uts_8792236e461c416fb1324e02c6a670b0
+    modified: 1646229077604
+    created: 1646216922719
+    requestId: req_dd14667b600e4de684a8e6a75d348588
+    name: Update User Name - Oliver Returns 202
+    code: |+
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data);
+
+      expect(response1.status).to.equal(202);
+
+      expect(body).to.be.an('object');
+      expect(body.name).to.equal('Oliver');
+      expect(body.id).to.equal(4);
+      expect(body.task).to.equal('dansar');
+
+    _type: unit_test
+  - _id: ut_b6736cf776c84f3d854a28aab4769710
+    parentId: uts_8792236e461c416fb1324e02c6a670b0
+    modified: 1646229088507
+    created: 1646217119572
+    requestId: req_9171d3cfe15c48859121b5a766d83abf
+    name: Get User by Name - Oliver Returns 200
+    code: |
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data);
+
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('object');
+      expect(body.name).to.equal('Oliver');
+      expect(body.id).to.equal(4);
+      expect(body.task).to.equal('dansar');
+    _type: unit_test
+  - _id: ut_687b8420198c4615a873deb2cf309c55
+    parentId: uts_8792236e461c416fb1324e02c6a670b0
+    modified: 1646229093339
+    created: 1646217759853
+    requestId: req_ff6e6155277041cd9bb355c16a2d1caa
+    name: Get User by Name - Magnus Returns 200
+    code: |+
+      const response1 = await insomnia.send();
+      expect(response1.status).to.equal(200);
+      expect(response1.data).to.equal('Could not find "Magnus" in database');
+
+    _type: unit_test
+  - _id: ut_e8b73d9142924bcaabb0c864840a5aa7
+    parentId: uts_8792236e461c416fb1324e02c6a670b0
+    modified: 1646229098910
+    created: 1646218426949
+    requestId: req_d20857745264439aae6607a03187ee5a
+    name: Delete User by Name- Magnus Returns 200
+    code: >-
+      const response1 = await insomnia.send();
+
+      expect(response1.status).to.equal(200);
+
+      expect(response1.data).to.equal('User with name : "Magnus"does not exist in database!');
+    _type: unit_test
+  - _id: ut_46fb1a88b6a64590a8c716aa52a39f4e
+    parentId: uts_8792236e461c416fb1324e02c6a670b0
+    modified: 1646229103368
+    created: 1646218671223
+    requestId: req_4305eb489574443ca6ca48b2ae822106
+    name: Delete User by Name- Oliver Returns 200
+    code: >-
+      const response1 = await insomnia.send();
+
+      expect(response1.status).to.equal(200);
+
+      expect(response1.data).to.equal('User with name : "Oliver"was deleted from database!');
+    _type: unit_test
+  - _id: ut_fa3504b708d2480cb7a70811172a563d
+    parentId: uts_8792236e461c416fb1324e02c6a670b0
+    modified: 1646229109371
+    created: 1646218848889
+    requestId: req_9f380f98a71f4012b1a533a654e886b2
+    name: Get User by Name - Oliver Returns 200
+    code: |-
+      const response1 = await insomnia.send();
+      expect(response1.status).to.equal(200);
+
+      expect(response1.data).to.equal('Could not find "Oliver" in database');
+    _type: unit_test

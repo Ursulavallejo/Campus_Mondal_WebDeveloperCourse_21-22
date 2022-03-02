@@ -1,0 +1,52 @@
+.navbarLayout{
+    Background-color: #34495e;
+    padding: 15px 0;
+    position: absolute;
+    top: 20%;
+    left: 37%;
+}
+
+.navBarList {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    letter-spacing: 0.3em;
+    justify-content: center;
+    font-family: Arial, serif;
+
+
+}
+.navBarList a {
+    text-decoration: none;
+    color: deeppink;
+    padding-right: 10px;
+}
+
+.navBarList a:hover{
+    color: ghostwhite;
+    transition: all .2s ease-in;
+}
+
+
+.navBarItem {
+    padding-right: 10px;
+    list-style-type: none;
+    border: none;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.navbarLink {
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 0.5em;
+    list-style-type: none;
+}
+
+.active {
+  color: pink;
+}
+
+

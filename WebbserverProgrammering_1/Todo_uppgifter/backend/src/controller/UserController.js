@@ -1,16 +1,17 @@
 import TodoDatabase from "../data/todoDatabase.js";
 
+
 const createTodo = (req,res) => {
-    const { task, name } = req.body
-    const newObject = {
-        id: TodoDatabase.length,
-        name: name,
-        task: task,
-
-
+    const {task, name} = req.body
+    if (name && task) {
+        const newObject = {
+            id: TodoDatabase.length,
+            name: name,
+            task: task,
+        }
+        TodoDatabase.push(newObject)
+        res.status(201).send(TodoDatabase)
     }
-    TodoDatabase.push(newObject)
-    res.status(201).send(TodoDatabase)
 }
 
 
@@ -66,7 +67,6 @@ const modifyUserByName = (name, newName, task) => {
 const updateUserByName = (req,res) => {
     const { name, newName, task } = req.body
     const response = modifyUserByName(name, newName, task)
-
     res.status(202).send(response)
 }
 
@@ -98,5 +98,5 @@ export default {
     getUserNames,
     getUserByName,
     updateUserByName,
-    deleteUserByName,
+    deleteUserByName
 }

@@ -9,6 +9,7 @@
 /*}*/
 .test {
     z-index: initial;
+    text-align: center;
 }
 .styleView ul {
     list-style: none;

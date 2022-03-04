@@ -6,7 +6,6 @@ import Header from "./components/header/Header";
 import NavBar from "./components/navBar/NavBar";
 
 
-
 function App() {
 
     const [loggedIn, setLoggedIn] = useState(false)
@@ -20,7 +19,6 @@ function App() {
                 </Routing>
             </LoginContext.Provider>
             <Footer/>
-
         </>
     );
 }

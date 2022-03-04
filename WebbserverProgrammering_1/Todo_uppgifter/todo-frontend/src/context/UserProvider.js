@@ -1,6 +1,6 @@
-import { createContext } from 'react';
+import { createContext } from 'react/cjs/react.development';
 
-export const UserContext = createContext
+export const UserContext = createContext()
 
 const UserProvider = (props) => {
 

@@ -10,13 +10,13 @@ const NavBar = () => {
     return <nav className={css.navbarLayout}>
         <ul className={css.navBarList}>
             <li className={css.navBarItem}>
-                <Link clasName={css.navbarLink} to={RoutingPath.homeView}>Home</Link>
+                <Link className={css.navbarLink} to={RoutingPath.homeView}>Home</Link>
             </li>
             <li className={css.navBarItem}>
-                <Link clasName={css.navbarLink} to={RoutingPath.contactView}>Contact us</Link>
+                <Link className={css.navbarLink} to={RoutingPath.contactView}>Contact us</Link>
             </li>
-            {loggedIn ? <li className={css.navBarItem}><Link clasName={css.navbarLink} to={RoutingPath.signedInView}>My Todo List</Link></li>:
-                <li className={css.navBarItem}><Link clasName={css.navbarLink} to={RoutingPath.signInView}>Log In</Link></li> }
+            {loggedIn ? <li className={css.navBarItem}><Link className={css.navbarLink} to={RoutingPath.signedInView}>My Todo List</Link></li>:
+                <li className={css.navBarItem}><Link className={css.navbarLink} to={RoutingPath.signInView}>Log In</Link></li> }
         </ul>
     </nav>
 };

@@ -15,3 +15,9 @@ a
 1new-assigment/src/components/basket/BasketItem.js,9\d\9de80faa32dc63ec6e7b94b8f7466470cb478e04
 Y
 )new-assigment/src/context/storeContext.js,3\c\3cf6c5f8b51d2a7e8fe3fb2fee9794332c186f61
+i
+9new-assigment/src/components/basket/BasketList.module.css,7\f\7f6568ccc629aac278b9379b6e7f152512c20477
+e
+5new-assigment/src/components/header/Header.module.css,f\c\fc568598e9d13dd522e11948da31ad405ed3c94c
+a
+1new-assigment/src/components/basket/BasketList.js,e\0\e0e81bb9b2a9e32e3c46090093071fb8d5ac6f15

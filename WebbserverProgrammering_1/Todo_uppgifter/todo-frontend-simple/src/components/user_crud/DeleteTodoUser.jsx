@@ -5,7 +5,7 @@ import css from "./UpdateAndDeleteUser.module.css";
 
 const DeleteTodoUser = (props) => {
     const [data, setData] = useState('')
-    const [name, setName] = useState('Oliver')
+    const [name, setName] = useState('')
 
     function cancelHandler() {
         props.onCloseDelete();
@@ -26,7 +26,7 @@ const DeleteTodoUser = (props) => {
     return (
         <div className={`${css.dropdownContent} ${css.positionDelete}  ${css.show} ${css.dropdown}`}>
 
-            <input className={css.inputDelete}
+            <input placeholder={'Name to delete? '} className={css.inputDelete}
                    data-testid='dataInput' type="text"
                    value={name}
                    onChange={event => setName(event.target.value)}/>

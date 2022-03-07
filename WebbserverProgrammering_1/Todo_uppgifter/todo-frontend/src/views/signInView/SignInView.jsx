@@ -22,7 +22,7 @@ const SignInView = () => {
     function checkUser() {
         if (username === existingUser.user && password === existingUser.password) {
             setLoggedIn(!loggedIn);
-            navigate('/signedInView')
+            navigate('/TaskView')
 
         } else {
             alert('Wrong email or password!')

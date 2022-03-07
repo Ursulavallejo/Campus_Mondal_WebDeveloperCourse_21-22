@@ -1,0 +1,42 @@
+
+.title {
+    z-index: initial;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 1em;
+}
+
+.wrapperTodo {
+    border: deeppink solid 3px;
+    padding: 1em;
+    margin: 1em 20em;
+}
+
+
+.btn {
+    margin: 10px 15px;
+    background-color: #16a085;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+@media only screen and (min-width: 1290px) {
+    .btn {
+        font-size: 18px;
+        width: 24%;
+    }
+    .title {
+        margin-bottom: 2em;
+    }
+}

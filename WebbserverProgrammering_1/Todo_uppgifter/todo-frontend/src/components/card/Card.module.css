@@ -1,0 +1,57 @@
+.layoutCard {
+    width: 30rem;
+    max-width: 70%;
+    margin: 0.2em auto;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.nameFont {
+    font-size: 16px;
+    font-weight: 400;
+    color: darkblue;
+}
+
+.taskFont {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+
+.done {
+    text-decoration: line-through;
+    margin: 0;
+    padding: 0;
+
+}
+
+.list {
+list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+.list li {
+    background: #FFCDD2;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+@media only screen and (min-width: 1290px) {
+
+    .list {
+        padding: 0 30px;
+    }
+    .layoutCard {
+        width: 34rem;
+        max-width: 50%;
+        margin: 0.5em auto;
+    }
+}

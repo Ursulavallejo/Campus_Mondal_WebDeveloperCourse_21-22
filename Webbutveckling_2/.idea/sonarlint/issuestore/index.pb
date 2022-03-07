@@ -11,10 +11,6 @@ O
 -new-assigment/src/components/header/Header.js,0\8\08f3572189b28883111b9c8b5f9c040b48944827
 ^
 .new-assigment/src/components/card/CardItem.jsx,4\c\4c17b09c40ea1e65a4ae9b349db94875129e9ed6
-e
-5new-assigment/src/components/header/Header.module.css,f\c\fc568598e9d13dd522e11948da31ad405ed3c94c
-a
-1new-assigment/src/components/basket/BasketList.js,e\0\e0e81bb9b2a9e32e3c46090093071fb8d5ac6f15
 a
 1new-assigment/src/components/basket/BasketItem.js,9\d\9de80faa32dc63ec6e7b94b8f7466470cb478e04
 Y

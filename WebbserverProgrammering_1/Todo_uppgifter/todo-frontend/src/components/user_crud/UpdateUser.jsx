@@ -2,13 +2,22 @@ import TasksService from "../../utils/api/services/TasksService";
 import {useState} from "react";
 
 import Card from "../card/Card";
+import css from './UpdateAndDeleteUser.module.css'
 
-
-const UpdateUser = () => {
+const UpdateUser = (props) => {
     const [data, setData] = useState([])
-    const [name, setName] = useState('Magnus')
-    const [newName, setNewName] = useState('Oliver')
-    const [task, setTask] = useState('dansar')
+    const [name, setName] = useState('')
+    const [newName, setNewName] = useState('')
+    const [task, setTask] = useState('')
+
+    function cancelHandler() {
+        props.onCloseUpdate();
+    }
+
+
+    function refreshPage() {
+        window.location.reload();
+    }
 
     const sendDataToApi = () => {
         const changedUser = {
@@ -26,27 +35,40 @@ const UpdateUser = () => {
     }
 
     return (
-        <>
-            <h1>Update Data</h1>
+        <div className={`${css.dropdownContent} ${css.positionUpdate}  ${css.show} ${css.dropdown}`}>
+            <div className={css.gridContainer}>
+                <input className={css.layoutInput} placeholder={'Name:'}
+                       type="text"
+                       value={name}
+                       onChange={event => setName(event.target.value)}/>
+                <input className={css.layoutInput} placeholder={'New Name:'}
+                       type="text"
+                       value={newName}
+                       onChange={event => setNewName(event.target.value)}/>
+                <input className={css.layoutInput} placeholder={'What to do? :'}
+                       type="text"
+                       value={task}
+                       onChange={event => setTask(event.target.value)}/>
+            </div>
+            <div className={css.btnFlex}>
 
-            Name:<input type="text"
-                   value={name}
-                   onChange={event => setName(event.target.value)}/>
-            New Name:<input type="text"
-                   value={newName}
-                   onChange={event => setNewName(event.target.value)}/>
-            What to do? :<input type="text"
-                                value={ task }
-                                onChange={event => setTask(event.target.value)}/>
 
-            <button onClick={ sendDataToApi }>Update new user</button>
+                <button className={css.btn} onClick={sendDataToApi}>Update new user</button>
+
+                <button className={css.btn} onClick={() => {
+                    cancelHandler()
+                    refreshPage()
+                }}>Close
+                </button>
+            </div>
 
             {data.name ? <Card
-                    name={ data.name }
-                    task={ data.task }/>
-                : <h3>{ data }</h3> }
+                    name={data.name}
+                    task={data.task}/>
+                : <h4>{data}</h4>}
 
-        </>
+
+        </div>
     );
 };
 

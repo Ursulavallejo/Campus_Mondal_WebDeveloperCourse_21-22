@@ -1,11 +1,11 @@
 import TasksService from "../../utils/api/services/TasksService";
 import {useState} from "react";
 import Card from "../card/Card";
-
+import css from './GetUserDataByName.module.css'
 
 const GetUserDataByName = () => {
     const [data, setData] = useState([])
-    const [name, setName] = useState('Oliver')
+    const [name, setName] = useState('')
 
     const sendDataToApi = () => {
         TasksService.getUserByName(name)
@@ -18,11 +18,13 @@ const GetUserDataByName = () => {
     return (
         <>
 
-                <h1>Get User Data By Name</h1>
-              What name are you looking for ? : <input type='text'
+                {/*<h1>Get User Data By Name</h1>*/}
+              <input className={css.inputSearch}
+            placeholder={'What name to search? '}
+            type='text'
                              value={name}
                              onChange={event => setName(event.target.value)}/>
-                <button  onClick={sendDataToApi}>Get User Data By Name</button>
+                <button className={css.btnSearch} onClick={sendDataToApi}>Search</button>
                 {data.name ? <Card name={data.name}
                                    task={data.task}/>
                     : <h3>{data}</h3>}

@@ -1,12 +1,12 @@
-
 import TasksService from "../../utils/api/services/TasksService";
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import CardList from "../card/CardList";
+import css from './CreateTodoData.module.css'
 
-const CreateTodoData = () => {
+const CreateTodoData = (props) => {
     const [data, setData] = useState([])
-    const [name, setName] = useState('Magnus')
-    const [task, setTask] = useState('go shopping')
+    const [name, setName] = useState('') //Magnus
+    const [task, setTask] = useState('') //go shopping
 
     const sendDataToApi = () => {
         const newUser = {
@@ -22,20 +22,32 @@ const CreateTodoData = () => {
             .catch(error => console.log(error))
     }
 
+    // to have all the users together
+    const fetchDataFromExternalApi = () => {
+        TasksService.getAllTodos()
+            .then(response => {
+                // console.log(response.data)
+                setData(response.data)
+            })
+            .catch(error => console.log(error))
+    }
+
+    useEffect(() => {
+        fetchDataFromExternalApi()
+    }, [])
+
     return (
         <>
-            <h1>CreateTodo</h1>
-            What is need to do? :
-            <input type="text"
-                   value={ task }
-                   onChange={event => setTask(event.target.value)}/>
-            Person in charge? :
-            <input type="text"
-                   value={ name }
+            {/*<h1>CreateTodo</h1>*/}
+            <input className={css.inputAdd} placeholder={'Person in charge?'}
+                   value={name}
                    onChange={event => setName(event.target.value)}/>
-
-
-            <button onClick={ sendDataToApi }>Create new TodoData</button>
+            <input className={css.inputAdd} data-testid='textNeedDo'
+                   placeholder={'What is need to do?'}
+                   type="text"
+                   value={task}
+                   onChange={event => setTask(event.target.value)}/>
+            <button className={css.btnAdd} data-testid='btnAddTest' onClick={sendDataToApi}>ADD</button>
             <CardList users={data}/>
         </>
     );

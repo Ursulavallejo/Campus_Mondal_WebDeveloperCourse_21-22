@@ -24,4 +24,4 @@ const Alive = () => {
     );
 };
 
-export default Alive;
+export default Alive

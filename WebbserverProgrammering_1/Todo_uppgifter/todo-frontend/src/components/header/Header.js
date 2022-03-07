@@ -25,8 +25,8 @@ const Header = () => {
 
             <div className={css.content}>
                 <div className={css.contentContainer}>
-                    <p className={css.contentContainerText}>
-                        TODOLIST!
+                    <p  className={css.contentContainerText}>
+                        TODO!
                     </p>
 
                     <ul className={css.contentContainerList}>

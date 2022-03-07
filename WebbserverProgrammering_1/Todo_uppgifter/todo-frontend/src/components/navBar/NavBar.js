@@ -16,7 +16,7 @@ const NavBar = () => {
                 <Link className={css.navbarLink} to={RoutingPath.contactView}>Contact us</Link>
             </li>
             {loggedIn ? <li className={css.navBarItem}><Link className={css.navbarLink} to={RoutingPath.signedInView}>My Todo List</Link></li>:
-                <li className={css.navBarItem}><Link className={css.navbarLink} to={RoutingPath.signInView}>Log In</Link></li> }
+                <li data-testid='logIn'  className={css.navBarItem}><Link className={css.navbarLink} to={RoutingPath.signInView}>Log In</Link></li> }
         </ul>
     </nav>
 };

@@ -1,6 +1,5 @@
 import TasksService from "../../utils/api/services/TasksService";
-import {useState} from "react";
-
+import {useState, useEffect} from "react";
 import CardList from "../card/CardList";
 
 
@@ -16,6 +15,7 @@ const GetAllUsers = () => {
             })
             .catch(error => console.log(error))
     }
+
 
 
     return (

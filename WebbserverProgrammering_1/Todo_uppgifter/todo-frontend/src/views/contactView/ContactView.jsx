@@ -1,23 +1,19 @@
-import Alive from "../../components/Alive";
-import GetAllUsers from "../../components/user_crud/GetAllUsers";
-import CreateTodoData from "../../components/user_crud/CreateTodoData";
-import UpdateUser from "../../components/user_crud/UpdateUser";
-import DeleteTodoUser from "../../components/user_crud/DeleteTodoUser";
-import GetUserDataByName from "../../components/user_crud/GetUserDataByName";
+import css from './ContactView.module.css'
 
 const ContactView = () => {
 
     return (
-        <div className='tc'>
-            <h1 className='tracked'>Contact View</h1>
-            <Alive/>
-            <GetAllUsers/>
-            <CreateTodoData/>
-            <UpdateUser/>
-            <GetUserDataByName/>
-            <DeleteTodoUser/>
+<div className={css.container}>
+        <div className={css.card}>
 
+            <h1 >Contact Us!</h1>
+
+            <p>We create App to help individuals and companies to manage is a effective way the personal time and for others.</p>
+<p>If you are curios how we can assist you, don't hesitate to contact us to:</p>
+            <p>planTask@gmail.com</p>
         </div>
+</div>
+
     )
 }
 

@@ -49,10 +49,10 @@ export default function BasketList(props) {
                 <article className={css.gridItem1}>
                     {productOnCartCtx.productOnCart.length === 0 && <p className={css.colorSpaceChangeCart}>We have great offers!!</p>}
                     {productOnCartCtx.productOnCart.length > 0 && <p className={css.colorSpaceChangeCart}>SUMMARY:
-                        (<span data-testid='amountCD'>
+                        (<span data-testid ='amountCD' >
                             {productOnCartCtx.productOnCart.reduce((total, album) => total + album.quantity, 0)}</span><span> CD's</span>)
                         TOTAL to PAY:
-                        <span id="totalPay"> {totalPrice} </span><span> SEK</span>
+                        <span id="totalPay"  > {totalPrice} </span><span> SEK</span>
                     </p>}
                     {productOnCartCtx.productOnCart.length === 0 && <h3> Free freight over 259Kr</h3>}
                     {productOnCartCtx.productOnCart.length > 0 && <p className={css.colorSpaceChangeCart}>{totalPrice >= 259 ?

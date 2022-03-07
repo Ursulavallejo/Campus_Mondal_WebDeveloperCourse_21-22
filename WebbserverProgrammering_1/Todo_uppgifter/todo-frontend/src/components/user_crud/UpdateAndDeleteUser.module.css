@@ -1,0 +1,79 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+    padding: 3px 4px;
+    border-radius: 5px;
+    margin: 0.5em;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #FFCDD2;
+    min-width: 180px;
+    max-width: 680px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.positionUpdate {
+    right: 18em;
+}
+
+.positionDelete{
+    right: 23em;
+}
+
+.inputDelete {
+   margin-top: 8px;
+    width: 50%;
+
+}
+
+.show {
+    display: block;
+}
+
+.btn {
+    margin: 10px 40px;
+    background-color: #16a085;
+    color: whitesmoke;
+    font-size:18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 4px 6px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+.btnFlex{
+    display: inline-flex;
+}
+
+.layoutInput {
+    text-align: center;
+    margin-right: 5px;
+}
+
+@media only screen and (min-width: 1290px) {
+
+    .positionUpdate {
+        right: 27em;
+    }
+
+    .positionDelete{
+        right: 32em;
+    }
+
+}

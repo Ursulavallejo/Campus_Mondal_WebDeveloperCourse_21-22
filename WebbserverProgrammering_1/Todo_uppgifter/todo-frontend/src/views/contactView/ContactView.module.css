@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card {
+    width: 500px;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, rgb(230, 183, 97), rgb(250, 164, 93));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 50px;
+    margin-top: 100px;
+    margin-bottom: 220px;
+    position: relative;
+    border: deeppink 8px solid;
+}

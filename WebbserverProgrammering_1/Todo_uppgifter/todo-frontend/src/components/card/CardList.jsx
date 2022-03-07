@@ -1,19 +1,18 @@
-// import Card from './Card'
-import Card from './TaskCard '
+import Card from './Card'
 
 
+const CardList = ({users}) => {
 
-const CardList = ( { users }) => {
     return (
         <>
             {
                 users.map((user, index) => {
                     return (
-                        <Card key={ index }
-                              id={ user.id }
-                              name={ user.name }
-                              task={ user.task }
-                              />
+                        <Card key={index}
+                                  id={user.id}
+                                  name={user.name}
+                                  task={user.task}
+                        />
                     )
                 })
             }

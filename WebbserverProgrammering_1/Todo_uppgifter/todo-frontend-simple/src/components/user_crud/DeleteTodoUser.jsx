@@ -31,14 +31,14 @@ const DeleteTodoUser = (props) => {
                    value={name}
                    onChange={event => setName(event.target.value)}/>
             <div className={css.btnFlex}>
-                <button className={css.btn} data-testid='deleteButton' onClick={sendDataToApi}>Delete user</button>
+                <button className={css.btn} onClick={sendDataToApi}>Delete user</button>
                 <button className={css.btn} onClick={() => {
                     cancelHandler()
                     refreshPage()
                 }}>Close
                 </button>
             </div>
-            <h4 data-testid='DbResponse'> {data} </h4>
+            <h4 > {data} </h4>
         </div>
     );
 };

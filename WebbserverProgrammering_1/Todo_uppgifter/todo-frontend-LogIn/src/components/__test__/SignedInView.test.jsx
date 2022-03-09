@@ -1,4 +1,4 @@
-import { render, fireEvent } from '@testing-library/react';
+import { render} from '@testing-library/react';
 import SignedInView from "../../views/signedInView/SignedInView";
 
 let getByTestId

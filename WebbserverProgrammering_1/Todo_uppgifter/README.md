@@ -159,20 +159,25 @@ Jag tyckte att det var svårt att implementera det eftersom jag inte kunde få b
 
 Utvecklingen av Wireframes för projektet utvecklades i Low Fidelity, eftersom projektet inte är komplext, så valde jag att bara utveckla den här skissen.
 
-
+!!!! FALTA
 
 
 ## B. Font :
 
-FFör det här projektet valde jag att endast använda två typografier så att det skulle bli visuellt rent och utan mycket visuell information. Jag valde ett mer geometriskt typsnitt för vad det har att göra med en att göra-lista som är mer automatisk (relaterat till organisationsscheman).
+För det här projektet valde jag att endast använda två typefaces så att det skulle bli visuellt rent och utan mycket visuell information. Jag valde ett mer geometriskt typsnitt för vad det har att göra med en att göra-lista som är mer automatisk (relaterat till organisationsscheman).
 
 Typeface jag valde var följande:
 
-1. Permanent Marker
-   ![](./src/utils/images/permanentMarkerFont.png)
-2. Architects Daughter
-   ![](./src/utils/images/architectDaughterFont.png)
+1. Lato / Header
+   ![](imgDokumentation/lato.png)
+2. The fonts preset that are on the body by default as they have the technical look that also worked in my project:
+```shell
 
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+```
 
 Länkar:
 - [Type-Scale](https://type-scale.com/)
@@ -187,6 +192,7 @@ Här färgskalan du använde i projektet:
 
 ![](./src/utils/images/colorpaletteSHOP.jpg)
 
+FALTA!!!!!
 
 # 3. Projektgenomförande :
 
@@ -194,165 +200,269 @@ Sedan berättar jag processen jag var tvungen att utveckla projektet.
 
 ## Funcionen i projekten:
 
+Det enkla projektet består av endast en sida där funktionerna som finns i backend reflekteras. Dessa är:
 
+- Alive :för att bekräfta om det finns en anslutning till API:et.
+  I den nedre delen, lämna den tillgänglig via en ikon för detta leveransprojekt för att kunna verifiera att denna funktion har utförts. I en enda användarversion bör detta inte inkluderas.
 
-![](./src/utils/images/projekt%20Kundkorg.jpg)
+### CRUD:
 
-![](./src/utils/images/functionsplan.jpg)
+*GET:
+- Get Todo Data: tar med sig informationen om befintlig data i arrayen.
+- Get User Data by Name : Hitta en användare i arrayen, och returnerar hela objektet.
+- Get all users:det finns i backend men använd det inte i frontend eftersom det bara ger namnen och inte användaruppgifterna.
+
+*POST:
+- Create Todo: ger möjlighet att skapa en ny användare och en uppgift som tilldelas honom.
+
+*PUT:
+- Update User Todo: ger möjlighet att modifiera en befintlig användare i arrayen, ge den ett annat namn och modifiera task.
+
+*PUT:
+_ Delete User: Ta bort en användare med namnet som tar bort allt objekt i arrayen.
+
+För att kunna göra backend-delen var jag tvungen att titta på klassvideon flera gånger för att till exempel kunna förstå vad mellanvaran hade för funktion och hur elementen hänger ihop. Det tog lite arbete för mig men till slut kunde jag få dem att fungera.
 
 ## Tester:
 
+I projektet har både frontend och backend testats, vilket vi kan se nedan:
+
 * Backend:
+
+  I Backend-mappen hittar du Insomnia-testfilen.
+
+  ![](./imgDokumentation/insomniaDebug.png)
+
+  ![](./imgDokumentation/insomniaTests.png)
+
+<details>
+<summary> # Backend Tests i Terminal </summary>
+
+> backend@1.0.0 start
+> npx nodemon src/server.js
+
+[nodemon] 2.0.15
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node src/server.js`
+server running on address: port http://localhost:3002
+Middleware function is running and printing "Banana" to console
+::1 - - [09/Mar/2022:14:59:18 +0000] "GET /getAllTodos HTTP/1.1" 200 209
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:11:24 +0000] "GET /getAllTodos HTTP/1.1" 200 209
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:11:24 +0000] "GET /getUserNames/name HTTP/1.1" 200 73
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:11:24 +0000] "POST /createTodo/ HTTP/1.1" 201 255
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:11:24 +0000] "GET /getUserByName/Magnus HTTP/1.1" 200 45
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:11:24 +0000] "PUT /updateTodoDataByName/ HTTP/1.1" 202 40
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:11:24 +0000] "GET /getUserByName/Oliver HTTP/1.1" 200 40
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:12:05 +0000] "GET / HTTP/1.1" 200 14
+Terminate batch job (Y/N)? y
+PS C:\Git_projects\WEB_2108\WebbserverProgrammering_1\Todo_uppgifter\backend> npm test
+
+> backend@1.0.0 test
+> mocha 'tests/**'
+
+server running on address: port http://localhost:3002
+w787kb
+
+
+TESTING API ALIVE ROUTES
+Testing a route that does not exist
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:14:42 +0000] "GET /randomUrl HTTP/1.1" 404 13711
+√ should expect 404 not found
+Test a route that does exists
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:14:42 +0000] "GET / HTTP/1.1" 200 14
+√ should expect 200 OK
+Testing a route that does not exist with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:14:42 +0000] "GET /randomUrl HTTP/1.1" 404 13711
+√ should expect 404 not found
+Test a route that does exists with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:14:42 +0000] "GET / HTTP/1.1" 200 14
+√ should expect 200 OK
+
+TESTING USER API ALIVE ROUTES
+Testing a route that does not exist with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:14:42 +0000] "GET /w787kb HTTP/1.1" 404 13705
+√ should expect 404 not found
+Testing to get an array of users (GET)
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:14:42 +0000] "GET /getAllTodos HTTP/1.1" 200 209
+√ should expect a array of users to be returned
+Testing to get an array of users (GET) with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:14:42 +0000] "GET /getAllTodos HTTP/1.1" 200 209
+√ should expect a array of users to be returned with expect
+Testing to get an array of users names (GET) with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:14:42 +0000] "GET /getUserNames/name HTTP/1.1" 200 73
+
+Terminate batch job (Y/N)? y
+PS C:\Git_projects\WEB_2108\WebbserverProgrammering_1\Todo_uppgifter\backend> npm test
+
+> backend@1.0.0 test
+> mocha 'tests/**'
+
+server running on address: port http://localhost:3002
+pgsim5
+
+
+TESTING API ALIVE ROUTES
+Testing a route that does not exist
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "GET /randomUrl HTTP/1.1" 404 13711
+√ should expect 404 not found
+Test a route that does exists
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "GET / HTTP/1.1" 200 14
+√ should expect 200 OK
+Testing a route that does not exist with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "GET /randomUrl HTTP/1.1" 404 13711
+√ should expect 404 not found
+Test a route that does exists with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "GET / HTTP/1.1" 200 14
+√ should expect 200 OK
+
+TESTING USER API ALIVE ROUTES
+Testing a route that does not exist with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "GET /pgsim5 HTTP/1.1" 404 13705
+√ should expect 404 not found
+Testing to get an array of users (GET)
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "GET /getAllTodos HTTP/1.1" 200 209
+√ should expect a array of users to be returned
+Testing to get an array of users (GET) with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "GET /getAllTodos HTTP/1.1" 200 209
+√ should expect a array of users to be returned with expect
+Testing to get an array of users names (GET) with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "GET /getUserNames/name HTTP/1.1" 200 73
+√ should expect a array of user names with expect
+Testing message on user that does not exists with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "GET /getUserByName/Magnus HTTP/1.1" 200 35
+√ should return a string
+Testing to update a user (PUT) with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "PUT /updateTodoDataByName/ HTTP/1.1" 202 35
+√ should expect a error string
+Testing and create a user with a task (POST) with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "POST /createTodo/ HTTP/1.1" 201 255
+√ should expect a user to be created with a task
+Testing to get an user object (GET) with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "GET /getUserByName/Magnus HTTP/1.1" 200 45
+√ should expect a user to be created with a task
+Testing and create a user with a task (POST)with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "PUT /updateTodoDataByName/ HTTP/1.1" 202 40
+√ should expect a user to be created with a task
+Testing message on user that does not exists with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "GET /getUserByName/Magnus HTTP/1.1" 200 35
+√ should return a string
+Testing to delete a user by name that do not exist in db (DELETE) with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "DELETE /deleteTodoDataByName/Magnus HTTP/1.1" 200 52
+√ should expect a string with fail message
+Testing and delete a user with a task (DELETE) with Expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "DELETE /deleteTodoDataByName/Oliver HTTP/1.1" 200 51
+√ should expect a user to be deleted with the task
+Testing to delete a user by name that do not exist in db (DELETE) with expect
+Middleware function is running and printing "Banana" to console
+::ffff:127.0.0.1 - - [09/Mar/2022:16:19:42 +0000] "DELETE /deleteTodoDataByName/Magnus HTTP/1.1" 200 52
+√ should expect a string with fail message
+
+
+17 passing (103ms)
+</details>
+
 * Frontend:
+
+-todo-frontend-LogIn
+```shell
+
+Test Suites: 4 passed, 4 total
+Tests:       6 passed, 6 total
+Snapshots:   0 total
+Time:        2.169 s
+
+```
+
+-todo-frontend-simple
+```shell
+Test Suites: 4 passed, 4 total
+Tests:       6 passed, 6 total
+Snapshots:   0 total
+Time:        2.133 s
+Ran all test suites.
+
+```
 
 ## Nya koncept:
 
-Jag hittade två koncepter som verkade intressanta för mig i utvecklingen:
+Det mesta av innehållet vi använde för backend var ganska nytt för mig. npm-paketen som vi installerar för mellanvarorna är helt nya och jag har fortfarande svårt att förstå de specifika funktionerna hos dessa:
+- Helmet
+- Cors
+- Morgan
+- Express
 
-- context :
-  Jag använder den för att kunna generera ett globalt sammanhang på sidan och ha informationen för hela projektet, tillgång till funktionerna och shop array för produkterna att köpa.
-
-- [Context i react](https://es.reactjs.org/docs/context.html)
-
-- .map:
-  För att kunna använda en ny array som jag använder för att överföra produkterna från butiken till varukorgen.
-
-Hittade info här:
-
-- [How to Use the Map](https://www.pluralsight.com/guides/how-to-use-the-map()-function-to-export-javascript-in-react)
-
-- .concat:
-  Jag använd den för att kunna kopiera värdena och kunna ha en likvärdighet inom dem.
-- [Array.prototype.concat()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+De andra testpaketen i Backend är också nya:
+- Mocha 
+- Chai 
+- Chai-http
 
 ## Svårigheter:
 
-När jag implementerade i react de funktioner som jag hade skapat i det tidigare programmeringsprojektet, hittade jag några implementeringsproblem som jag beskriver nedan vad de var och hur de har lösts:
-
-1.Hitta ett sätt att skapa ett sammanhang i projektet som jag hittade flera lösningar för och frågade min lärare om han kunde implementera det jag såg i följande handledning:
-
-- [React Tutorial](https://www.youtube.com/watch?v=Dorf8i6lCuk&t=10507s)
-
-
-<summary> # Meet up Context code i used </summary>
+1.Den första svårigheten jag hade var att när jag gick in på sidan ville jag att hela arrayen skulle reflekteras, för detta hittade jag en lösning med useEffect.
 
 ```shell
-import { createContext, useState } from 'react';
+   useEffect(() => {
+        fetchDataFromExternalApi()
+    }, [])
 
-const FavoritesContext = createContext({
-favorites: [],
-totalFavorites: 0,
-addFavorite: (favoriteMeetup) => {},
-removeFavorite: (meetupId) => {},
-itemIsFavorite: (meetupId) => {}
-});
-
-export function FavoritesContextProvider(props) {
-const [userFavorites, setUserFavorites] = useState([]);
-
-function addFavoriteHandler(favoriteMeetup) {
-setUserFavorites((prevUserFavorites) => {
-return prevUserFavorites.concat(favoriteMeetup);
-});
-}
-
-function removeFavoriteHandler(meetupId) {
-setUserFavorites(prevUserFavorites => {
-return prevUserFavorites.filter(meetup => meetup.id !== meetupId);
-});
-}
-
-function itemIsFavoriteHandler(meetupId) {
-return userFavorites.some(meetup => meetup.id === meetupId);
-}
-
-const context = {
-favorites: userFavorites,
-totalFavorites: userFavorites.length,
-addFavorite: addFavoriteHandler,
-removeFavorite: removeFavoriteHandler,
-itemIsFavorite: itemIsFavoriteHandler
-};
-
-return (
-<FavoritesContext.Provider value={context}>
-{props.children}
-</FavoritesContext.Provider>
-);
-}
-
-export default FavoritesContext;
 ```
+2.En svårighet som jag hittade är att kunna få funktionerna som jag skapar olika komponenter med att kommunicera med varandra och uppdatera informationen som presenterades i frontend. Funktionerna fungerade när jag gjorde ändringarna i backend, men om jag till exempel uppdaterade en användare såg jag det inte reflekterat direkt i min komponent där den datan visades. Internet med rekvisita kallar funktionen men som i versionen som jag ville utveckla från början syns informationen efter att man gjort en användarinloggning, vid uppdatering togs den bort från den användaren och skapade en bugg.
 
-2. Att använda sammanhanget gav mig ett fel i konsolen som var följande:
+Den första lösningen som jag hittade för att uppdatera informationen är att göra en omladdning på sidan, vilket på en sida som faktiskt är funktionell inte är den bästa lösningen men för projektet implementerade jag den:
+
 
 ```shell
-Uncaught TypeError: this.props.data.map is not a function
-```
-
-Hittade lösning där jag förtydligade varifrån informationen som behöver implementeras kommer och hur den ska implementeras. Se nedan:
-
-- [Stackoverflow](https://stackoverflow.com/questions/30142361/react-js-uncaught-typeerror-this-props-data-map-is-not-a-function)
-
-3.När man tilldelade ett värde till ingången gav det mig ett felmeddelande eller vilket jag kunde fixa genom att ändra det till placeholder.
-
-```shell
-Failed form propType: You provided a `value` prop to a form field without an `onChange` handler
-```
-Hittade lösning i:
-
-- [Stackoverflow](https://stackoverflow.com/questions/43556212/failed-form-proptype-you-provided-a-value-prop-to-a-form-field-without-an-on)
-
-
-4. I följande tutorial om Redux vs Context såg jag flera alternativ för att generera funktioner för att relatera beräkningarna av kvantitet och värde. Men jag försökte implementera dem men de verkade väldigt komplexa för mig till slut så jag bestämde mig för att inte implementera dem och försök att hitta en lösning nära som jag gjort i min programmering 1 project och bestämde att gör rakningar om min Cart JS inte i min context. Till exempel jag inte implementera :
-
-```shell
-removeProductFromCart = productId => {
-    console.log('Removing product with id: ' + productId);
-    const updatedCart = [...this.state.cart];
-    const updatedItemIndex = updatedCart.findIndex(
-      item => item.id === productId
-    );
-
-    const updatedItem = {
-      ...updatedCart[updatedItemIndex]
-    };
-    updatedItem.quantity--;
-    if (updatedItem.quantity <= 0) {
-      updatedCart.splice(updatedItemIndex, 1);
-    } else {
-      updatedCart[updatedItemIndex] = updatedItem;
+   function refreshPage() {
+        window.location.reload();
     }
-    setTimeout(() => {
-      this.setState({ cart: updatedCart });
-    }, 700);
-  };
 
 ```
-Länkar:
+Av denna anledning har jag bestämt mig för att göra en enkel version av projektet där kraven för uppgiften kommer att täckas och fortsätta att försöka lösa svårigheten att ladda om med användaren.
 
-- [React redux vs Context](https://stackoverflow.com/questions/43556212/failed-form-proptype-you-provided-a-value-prop-to-a-form-field-without-an-on)
-  https://github.com/academind/react-redux-vs-context/blob/context/src/context/GlobalState.js
+3.För att lösa detta, försök implementera ett sammanhang så att det kan visa mig informationen, den uppdateras när det sker en förändring i data.
 
-5. Grow i Tachyons (CardItem.js).
-
-När du gör layout i butiken för att göra stilen använd Tachyons. När jag lägger till artiklarna i butiken via köpknappen var det nödvändigt att trycka på den 2 gånger och det fungerade inte så bra.
-
-Jag kunde inte förstå vad som hände och ta bort alternativet att växa och jag insåg att det genererade störningar i denna process så jag valde att också lägga till de återstående stilarna av css-moduler.
+4.   När jag gjorde testerna i frontend fick jag ett fel i terminalen som en kollega förklarade för mig var för att app.test-filen inte hade något innehåll. Att ta bort det löste det här problemet.
 
 ## Konklusionen
 
-Projektet i allmänhet verkade ganska komplicerat att genomföra. Den första svårigheten jag stötte på var att kunna översätta Javascript-funktionerna som jag hade från mitt tidigare programmeringsprojekt_1 till React.
+Jag tror att min första planering var mer komplex än vad jag först hade trott. Även om jag har haft svårigheter, tror jag att det har hjälpt mig att få en mer global kontext av möjligheterna att hantera data och funktioner i backend och inte bara beroende av frontend för denna hantering.
+Den enkla versionen är för att uppfylla klassprojektet men personligen skulle jag vilja kunna slutföra implementeringen på kort tid av alla funktioner som jag hittade med att göra en separat lista över att göra som redan har gjorts, som väntar bland andra möjligheter.
 
-För att förstå hela processen sökte jag efter olika information om hur man utvecklade projektet i React, vilket jag tyckte var intressant eftersom jag bättre kunde förstå hur de olika delarna är sammanflätade inom projektet.
+Det verkade som en bra utgångspunkt för att förstå relationen med API:t, men jag tror att det hade varit intressant att se hur en mer komplex frontend implementering kunde göras.
 
-Även om det blev en svår process i slutändan är jag glad att jag kunde få implementeringen att fungera.
+När projektet är klart inser jag att jag måste se över hur man genererar innehållsstrukturen i backend-delen igen eftersom det verkade komplicerat för mig.
 
-Det hjälpte mig mycket att se hur det globala sammanhanget fungerar i REACT-projekt och att förstå hur man kan komma åt informationen som finns där i resten av projektet.
-
-Jag insåg också att min svaga punkt är javascript där jag tror att jag måste kunna träna mer för att kunna förstå det bättre och lättare kunna ställa in funktioner, speciellt när jag ställer in funktionsvillkor (if- else).
-
-En annan aspekt som jag också tycker att jag borde lära mig att implementera är testerna med FireEvent eftersom det är svårt för mig när initialtillståndet är dynamisk information och inte fixerat.
-
-Det har varit en erfarenhet som har hjälpt mig att analysera olika aspekter för att se var jag befinner mig i min kunskap, vad jag bör försöka förbättra och även se de positiva punkterna inom utbildningsprocessen.
-
+Jag kunde göra det genom att titta på klassvideorna flera gånger, men att utveckla dem från grunden är väldigt komplicerat.

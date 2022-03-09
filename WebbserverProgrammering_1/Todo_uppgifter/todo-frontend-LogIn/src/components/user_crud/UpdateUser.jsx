@@ -37,7 +37,9 @@ const UpdateUser = (props) => {
     return (
         <div className={`${css.dropdownContent} ${css.positionUpdate}  ${css.show} ${css.dropdown}`}>
             <div className={css.gridContainer}>
-                <input className={css.layoutInput} placeholder={'Name:'}
+                <input className={css.layoutInput}
+                       data-testid='input'
+                       placeholder={'Name:'}
                        type="text"
                        value={name}
                        onChange={event => setName(event.target.value)}/>
@@ -51,7 +53,7 @@ const UpdateUser = (props) => {
                        onChange={event => setTask(event.target.value)}/>
             </div>
             <div className={css.btnFlex}>
-                <button className={css.btn} onClick={sendDataToApi}>Update new user</button>
+                <button data-testid='updateBtn' className={css.btn} onClick={sendDataToApi}>Update new user</button>
                 <button className={css.btn} onClick={() => {
                     cancelHandler()
                     refreshPage()
@@ -62,7 +64,7 @@ const UpdateUser = (props) => {
             {data.name ? <Card
                     name={data.name}
                     task={data.task}/>
-                : <h4>{data}</h4>}
+                : <h4 data-testid='dbResponse'>{data}</h4>}
         </div>
     );
 };

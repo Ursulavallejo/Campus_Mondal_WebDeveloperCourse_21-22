@@ -38,12 +38,12 @@ const CreateAndGetTodoData = (props) => {
         <>
             <input className={css.inputAdd} placeholder={'Person in charge?'}
                    value={name}
-                   onChange={event => setName(event.target.value)}/>
+                   onChange={(event) => setName(event.target.value)}/>
             <input className={css.inputAdd} data-testid='textNeedDo'
                    placeholder={'What is need to do?'}
                    type="text"
                    value={task}
-                   onChange={event => setTask(event.target.value)}/>
+                   onChange={(event )=> setTask(event.target.value)}/>
             <button className={css.btnAdd} data-testid='btnAddTest' onClick={sendDataToApi}>ADD</button>
             <CardList users={data}/>
         </>

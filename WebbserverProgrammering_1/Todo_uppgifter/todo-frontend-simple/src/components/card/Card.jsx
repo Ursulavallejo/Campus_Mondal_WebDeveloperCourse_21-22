@@ -15,7 +15,7 @@ const Card = ({name, task}) => {
 
             <ul className={css.list}>
                 <li className={isActive ? css.done : null} onClick={toggleClass}>
-                    <span className={css.nameFont}>{name}</span>
+                    <span  data-testid='textName' className={css.nameFont}>{name}</span>
                     <span className={css.taskFont}>{task}</span>
                 </li>
             </ul>

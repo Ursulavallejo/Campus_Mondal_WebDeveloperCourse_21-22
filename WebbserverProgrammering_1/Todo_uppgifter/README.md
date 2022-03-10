@@ -208,17 +208,21 @@ Det enkla projektet består av endast en sida där funktionerna som finns i back
 ### CRUD:
 
 *GET:
+
 - Get Todo Data: tar med sig informationen om befintlig data i arrayen.
 - Get User Data by Name : Hitta en användare i arrayen, och returnerar hela objektet.
 - Get all users:det finns i backend men använd det inte i frontend eftersom det bara ger namnen och inte användaruppgifterna.
 
 *POST:
+
 - Create Todo: ger möjlighet att skapa en ny användare och en uppgift som tilldelas honom.
 
 *PUT:
+
 - Update User Todo: ger möjlighet att modifiera en befintlig användare i arrayen, ge den ett annat namn och modifiera task.
 
-*PUT:
+*DELETE:
+
 _ Delete User: Ta bort en användare med namnet som tar bort allt objekt i arrayen.
 
 För att kunna göra backend-delen var jag tvungen att titta på klassvideon flera gånger för att till exempel kunna förstå vad mellanvaran hade för funktion och hur elementen hänger ihop. Det tog lite arbete för mig men till slut kunde jag få dem att fungera.
@@ -452,7 +456,7 @@ Den första lösningen som jag hittade för att uppdatera informationen är att 
 ```
 Av denna anledning har jag bestämt mig för att göra en enkel version av projektet där kraven för uppgiften kommer att täckas och fortsätta att försöka lösa svårigheten att ladda om med användaren.
 
-3.För att lösa detta, försök implementera ett sammanhang så att det kan visa mig informationen, den uppdateras när det sker en förändring i data.
+3.För att lösa detta, försök implementera ett context så att det kan visa mig informationen, den uppdateras när det sker en förändring i data.
 
 4.   När jag gjorde testerna i frontend fick jag ett fel i terminalen som en kollega förklarade för mig var för att app.test-filen inte hade något innehåll. Att ta bort det löste det här problemet.
 

@@ -303,8 +303,6 @@ AWebbserverProgrammering_1/Todo_uppgifter/todo-frontend/src/App.js,3\1\31e225ca
 OWebbserverProgrammering_1/Todo_uppgifter/todo-frontend/src/components/Alive.jsx,1\9\1957408a1892124edeebbccc6731a26196dde15a
 â
 YWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/context/LoginProvider.js,1\1\11e74d612ce8b82a47857013ad81e0732ee12d6e
-Ö
-UWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/components/Alive.jsx,9\5\952dfe06758c72c7e4eb0eea9fbdcf97342432db
 Ñ
 TWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/routing/Routing.jsx,e\e\ee44b2d06c9beaf4c9bdf165a2b5947b07f2f88a
 á
@@ -321,8 +319,6 @@ bWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/views/contactV
 kWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/views/signedInView/SignedInView.module.css,0\8\08c35aec633cc0bd36f5d948d44cd07cda974ac0
 ê
 `WebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/views/signInView/SignInView.jsx,5\3\53a6e5657e2f9e35fe9034d19bf057b2c34353eb
-ç
-]WebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/src/views/TaskView/TaskView.jsx,0\3\03d6ce9165a7b8ca5814ad579edd7ee46393c9e1
 x
 HWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/src/App.js,d\9\d92c4f530736bbf09032507b70ea21a90cae315c
 z
@@ -333,8 +329,6 @@ w
 GWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/README.md,1\e\1e0c5db1c7182c63e13ac416b0f594fbdf78b844
 ì
 cWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/utils/api/services/TasksService.js,7\8\78a44dc98af98b6b5d53419dbe55f28a258c1515
-ö
-jWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/src/components/header/HeaderStyle.module.css,0\8\088322655545f4c8ecf43278b5f251454615f881
 ~
 NWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/public/index.html,2\e\2ec5bc5ce7084817d11519583b0ed3e410f8ddf8
 å
@@ -343,8 +337,6 @@ NWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/public/index.html
 lWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/src/components/user_crud/GetUserDataByName.jsx,9\6\962b03e93db0c15484a5fc9a5b1c5d71e76a6639
 ç
 ]WebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/src/components/footer/Footer.js,5\1\511751d3994c5c9e74046b46c02726ad7815ccb8
-Ü
-VWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/src/components/Alive.jsx,a\2\a25e3b543c3fac8eada976101380cf219b8ae5f9
 ç
 ]WebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/src/components/header/Header.js,d\c\dc3d994d2762200aa422f21befb88a44fd07d958
 ü

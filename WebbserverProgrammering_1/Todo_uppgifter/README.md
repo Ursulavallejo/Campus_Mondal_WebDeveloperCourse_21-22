@@ -154,12 +154,17 @@ Jag tyckte att det var svårt att implementera det eftersom jag inte kunde få b
 
 ![](imgDokumentation/modal.png)
 
+Använd CSS för att markera uppgiften som klar. Genom att klicka på varje uppgift markeras en rad för den.
+
+![](imgDokumentation/doneTask.png)
 
 ## A. Prototyp:
 
 Utvecklingen av Wireframes för projektet utvecklades i Low Fidelity, eftersom projektet inte är komplext, så valde jag att bara utveckla den här skissen.
 
-!!!! FALTA
+![](imgDokumentation/draftTodo.jpg)
+
+![](imgDokumentation/draftTodo_1.jpg)
 
 
 ## B. Font :
@@ -185,6 +190,8 @@ Länkar:
 ## C. Färgschema: 
 
 Grund färgs metoden är djupblå som är relaterad till visuellt lugn men jag valde att använda kontrasterande färger för att skapa en layout med en mer modern look, ung, för vilken kontrastfärger som rosa, smaragdgrön och vit används grund för fonts och informationen på sidan. (animering av livliga primärfärger).
+
+Använd även färgen svart för texten i Todo.
 
 ##Final Color Palette:
 

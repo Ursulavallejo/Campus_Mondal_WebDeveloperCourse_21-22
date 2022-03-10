@@ -7,7 +7,7 @@
 - [2. UX](#2-ux-)
     - [A. Prototyp](#a-prototyp)
     - [B. Font](#b-font-)
-    - [C. Färgschema](#c-frgschema)
+    - [C. ColorSchema](#c-colorschema)
 - [3. Projektgenomförande](#3-projektgenomfrande-)
     - [ Funcionen i projekten ](#funcionen-i-projekten)
     - [ Tester](#tester)
@@ -159,9 +159,10 @@ Använd CSS för att markera uppgiften som klar. Genom att klicka på varje uppg
 ![](imgDokumentation/doneTask.png)
 
 För animationerna som jag ville implementera, använd resurserna från CodePen.
+
 -För rubriktiteln ta:
 - [Codepen: Text animation](https://codepen.io/yoannhel/pen/DMzjog)
-- 
+
 - För cirklarna på huvudsidan litar jag på:
 - [Codepen: Nougat animation](https://codepen.io/stevn/pen/ZOKdjm)
 
@@ -184,7 +185,7 @@ Typeface jag valde var följande:
 
 1. Lato / Header
    ![](imgDokumentation/lato.png)
-2. The fonts preset that are on the body by default as they have the technical look that also worked in my project:
+2. De förinställda typeface som finns på body som standard eftersom de har det tekniska utseendet som också fungerade i mitt projekt:
 ```shell
 
  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -196,7 +197,7 @@ Typeface jag valde var följande:
 Länkar:
 - [Type-Scale](https://type-scale.com/)
 
-## C. Färgschema: 
+## C. ColorSchema: 
 
 Grund färgs metoden är djupblå som är relaterad till visuellt lugn men jag valde att använda kontrasterande färger för att skapa en layout med en mer modern look, ung, för vilken kontrastfärger som rosa, smaragdgrön och vit används grund för fonts och informationen på sidan. (animering av livliga primärfärger).
 

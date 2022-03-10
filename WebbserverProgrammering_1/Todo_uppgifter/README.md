@@ -158,6 +158,15 @@ Använd CSS för att markera uppgiften som klar. Genom att klicka på varje uppg
 
 ![](imgDokumentation/doneTask.png)
 
+För animationerna som jag ville implementera, använd resurserna från CodePen.
+-För rubriktiteln ta:
+- [Codepen: Text animation](https://codepen.io/yoannhel/pen/DMzjog)
+- 
+- För cirklarna på huvudsidan litar jag på:
+- [Codepen: Nougat animation](https://codepen.io/stevn/pen/ZOKdjm)
+
+https://codepen.io/stevn/pen/ZOKdjm
+
 ## A. Prototyp:
 
 Utvecklingen av Wireframes för projektet utvecklades i Low Fidelity, eftersom projektet inte är komplext, så valde jag att bara utveckla den här skissen.

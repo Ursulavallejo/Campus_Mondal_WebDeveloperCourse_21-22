@@ -24,10 +24,10 @@
 
 @media only screen and (min-width: 1290px) {
     .card {
-        margin-top: 150px;
+        margin-top: 130px;
     }
     .container {
-        height: 70vh;
+        height: 65vh;
     }
 
 }

@@ -188,11 +188,11 @@ Grund färgs metoden är djupblå som är relaterad till visuellt lugn men jag v
 
 ##Final Color Palette:
 
-Här färgskalan du använde i projektet:
+Här färgskalan jag använde i projektet:
 
-![](./src/utils/images/colorpaletteSHOP.jpg)
+![](imgDokumentation/colorpaletteTodo.jpg)
 
-FALTA!!!!!
+
 
 # 3. Projektgenomförande :
 

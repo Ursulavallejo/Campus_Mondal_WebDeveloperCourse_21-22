@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import './utils/styles/global.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { GlobalContextProvider} from "./context/GlobalContext"
 import 'tachyons'
 
 ReactDOM.render(
-  <React.StrictMode>
+  <GlobalContextProvider>
     <App />
-  </React.StrictMode>,
+  </GlobalContextProvider>,
   document.getElementById('root')
 );
 

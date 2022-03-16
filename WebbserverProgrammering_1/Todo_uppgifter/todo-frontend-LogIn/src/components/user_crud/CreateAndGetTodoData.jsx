@@ -45,7 +45,7 @@ const CreateAndGetTodoData = () => {
                    value={task}
                    onChange={(event )=> setTask(event.target.value)}/>
             <button className={css.btnAdd} data-testid='btnAddTest' onClick={sendDataToApi}>ADD</button>
-            <CardList users={data}/>
+            <CardList users={data} onChangeUpdate={fetchDataFromExternalApi}/>
         </>
     );
 };

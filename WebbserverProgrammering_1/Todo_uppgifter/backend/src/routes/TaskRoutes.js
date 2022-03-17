@@ -16,6 +16,7 @@ const routes = (app) => {
     //UPDATE
     app.put('/updateTodoDataByName/', TodoController.updateUserByName)
     app.put('/todoDone/', TodoController.updateDone)
+    app.put('/todoAreDone/:id', TodoController.toggleTaskDone)
 
 //DELETE
     app.delete('/deleteTodoDataByName/:name', TodoController.deleteUserByName)

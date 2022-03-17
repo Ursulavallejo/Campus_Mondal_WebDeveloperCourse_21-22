@@ -20,10 +20,15 @@ const getUserByName = (name) => {
     return http.get(`/getUserByName/${name}`)
 }
 
+const changeTaskIsDone = (id) => {
+    return http.put(`/todoAreDone/${id}`)
+}
+
 export default {
     getAllTodos,
     createTodoData,
     updateDataByName,
     deleteDataByName,
     getUserByName,
+    changeTaskIsDone,
 }

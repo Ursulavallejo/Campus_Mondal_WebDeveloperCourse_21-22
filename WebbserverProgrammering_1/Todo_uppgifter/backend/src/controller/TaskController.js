@@ -1,4 +1,5 @@
 import TodoDatabase from "../data/todoDatabase.js";
+import todoDatabase from "../data/todoDatabase.js";
 
 
 const createTodo = (req,res) => {
@@ -142,6 +143,12 @@ const deleteUserByName = (req,res) => {
 
 }
 
+const toggleTaskDone = (req, res) => {
+    const id = Number(req.params.id)
+    todoDatabase[id].done = !todoDatabase[id].done
+    res.status(202).send(todoDatabase[id])
+}
+
 export default {
     createTodo,
     getAllTodos,
@@ -152,4 +159,5 @@ export default {
     updateDone,
     getTasksAreDone,
     getTasksArePending,
+    toggleTaskDone
 }

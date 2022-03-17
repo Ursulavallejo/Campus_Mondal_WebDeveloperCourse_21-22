@@ -12,6 +12,7 @@ const CardList = ({users}) => {
                               id={user.id}
                               name={user.name}
                               task={user.task}
+                              done={user.done}
                         />
                     )
                 })

@@ -75,8 +75,6 @@ const modifyTaskDone = (id, name , task) => {
     let object = `The task of "${ name }" is not longer on the list`
     TodoDatabase.forEach(todo => {
         if (name=== todo.name) {
-            todo.id = id
-            todo.task = task
             todo.done = true
             object = todo
             return todo

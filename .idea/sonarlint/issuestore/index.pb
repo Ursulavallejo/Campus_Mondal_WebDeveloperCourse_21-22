@@ -186,8 +186,6 @@ n
 z
 JWebbserverProgrammering_1/Todo_uppgifter/backend/src/routes/AliveRoutes.js,7\2\72553cae6ab0a12dc2f452a1978be205fceb8131
 y
-IWebbserverProgrammering_1/Todo_uppgifter/backend/src/routes/UserRoutes.js,0\6\06a4c82bac8300fc45092bc53dfda119f16cac99
-y
 IWebbserverProgrammering_1/Todo_uppgifter/backend/src/data/todoDataBase.js,8\9\89c755961a632079a638e5be89a5ec1ce31c645f
 Ç
 RWebbserverProgrammering_1/Todo_uppgifter/backend/src/controller/AliveController.js,9\8\98ec908be1ca140ce6b676415f9849a417936bc3
@@ -299,8 +297,6 @@ YWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/src/utils/styles/
 WWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/src/utils/api/TasksAPI.js,b\2\b2756c99a2784d4ef841b18872c3718101cb23e3
 î
 dWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/src/utils/api/services/TasksService.js,4\1\41409d0515a92bae91071675e6f0eaaa5c743ec5
-Å
-QWebbserverProgrammering_1/Todo_uppgifter/backend/src/controller/UserController.js,4\b\4b487bca369e3e224aa41496ecc99a7b8f249e94
 Ñ
 TWebbserverProgrammering_1/Todo_uppgifter/backend/src/configurations/configuration.js,4\e\4ee7aff710b49adecd6a41fe4717d92ed6e8a4c8
 n

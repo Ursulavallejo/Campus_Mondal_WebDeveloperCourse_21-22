@@ -1,8 +1,8 @@
 import TodoDatabase from "../data/todoDatabase.js";
-import todoDatabase from "../data/todoDatabase.js";
 
 
-const createTodo = (req,res) => {
+
+const createTodo = (req, res) => {
     const {task, name} = req.body
     if (name && task) {
         const newObject = {
@@ -17,7 +17,7 @@ const createTodo = (req,res) => {
 }
 
 
-const getAllTodos = (req,res) => {
+const getAllTodos = (req, res) => {
     res.status(200).send(TodoDatabase)
 }
 
@@ -31,7 +31,7 @@ const userNames = () => {
     return names
 }
 
-const getUserNames = (req,res) => {
+const getUserNames = (req, res) => {
     const responseFromDb = userNames()
     res.status(200).send(responseFromDb)
 }
@@ -47,14 +47,14 @@ const searchUserByName = (name) => {
     return object
 }
 
-const getUserByName = (req,res) => {
+const getUserByName = (req, res) => {
     const name = req.params.name
     const responseFromDb = searchUserByName(name)
     res.status(200).send(responseFromDb)
 }
 
 const modifyUserByName = (name, newName, task) => {
-    let object = `Could not find "${ name }" in database`
+    let object = `Could not find "${name}" in database`
     TodoDatabase.forEach(todo => {
         if (name === todo.name) {
             todo.name = newName
@@ -65,16 +65,16 @@ const modifyUserByName = (name, newName, task) => {
     })
     return object
 }
-const updateUserByName = (req,res) => {
-    const { name, newName, task } = req.body
+const updateUserByName = (req, res) => {
+    const {name, newName, task} = req.body
     const response = modifyUserByName(name, newName, task)
     res.status(202).send(response)
 }
 
-const modifyTaskDone = (id, name , task) => {
-    let object = `The task of "${ name }" is not longer on the list`
+const modifyTaskDone = (id, name) => {
+    let object = `The task of "${name}" is not longer on the list`
     TodoDatabase.forEach(todo => {
-        if (name=== todo.name) {
+        if (name === todo.name) {
             todo.done = true
             object = todo
             return todo
@@ -88,25 +88,25 @@ const taskIsDone = () => {
     const tasksDone = []
     TodoDatabase.forEach(todo => {
         if (todo.done === true)
-        tasksDone.push(todo)
+            tasksDone.push(todo)
     })
     return tasksDone
 }
 
-const getTasksAreDone = (req,res) => {
+const getTasksAreDone = (req, res) => {
     const responseFromDb = taskIsDone()
     res.status(200).send(responseFromDb)
 }
 
 
-const updateDone = (req,res) => {
-    const { id, name , task} = req.body
-    const response = modifyTaskDone(id, name , task)
+const updateDone = (req, res) => {
+    const {id, name} = req.body
+    const response = modifyTaskDone(id, name)
     res.status(202).send(response)
 }
 
 const taskIsPending = () => {
-    const tasksPending= []
+    const tasksPending = []
     TodoDatabase.forEach(todo => {
         if (todo.done === false)
             tasksPending.push(todo)
@@ -114,7 +114,7 @@ const taskIsPending = () => {
     return tasksPending
 }
 
-const getTasksArePending = (req,res) => {
+const getTasksArePending = (req, res) => {
     const responseFromDb = taskIsPending()
     res.status(200).send(responseFromDb)
 }
@@ -123,9 +123,9 @@ const removeUserByName = (name) => {
     let text = `User with name : "${name}"`
 
     for (let i = 0; i < TodoDatabase.length; i++) {
-        if(name === TodoDatabase[i].name){
+        if (name === TodoDatabase[i].name) {
             text += `was deleted from database!`
-            TodoDatabase.splice(i,1)
+            TodoDatabase.splice(i, 1)
             return text
         }
     }
@@ -133,7 +133,7 @@ const removeUserByName = (name) => {
     return text
 }
 
-const deleteUserByName = (req,res) => {
+const deleteUserByName = (req, res) => {
     const name = req.params.name
     const responseFromDB = removeUserByName(name)
 
@@ -143,8 +143,8 @@ const deleteUserByName = (req,res) => {
 
 const toggleTaskDone = (req, res) => {
     const id = Number(req.params.id)
-    todoDatabase[id].done = !todoDatabase[id].done
-    res.status(202).send(todoDatabase[id])
+    TodoDatabase[id].done = !TodoDatabase[id].done
+    res.status(202).send(TodoDatabase[id])
 }
 
 export default {

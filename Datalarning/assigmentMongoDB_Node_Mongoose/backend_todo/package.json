@@ -1,0 +1,34 @@
+{
+  "name": "backend_todo",
+  "version": "1.0.0",
+  "description": "Datalarning Uppgifter",
+  "main": "src/Server.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha 'tests/**'",
+    "start": "nodemon src/Server.js"
+  },
+  "keywords": [
+    "RestAPI",
+    "Express",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "Ursula Vallejo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "mongoose": "^6.2.9",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "eslint": "^8.12.0",
+    "mocha": "^9.2.2",
+    "nodemon": "^2.0.15"
+  }
+}

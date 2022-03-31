@@ -199,12 +199,6 @@ L
 Digital skapande_1/README.md,f\c\fc22cd933ea3ec3b572296a8ae50887bdaf48c81
 r
 BWebbutveckling_2/new-assigment/src/components/basket/BasketItem.js,9\b\9b60b5f3b868198ffed5e32638c068898d48cbd6
-z
-JWebbutveckling_2/new-assigment/src/components/basket/BasketItem.module.css,e\4\e4372c97a63d171cd942526c7ea9119b4cb36c39
-r
-BWebbutveckling_2/new-assigment/src/components/basket/BasketList.js,d\f\df1f73d38727bf988e55a778e6ea96cc82a41d0d
-n
->Webbutveckling_2/new-assigment/src/components/header/Header.js,5\9\592d0a07e60f2b45e8c155254e235e4714776039
 Œ
 \WebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/components/footer/Footer.js,e\4\e4c3dcc5f7aad17141cf553f364646cd00420ccd
 Œ
@@ -251,10 +245,6 @@ lWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/src/components/us
 ]WebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/src/components/header/Header.js,d\c\dc3d994d2762200aa422f21befb88a44fd07d958
 Ÿ
 oWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/src/components/user_crud/CreateAndGetTodoData.jsx,3\f\3fdb781605f87e1869162d5aa017443f17e32bc7
-v
-FWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/README.md,5\3\5351d723a7f7fdbd9a94be94eebbb81af7f083c7
-X
-(Webbutveckling_2/new-assigment/README.md,e\a\ea6a14648aef1a16b5bb8069633079145602f61c
 s
 CWebbserverProgrammering_1/Todo_uppgifter/backend/tests/Data.test.js,1\e\1ebb5b1724f3dd63dda6b7c6d414ed565002d9f8
 w
@@ -301,8 +291,6 @@ dWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/src/utils/api/ser
 TWebbserverProgrammering_1/Todo_uppgifter/backend/src/configurations/configuration.js,4\e\4ee7aff710b49adecd6a41fe4717d92ed6e8a4c8
 n
 >WebbserverProgrammering_1/Todo_uppgifter/backend/src/server.js,f\2\f2d6ff3617d9a872aba2d599839882c3d08058e6
-j
-:WebbserverProgrammering_1/Todo_uppgifter/backend/README.md,4\0\40b7affdf8c241d589d0a6c79f6e74f2abebbafb
 ¢
 rWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/components/user_crud/GetUserDataByName.module.css,3\c\3c3d0d9cc047a1227a7014724d5bd58aed580399
 ™
@@ -349,3 +337,5 @@ dWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/components/use
 nWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/components/user_crud/CreateAndGetTodoData.jsx,f\e\feeb183c31b45205effea60007e211ae8e89a69d
 ‰
 YWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/context/GlobalContext.js,4\0\40b0a8277d3c6a67bee72802b112b60a02fc2ed1
+z
+JWebbutveckling_2/new-assigment/src/components/basket/BasketItem.module.css,e\4\e4372c97a63d171cd942526c7ea9119b4cb36c39

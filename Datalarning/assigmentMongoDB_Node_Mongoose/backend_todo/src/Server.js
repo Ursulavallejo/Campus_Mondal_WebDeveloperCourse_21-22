@@ -6,13 +6,13 @@ import morgan from 'morgan'
 import middlewares from './middlewares/Middlewares.js'
 import Configuration from '../config/Configuration.js'
 import TaskRoutes from "./routes/Task.routes.js"
+import AliveRoute from "./routes/Alive.route.js"
 
 dotenv.config()
 const app = express()
 
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
-const port = process.env.PORT
 
 app.use(helmet())
 app.use(morgan('common'))
@@ -20,10 +20,11 @@ app.use(morgan('common'))
 app.get('/recipe', (req, res) => {
     res.send('Pancakes!')
 })
+AliveRoute.aliveRoute(app)
 
 TaskRoutes.routes(app)
-app.use(middlewares.notfound)
-app.use(middlewares.errorHandler)
+app.use(middlewares.notFound)
+app.use(middlewares.errorHandling)
 
 Configuration.connectToDatabase()
 Configuration.connectToPort(app)

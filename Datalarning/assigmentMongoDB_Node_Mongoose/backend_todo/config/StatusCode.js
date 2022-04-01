@@ -3,6 +3,8 @@
 // 2xx successful – the request was successfully received, understood, and accepted
 const OK = 200
 const CREATED = 201
+const ACCEPTED = 202
+
 // 3xx redirection – further action needs to be taken in order to complete the request
 
 // 4xx client error – the request contains bad syntax or cannot be fulfilled
@@ -18,6 +20,7 @@ const INTERNAL_SERVER_ERROR = 500
 export default {
     OK,
     CREATED,
+    ACCEPTED,
     BAD_REQUEST,
     UNAUTHORIZED,
     FORBIDDEN,

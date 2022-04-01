@@ -20,8 +20,8 @@ const getAllTasks = async (req, res) => {
     } catch (error){
         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({message: error.message})
     }
-
 }
+
 
 const getTaskWithId = async (req, res) =>{
     try {
@@ -81,11 +81,18 @@ const deleteTask = async (req,res) =>{
     }
 }
 
+const toggleTaskDone = (req, res) => {
+    const id = Number(req.params.id)
+    TaskModel[id].done = !TaskModel[id].done
+    res.status(StatusCode.ACCEPTED).send(TaskModel[id])
+}
+
 export default {
     createTask,
     getAllTasks,
     getTaskWithId,
     getTaskWithUsernameQuery,
     updateTask,
-    deleteTask
+    deleteTask,
+    toggleTaskDone
 }

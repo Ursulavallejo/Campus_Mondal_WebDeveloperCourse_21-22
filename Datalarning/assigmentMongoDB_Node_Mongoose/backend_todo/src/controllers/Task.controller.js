@@ -2,8 +2,8 @@ import TaskModel from "../models/Task.model.js"
 import StatusCode from "../../config/StatusCode.js"
 
 const createTask = async (req, res) => {
-    const user = new UserModel({
-        username: req.body.username, password: req.body.password
+    const user = new TaskModel({
+        task: req.body.task, username: req.body.username, done: req.body.done
     })
     try {
         const response = await user.save()
@@ -15,7 +15,7 @@ const createTask = async (req, res) => {
 
 const getAllTasksUsers = async (req, res) => {
     try{
-        const response = await UserModel.find()
+        const response = await TaskModel.find()
         res.status(StatusCode.OK).send(response)
     } catch (error){
         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({message: error.message})
@@ -25,7 +25,7 @@ const getAllTasksUsers = async (req, res) => {
 
 const getTaskWithId = async (req, res) =>{
     try {
-        const response = await UserModel.findById(req.params.userId)
+        const response = await TaskModel.findById(req.params.userId)
         res.status(StatusCode.OK).send(response)
     }catch (error){
         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
@@ -37,7 +37,7 @@ const getTaskWithId = async (req, res) =>{
 
 const getTaskWithUsernameQuery = async (req, res) =>{
     try{
-        const response = await UserModel.find({username: req.query.username})
+        const response = await TaskModel.find({username: req.query.username})
         response.length !== 0
             ? res.status(StatusCode.OK).send(response)
             : res.status(StatusCode.NOT_FOUND).send({message:'Could not find user with username: ' + req.query.username })
@@ -52,9 +52,10 @@ const getTaskWithUsernameQuery = async (req, res) =>{
 const updateTask = async (req,res)=> {
     try{
         if(!req.body){return res.status(StatusCode.BAD_REQUEST).send({message: 'cannot update empty values'})}
-        const response = await UserModel.findByIdAndUpdate(req.params.userId,{
+        const response = await TaskModel.findByIdAndUpdate(req.params.userId,{
+            task: req.body.task,
             username: req.body.username,
-            password: req.body.password
+            done: req.body.done
         },{new:true})
         res.status(StatusCode.OK).send(response)
     }catch (error) {
@@ -67,8 +68,8 @@ const updateTask = async (req,res)=> {
 
 const deleteTask = async (req,res) =>{
     try{
-        const response = await UserModel.findByIdAndDelete(req.params.userId)
-        await UserModel.findByIdAndDelete(req.params.userId)
+        const response = await TaskModel.findByIdAndDelete(req.params.userId)
+        await TaskModel.findByIdAndDelete(req.params.userId)
         res.status(StatusCode.OK).send({
             message: `Successfully deleted the USER with username: ${response.username}  and ID: ${req.params.userId}`
         })

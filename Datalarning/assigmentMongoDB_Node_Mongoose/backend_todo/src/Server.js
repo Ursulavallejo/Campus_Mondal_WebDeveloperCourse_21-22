@@ -3,9 +3,9 @@ import dotenv from 'dotenv'
 import helmet from "helmet"
 import morgan from 'morgan'
 
-import middlewares from './src/middlewares/Middlewares.js'
-import Configuration from "./config/Configuration.js"
-import TaskRoutes from "./src/routes/User.routes.js"
+import middlewares from './middlewares/Middlewares.js'
+import Configuration from '../config/Configuration.js'
+import TaskRoutes from "./routes/Task.routes.js"
 
 dotenv.config()
 const app = express()
@@ -17,11 +17,11 @@ const port = process.env.PORT
 app.use(helmet())
 app.use(morgan('common'))
 
-// app.get('/recipe', (req, res) => {
-//     res.send('Pancakes!')
-// })
+app.get('/recipe', (req, res) => {
+    res.send('Pancakes!')
+})
 
-UserRoutes.routes(app)
+TaskRoutes.routes(app)
 app.use(middlewares.notfound)
 app.use(middlewares.errorHandler)
 

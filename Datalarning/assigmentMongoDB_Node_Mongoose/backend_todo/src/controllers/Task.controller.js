@@ -13,7 +13,7 @@ const createTask = async (req, res) => {
     }
 }
 
-const getAllTasksUsers = async (req, res) => {
+const getAllTasks = async (req, res) => {
     try{
         const response = await TaskModel.find()
         res.status(StatusCode.OK).send(response)
@@ -83,7 +83,7 @@ const deleteTask = async (req,res) =>{
 
 export default {
     createTask,
-    getAllTasksUsers,
+    getAllTasks,
     getTaskWithId,
     getTaskWithUsernameQuery,
     updateTask,

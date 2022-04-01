@@ -5,7 +5,7 @@ import morgan from 'morgan'
 
 import middlewares from './src/middlewares/Middlewares.js'
 import Configuration from "./config/Configuration.js"
-import UserRoutes from "./src/routes/User.routes.js"
+import TaskRoutes from "./src/routes/User.routes.js"
 
 dotenv.config()
 const app = express()

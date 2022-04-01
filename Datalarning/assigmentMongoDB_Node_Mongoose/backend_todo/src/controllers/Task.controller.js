@@ -1,4 +1,4 @@
-import UserModel from "../models/User.model.js"
+import TaskModel from "../models/Task.model.js"
 import StatusCode from "../../config/StatusCode.js"
 
 const createTask = async (req, res) => {

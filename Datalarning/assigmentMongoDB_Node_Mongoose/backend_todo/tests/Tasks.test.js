@@ -64,7 +64,7 @@ const updateTask = () => {
     describe('Updating (PUT) a user in the database', () => {
         test('Expecting a user to be updated', (done) => {
             Chai.request(app)
-                .put(`/user/${userId}`)
+                .put(`/todo/${userId}`)
                 .send(todo)
                 .end((error, response) => {
                     response.should.have.a.status(StatusCode.OK)
@@ -83,7 +83,7 @@ const deleteTask = () => {
     describe('Deleting (DELETE) a user in the database', () => {
         test('Expecting a user to be deleted', (done) => {
             Chai.request(app)
-                .delete(`/user/${userId}`)
+                .delete(`/todo/${userId}`)
                 .end((error, response) => {
                     response.should.have.status(StatusCode.OK)
                     done()
@@ -91,9 +91,6 @@ const deleteTask = () => {
         })
     })
 }
-
-
-
 
 
 describe('TESTING THE USER_API ROUTE', () =>{

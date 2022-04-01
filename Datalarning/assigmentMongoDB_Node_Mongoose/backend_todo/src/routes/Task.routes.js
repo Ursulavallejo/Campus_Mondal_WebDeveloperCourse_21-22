@@ -13,7 +13,8 @@ const routes = (app) => {
 
 
     //UPDATE
-    app.put('/todo/:userId', TaskController.updateTask)
+    app.put('/todo/:userId', TaskController.updateTaskID)
+    app.put('/todo/updateTodoDataByName/', TaskController.updateTaskByName)
     app.put('/todoDone/:id', TaskController.toggleTaskDone)
 
     //DELETE

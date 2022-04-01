@@ -9,23 +9,15 @@ Chai.should()
 Chai.use(ChaiHTTP)
 
 const randomString = Math.random().toString(36).substring(7)
-const userId = '6246c69946a57c8f8225bf92' // Requires new unique ID every time you want to run this testsuite
+const userId = '6246c629d3c4ba6412ef0e31' // Requires new unique ID every time you want to run this testsuite
 const todo = {
     task: randomString,
     username: randomString,
 }
 
-const testingNonExistingRoute = ()=>{
-    describe('Testing a route that does not exist', ()=>{
-        test('Expecting 404 not found', (done)=>{
-            Chai.request(app)
-                .get(`/${randomString}`)
-                .end((request, response)=>{
-                    response.should.have.a.status(StatusCode.NOT_FOUND)
-                    done()
-                })
-        })
-    })
+const newUser = {
+    username: 'Magnus',
+    task: 'go shopping'
 }
 
 const createTask = () => {
@@ -33,12 +25,12 @@ const createTask = () => {
         test('Expecting a task to be created', (done) => {
             Chai.request(app)
                 .post('/todo')
-                .send(todo)
+                .send(newUser)
                 .end((error, response) => {
                     response.should.have.a.status(StatusCode.CREATED)
                     response.body.should.be.an('object')
-                    response.body.should.have.property('task').equal(todo.task)
-                    response.body.should.have.property('username').equal(todo.username)
+                    response.body.should.have.property('task').equal(newUser.task)
+                    response.body.should.have.property('username').equal(newUser.username)
                     done()
                 })
         })
@@ -60,8 +52,8 @@ const getAllTasks = () => {
     })
 }
 
-const updateTask = () => {
-    describe('Updating (PUT) a user in the database', () => {
+const updateTaskId = () => {
+    describe('Updating (PUT) a task in the database', () => {
         test('Expecting a user to be updated', (done) => {
             Chai.request(app)
                 .put(`/todo/${userId}`)
@@ -80,7 +72,7 @@ const updateTask = () => {
 }
 
 const deleteTask = () => {
-    describe('Deleting (DELETE) a user in the database', () => {
+    describe('Deleting (DELETE) a task in the database', () => {
         test('Expecting a user to be deleted', (done) => {
             Chai.request(app)
                 .delete(`/todo/${userId}`)
@@ -93,11 +85,9 @@ const deleteTask = () => {
 }
 
 
-describe('TESTING THE USER_API ROUTE', () =>{
-    testingNonExistingRoute()
+describe('TESTING THE TASK_API ROUTE', () =>{
     createTask()
     getAllTasks()
-    updateTask()
+    updateTaskId()
     deleteTask()
-
 })

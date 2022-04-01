@@ -49,7 +49,7 @@ const getTaskWithUsernameQuery = async (req, res) =>{
     }
 }
 
-const updateTask = async (req,res)=> {
+const updateTaskID = async (req,res)=> {
     try{
         if(!req.body){return res.status(StatusCode.BAD_REQUEST).send({message: 'cannot update empty values'})}
         const response = await TaskModel.findByIdAndUpdate(req.params.userId,{
@@ -61,6 +61,23 @@ const updateTask = async (req,res)=> {
     }catch (error) {
         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
             message: 'Error occurred while trying to update values of the user with ID : ' + req.params.userId,
+            error: error.message
+        })
+    }
+}
+
+const updateTaskByName = async (req,res)=> {
+    try{
+        if(!req.body){return res.status(StatusCode.BAD_REQUEST).send({message: 'cannot update empty values'})}
+        const response = await TaskModel.findOneAndUpdate({username: req.query.username},{
+            task: req.body.task,
+            username: req.body.username,
+            done: req.body.done
+        },{new:true})
+        res.status(StatusCode.OK).send(response)
+    }catch (error) {
+        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
+            message: 'Error occurred while trying to update values of the user with Username : ' + req.params.userId,
             error: error.message
         })
     }
@@ -82,7 +99,7 @@ const deleteTask = async (req,res) =>{
 }
 
 const toggleTaskDone = (req, res) => {
-    const id = Number(req.params.id)
+    const id = Number(req.params._id)
     TaskModel[id].done = !TaskModel[id].done
     res.status(StatusCode.ACCEPTED).send(TaskModel[id])
 }
@@ -92,7 +109,8 @@ export default {
     getAllTasks,
     getTaskWithId,
     getTaskWithUsernameQuery,
-    updateTask,
+    updateTaskID,
+    updateTaskByName,
     deleteTask,
     toggleTaskDone
 }

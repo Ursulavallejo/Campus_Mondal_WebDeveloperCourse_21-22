@@ -9,7 +9,7 @@ Chai.should()
 Chai.use(ChaiHTTP)
 
 const randomString = Math.random().toString(36).substring(7)
-const userId = '6246c629d3c4ba6412ef0e31' // Requires new unique ID every time you want to run this testsuite
+const userId = '6247006be9faf7069ba295d1' // Requires new unique ID every time you want to run this testsuite
 const todo = {
     task: randomString,
     username: randomString,

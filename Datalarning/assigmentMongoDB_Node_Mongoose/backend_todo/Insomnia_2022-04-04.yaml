@@ -1,0 +1,573 @@
+_type: export
+__export_format: 4
+__export_date: 2022-04-04T09:48:39.325Z
+__export_source: insomnia.desktop.app:v2022.2.1
+resources:
+  - _id: req_5594e98c6dd54266acae9d94466106a7
+    parentId: fld_3a4901a8f40f4bdd97e716a2194ed761
+    modified: 1648830310765
+    created: 1648829866320
+    url: http://localhost:3001/
+    name: API Alive
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1648829866320
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_3a4901a8f40f4bdd97e716a2194ed761
+    parentId: wrk_d058e666c5654789b671b15c1f4c3952
+    modified: 1648829872901
+    created: 1648829855940
+    name: API
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1000000050
+    _type: request_group
+  - _id: wrk_d058e666c5654789b671b15c1f4c3952
+    parentId: null
+    modified: 1648829411633
+    created: 1648829411633
+    name: Datalarning_Todo
+    description: ""
+    scope: design
+    _type: workspace
+  - _id: req_1ce95529400641b79a2407191c7dbac8
+    parentId: fld_3a4901a8f40f4bdd97e716a2194ed761
+    modified: 1648830305308
+    created: 1648829924298
+    url: http://localhost:3001/randomUrl
+    name: Wrong Path
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1648829866270
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_6c67c569488b436ea924dee99921eaa2
+    parentId: fld_791e2867ac5c4919b12052c3ab2287eb
+    modified: 1648829813851
+    created: 1648829813851
+    url: localhost:3001/searchtodo?username=Ursula
+    name: getTaskWithUsernameQuery
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1648633525873
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_791e2867ac5c4919b12052c3ab2287eb
+    parentId: wrk_d058e666c5654789b671b15c1f4c3952
+    modified: 1648829813838
+    created: 1648829813838
+    name: TASK
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -999999950
+    _type: request_group
+  - _id: req_43e7ee4e7d3c411195b163ebaeff80a0
+    parentId: fld_791e2867ac5c4919b12052c3ab2287eb
+    modified: 1648829813849
+    created: 1648829813849
+    url: localhost:3001/todo/6246c332131dfc093ab3192a
+    name: getTaskWithID
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1648632052056
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_8237c04091b944e786affa067b6223b6
+    parentId: fld_791e2867ac5c4919b12052c3ab2287eb
+    modified: 1648829813845
+    created: 1648829813845
+    url: localhost:3001/todo
+    name: getAllTask
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1648632052006
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_a1253ad7527a4947b3264f1d076015ec
+    parentId: fld_791e2867ac5c4919b12052c3ab2287eb
+    modified: 1648829813842
+    created: 1648829813842
+    url: localhost:3001/todo
+    name: createTask
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	      "task": "shopping",  
+        				"username": "Ursula",
+                "done": "false"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_5f97e5a2b14040818e4e95b63265ffd8
+    authentication: {}
+    metaSortKey: -1648630170968
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_7dfe83d1363a42c99e226605570705bc
+    parentId: fld_791e2867ac5c4919b12052c3ab2287eb
+    modified: 1648829813856
+    created: 1648829813856
+    url: localhost:3001/todo/6246c332131dfc093ab3192a
+    name: updateTaskByID
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        		"task": "Dansa",
+        	  "username": "Ursula",
+        	   "done": "true"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_16ccb55ec15c42fc908f5499c184623e
+    authentication: {}
+    metaSortKey: -1648630170918
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_9143529db9e24c42a22aefb80b1118de
+    parentId: fld_791e2867ac5c4919b12052c3ab2287eb
+    modified: 1648829813862
+    created: 1648829813862
+    url: localhost:3001/todo/updateTodoDataByName/
+    name: updateTaskByName
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	       "_id": "",
+        	      "username": "Ursula",
+        	      "newUserName": "Oliver",
+              	"task": "dansar",
+        	       "done": "false"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_16ccb55ec15c42fc908f5499c184623e
+    authentication: {}
+    metaSortKey: -1648630170893
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_09d8aea7001045639e94b5a0fc5ebfdc
+    parentId: fld_791e2867ac5c4919b12052c3ab2287eb
+    modified: 1648829813860
+    created: 1648829813860
+    url: localhost:3001/todo/6246b4186069f3f6c0a47905
+    name: deleteTask
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1648630170868
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_90b6c33efe364c9f8f7911f08ed3105b
+    parentId: wrk_d058e666c5654789b671b15c1f4c3952
+    modified: 1648830120972
+    created: 1648829451347
+    url: localhost:3001/todo
+    name: getAllTask
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -999999925
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e305f29f935b43fa9993fa9db9177939
+    parentId: wrk_d058e666c5654789b671b15c1f4c3952
+    modified: 1648830137120
+    created: 1648829451352
+    url: localhost:3001/searchtodo?username=Ursula
+    name: getTaskWithUsernameQuery
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -999999912.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_9883c532c27b4e5eb4e678ee6285a9e7
+    parentId: wrk_d058e666c5654789b671b15c1f4c3952
+    modified: 1649065459269
+    created: 1648829451344
+    url: localhost:3001/todo
+    name: createTask
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	      "task": "shopping2",  
+        				"username": "Ursula2",
+                "done": "false"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_5f97e5a2b14040818e4e95b63265ffd8
+    authentication: {}
+    metaSortKey: -999999900
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_46e924b6b94b40e5bd6d743fcb9f68bb
+    parentId: wrk_d058e666c5654789b671b15c1f4c3952
+    modified: 1649065486936
+    created: 1648829451354
+    url: localhost:3001/todo/624abdfeedaa522cfed97b7e
+    name: updateTaskByID
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        		"task": "Dansa",
+        	  "username": "Ursula",
+        	   "done": "true"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_16ccb55ec15c42fc908f5499c184623e
+    authentication: {}
+    metaSortKey: -999999875
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_95097401489e40d097caef5e442454ce
+    parentId: wrk_d058e666c5654789b671b15c1f4c3952
+    modified: 1648830179545
+    created: 1648829451358
+    url: localhost:3001/todo/updateTodoDataByName/
+    name: updateTaskByName
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	       "_id": "",
+        	      "username": "Ursula",
+        	      "newUserName": "Oliver",
+              	"task": "dansar",
+        	       "done": "false"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_16ccb55ec15c42fc908f5499c184623e
+    authentication: {}
+    metaSortKey: -999999850
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_8ff3f796ecca4483aa1ea0ec6e1b3190
+    parentId: wrk_d058e666c5654789b671b15c1f4c3952
+    modified: 1649065501489
+    created: 1648829451350
+    url: localhost:3001/todo/624abdfeedaa522cfed97b7e
+    name: getTaskWithID
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -999999800
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_fd3e97be75ad40f5857ec178bb1831f1
+    parentId: wrk_d058e666c5654789b671b15c1f4c3952
+    modified: 1649065508357
+    created: 1648829451356
+    url: localhost:3001/todo/624abdfeedaa522cfed97b7e
+    name: deleteTask
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -999999650
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_b8b1891cceba3b394bbaa571064382208eaea867
+    parentId: wrk_d058e666c5654789b671b15c1f4c3952
+    modified: 1648829411639
+    created: 1648829411639
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1648829411639
+    _type: environment
+  - _id: jar_b8b1891cceba3b394bbaa571064382208eaea867
+    parentId: wrk_d058e666c5654789b671b15c1f4c3952
+    modified: 1648829411641
+    created: 1648829411641
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_b2db3baf311b474385f3e67132568abd
+    parentId: wrk_d058e666c5654789b671b15c1f4c3952
+    modified: 1648829411634
+    created: 1648829411634
+    fileName: Datalarning_Todo
+    contents: ""
+    contentType: yaml
+    _type: api_spec
+  - _id: uts_16d79c3e1f8844a0ac02095706527159
+    parentId: wrk_d058e666c5654789b671b15c1f4c3952
+    modified: 1648829641784
+    created: 1648829641784
+    name: Alive functions
+    _type: unit_test_suite
+  - _id: uts_a076be69b4bd492dbcaeebf598ffe076
+    parentId: wrk_d058e666c5654789b671b15c1f4c3952
+    modified: 1648829658737
+    created: 1648829658737
+    name: Task functions
+    _type: unit_test_suite
+  - _id: ut_620c654d50754ece89b8a6300d707a30
+    parentId: uts_16d79c3e1f8844a0ac02095706527159
+    modified: 1648830268489
+    created: 1648829684227
+    requestId: req_5594e98c6dd54266acae9d94466106a7
+    name: Alive Returns 200
+    code: |-
+      const response1 = await insomnia.send();
+      expect(response1.status).to.equal(200);
+      expect(response1.data).to.equal('API is Alive!!')
+    _type: unit_test
+  - _id: ut_a1cb276156274c2d8c3de631a608f932
+    parentId: uts_16d79c3e1f8844a0ac02095706527159
+    modified: 1648830240900
+    created: 1648829698676
+    requestId: req_1ce95529400641b79a2407191c7dbac8
+    name: Alive Returns 404
+    code: |
+      const response1 = await insomnia.send();
+      expect(response1.status).to.equal(404);
+    _type: unit_test
+  - _id: ut_0d7c55b9a43a43d1ae3eb02c79bb9d2e
+    parentId: uts_a076be69b4bd492dbcaeebf598ffe076
+    modified: 1649062103377
+    created: 1649061883946
+    requestId: req_8237c04091b944e786affa067b6223b6
+    name: Get Tasks Returns 200
+    code: |-
+      const response1 = await insomnia.send();
+      expect(response1.status).to.equal(200);
+
+      const body = JSON.parse(response1.data);
+      expect(body).to.be.an('array');
+      expect(body.length).be.equal(body.length)
+      expect(body.length).to.not.equal(0)
+
+      const user = body[1]
+      expect(user).to.be.an('object');
+    _type: unit_test
+  - _id: ut_4966b7e15fb5424aac9b17ab36180a06
+    parentId: uts_a076be69b4bd492dbcaeebf598ffe076
+    modified: 1649064235976
+    created: 1649062181902
+    requestId: req_9883c532c27b4e5eb4e678ee6285a9e7
+    name: Create Task Returns 201
+    code: |+
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data);
+      const tasks = body[1]
+
+      expect(response1.status).to.equal(201);
+
+      expect(body).to.be.an('object');
+      expect(body.length).be.equal(body.length);
+
+    _type: unit_test
+  - _id: ut_8034f41bfaad49648d6f6f9bcfb59231
+    parentId: uts_a076be69b4bd492dbcaeebf598ffe076
+    modified: 1649064708067
+    created: 1649063118837
+    requestId: req_6c67c569488b436ea924dee99921eaa2
+    name: Get Task by UserNameQuerry -  Returns 200
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data);
+
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('array');
+    _type: unit_test
+  - _id: ut_87dace5aabee47dc8f1d8be163eaa903
+    parentId: uts_a076be69b4bd492dbcaeebf598ffe076
+    modified: 1649065073188
+    created: 1649063816527
+    requestId: req_46e924b6b94b40e5bd6d743fcb9f68bb
+    name: Update task by ID - Returns 200
+    code: |-
+      const response1 = await insomnia.send();
+      const body = JSON.parse(response1.data);
+
+      expect(response1.status).to.equal(200);
+
+      expect(body).to.be.an('object');
+      expect(body.username).to.equal(body.username);
+      expect(body.task).to.equal(body.task);
+    _type: unit_test
+  - _id: ut_0a9c540e6d0140aba3d9582d7e52f02a
+    parentId: uts_a076be69b4bd492dbcaeebf598ffe076
+    modified: 1649065360113
+    created: 1649064559726
+    requestId: req_fd3e97be75ad40f5857ec178bb1831f1
+    name: Delete Task by Id-  Returns 200
+    code: >-
+      const response1 = await insomnia.send();
+
+      const body = JSON.parse(response1.data);
+
+      expect(response1.status).to.equal(200);
+
+
+
+    _type: unit_test

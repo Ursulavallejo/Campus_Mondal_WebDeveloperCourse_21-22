@@ -24,7 +24,7 @@ AliveRoute.aliveRoute(app)
 
 TaskRoutes.routes(app)
 app.use(middlewares.notFound)
-app.use(middlewares.errorHandling)
+app.use(middlewares.errorHandler)
 
 Configuration.connectToDatabase()
 Configuration.connectToPort(app)

@@ -49,12 +49,10 @@ const errorHandler = (error, req, res, next) => {
     next()
 }
 
-const errorHandling = (app) => {
-    app.use(errorHandler)
-}
+
 
 export default {
     apply,
     notFound,
-    errorHandling
+    errorHandler
 }

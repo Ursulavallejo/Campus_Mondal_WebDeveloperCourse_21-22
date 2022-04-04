@@ -227,8 +227,6 @@ z
 JWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/src/index.js,1\8\181e1fc2167634a517d9baae47cbcf2e752533bb
 
 OWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/public/index.html,4\e\4ea88d41e057ba2662b1c52faec08b2807435924
-w
-GWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-simple/README.md,1\e\1e0c5db1c7182c63e13ac416b0f594fbdf78b844
 “
 cWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/utils/api/services/TasksService.js,7\8\78a44dc98af98b6b5d53419dbe55f28a258c1515
 ~
@@ -317,8 +315,6 @@ y
 IWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/index.js,0\6\06185f18e9878216ed3c5d016fa250cd503899e8
 ˜
 hWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/components/user_crud/DeleteTodoUser.jsx,8\8\88d097493e25c04f64481b525741ac7aa6be9e98
-b
-2WebbserverProgrammering_1/Todo_uppgifter/README.md,d\9\d932197bd0e355441db5cb99082f631283667dc3
 ¥
 uWebbserverProgrammering_1/Todo_uppgifter/todo-frontend-LogIn/src/components/user_crud/CreateAndGetTodoData.module.css,2\1\21a7cbbaa9d6e19a560d51cee217e1a2a2d3f6b0
 ¤

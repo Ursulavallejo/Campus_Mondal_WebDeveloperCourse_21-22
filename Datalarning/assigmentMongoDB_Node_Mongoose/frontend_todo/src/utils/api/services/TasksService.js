@@ -27,7 +27,7 @@ const getTaskWithUsernameQuery = (name) => {
     return http.get(`/searchtodo?username=${name}`)
 }
 
-const toggleTaskDone  = (_id) => {
+const changeTaskIsDone  = (_id) => {
     return http.put(`/todoDone/${_id}`)
 }
 
@@ -38,5 +38,5 @@ export default {
     deleteTask,
     getTaskWithId,
     getTaskWithUsernameQuery,
-    toggleTaskDone
+    changeTaskIsDone
 }

@@ -1,5 +1,6 @@
 import AliveService from "../utils/api/services/AliveService";
 import {useState} from "react";
+import { FaRev } from "react-icons/fa";
 
 const Alive = () => {
     const [data, setData] = useState('')
@@ -17,13 +18,12 @@ const Alive = () => {
 
 
     return (
-        <>
-            <button onClick={checkApiStatus}>
-                Check if API is ALIVE
+        <div className='tc mt4'>
+            <button className='f5 link dim dark-pink dib mr3 mr4-ns' onClick={checkApiStatus}>
+                API<FaRev className='dark-pink '/>
             </button>
-            <h3>{data}</h3>
-
-        </>
+            <h3 className='white-80 tc'>{data}</h3>
+        </div>
     );
 };
 

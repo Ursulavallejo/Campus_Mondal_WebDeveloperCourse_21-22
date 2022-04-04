@@ -9,12 +9,12 @@ const CreateAndGetTodoData = (props) => {
     const [task, setTask] = useState('')
 
     const sendDataToApi = () => {
-        const newUser = {
-            "username": name,
+        const newTask = {
+            "name": name,
             "task": task,
         }
 
-        TasksService.createTask(newUser)
+        TasksService.createTask(newTask)
             .then(response => {
                 setData(response.data)
             })
@@ -37,6 +37,7 @@ const CreateAndGetTodoData = (props) => {
     return (
         <>
             <input className={css.inputAdd} placeholder={'Person in charge?'}
+                   type="text"
                    value={name}
                    onChange={(event) => setName(event.target.value)}/>
             <input className={css.inputAdd} data-testid='textNeedDo'

@@ -3,7 +3,7 @@ import {useState} from "react";
 import TasksService from "../../utils/api/services/TasksService";
 
 
-const Card = ({ username, task, done, _id}) => {
+const Card = ({ name, task, done, _id}) => {
 
     const [isTaskDone, setIsTaskDone] = useState(done)
 
@@ -20,7 +20,7 @@ const Card = ({ username, task, done, _id}) => {
 
             <ul className={css.list}>
                 <li className={isTaskDone ? css.done : null} onClick={toggleDone}>
-                    <span  data-testid='textName' className={css.nameFont}>{username}</span>
+                    <span  data-testid='textName' className={css.nameFont}>{name}</span>
                     <span className={css.taskFont}>{task}</span>
                     <span className={css.taskFont}>{_id}</span>
                 </li>

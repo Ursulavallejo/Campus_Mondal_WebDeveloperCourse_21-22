@@ -10,7 +10,7 @@ const CardList = ({users}) => {
                     return (
                         <Card key={index}
                               _id={user._id}
-                              username={user.username}
+                              name={user.name}
                               task={user.task}
                               done={user.done}
                         />

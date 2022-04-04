@@ -26,7 +26,7 @@ const DeleteTodoUser = (props) => {
     return (
         <div className={`${css.dropdownContent} ${css.positionDelete}  ${css.show} ${css.dropdown}`}>
 
-            <input placeholder={'Name to delete? '} className={css.inputDelete}
+            <input placeholder={'ID to delete? '} className={css.inputDelete}
                    data-testid='dataInput' type="text"
                    value={name}
                    onChange={event => setName(event.target.value)}/>

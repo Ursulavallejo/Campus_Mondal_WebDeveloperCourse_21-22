@@ -3,10 +3,6 @@
 0Todo_uppgifter/backend/src/routes/AliveRoutes.js,a\3\a3d00ea2bcef45daa7832d4e3cbc9c3a9538adfa
 _
 /Todo_uppgifter/backend/src/data/todoDataBase.js,6\a\6acc068860ba3f0272c1eeeda77c8eb6df14b012
-p
-@Todo_uppgifter/todo-frontend-simple/src/components/card/Card.jsx,3\2\32de85ed50603a02efece6fa0eb2e93f322ce5d9
-z
-JTodo_uppgifter/todo-frontend-simple/src/utils/api/services/TasksService.js,e\b\eb8edfb4af569816077c81884b2853108e0cd522
 t
 DTodo_uppgifter/todo-frontend-simple/src/components/card/CardList.jsx,e\3\e364513cdce717e0fc8ce08899b552214c5043a9
 _
@@ -39,7 +35,3 @@ y
 ITodo_uppgifter/todo-frontend-LogIn/src/utils/api/services/AliveService.js,d\5\d507a8d6c78f55265a597a1c29d406e0fcedfed1
 e
 5Todo_uppgifter/todo-frontend-simple/public/index.html,3\5\35a12b61a0a6605cb442bb8f7a649bf01c406d64
-^
-.Todo_uppgifter/todo-frontend-simple/src/App.js,b\a\ba6e81b428e03c55f33be966063abfa1123fa578
-`
-0Todo_uppgifter/todo-frontend-simple/src/index.js,8\e\8e718a1504b7708dc77827c1df8239aaaf46be31

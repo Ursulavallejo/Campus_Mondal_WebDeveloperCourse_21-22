@@ -38,17 +38,17 @@ const TaskView = () => {
             </div>
             <div className={css.wrapperTodo}>
                 <div className='tc'>
-                    {/*<GetUserDataByName/>*/}
+                    <GetUserDataByName/>
                     <CreateAndGetTodoData/>
                 </div>
-                {/*<div className='tc'>*/}
-                {/*    <button onClick={showUpdate} className={css.btn}>Update User/Task</button>*/}
-                {/*    {ShowingUpdate && <UpdateUser onCloseUpdate={closeUpdateHandler}/>}*/}
-                {/*    <button className={css.btn}*/}
-                {/*            onClick={showDelete}>Delete Task*/}
-                {/*    </button>*/}
-                {/*    {ShowingDelete && <DeleteTodoUser onCloseDelete={closeDeleteHandler}/>}*/}
-                {/*</div>*/}
+                <div className='tc'>
+                    <button onClick={showUpdate} className={css.btn}>Update User/Task</button>
+                    {ShowingUpdate && <UpdateUser onCloseUpdate={closeUpdateHandler}/>}
+                    <button className={css.btn}
+                            onClick={showDelete}>Delete Task
+                    </button>
+                    {ShowingDelete && <DeleteTodoUser onCloseDelete={closeDeleteHandler}/>}
+                </div>
             </div>
             <Alive/>
         </>

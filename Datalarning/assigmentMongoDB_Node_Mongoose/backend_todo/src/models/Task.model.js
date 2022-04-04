@@ -3,7 +3,7 @@ import mongoose from "mongoose"
 const TaskSchema = mongoose.Schema(
     {
         task: String,
-        username: String,
+        name: String,
         done: false
     }, {timestamps: true}
 )

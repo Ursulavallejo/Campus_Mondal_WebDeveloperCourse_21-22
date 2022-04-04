@@ -1,8 +1,8 @@
 import css from './TaskView.module.css'
-import CreateAndGetTodoData from "../../components/user_crud/CreateAndGetTodoData";
-import GetUserDataByName from "../../components/user_crud/GetUserDataByName";
-import UpdateUser from "../../components/user_crud/UpdateUser";
-import DeleteTodoUser from "../../components/user_crud/DeleteTodoUser";
+import CreateAndGetTodoData from "../../components/task_crud/CreateAndGetTodoData";
+import GetUserDataByName from "../../components/task_crud/GetUserDataByName";
+import UpdateUser from "../../components/task_crud/UpdateUser";
+import DeleteTodoUser from "../../components/task_crud/DeleteTodoUser";
 import Alive from '../../components/Alive.jsx'
 import {useState} from "react";
 
@@ -38,17 +38,17 @@ const TaskView = () => {
             </div>
             <div className={css.wrapperTodo}>
                 <div className='tc'>
-                    <GetUserDataByName/>
+                    {/*<GetUserDataByName/>*/}
                     <CreateAndGetTodoData/>
                 </div>
-                <div className='tc'>
-                    <button onClick={showUpdate} className={css.btn}>Update User/Task</button>
-                    {ShowingUpdate && <UpdateUser onCloseUpdate={closeUpdateHandler}/>}
-                    <button className={css.btn}
-                            onClick={showDelete}>Delete Task
-                    </button>
-                    {ShowingDelete && <DeleteTodoUser onCloseDelete={closeDeleteHandler}/>}
-                </div>
+                {/*<div className='tc'>*/}
+                {/*    <button onClick={showUpdate} className={css.btn}>Update User/Task</button>*/}
+                {/*    {ShowingUpdate && <UpdateUser onCloseUpdate={closeUpdateHandler}/>}*/}
+                {/*    <button className={css.btn}*/}
+                {/*            onClick={showDelete}>Delete Task*/}
+                {/*    </button>*/}
+                {/*    {ShowingDelete && <DeleteTodoUser onCloseDelete={closeDeleteHandler}/>}*/}
+                {/*</div>*/}
             </div>
             <Alive/>
         </>

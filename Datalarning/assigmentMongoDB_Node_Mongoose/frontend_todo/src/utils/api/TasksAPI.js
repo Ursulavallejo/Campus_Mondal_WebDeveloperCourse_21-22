@@ -1,8 +1,13 @@
 import Axios from "axios";
 
 
+const hostUrl = 'http://localhost'
+const port = 3001
+
+const url = `${hostUrl}:${port}`
+
 const TasksAPI = Axios.create({
-    baseURL: 'http://localhost:3001'
+    baseURL: url
 })
 
 export default TasksAPI

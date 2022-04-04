@@ -1,19 +1,34 @@
 import http from '../TasksAPI'
 
+const taskTodoUrl = `/todo`
+const tasksTodoUrlById = `${taskTodoUrl}/:userId`
+
 const getAllTasks = () => {
-    return http.get('/todo')
+    return http.get(taskTodoUrl)
 }
 
-const createTask = (newUser) => {
-    return http.post('/todo',newUser)
+const createTask = (newName) => {
+    return http.post(taskTodoUrl,newName)
 }
 
-const updateTask = (changedUser) => {
-    return http.put('/todo/:userId',changedUser)
+const updateTask = (_id) => {
+    return http.put(tasksTodoUrlById)
 }
 
-const deleteTask = (userId) => {
-    return http.delete(`/todo/:userId`)
+const deleteTask = (_id) => {
+    return http.delete(tasksTodoUrlById)
+}
+
+const getTaskWithId = (_id) => {
+    return http.get(tasksTodoUrlById)
+}
+
+const getTaskWithUsernameQuery = (name) => {
+    return http.get(`/searchtodo?username=${name}`)
+}
+
+const toggleTaskDone  = (_id) => {
+    return http.put(`/todoDone/${_id}`)
 }
 
 export default {
@@ -21,4 +36,7 @@ export default {
     createTask,
     updateTask,
     deleteTask,
+    getTaskWithId,
+    getTaskWithUsernameQuery,
+    toggleTaskDone
 }

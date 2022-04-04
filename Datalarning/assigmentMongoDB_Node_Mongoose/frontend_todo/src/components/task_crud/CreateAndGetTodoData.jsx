@@ -10,11 +10,11 @@ const CreateAndGetTodoData = (props) => {
 
     const sendDataToApi = () => {
         const newUser = {
-            "name": name,
+            "username": name,
             "task": task,
         }
 
-        TasksService.createTodoData(newUser)
+        TasksService.createTask(newUser)
             .then(response => {
                 setData(response.data)
             })
@@ -23,7 +23,7 @@ const CreateAndGetTodoData = (props) => {
 
     // to have all the users together
     const fetchDataFromExternalApi = () => {
-        TasksService.getAllTodos()
+        TasksService.getAllTasks()
             .then(response => {
                 setData(response.data)
             })

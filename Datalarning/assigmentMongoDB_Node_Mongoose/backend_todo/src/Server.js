@@ -23,8 +23,10 @@ app.get('/recipe', (req, res) => {
 AliveRoute.aliveRoute(app)
 
 TaskRoutes.routes(app)
+app.use(middlewares.apply)
 app.use(middlewares.notFound)
 app.use(middlewares.errorHandler)
+
 
 Configuration.connectToDatabase()
 Configuration.connectToPort(app)

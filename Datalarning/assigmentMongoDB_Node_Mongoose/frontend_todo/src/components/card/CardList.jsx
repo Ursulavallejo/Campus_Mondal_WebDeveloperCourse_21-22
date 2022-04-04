@@ -9,8 +9,8 @@ const CardList = ({users}) => {
                 users.map((user, index) => {
                     return (
                         <Card key={index}
-                              id={user.id}
-                              name={user.name}
+                              _id={user._id}
+                              username={user.username}
                               task={user.task}
                               done={user.done}
                         />

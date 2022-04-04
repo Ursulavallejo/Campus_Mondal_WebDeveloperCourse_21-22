@@ -17,17 +17,10 @@ const cors_options = {
 
 // Create Middlewares
 
-const someBananMiddlewareFunction = (req, res, next) => {
-    console.log('Middleware function is running and printing "Banana" to console')
-    next()
-}
-
-
 const apply = (app) => {
     app.use(helmet())
     app.use(cors(cors_options))
     app.use(express.json())
-    app.use(someBananMiddlewareFunction)
     app.use(morgan('common'))
 }
 

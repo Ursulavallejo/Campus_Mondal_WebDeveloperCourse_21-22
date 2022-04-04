@@ -3,6 +3,7 @@ import {useState} from "react";
 
 const Alive = () => {
     const [data, setData] = useState('')
+
     const checkApiStatus = () => {
         AliveService.alive()
             .then(response => {
@@ -13,9 +14,10 @@ const Alive = () => {
 
     }
 
+
+
     return (
         <>
-            <h1>Alive</h1>
             <button onClick={checkApiStatus}>
                 Check if API is ALIVE
             </button>

@@ -1,28 +1,10 @@
 import dotenv from 'dotenv'
 import StatusCode from "../../config/StatusCode.js"
-import cors from 'cors'
-import express from "express"
-import helmet from "helmet"
-import morgan from 'morgan'
+
 
 dotenv.config()
-//Config stuff
-const allowedRequestOrigins = '*'
-const allowedRequestMethods = ['GET', 'POST', 'PUT', 'DELETE']
-
-const cors_options = {
-    origin: allowedRequestOrigins,
-    methods: allowedRequestMethods
-}
 
 // Create Middlewares
-
-const apply = (app) => {
-    app.use(helmet())
-    app.use(cors(cors_options))
-    app.use(express.json())
-    app.use(morgan('common'))
-}
 
 const notFound = (req, res, next) => {
     const error = new Error(`Sorry !! Not found "${req.originalUrl}"!`)
@@ -45,7 +27,6 @@ const errorHandler = (error, req, res, next) => {
 
 
 export default {
-    apply,
     notFound,
     errorHandler
 }

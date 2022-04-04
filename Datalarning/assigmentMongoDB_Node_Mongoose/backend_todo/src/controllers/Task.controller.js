@@ -72,25 +72,25 @@ const updateTaskID = async (req, res) => {
 
 
 /// check!!
-const updateTaskByName = async (req, res) => {
-    try {
-        if (!req.body) {
-            return res.status(StatusCode.BAD_REQUEST).send({message: 'cannot update empty values'})
-        }
-        const response = await TaskModel.findOneAndUpdate({name: req.query.name}, {
-            task: req.body.task,
-            name: req.body.name,
-            newName: req.body.name,
-            done: req.body.done
-        }, {new: true})
-        res.status(StatusCode.OK).send(response)
-    } catch (error) {
-        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
-            message: 'Error occurred while trying to update values of the user with Username : ' + req.params.userId,
-            error: error.message
-        })
-    }
-}
+// const updateTaskByName = async (req, res) => {
+//     try {
+//         if (!req.body) {
+//             return res.status(StatusCode.BAD_REQUEST).send({message: 'cannot update empty values'})
+//         }
+//         const response = await TaskModel.findOneAndUpdate({name: req.query.name}, {
+//             task: req.body.task,
+//             name: req.body.name,
+//             newName: req.body.name,
+//             done: req.body.done
+//         }, {new: true})
+//         res.status(StatusCode.OK).send(response)
+//     } catch (error) {
+//         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
+//             message: 'Error occurred while trying to update values of the user with Username : ' + req.params.userId,
+//             error: error.message
+//         })
+//     }
+// }
 
 const deleteTask = async (req, res) => {
     try {
@@ -119,7 +119,7 @@ export default {
     getTaskWithId,
     getTaskWithUsernameQuery,
     updateTaskID,
-    updateTaskByName,
+    // updateTaskByName,
     deleteTask,
     toggleTaskDone
 }

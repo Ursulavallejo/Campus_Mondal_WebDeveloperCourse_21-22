@@ -37,7 +37,8 @@ const getTaskWithId = async (req, res) => {
 
 const getTaskWithUsernameQuery = async (req, res) => {
     try {
-        const response = await TaskModel.find({name: req.query.name})
+        const response = await TaskModel.find({name: req.params.name})
+        console.log(req.params.name)
         response.length !== 0
             ? res.status(StatusCode.OK).send(response)
             : res.status(StatusCode.NOT_FOUND).send({message: 'Could not find user with username: ' + req.query.name})

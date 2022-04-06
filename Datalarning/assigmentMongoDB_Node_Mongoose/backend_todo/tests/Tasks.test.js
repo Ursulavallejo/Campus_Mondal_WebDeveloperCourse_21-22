@@ -9,14 +9,14 @@ Chai.should()
 Chai.use(ChaiHTTP)
 
 const randomString = Math.random().toString(36).substring(7)
-const userId = '6247006be9faf7069ba295d1' // Requires new unique ID every time you want to run this testsuite
+const userId = '624bff359f8be457e46759b7' // Requires new unique ID every time you want to run this testsuite
 const todo = {
     task: randomString,
-    username: randomString,
+    name: randomString,
 }
 
-const newUser = {
-    username: 'Magnus',
+const newTask = {
+    name: 'Magnus',
     task: 'go shopping'
 }
 
@@ -25,12 +25,12 @@ const createTask = () => {
         test('Expecting a task to be created', (done) => {
             Chai.request(app)
                 .post('/todo')
-                .send(newUser)
+                .send(newTask)
                 .end((error, response) => {
                     response.should.have.a.status(StatusCode.CREATED)
                     response.body.should.be.an('object')
-                    response.body.should.have.property('task').equal(newUser.task)
-                    response.body.should.have.property('username').equal(newUser.username)
+                    response.body.should.have.property('task').equal(newTask.task)
+                    response.body.should.have.property('name').equal(newTask.name)
                     done()
                 })
         })
@@ -63,7 +63,7 @@ const updateTaskId = () => {
                     response.body.should.be.an('object')
                     response.body.should.have.property('_id').equal(userId)
                     response.body.should.have.property('task').equal(todo.task)
-                    response.body.should.have.property('username').equal(todo.username)
+                    response.body.should.have.property('name').equal(todo.name)
                     done()
                 })
 

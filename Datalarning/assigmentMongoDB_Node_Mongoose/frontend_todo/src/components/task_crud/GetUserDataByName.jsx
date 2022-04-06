@@ -1,6 +1,6 @@
 import TasksService from "../../utils/api/services/TasksService";
 import {useState} from "react";
-import Card from "../card/Card";
+import CardList from "../card/CardList";
 import css from './GetUserDataByName.module.css'
 
 const GetUserDataByName = () => {
@@ -8,9 +8,10 @@ const GetUserDataByName = () => {
     const [name, setName] = useState('')
 
     const sendDataToApi = () => {
-        TasksService.getUserByName(name)
+        TasksService.getTaskWithUsernameQuery(name)
             .then(response => {
                 setData(response.data)
+                // console.log(response.data)
             })
             .catch(error => console.log(error))
     }
@@ -23,9 +24,7 @@ const GetUserDataByName = () => {
                    value={name}
                    onChange={event => setName(event.target.value)}/>
             <button className={css.btnSearch} onClick={sendDataToApi}>Search</button>
-            {data.name ? <Card name={data.name}
-                               task={data.task}/>
-                : <h3 className='white-80'>{data}</h3>}
+            <CardList users={data}/>
         </>
     )
 }

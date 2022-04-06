@@ -11,20 +11,20 @@ const createTask = (newName) => {
     return http.post(taskTodoUrl,newName)
 }
 
-const updateTask = (_id) => {
-    return http.put(tasksTodoUrlById)
+const updateTask = (_id, changedTask) => {
+    return http.put(`/todo/${_id}`, changedTask)
 }
 
 const deleteTask = (_id) => {
-    return http.delete(tasksTodoUrlById)
+    return http.delete(`/todo/${_id}`)
 }
 
 const getTaskWithId = (_id) => {
-    return http.get(tasksTodoUrlById)
+    return http.get(`/todo/${_id}`)
 }
 
 const getTaskWithUsernameQuery = (name) => {
-    return http.get(`/searchtodo?username=${name}`)
+    return http.get(`/tasksearch/${name}`)
 }
 
 const changeTaskIsDone  = (_id) => {

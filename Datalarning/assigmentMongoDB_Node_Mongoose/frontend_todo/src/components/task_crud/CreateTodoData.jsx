@@ -1,9 +1,9 @@
 import TasksService from "../../utils/api/services/TasksService";
 import {useState, useEffect} from "react";
-import CardList from "../card/CardList";
+import Card from "../card/Card";
 import css from './CreateAndGetTodoData.module.css'
 
-const CreateAndGetTodoData = (props) => {
+const CreateTodoData = () => {
     const [data, setData] = useState([])
     const [name, setName] = useState('')
     const [task, setTask] = useState('')
@@ -22,18 +22,6 @@ const CreateAndGetTodoData = (props) => {
             .catch(error => console.log(error))
     }
 
-    // to have all the users together
-    const fetchDataFromExternalApi = () => {
-        TasksService.getAllTasks()
-            .then(response => {
-                setData(response.data)
-            })
-            .catch(error => console.log(error))
-    }
-
-    useEffect(() => {
-        fetchDataFromExternalApi()
-    }, [])
 
     return (
         <>
@@ -47,9 +35,11 @@ const CreateAndGetTodoData = (props) => {
                    value={task}
                    onChange={(event )=> setTask(event.target.value)}/>
             <button className={css.btnAdd} data-testid='btnAddTest' onClick={sendDataToApi}>ADD</button>
-            <CardList users={data}/>
+            {data.name ? <Card name={data.name}
+                               task={data.task}/>
+                : ''}
         </>
     );
 };
 
-export default CreateAndGetTodoData;
+export default CreateTodoData;

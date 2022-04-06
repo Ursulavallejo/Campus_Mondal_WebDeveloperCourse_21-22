@@ -9,13 +9,13 @@ const routes = (app) => {
     //READ
     app.get('/todo', TaskController.getAllTasks)
     app.get('/todo/:userId', TaskController.getTaskWithId)
-    app.get('/searchtodo', TaskController.getTaskWithUsernameQuery )
+    app.get('/tasksearch/:name', TaskController.getTaskWithUsernameQuery)
 
 
     //UPDATE
     app.put('/todo/:userId', TaskController.updateTaskID)
     // app.put('/todo/updateTodoDataByName/', TaskController.updateTaskByName)
-    app.put('/todoDone/:_id', TaskController.toggleTaskDone)
+    app.put('/todoDone/:userId', TaskController.toggleTaskDone)
 
     //DELETE
     app.delete('/todo/:userId', TaskController.deleteTask)

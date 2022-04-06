@@ -23,6 +23,10 @@ const DeleteTaskData= () => {
             .catch(error => console.log(error))
     }
 
+    function refreshPage() {
+        window.location.reload();
+    }
+
     return (
         <div
             className={`${css.dropdownContent} ${css.positionDelete}  ${css.show} ${css.dropdown}`}
@@ -33,7 +37,12 @@ const DeleteTaskData= () => {
                    value={userId}
                    onChange={event => setUserId(event.target.value)}/>
             <div className={css.btnFlex}>
-                <button className={css.btn} onClick={sendDataToApi}>Delete user</button>
+                <button className={css.btn}
+                        onClick={() => {
+                            sendDataToApi()
+                            refreshPage()
+                        }}
+                >Delete user</button>
                 {/*<button className={css.btn} onClick={() => {*/}
                 {/*    cancelHandler()*/}
                 {/*    refreshPage()*/}

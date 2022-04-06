@@ -17,8 +17,8 @@ function App() {
             <GetAllTodosData/>
             <GetUserDataByName/>
             <GetTodoDataByID/>
-            <UpdateUser/>
-            {/*<DeleteTaskData/>*/}
+            {/*<UpdateUser/>*/}
+            <DeleteTaskData/>
             {/*<TaskView/>*/}
             <Footer/>
         </>

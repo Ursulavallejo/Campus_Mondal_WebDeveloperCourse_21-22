@@ -81,27 +81,6 @@ const updateTaskID = async (req, res) => {
 }
 
 
-/// check!!
-// const updateTaskByName = async (req, res) => {
-//     try {
-//         if (!req.body) {
-//             return res.status(StatusCode.BAD_REQUEST).send({message: 'cannot update empty values'})
-//         }
-//         const response = await TaskModel.findOneAndUpdate({name: req.query.name}, {
-//             task: req.body.task,
-//             name: req.body.name,
-//             newName: req.body.name,
-//             done: req.body.done
-//         }, {new: true})
-//         res.status(StatusCode.OK).send(response)
-//     } catch (error) {
-//         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
-//             message: 'Error occurred while trying to update values of the user with Username : ' + req.params.userId,
-//             error: error.message
-//         })
-//     }
-// }
-
 const deleteTask = async (req, res) => {
     try {
         const response = await TaskModel.findByIdAndDelete(req.params.userId)
@@ -110,17 +89,17 @@ const deleteTask = async (req, res) => {
             `Successfully deleted the USER with username: ${response.name}  and ID: ${req.params.userId}`
         )
     } catch (error) {
-        res.status(StatusCode.BAD_REQUEST).send({
+        res.status(StatusCode.NOT_FOUND).send({
             error: 'Error occurred while trying to delete user with the ID:' + req.params.userId,
 
         })
     }
 }
 
-const toggleTaskDone = (req, res) => {
-    const _id = Number(req.params.userId)
-    TaskModel[_id].done = !TaskModel[_id].done
-    res.status(StatusCode.ACCEPTED).send(TaskModel[_id])
+const toggleTaskIsDone = (req, res) => {
+    const id = Number(req.params.userId)
+    TaskModel[id].done = !TaskModel[id].done
+    res.status(StatusCode.ACCEPTED).send(TaskModel[id])
 }
 
 export default {
@@ -130,5 +109,5 @@ export default {
     getTaskWithUsernameQuery,
     updateTaskID,
     deleteTask,
-    toggleTaskDone
+    toggleTaskIsDone
 }

@@ -1,14 +1,10 @@
-import winston from 'winston'
+// not using it at the moment. if have time will implement it
+
+import winston from "winston"
 import dotenv from 'dotenv'
 
 dotenv.config()
-
-const level = () => {
-
-    const isDevelopment = 'development' === process.env.NODE_ENV
-
-    return isDevelopment ? 'debug' : 'warn'
-}
+const environment = process.env.ENVIRONMENT
 
 const levels = {
     error: 0,
@@ -32,9 +28,17 @@ const format = winston.format.combine(
     winston.format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss:ms' }),
     winston.format.colorize({ all: true }),
     winston.format.printf(
-        (info) => `${ info.timestamp } ${ info.level }: ${ info.message }`
+        (info) =>
+            `${ info.timestamp } ${ info.level }: ${ info.message }`
     )
 )
+
+const level = () => {
+    const devEnv = 'development'
+    const env = environment || devEnv
+    const isDevelopment = env === devEnv
+    return isDevelopment ? 'debug' : 'warn'
+}
 
 const transports = [
     new winston.transports.Console(),

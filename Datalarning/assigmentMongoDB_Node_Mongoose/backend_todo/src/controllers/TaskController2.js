@@ -1,23 +1,20 @@
 import TaskModel from "../models/Task.model.js"
 import StatusCode from "../../utils/StatusCode.js"
-// import dotenv from 'dotenv'
-//
-// const database = process.env.MONGODB_URL
+
 
 const createTask = async (req, res) => {
 
-    const {task, name, done} = req.body
-    if (task && name && done) {
+    const {task, name} = req.body
+    if (task && name ) {
         const newTask = {
             task: task,
             name: name,
             done: false
         }
 
-
         try {
-            const taskUser = new TaskModel(newTask)
-            const response = await taskUser.save()
+            const task = new TaskModel(newTask)
+            const response = await task.save()
             res.status(StatusCode.CREATED).send(response)
         } catch (error) {
             res.status(StatusCode.BAD_REQUEST).send({error: Error`Error creating new task`})
@@ -44,14 +41,14 @@ const getAllTasks = async (req, res) => {
 
 const getTaskWithId = async (req, res) => {
     try {
-        TaskModel.findById(req.params.id, (error, task) => {
+        TaskModel.findById(req.params.userId, (error, task) => {
             if (error) {
                 res.status(StatusCode.BAD_REQUEST).send({
                     error: `Error getting task if`
                 })
             } else {
                 res.status(StatusCode.OK).send(task ? task : {
-                    message: `Task with id: ${req.params.id} not found`
+                    message: `Task with id: ${req.params.userId} not found`
                 })
             }
         })
@@ -89,16 +86,16 @@ const updateTaskID = async (req, res) => {
             task: req.body.task,
             name: req.body.name
         }
-        TaskModel.findByIdAndUpdate(req.params.id, updatedTask, {new: true}, (error, task) => {
+        TaskModel.findByIdAndUpdate(req.params.userId, updatedTask, {new: true}, (error, task) => {
             if (error) {
 
                 res.status(StatusCode.BAD_REQUEST).send([{
-                    error: `Could not find task with id: ${req.params.id}`
+                    error: `Could not find task with id: ${req.params.userId}`
                 }])
             } else {
 
                 res.status(StatusCode.OK).send(task ? task : {
-                    message: `Task with id: ${req.params.id} not found`
+                    message: `Task with id: ${req.params.userId} not found`
                 })
             }
         })
@@ -113,7 +110,7 @@ const updateTaskID = async (req, res) => {
 const deleteTask = async (req, res) => {
 
     try {
-        TaskModel.findByIdAndRemove(req.params.id, (error, task) => {
+        TaskModel.findByIdAndRemove(req.params.userId, (error, task) => {
             if (error) {
                 res.status(StatusCode.BAD_REQUEST).send({
                     error: `Error deleting task`
@@ -122,10 +119,10 @@ const deleteTask = async (req, res) => {
                 res.status(StatusCode.OK).send(
                     task ?
                         {
-                            message: `Task with id: ${req.params.id} was deleted from database`
+                            message: `Task with id: ${req.params.userId} was deleted from database`
                         } :
                         {
-                            message: `Task with id: "${req.params.id}" not found`
+                            message: `Task with id: "${req.params.userId}" not found`
                         })
             }
         })
@@ -136,25 +133,30 @@ const deleteTask = async (req, res) => {
     }
 }
 
-// const toggleTaskDone = (req, res) => {
-//
-//     try {
-//         TaskModel.findByIdAndUpdate(req.params.id, (error, task) => {
-//             if (error) {
-//                 res.status(StatusCode.BAD_REQUEST).send({
-//                     error: `Error changing done`
-//                 })
-//             } else {
-//                 TaskModel[req.params.id].done = !TaskModel[req.params.id].done
-//                 res.status(StatusCode.OK).send(TaskModel[req.params.id].done)
-//             }
-//         })
-//     } catch (error) {
-//         res.status(StatusCode.BAD_REQUEST).send({
-//             error: `Error deleting task`
-//         })
-//     }
-// }
+
+// is not working!! Not sure how implemented with MOngo. On the project with the database in backend worked the one below this function that is commented.
+const toggleTaskIsDone  = (req, res) => {
+
+    try {
+        TaskModel.findByIdAndUpdate(req.params.userId, (error, task) => {
+            if (error) {
+                res.status(StatusCode.BAD_REQUEST).send({
+                    error: `Error changing done`
+                })
+            } else {
+                TaskModel[req.params.userId].done = !TaskModel[req.params.userId].done
+                res.status(StatusCode.OK).send(TaskModel[req.params.userId].done)
+            }
+        })
+    } catch (error) {
+        res.status(StatusCode.BAD_REQUEST).send({
+            error: `Error deleting task`
+        })
+    }
+}
+
+
+// with a data base this one worked but not with Mongo!!!
 
 // const toggleTaskDone = (req, res) => {
 //     const _id = Number(req.params.id)
@@ -169,5 +171,5 @@ export default {
     getTaskWithUsernameQuery,
     updateTaskID,
     deleteTask,
-    // toggleTaskDone
+    toggleTaskIsDone
 }

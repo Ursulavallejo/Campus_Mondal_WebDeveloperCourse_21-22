@@ -14,24 +14,24 @@ const app = express()
 
 ApplyMiddlewares(app)
 
+app.use(helmet())
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 
-app.use(helmet())
 app.use(morgan('common'))
 
 app.get('/recipe', (req, res) => {
     res.send('Pancakes!')
 })
-AliveRoute.aliveRoute(app)
 
+AliveRoute.aliveRoute(app)
 TaskRoutes.routes(app)
 
 app.use(middlewares.notFound)
 app.use(middlewares.errorHandler)
 
 Configuration.connectToPort(app)
-Configuration.connectToDatabase()
+Configuration.connectToDatabase(app)
 
 
 export default app

@@ -19,9 +19,10 @@ const DeleteTaskData= (props) => {
             .then(response => {
                 setData(response.data)
             })
-            .catch(error => console.log(error))
+            .catch(error =>{
+                setData(error.response.data.message)
+            })
     }
-
 
     return (
         <div
@@ -34,9 +35,7 @@ const DeleteTaskData= (props) => {
                    onChange={event => setUserId(event.target.value)}/>
             <div className={css.btnFlex}>
                 <button className={css.btn}
-                        onClick={() => {
-                            sendDataToApi()
-                        }}
+                        onClick={sendDataToApi}
                 >Delete user</button>
                 <button className={css.btn} onClick={() => {
                     cancelHandler()

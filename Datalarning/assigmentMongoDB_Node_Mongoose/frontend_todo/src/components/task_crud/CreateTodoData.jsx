@@ -1,10 +1,10 @@
 import TasksService from "../../utils/api/services/TasksService";
-import {useState, useEffect} from "react";
+import {useState} from "react";
 import Card from "../card/Card";
 import css from './CreateAndGetTodoData.module.css'
 
 const CreateTodoData = () => {
-    const [data, setData] = useState([])
+    const [data, setData] = useState({})
     const [name, setName] = useState('')
     const [task, setTask] = useState('')
 

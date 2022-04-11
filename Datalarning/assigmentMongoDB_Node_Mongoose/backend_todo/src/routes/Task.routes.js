@@ -1,5 +1,8 @@
- import TaskController from "../controllers/Task.controller.js";
-// import TaskController from "../controllers/TaskController2.js";
+
+// Have tried two different model of task Controller to see if i get the message on my front end.
+
+import TaskController from "../controllers/Task.controller.js";
+ // import TaskController from "../controllers/TaskController2.js";
 
 
 // Endpoint + Business Logic and CRUD Operations
@@ -15,7 +18,7 @@ const routes = (app) => {
 
     //UPDATE
     app.put('/todo/:userId', TaskController.updateTaskID)
-    app.put('/todoDone/:userId', TaskController.toggleTaskDone)
+    app.put('/todoDone/:userId', TaskController.toggleTaskIsDone)
 
     //DELETE
     app.delete('/todo/:userId', TaskController.deleteTask)

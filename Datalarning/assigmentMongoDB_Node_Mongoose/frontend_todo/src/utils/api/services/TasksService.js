@@ -1,7 +1,7 @@
 import http from '../TasksAPI'
 
 const taskTodoUrl = `/todo`
-const tasksTodoUrlById = `${taskTodoUrl}/:userId`
+
 
 const getAllTasks = () => {
     return http.get(taskTodoUrl)
@@ -27,7 +27,7 @@ const getTaskWithUsernameQuery = (name) => {
     return http.get(`/tasksearch/${name}`)
 }
 
-const changeTaskIsDone  = (_id) => {
+const toggleTaskIsDone  = (_id) => {
     return http.put(`/todoDone/${_id}`)
 }
 
@@ -38,5 +38,5 @@ export default {
     deleteTask,
     getTaskWithId,
     getTaskWithUsernameQuery,
-    changeTaskIsDone
+    toggleTaskIsDone
 }

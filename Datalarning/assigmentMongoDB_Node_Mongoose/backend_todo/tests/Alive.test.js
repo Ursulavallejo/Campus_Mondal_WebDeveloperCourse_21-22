@@ -2,7 +2,7 @@ import Chai from 'chai'
 import ChaiHTTP from 'chai-http'
 import {describe, it as test, it} from 'mocha'
 import app from '../src/server.js'
-import StatusCode from "../config/StatusCode.js";
+import StatusCode from "../utils/StatusCode.js";
 
 Chai.should()
 Chai.use(ChaiHTTP)

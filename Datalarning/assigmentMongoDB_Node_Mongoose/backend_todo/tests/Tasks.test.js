@@ -2,14 +2,14 @@ import Chai from 'chai'
 import ChaiHTTP from 'chai-http'
 import {describe, it as test} from 'mocha'
 import app from '../src/Server.js'
-import StatusCode from "../config/StatusCode.js";
+import StatusCode from "../utils/StatusCode.js";
 
 
 Chai.should()
 Chai.use(ChaiHTTP)
 
 const randomString = Math.random().toString(36).substring(7)
-const userId = '624bff359f8be457e46759b7' // Requires new unique ID every time you want to run this testsuite
+const userId = '6253f561a871c7556dc6cdde' // Requires new unique ID every time you want to run this testsuite
 const todo = {
     task: randomString,
     name: randomString,

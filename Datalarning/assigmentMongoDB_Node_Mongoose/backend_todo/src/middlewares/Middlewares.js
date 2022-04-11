@@ -1,5 +1,5 @@
 import dotenv from 'dotenv'
-import StatusCode from "../../config/StatusCode.js"
+import StatusCode from "../../utils/StatusCode.js"
 
 
 dotenv.config()

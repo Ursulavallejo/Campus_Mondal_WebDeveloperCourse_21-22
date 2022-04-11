@@ -40,7 +40,7 @@ const DeleteTaskData= () => {
                 <button className={css.btn}
                         onClick={() => {
                             sendDataToApi()
-                            refreshPage()
+                            // refreshPage()
                         }}
                 >Delete user</button>
                 {/*<button className={css.btn} onClick={() => {*/}

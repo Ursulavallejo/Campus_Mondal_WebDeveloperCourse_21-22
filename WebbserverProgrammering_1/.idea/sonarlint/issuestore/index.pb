@@ -45,3 +45,9 @@ l
 <Todo_uppgifter/todo-frontend-simple/src/components/Alive.jsx,9\1\9164ccd1dfb00254d410dd879fd765414dc0aab9
 m
 =Todo_uppgifter/todo-frontend-simple/src/utils/api/TasksAPI.js,2\f\2f02cca1fbb47242fb9e1d7930a7ad84a23bf123
+z
+JTodo_uppgifter/todo-frontend-simple/src/utils/api/services/TasksService.js,e\b\eb8edfb4af569816077c81884b2853108e0cd522
+j
+:Todo_uppgifter/backend/src/configurations/configuration.js,4\4\44cd653003ce1f77652c9db1f1dfee2efb863f13
+g
+7Todo_uppgifter/backend/src/controller/TaskController.js,f\0\f018a1d8526fe069a03e4083023978b8c0cd2148

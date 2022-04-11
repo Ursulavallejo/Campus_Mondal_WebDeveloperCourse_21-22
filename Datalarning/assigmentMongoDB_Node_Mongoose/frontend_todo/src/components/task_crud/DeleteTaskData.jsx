@@ -3,17 +3,16 @@ import {useState} from "react";
 import css from "./UpdateAndDeleteUser.module.css";
 
 
-const DeleteTaskData= () => {
+const DeleteTaskData= (props) => {
     const [data, setData] = useState('')
     const [userId, setUserId] = useState('')
 
-    // function cancelHandler() {
-    //     props.onCloseDelete();
-    // }
-    //
-    // function refreshPage() {
-    //     window.location.reload();
-    // }
+    function cancelHandler() {
+        props.onCloseDelete();
+    }
+    function refreshPage() {
+        window.location.reload();
+    }
 
     const sendDataToApi = () => {
         TasksService.deleteTask(userId)
@@ -23,9 +22,6 @@ const DeleteTaskData= () => {
             .catch(error => console.log(error))
     }
 
-    function refreshPage() {
-        window.location.reload();
-    }
 
     return (
         <div
@@ -40,14 +36,13 @@ const DeleteTaskData= () => {
                 <button className={css.btn}
                         onClick={() => {
                             sendDataToApi()
-                            // refreshPage()
                         }}
                 >Delete user</button>
-                {/*<button className={css.btn} onClick={() => {*/}
-                {/*    cancelHandler()*/}
-                {/*    refreshPage()*/}
-                {/*}}>Close*/}
-                {/*</button>*/}
+                <button className={css.btn} onClick={() => {
+                    cancelHandler()
+                    refreshPage()
+                }}>Close
+                </button>
             </div>
             <h4 > {data} </h4>
         </div>

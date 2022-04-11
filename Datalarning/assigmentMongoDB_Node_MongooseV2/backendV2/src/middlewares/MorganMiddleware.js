@@ -1,5 +1,5 @@
 import morgan from 'morgan'
-import Logger from '../utils/Logger.js'
+import Logger from '../../utils/Logger.js'
 import dotenv from 'dotenv'
 
 dotenv.config()

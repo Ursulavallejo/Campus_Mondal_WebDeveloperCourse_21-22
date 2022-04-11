@@ -1,7 +1,7 @@
 // import userDatabase from '../data/userDatabase.js' - deprecated
-import Logger from '../utils/Logger.js'
+import Logger from '../../utils/Logger.js'
 import UserModel from '../models/UserModel.js'
-import StatusCode from '../utils/StatusCode.js'
+import StatusCode from '../../utils/StatusCode.js'
 
 // Make function asynchronus
 const createUser = async (req, res) => {

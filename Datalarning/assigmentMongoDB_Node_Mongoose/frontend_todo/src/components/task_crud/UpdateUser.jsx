@@ -4,12 +4,20 @@ import {useState} from "react";
 import Card from "../card/Card";
 import css from './UpdateAndDeleteUser.module.css'
 
-const UpdateUser = () => {
+const UpdateUser = (props) => {
     const [data, setData] = useState([])
     const [userId, setUserId] = useState('')
     const [name, setName] = useState('')
     const [task, setTask] = useState('')
 
+    function cancelHandler() {
+        props.onCloseUpdate();
+    }
+
+
+    function refreshPage() {
+        window.location.reload();
+    }
 
 
     const sendDataToApi = () => {
@@ -30,7 +38,7 @@ const UpdateUser = () => {
         <div className={`${css.dropdownContent} ${css.positionUpdate}  ${css.show} ${css.dropdown}`}>
             <div className={css.gridContainer}>
                 <input className={css.layoutInput} type='text'
-                           placeholder={'ID:'}
+                           placeholder={'ID user to update:'}
                            value={userId}
                            onChange={event => setUserId(event.target.value)}/>
                 <input data-testid='input'
@@ -46,17 +54,17 @@ const UpdateUser = () => {
             </div>
             <div className={css.btnFlex}>
                 <button data-testid='updateBtn' className={css.btn} onClick={sendDataToApi}>Update new user</button>
-                {/*<button className={css.btn} onClick={() => {*/}
-                {/*    cancelHandler()*/}
-                {/*    refreshPage()*/}
-                {/*}}>Close*/}
-                {/*</button>*/}
+                <button className={css.btn} onClick={() => {
+                    cancelHandler()
+                    refreshPage()
+                }}>Close
+                </button>
             </div>
 
             {data.name ? <Card
                     name={data.name}
                     task={data.task}
-                    _id={data._id}
+                    // _id={data._id}
                 />
                 : <h4 data-testid='dbResponse'>{data}</h4>}
         </div>

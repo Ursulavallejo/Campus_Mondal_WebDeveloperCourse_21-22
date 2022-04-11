@@ -1,10 +1,12 @@
 import css from './TaskView.module.css'
-import CreateAndGetTodoData from "../../components/task_crud/CreateAndGetTodoData";
 import GetUserDataByName from "../../components/task_crud/GetUserDataByName";
 import UpdateUser from "../../components/task_crud/UpdateUser";
-import DeleteTodoUser from "../../components/task_crud/DeleteTodoUser";
 import Alive from '../../components/Alive.jsx'
 import {useState} from "react";
+import CreateTodoData from "../../components/task_crud/CreateTodoData";
+import GetAllTodosData from "../../components/task_crud/GetAllTodosData";
+import DeleteTaskData from "../../components/task_crud/DeleteTaskData";
+import GetTodoDataByID from "../../components/task_crud/GetTodoDataByID";
 
 
 const TaskView = () => {
@@ -38,8 +40,14 @@ const TaskView = () => {
             </div>
             <div className={css.wrapperTodo}>
                 <div className='tc'>
+
                     <GetUserDataByName/>
-                    <CreateAndGetTodoData/>
+                   <CreateTodoData/>
+                </div>
+                <div className='tc '>
+                    <span className='white-80'>After create user click update to see the complete list   </span>
+                    <GetAllTodosData/>
+                    <GetTodoDataByID/>
                 </div>
                 <div className='tc'>
                     <button onClick={showUpdate} className={css.btn}>Update User/Task</button>
@@ -47,7 +55,7 @@ const TaskView = () => {
                     <button className={css.btn}
                             onClick={showDelete}>Delete Task
                     </button>
-                    {ShowingDelete && <DeleteTodoUser onCloseDelete={closeDeleteHandler}/>}
+                    {ShowingDelete && <DeleteTaskData onCloseDelete={closeDeleteHandler}/>}
                 </div>
             </div>
             <Alive/>

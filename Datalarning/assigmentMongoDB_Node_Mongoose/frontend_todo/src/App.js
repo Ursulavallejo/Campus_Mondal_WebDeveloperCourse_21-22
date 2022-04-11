@@ -13,13 +13,7 @@ function App() {
     return (
         <>
             <Header/>
-            <CreateTodoData/>
-            <GetAllTodosData/>
-            <GetUserDataByName/>
-            <GetTodoDataByID/>
-            {/*<UpdateUser/>*/}
-            <DeleteTaskData/>
-            {/*<TaskView/>*/}
+            <TaskView/>
             <Footer/>
         </>
     );

@@ -1,11 +1,11 @@
 
 import { render } from '@testing-library/react';
-import CreateAndGetTodoData from "../task_crud/CreateAndGetTodoData";
+import CreateTodoData from "../task_crud/CreateTodoData";
 
 let getByTestId
 
 beforeEach(() =>{
-    const component = render(<CreateAndGetTodoData/>)
+    const component = render(<CreateTodoData/>)
     getByTestId = component.getByTestId
 })
 

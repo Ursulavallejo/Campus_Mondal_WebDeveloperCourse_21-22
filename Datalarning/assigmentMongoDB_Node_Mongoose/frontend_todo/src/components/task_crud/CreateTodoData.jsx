@@ -24,7 +24,7 @@ const CreateTodoData = () => {
 
 
     return (
-        <>
+        <div className={css.wrapper}>
             <input className={css.inputAdd} placeholder={'Person in charge?'}
                    type="text"
                    value={name}
@@ -38,7 +38,7 @@ const CreateTodoData = () => {
             {data.name ? <Card name={data.name}
                                task={data.task}/>
                 : ''}
-        </>
+        </div>
     );
 };
 

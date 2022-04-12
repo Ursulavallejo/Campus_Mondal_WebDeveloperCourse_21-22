@@ -10,8 +10,8 @@ const GetUserDataByName = () => {
     const sendDataToApi = () => {
         TasksService.getTaskWithUsernameQuery(name)
             .then(response => {
-                setData(response.data)
-                // console.log(response.data)
+              setData(response.data)
+             console.log(response.data)
             })
             .catch(error => console.log(error))
     }
@@ -24,7 +24,9 @@ const GetUserDataByName = () => {
                    value={name}
                    onChange={event => setName(event.target.value)}/>
             <button className={css.btnSearch} onClick={sendDataToApi}>Search</button>
-            <CardList users={data}/>
+            {data.length > 0 && data[0].message ?
+            <CardList users={data}/>:
+                {data[0].message ? data.message : '' }  }
         </>
     )
 }

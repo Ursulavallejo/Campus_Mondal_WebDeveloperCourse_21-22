@@ -377,8 +377,6 @@ TDatalarning/assigmentMongoDB_Node_Mongoose/frontend_todo/src/utils/styles/globa
 XDatalarning/assigmentMongoDB_Node_Mongoose/frontend_todo/src/components/header/Header.js,6\d\6db57b21ebade8f4511826c3af4b31ca09186311
 è
 _Datalarning/assigmentMongoDB_Node_Mongoose/frontend_todo/src/utils/api/services/AliveService.js,7\5\75fd1cff3396ca7e74fa806d2ae1f9bc41003794
-ï
-eDatalarning/assigmentMongoDB_Node_Mongoose/frontend_todo/src/components/task_crud/GetTodoDataByID.jsx,6\7\6758fa4d9151ecaee94969ae579a0b29e6d1f955
 {
 KDatalarning/assigmentMongoDB_Node_Mongoose/backend_todo/tests/Tasks.test.js,9\b\9b5aa4f528499674fab10351bb7e46f9cd31bca3
 {
@@ -409,8 +407,6 @@ z
 JDatalarning/assigmentMongoDB_Node_MongooseV2/backendV2/tests/Alive.test.js,8\c\8cf997b810599073644a1d223f8fa645ab8eea6a
 s
 CDatalarning/assigmentMongoDB_Node_MongooseV2/backendV2/package.json,f\9\f92bd505d1d03629e58eab2cc511a2d728407bcf
-q
-ADatalarning/assigmentMongoDB_Node_Mongoose/backend_todo/README.md,7\5\75d5afac86e336589b6700cabf24ea968261108c
 z
 JDatalarning/assigmentMongoDB_Node_MongooseV2/backendV2/tests/Users.test.js,8\5\85ab9ea84cd44ac15f544f82735f8f77c66b9d65
 â
@@ -473,3 +469,17 @@ w
 GDatalarning/assigmentMongoDB_Node_Mongoose/backend_todo/utils/Logger.js,3\3\338213c486e688e44ed51c537c464fee735d0296
 k
 ;Datalarning/assigmentMongoDB_Node_MongooseV2/backendV2/.env,1\0\10f1bcaa07e8adfd89bf56ea39f38882be28a909
+ä
+ZDatalarning/assigmentMongoDB_Node_Mongoose/backend_todo/src/controllers/TaskController2.js,8\9\894ee0bf1259473856850ce824843af0a9765589
+Å
+QDatalarning/assigmentMongoDB_Node_Mongoose/backend_todo/src/routes/Task.routes.js,0\7\077a9c256f216a330f58a55fccae5aec23dd9a96
+â
+YDatalarning/assigmentMongoDB_Node_Mongoose/frontend_todo/src/components/card/CardList.jsx,0\c\0c0bde6d8be6505c70ed8b2b188b8f47412e1b26
+Ö
+UDatalarning/assigmentMongoDB_Node_Mongoose/frontend_todo/src/components/card/Card.jsx,7\7\77eca507ad8333da000588362563de791ded8363
+è
+_Datalarning/assigmentMongoDB_Node_Mongoose/frontend_todo/src/utils/api/services/TasksService.js,6\2\62dc16c84a1243f88a421d8ba3657dd2abd31897
+ï
+eDatalarning/assigmentMongoDB_Node_Mongoose/frontend_todo/src/components/task_crud/GetAllTodosData.jsx,f\d\fd7720c9ddc7ced83d0da867821c055b98541503
+q
+ADatalarning/assigmentMongoDB_Node_Mongoose/backend_todo/README.md,7\5\75d5afac86e336589b6700cabf24ea968261108c

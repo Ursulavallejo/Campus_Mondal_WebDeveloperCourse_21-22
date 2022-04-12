@@ -24,9 +24,11 @@ const GetUserDataByName = () => {
                    value={name}
                    onChange={event => setName(event.target.value)}/>
             <button className={css.btnSearch} onClick={sendDataToApi}>Search</button>
-            {data.length > 0 && data[0].message ?
-            <CardList users={data}/>:
-                {data[0].message ? data.message : '' }  }
+            {data.length > 0 && data[0].name ?
+            <CardList users={data}/>: <p>{data.length > 0 ? data[0].message : ''}</p>
+                // JSON.stringify(data)
+                // data[0].message ? data.message : ''
+            }
         </>
     )
 }

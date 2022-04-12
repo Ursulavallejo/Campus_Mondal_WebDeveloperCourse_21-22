@@ -27,6 +27,7 @@ const GetTodoDataByID = () => {
                                task={data.task}
                                _id={data._id}/>
                 : <h3 className='white-80'>{data}</h3>}
+
         </>
     )
 }

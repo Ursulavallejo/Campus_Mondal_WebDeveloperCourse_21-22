@@ -11,24 +11,24 @@ const createTask = (newName) => {
     return http.post(taskTodoUrl,newName)
 }
 
-const updateTask = (_id, changedTask) => {
-    return http.put(`/todo/${_id}`, changedTask)
+const updateTask = (id, changedTask) => {
+    return http.put(`/todo/${id}`, changedTask)
 }
 
-const deleteTask = (_id) => {
-    return http.delete(`/todo/${_id}`)
+const deleteTask = (id) => {
+    return http.delete(`/todo/${id}`)
 }
 
-const getTaskWithId = (_id) => {
-    return http.get(`/todo/${_id}`)
+const getTaskWithId = (id) => {
+    return http.get(`/todo/${id}`)
 }
 
 const getTaskWithUsernameQuery = (name) => {
     return http.get(`/tasksearch/${name}`)
 }
 
-const toggleTaskIsDone  = (_id) => {
-    return http.put(`/todoDone/${_id}`)
+const toggleTaskIsDone  = (id) => {
+    return http.put(`/todoDone/${id}`)
 }
 
 export default {

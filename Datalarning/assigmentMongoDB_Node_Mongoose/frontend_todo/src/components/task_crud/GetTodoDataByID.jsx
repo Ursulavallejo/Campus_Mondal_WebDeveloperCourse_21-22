@@ -2,6 +2,7 @@ import TasksService from "../../utils/api/services/TasksService";
 import {useState} from "react";
 import Card from "../card/Card";
 import css from './GetUserDataByName.module.css'
+import CardList from "../card/CardList";
 
 const GetTodoDataByID = () => {
     const [data, setData] = useState([])
@@ -11,6 +12,7 @@ const GetTodoDataByID = () => {
         TasksService.getTaskWithId(userId)
             .then(response => {
                 setData(response.data)
+                console.log(response.data)
             })
             .catch(error => console.log(error))
     }
@@ -26,8 +28,11 @@ const GetTodoDataByID = () => {
             {data.name ? <Card name={data.name}
                                task={data.task}
                                _id={data._id}/>
-                : <h3 className='white-80'>{data}</h3>}
-
+                : <h3 className='white-80'>{data.length > 0 ? data[0].message : ''}</h3>}
+            {/*{data.length > 0 && data[0].name ?*/}
+            {/*    <CardList users={data}/> :*/}
+            {/*    <p className='white-80'>{data.length > 0 ? data[0].message : ''}</p>*/}
+            {/*}*/}
         </>
     )
 }

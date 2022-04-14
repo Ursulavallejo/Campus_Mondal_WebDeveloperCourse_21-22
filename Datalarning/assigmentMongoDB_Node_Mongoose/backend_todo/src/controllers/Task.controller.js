@@ -35,19 +35,35 @@ const getTaskWithId = async (req, res) => {
         const response = await TaskModel.findById(req.params.userId)
         res.status(StatusCode.OK).send(response)
     } catch (error) {
-        res.status(StatusCode.BAD_REQUEST).send({
-            error: 'Error occurred while trying to retrieve user with ID: ' + req.params.userId,
-        })
+        res.status(StatusCode.BAD_REQUEST).send([{
+            message: `Error occurred as information do not exist trying to retrieve user with ID: ${req.params.userId}`
+        }])
     }
 }
 
+// const getTaskWithId= async (req, res) => {
+//
+//     try {
+//         const response = await TaskModel.findById(req.params.userId)
+//         let messageNotFind = [{ message:`Could not find user with ID:"${req.params.userId}" `}]
+//         console.log(response.length === 0)
+//         response.length === 0
+//             ? res.status(StatusCode.BAD_REQUEST).send(messageNotFind)
+//             : res.status(StatusCode.OK).send(response)
+//
+//     } catch (error) {
+//         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
+//             error: 'Error occurred while trying to retrieve user with ID : ' + req.params.userId,
+//         })
+//     }
+// }
 
 const getTaskWithUsernameQuery = async (req, res) => {
 
     try {
         const response = await TaskModel.find({name: req.params.name})
         let messageNotFind = [{ message:`Could not find user with username:"${req.params.name}" `}]
-        console.log(response.length === 0)
+        // console.log(response.length === 0)
         response.length === 0
             ? res.status(StatusCode.OK).send(messageNotFind)
             : res.status(StatusCode.OK).send(response)
@@ -97,10 +113,32 @@ const deleteTask = async (req, res) => {
     }
 }
 
+
 const toggleTaskIsDone = (req, res) => {
-    const id = Number(req.params.userId)
-    TaskModel[id].done = !TaskModel[id].done
-    res.status(StatusCode.ACCEPTED).send(TaskModel[id])
+
+    try {
+        const {id} = req.params
+        const {newTaskStatus} = req.body
+        const returnUpdatedObject = {
+            new: true
+        }
+        const Query = {
+            done: newTaskStatus
+        }
+        TaskModel.findByIdAndUpdate(id, Query, returnUpdatedObject, (error, task) => {
+            if (error) {
+                res.status(StatusCode.BAD_REQUEST).send({
+                    error: `Error changing task is done`
+                })
+            } else {
+                res.status(StatusCode.OK).send(task.done)
+            }
+        })
+    } catch (error) {
+        res.status(StatusCode.BAD_REQUEST).send({
+            error: `Error updating a task is done`
+        })
+    }
 }
 
 export default {

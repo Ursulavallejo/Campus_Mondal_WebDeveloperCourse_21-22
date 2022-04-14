@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 
-const TaskSchema = mongoose.Schema(
+const TaskSchema = new mongoose.Schema(
     {
         task: String,
         name: String,
@@ -8,6 +8,6 @@ const TaskSchema = mongoose.Schema(
     }, {timestamps: true}
 )
 
-const TaskModel = mongoose.model('task',TaskSchema)
+const TaskModel = new mongoose.model('task',TaskSchema)
 
 export default TaskModel

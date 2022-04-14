@@ -3,6 +3,7 @@ import {useState} from "react";
 
 import Card from "../card/Card";
 import css from './UpdateAndDeleteUser.module.css'
+import CardList from "../card/CardList";
 
 const UpdateUser = (props) => {
     const [data, setData] = useState([])
@@ -27,7 +28,6 @@ const UpdateUser = (props) => {
         }
         TasksService.updateTask(userId,changedTask)
             .then(response => {
-
                 setData(response.data)
                 console.log(response.data)
             })
@@ -61,12 +61,13 @@ const UpdateUser = (props) => {
                 </button>
             </div>
 
+
             {data.name ? <Card
                     name={data.name}
                     task={data.task}
-                    // _id={data._id}
                 />
-                : <h4 data-testid='dbResponse'>{data}</h4>}
+                : <h5 data-testid='dbResponse'>{data[0] ? data[0].message : ''}</h5>}
+
         </div>
     );
 };

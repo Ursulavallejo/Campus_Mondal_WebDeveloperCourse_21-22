@@ -33,6 +33,8 @@ const getAllTasks = async (req, res) => {
 const getTaskWithId = async (req, res) => {
     try {
         const response = await TaskModel.findById(req.params.userId)
+        console.log(response.length )
+        console.log(typeof response)
         res.status(StatusCode.OK).send(response)
     } catch (error) {
         res.status(StatusCode.OK).send([{
@@ -41,22 +43,6 @@ const getTaskWithId = async (req, res) => {
     }
 }
 
-// const = async (req, res) => {
-//
-//     try {
-//         const response = await TaskModel.findById(req.params.userId)
-//         let messageNotFind = [{ message:`Could not find user with ID:"${req.params.userId}" `}]
-//         console.log(response.length === 0)
-//         response.length === 0
-//             ? res.status(StatusCode.OK).send(messageNotFind)
-//             : res.status(StatusCode.OK).send(response)
-//
-//     } catch (error) {
-//         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
-//             error: 'Error occurred while trying to retrieve user with ID : ' + req.params.userId,
-//         })
-//     }
-// }
 
 const getTaskWithUsernameQuery = async (req, res) => {
 
@@ -75,57 +61,57 @@ const getTaskWithUsernameQuery = async (req, res) => {
     }
 }
 
-
-const updateTaskID = async (req, res) => {
-    try {
-        if (!req.body) {
-            return res.status(StatusCode.BAD_REQUEST).send({
-                error: 'cannot update empty values'})
-        }
-        const response = await TaskModel.findByIdAndUpdate(req.params.userId, {
-            task: req.body.task,
-            name: req.body.name,
-            done: req.body.done
-        }, {new: true})
-        response.length !== 0
-            ? res.status(StatusCode.OK).send(response)
-            : res.status(StatusCode.BAD_REQUEST).send({error: 'Could not find user with id: ' + req.params.userId})
-    } catch (error) {
-        res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
-            message: 'Error occurred while trying to update values of the user with ID : ' + req.params.userId,
-            error: error.message
-        })
-    }
-}
-
-
-//updateTaskID
+// updateTaskID arasto
 // const = async (req, res) => {
-//
 //     try {
-//         const updatedTaskID = {
-//             task: req.body.task,
-//             name: req.body.name
+//         if (!req.body) {
+//             return res.status(StatusCode.BAD_REQUEST).send({
+//                 error: 'cannot update empty values'})
 //         }
-//         TaskModel.findByIdAndUpdate(req.params.id, updatedTaskID,
-//             {new: true},
-//             (error, task) => {
-//                 if (error) {
-//                     res.status(StatusCode.BAD_REQUEST).send([{
-//                         error: `Could not find userTask with ID: ${req.params.userId}`
-//                     }])
-//                 } else {
-//                     res.status(StatusCode.ACCEPTED).send(task ? task : {
-//                         message: `Could not find userTask with ID: ${req.params.id} `
-//                     })
-//                 }
-//             })
+//         const response = await TaskModel.findByIdAndUpdate(req.params.userId, {
+//             task: req.body.task,
+//             name: req.body.name,
+//             done: req.body.done
+//         }, {new: true})
+//         response.length !== 0
+//             ? res.status(StatusCode.OK).send(response)
+//             : res.status(StatusCode.BAD_REQUEST).send({error: 'Could not find user with id: ' + req.params.userId})
 //     } catch (error) {
-//         res.status(StatusCode.BAD_REQUEST).send({
-//             error: `Error updating task`
+//         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
+//             message: 'Error occurred while trying to update values of the user with ID : ' + req.params.userId,
+//             error: error.message
 //         })
 //     }
 // }
+
+
+
+const updateTaskID= async (req, res) => {
+
+    try {
+        const updatedTaskID = {
+            task: req.body.task,
+            name: req.body.name
+        }
+        TaskModel.findByIdAndUpdate(req.params.userId, updatedTaskID,
+            {new: true},
+            (error, task) => {
+                if (error) {
+                    res.status(StatusCode.BAD_REQUEST).send([{
+                        message: `Could not find userTask with ID: ${req.params.userId}`
+                    }])
+                } else {
+                    res.status(StatusCode.ACCEPTED).send(task ? task : [{
+                        message: `Could not find userTask with ID: ${req.params.userId}!! `
+                    }])
+                }
+            })
+    } catch (error) {
+        res.status(StatusCode.BAD_REQUEST).send({
+            error: `Error updating task`
+        })
+    }
+}
 
 
 const deleteTask = async (req, res) => {

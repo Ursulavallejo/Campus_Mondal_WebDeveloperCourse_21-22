@@ -43,7 +43,7 @@ const DeleteTaskData= (props) => {
                 }}>Close
                 </button>
             </div>
-            <h4 > {data} </h4>
+            <h5 > {data} </h5>
         </div>
     );
 };

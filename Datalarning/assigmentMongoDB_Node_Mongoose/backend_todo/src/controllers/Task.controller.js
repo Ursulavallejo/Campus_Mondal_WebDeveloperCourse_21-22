@@ -35,13 +35,13 @@ const getTaskWithId = async (req, res) => {
         const response = await TaskModel.findById(req.params.userId)
         res.status(StatusCode.OK).send(response)
     } catch (error) {
-        res.status(StatusCode.BAD_REQUEST).send([{
+        res.status(StatusCode.OK).send([{
             message: `Error occurred as information do not exist trying to retrieve user with ID: ${req.params.userId}`
         }])
     }
 }
 
-// const getTaskWithId= async (req, res) => {
+// const = async (req, res) => {
 //
 //     try {
 //         const response = await TaskModel.findById(req.params.userId)
@@ -62,7 +62,7 @@ const getTaskWithUsernameQuery = async (req, res) => {
 
     try {
         const response = await TaskModel.find({name: req.params.name})
-        let messageNotFind = [{ message:`Could not find user with username:"${req.params.name}" `}]
+        let messageNotFind = [{message: `Could not find user with username:"${req.params.name}" `}]
         // console.log(response.length === 0)
         response.length === 0
             ? res.status(StatusCode.OK).send(messageNotFind)
@@ -70,10 +70,11 @@ const getTaskWithUsernameQuery = async (req, res) => {
 
     } catch (error) {
         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
-          error: 'Error occurred while trying to retrieve user with username : ' + req.params.userId,
+            error: 'Error occurred while trying to retrieve user with username : ' + req.params.userId,
         })
     }
 }
+
 
 const updateTaskID = async (req, res) => {
     try {
@@ -98,17 +99,56 @@ const updateTaskID = async (req, res) => {
 }
 
 
-const deleteTask = async (req, res) => {
-    try {
-        const response = await TaskModel.findByIdAndDelete(req.params.userId)
-        await TaskModel.findByIdAndDelete(req.params.userId)
-        res.status(StatusCode.OK).send(
-            `Successfully deleted the USER with username: ${response.name}  and ID: ${req.params.userId}`
-        )
-    } catch (error) {
-        res.status(StatusCode.NOT_FOUND).send({
-            error: 'Error occurred while trying to delete user with the ID:' + req.params.userId,
+//updateTaskID
+// const = async (req, res) => {
+//
+//     try {
+//         const updatedTaskID = {
+//             task: req.body.task,
+//             name: req.body.name
+//         }
+//         TaskModel.findByIdAndUpdate(req.params.id, updatedTaskID,
+//             {new: true},
+//             (error, task) => {
+//                 if (error) {
+//                     res.status(StatusCode.BAD_REQUEST).send([{
+//                         error: `Could not find userTask with ID: ${req.params.userId}`
+//                     }])
+//                 } else {
+//                     res.status(StatusCode.ACCEPTED).send(task ? task : {
+//                         message: `Could not find userTask with ID: ${req.params.id} `
+//                     })
+//                 }
+//             })
+//     } catch (error) {
+//         res.status(StatusCode.BAD_REQUEST).send({
+//             error: `Error updating task`
+//         })
+//     }
+// }
 
+
+const deleteTask = async (req, res) => {
+
+    try {
+        const response = await TaskModel.findById(req.params.userId)
+        TaskModel.findByIdAndRemove(req.params.userId, (error, task) => {
+            if (error) {
+                res.status(StatusCode.BAD_REQUEST).send({
+                    error: `Error deleting task`
+                })
+            } else {
+                res.status(StatusCode.OK).send(
+                    task ?
+                        `Successfully deleted the USER name "${response.name}" and with ID: ${req.params.userId} `
+                        :
+                        `Not able to find TaskUser with id: ${req.params.userId} `
+                )
+            }
+        })
+    } catch (error) {
+        res.status(StatusCode.BAD_REQUEST).send({
+            error: `Error deleting todo task`
         })
     }
 }

@@ -48,7 +48,7 @@ const getTaskWithId = async (req, res) => {
 //         let messageNotFind = [{ message:`Could not find user with ID:"${req.params.userId}" `}]
 //         console.log(response.length === 0)
 //         response.length === 0
-//             ? res.status(StatusCode.BAD_REQUEST).send(messageNotFind)
+//             ? res.status(StatusCode.OK).send(messageNotFind)
 //             : res.status(StatusCode.OK).send(response)
 //
 //     } catch (error) {

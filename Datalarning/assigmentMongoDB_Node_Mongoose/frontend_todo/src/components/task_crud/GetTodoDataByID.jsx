@@ -25,10 +25,13 @@ const GetTodoDataByID = () => {
                    value={userId}
                    onChange={event => setUserId(event.target.value)}/>
             <button className={css.btnSearch} onClick={sendDataToApi}>Search by ID</button>
-            {data.name ? <Card name={data.name}
+            {console.log(data)}
+            {data.length > 0 && data[0]._id ? <Card name={data.name}
                                task={data.task}
                                _id={data._id}/>
-                : <h3 className='white-80'>{data.length > 0 ? data[0].message : ''}</h3>}
+                :
+                <h3 className='white-80'>{data.length > 0 ? data[0].message : ''}</h3>}
+
             {/*{data.length > 0 && data[0].name ?*/}
             {/*    <CardList users={data}/> :*/}
             {/*    <p className='white-80'>{data.length > 0 ? data[0].message : ''}</p>*/}

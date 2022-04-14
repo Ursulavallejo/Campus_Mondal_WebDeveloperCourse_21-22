@@ -9,7 +9,7 @@ Chai.should()
 Chai.use(ChaiHTTP)
 
 const randomString = Math.random().toString(36).substring(7)
-const userId = '6253f561a871c7556dc6cdde' // Requires new unique ID every time you want to run this testsuite
+let userId = '' // Requires new unique ID every time you want to run this testsuite
 const todo = {
     task: randomString,
     name: randomString,
@@ -28,6 +28,7 @@ const createTask = () => {
                 .send(newTask)
                 .end((error, response) => {
                     response.should.have.a.status(StatusCode.CREATED)
+                    userId = response.body._id
                     response.body.should.be.an('object')
                     response.body.should.have.property('task').equal(newTask.task)
                     response.body.should.have.property('name').equal(newTask.name)

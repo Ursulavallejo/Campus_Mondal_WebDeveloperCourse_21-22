@@ -377,10 +377,6 @@ TDatalarning/assigmentMongoDB_Node_Mongoose/frontend_todo/src/utils/styles/globa
 XDatalarning/assigmentMongoDB_Node_Mongoose/frontend_todo/src/components/header/Header.js,6\d\6db57b21ebade8f4511826c3af4b31ca09186311
 è
 _Datalarning/assigmentMongoDB_Node_Mongoose/frontend_todo/src/utils/api/services/AliveService.js,7\5\75fd1cff3396ca7e74fa806d2ae1f9bc41003794
-{
-KDatalarning/assigmentMongoDB_Node_Mongoose/backend_todo/tests/Tasks.test.js,9\b\9b5aa4f528499674fab10351bb7e46f9cd31bca3
-{
-KDatalarning/assigmentMongoDB_Node_Mongoose/backend_todo/tests/Alive.test.js,6\b\6bae94cb48229a078c33a42f240846e1ee51f399
 Å
 QDatalarning/assigmentMongoDB_Node_Mongoose/frontend_todo/src/components/Alive.jsx,5\9\59c45c88cd42fb2508bc8a45e6c8b7048ac41294
 u
@@ -433,8 +429,6 @@ XDatalarning/assigmentMongoDB_Node_Mongoose/frontend_todo/src/views/TaskView/Tas
 dDatalarning/assigmentMongoDB_Node_Mongoose/frontend_todo/src/components/__test__/UpdateUser.test.jsx,b\e\be313d3a01706d7df96acd69cf313d282de709ac
 t
 DDatalarning/assigmentMongoDB_Node_Mongoose/backend_todo/package.json,7\d\7d3940ffda5027efcff1d0897c922ec9d8daff72
-Å
-QDatalarning/assigmentMongoDB_Node_Mongoose/backend_todo/src/routes/Alive.route.js,0\7\07f902312b422c959fbe91ea07d3088878933298
 z
 JDatalarning/assigmentMongoDB_Node_Mongoose/frontend_todo/public/index.html,6\0\605e0a26250e3002b846835eb1a975cda78225e2
 x

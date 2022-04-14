@@ -27,8 +27,8 @@ const getTaskWithUsernameQuery = (name) => {
     return http.get(`/tasksearch/${name}`)
 }
 
-const toggleTaskIsDone  = (id) => {
-    return http.put(`/todoDone/${id}`)
+const toggleTaskIsDone  = (id, payload) => {
+    return http.put(`/todoDone/${id}`, payload)
 }
 
 export default {

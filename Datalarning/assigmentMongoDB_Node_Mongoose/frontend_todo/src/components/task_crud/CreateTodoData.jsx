@@ -1,6 +1,6 @@
 import TasksService from "../../utils/api/services/TasksService";
 import {useState} from "react";
-import Card from "../card/Card";
+import Card from "../cards/Card";
 import css from './CreateAndGetTodoData.module.css'
 
 const CreateTodoData = () => {
@@ -14,7 +14,6 @@ const CreateTodoData = () => {
             "task": task,
             "done": false,
         }
-
         TasksService.createTask(newTask)
             .then(response => {
                 setData(response.data)

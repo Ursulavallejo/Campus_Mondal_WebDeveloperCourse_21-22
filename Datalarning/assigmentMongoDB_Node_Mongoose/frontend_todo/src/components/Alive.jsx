@@ -12,10 +12,7 @@ const Alive = () => {
                 setData(response.data)
             } )
             .catch(error => console.log(error))
-
     }
-
-
 
     return (
         <div className='tc mt4'>

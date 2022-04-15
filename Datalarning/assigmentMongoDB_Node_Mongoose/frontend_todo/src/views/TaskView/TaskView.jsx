@@ -40,9 +40,8 @@ const TaskView = () => {
             </div>
             <div className={css.wrapperTodo}>
                 <div className='tc'>
-
                     <GetUserDataByName/>
-                   <CreateTodoData/>
+                    <CreateTodoData/>
                 </div>
                 <div className='tc '>
                     <span className='white-80'>After create user click update to see the complete list   </span>

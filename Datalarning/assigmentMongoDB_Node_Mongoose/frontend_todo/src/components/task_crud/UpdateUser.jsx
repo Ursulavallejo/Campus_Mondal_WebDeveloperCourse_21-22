@@ -1,9 +1,8 @@
 import TasksService from "../../utils/api/services/TasksService";
 import {useState} from "react";
-
-import Card from "../card/Card";
+import Card from "../cards/Card";
 import css from './UpdateAndDeleteUser.module.css'
-import CardList from "../card/CardList";
+
 
 const UpdateUser = (props) => {
     const [data, setData] = useState([])
@@ -15,11 +14,9 @@ const UpdateUser = (props) => {
         props.onCloseUpdate();
     }
 
-
     function refreshPage() {
         window.location.reload();
     }
-
 
     const sendDataToApi = () => {
         const changedTask = {
@@ -50,7 +47,6 @@ const UpdateUser = (props) => {
                        type="text"
                        value={task}
                        onChange={event => setTask(event.target.value)}/>
-
             </div>
             <div className={css.btnFlex}>
                 <button data-testid='updateBtn' className={css.btn} onClick={sendDataToApi}>Update new user</button>
@@ -60,8 +56,6 @@ const UpdateUser = (props) => {
                 }}>Close
                 </button>
             </div>
-
-
             {data.name ? <Card
                     name={data.name}
                     task={data.task}

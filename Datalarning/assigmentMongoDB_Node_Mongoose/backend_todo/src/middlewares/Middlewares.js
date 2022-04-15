@@ -12,7 +12,6 @@ const notFound = (req, res, next) => {
     next(error)
 }
 
-
 const errorHandler = (error, req, res, next) => {
     const statusCode = res.statusCode === StatusCode.OK ? StatusCode.INTERNAL_SERVER_ERROR : res.statusCode
     res.status(statusCode)
@@ -23,7 +22,6 @@ const errorHandler = (error, req, res, next) => {
     })
     next()
 }
-
 
 
 export default {

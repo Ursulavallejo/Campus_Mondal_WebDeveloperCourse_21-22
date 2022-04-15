@@ -3,13 +3,13 @@ import {useState} from "react";
 import TasksService from "../../utils/api/services/TasksService";
 
 
-const Card = ({ name, task, done, _id}) => {
+const Card = ({name, task, done, _id}) => {
 
     const [isTaskDone, setIsTaskDone] = useState(done)
 
     function toggleDone() {
         const payload = {
-            newTaskStatus : !isTaskDone
+            newTaskStatus: !isTaskDone
         }
         TasksService.toggleTaskIsDone(_id, payload)
             .then(response => {
@@ -20,15 +20,13 @@ const Card = ({ name, task, done, _id}) => {
 
     return (
         <div className={css.layoutCard}>
-
             <ul className={css.list}>
                 <li className={isTaskDone ? css.done : null} onClick={toggleDone}>
-                    <span  data-testid='textName' className={css.nameFont}>{name}</span>
+                    <span data-testid='textName' className={css.nameFont}>{name}</span>
                     <span className={css.taskFont}>{task}</span>
                     <span className={css.taskFont}>{_id}</span>
                 </li>
             </ul>
-
         </div>
     )
 }

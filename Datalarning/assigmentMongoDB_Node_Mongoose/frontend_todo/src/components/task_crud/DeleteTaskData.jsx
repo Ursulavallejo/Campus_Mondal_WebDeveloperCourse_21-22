@@ -28,7 +28,6 @@ const DeleteTaskData= (props) => {
         <div
             className={`${css.dropdownContent} ${css.positionDelete}  ${css.show} ${css.dropdown}`}
         >
-
             <input placeholder={'ID to delete? '} className={css.inputDelete}
                    data-testid='dataInput' type="text"
                    value={userId}

@@ -1,6 +1,4 @@
-
 import css from './HeaderStyle.module.css'
-
 
 const Header = () => {
 

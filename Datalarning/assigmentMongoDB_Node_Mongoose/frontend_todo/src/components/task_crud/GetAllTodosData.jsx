@@ -1,11 +1,10 @@
 import TasksService from "../../utils/api/services/TasksService";
 import {useState, useEffect} from "react";
-import CardList from "../card/CardList";
+import CardList from "../cards/CardList";
 import css from './CreateAndGetTodoData.module.css'
 
 const GetAllTodosData = () => {
     const [data, setData] = useState([])
-
 
     // to have all the users together
     const fetchDataFromExternalApi = () => {
@@ -22,7 +21,6 @@ const GetAllTodosData = () => {
 
     return (
         <>
-
             <button className={css.btnAdd} data-testid='btnAddTest' onClick={fetchDataFromExternalApi}>UPDATE</button>
             <CardList users={data}/>
         </>

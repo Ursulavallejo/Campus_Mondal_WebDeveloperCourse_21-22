@@ -1,6 +1,6 @@
 import TasksService from "../../utils/api/services/TasksService";
 import {useState} from "react";
-import CardList from "../card/CardList";
+import CardList from "../cards/CardList";
 import css from './GetUserDataByName.module.css'
 
 const GetUserDataByName = () => {

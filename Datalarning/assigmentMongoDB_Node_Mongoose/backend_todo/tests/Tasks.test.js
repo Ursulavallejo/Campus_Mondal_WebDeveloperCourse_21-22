@@ -8,16 +8,16 @@ import StatusCode from "../utils/StatusCode.js";
 Chai.should()
 Chai.use(ChaiHTTP)
 
-const randomString = Math.random().toString(36).substring(7)
-let userId = '' // Requires new unique ID every time you want to run this testsuite
-const todo = {
-    task: randomString,
-    name: randomString,
-}
+let userId = ''
 
 const newTask = {
     name: 'Magnus',
     task: 'go shopping'
+}
+
+const updatedTask = {
+    name: 'Oliver',
+    task: 'Play Minecraft'
 }
 
 const createTask = () => {
@@ -55,19 +55,18 @@ const getAllTasks = () => {
 
 const updateTaskId = () => {
     describe('Updating (PUT) a task in the database', () => {
-        test('Expecting a user to be updated', (done) => {
+        test('Expecting a task and user to be updated', (done) => {
             Chai.request(app)
                 .put(`/todo/${userId}`)
-                .send(todo)
+                .send(updatedTask)
                 .end((error, response) => {
-                    response.should.have.a.status(StatusCode.OK)
+                    response.should.have.a.status(StatusCode.ACCEPTED)
                     response.body.should.be.an('object')
                     response.body.should.have.property('_id').equal(userId)
-                    response.body.should.have.property('task').equal(todo.task)
-                    response.body.should.have.property('name').equal(todo.name)
+                    response.body.should.have.property('task').equal(updatedTask.task)
+                    response.body.should.have.property('name').equal(updatedTask.name)
                     done()
                 })
-
         })
     })
 }
@@ -91,4 +90,5 @@ describe('TESTING THE TASK_API ROUTE', () =>{
     getAllTasks()
     updateTaskId()
     deleteTask()
+
 })

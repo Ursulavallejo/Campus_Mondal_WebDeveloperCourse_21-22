@@ -17,7 +17,6 @@ const createTask = async (req, res) => {
     }
 }
 
-
 const getAllTasks = async (req, res) => {
     try {
         const response = await TaskModel.find()
@@ -29,11 +28,10 @@ const getAllTasks = async (req, res) => {
     }
 }
 
-
 const getTaskWithId = async (req, res) => {
     try {
         const response = await TaskModel.findById(req.params.userId)
-        console.log(response.length )
+        console.log(response.length)
         console.log(typeof response)
         res.status(StatusCode.OK).send(response)
     } catch (error) {
@@ -43,9 +41,7 @@ const getTaskWithId = async (req, res) => {
     }
 }
 
-
 const getTaskWithUsernameQuery = async (req, res) => {
-
     try {
         const response = await TaskModel.find({name: req.params.name})
         let messageNotFind = [{message: `Could not find user with username:"${req.params.name}" `}]
@@ -53,7 +49,6 @@ const getTaskWithUsernameQuery = async (req, res) => {
         response.length === 0
             ? res.status(StatusCode.OK).send(messageNotFind)
             : res.status(StatusCode.OK).send(response)
-
     } catch (error) {
         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
             error: 'Error occurred while trying to retrieve user with username : ' + req.params.userId,
@@ -61,33 +56,8 @@ const getTaskWithUsernameQuery = async (req, res) => {
     }
 }
 
-// updateTaskID arasto
-// const = async (req, res) => {
-//     try {
-//         if (!req.body) {
-//             return res.status(StatusCode.BAD_REQUEST).send({
-//                 error: 'cannot update empty values'})
-//         }
-//         const response = await TaskModel.findByIdAndUpdate(req.params.userId, {
-//             task: req.body.task,
-//             name: req.body.name,
-//             done: req.body.done
-//         }, {new: true})
-//         response.length !== 0
-//             ? res.status(StatusCode.OK).send(response)
-//             : res.status(StatusCode.BAD_REQUEST).send({error: 'Could not find user with id: ' + req.params.userId})
-//     } catch (error) {
-//         res.status(StatusCode.INTERNAL_SERVER_ERROR).send({
-//             message: 'Error occurred while trying to update values of the user with ID : ' + req.params.userId,
-//             error: error.message
-//         })
-//     }
-// }
 
-
-
-const updateTaskID= async (req, res) => {
-
+const updateTaskID = async (req, res) => {
     try {
         const updatedTaskID = {
             task: req.body.task,
@@ -115,7 +85,6 @@ const updateTaskID= async (req, res) => {
 
 
 const deleteTask = async (req, res) => {
-
     try {
         const response = await TaskModel.findById(req.params.userId)
         TaskModel.findByIdAndRemove(req.params.userId, (error, task) => {
@@ -141,7 +110,6 @@ const deleteTask = async (req, res) => {
 
 
 const toggleTaskIsDone = (req, res) => {
-
     try {
         const {id} = req.params
         const {newTaskStatus} = req.body

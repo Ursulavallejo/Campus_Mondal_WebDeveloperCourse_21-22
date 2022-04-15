@@ -1,8 +1,4 @@
-
-// Have tried two different model of task Controller to see if i get the message on my front end.
-
- import TaskController from "../controllers/Task.controller.js";
-  // import TaskController from "../controllers/TaskController2.js";
+import TaskController from "../controllers/Task.controller.js";
 
 
 // Endpoint + Business Logic and CRUD Operations

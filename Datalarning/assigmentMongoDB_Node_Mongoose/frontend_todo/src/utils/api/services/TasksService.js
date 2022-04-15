@@ -8,7 +8,7 @@ const getAllTasks = () => {
 }
 
 const createTask = (newName) => {
-    return http.post(taskTodoUrl,newName)
+    return http.post(taskTodoUrl, newName)
 }
 
 const updateTask = (id, changedTask) => {
@@ -27,7 +27,7 @@ const getTaskWithUsernameQuery = (name) => {
     return http.get(`/tasksearch/${name}`)
 }
 
-const toggleTaskIsDone  = (id, payload) => {
+const toggleTaskIsDone = (id, payload) => {
     return http.put(`/todoDone/${id}`, payload)
 }
 

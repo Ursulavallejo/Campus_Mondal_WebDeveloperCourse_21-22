@@ -1,6 +1,6 @@
 import TasksService from "../../utils/api/services/TasksService";
 import {useState} from "react";
-import Card from "../card/Card";
+import Card from "../cards/Card";
 import css from './GetUserDataByName.module.css'
 
 
@@ -29,7 +29,7 @@ const GetTodoDataByID = () => {
                                task={data.task}
                                _id={data._id}/>
                 :
-                <h5 className='white-80'>{data[0]? data[0].message : ''}</h5>}
+                <h5 className='white-80'>{data[0] ? data[0].message : ''}</h5>}
 
         </>
     )

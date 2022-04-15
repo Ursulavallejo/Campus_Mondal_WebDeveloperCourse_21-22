@@ -70,8 +70,6 @@ const testingExistingRouteExpect = () => {
 }
 
 
-
-
 describe('TESTING API ALIVE ROUTES', () => {
     testingNonExistingRoute()
     testingExistingRoute()

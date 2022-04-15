@@ -45,7 +45,6 @@ const getTaskWithUsernameQuery = async (req, res) => {
     try {
         const response = await TaskModel.find({name: req.params.name})
         let messageNotFind = [{message: `Could not find user with username:"${req.params.name}" `}]
-        // console.log(response.length === 0)
         response.length === 0
             ? res.status(StatusCode.OK).send(messageNotFind)
             : res.status(StatusCode.OK).send(response)

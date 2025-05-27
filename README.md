@@ -72,6 +72,20 @@
 
   <img src="https://github.com/user-attachments/assets/7f12cceb-c9f5-4a36-a449-92d361a95302" alt="image" width="300" />
 
+   ## Web Development 2 ( Webbutveckling_2) >> 
+
+   In the Web Development 2 project, I took my Programming 1 music store app and rebuilt it entirely in React. I rewrote that vanilla‐JS app in React: swapped manual DOM         updates for JSX components, introduced client‐side routing (react-router), and moved cart state into a Context provider instead of simple arrays. It’s the same core         functionality—add/remove/update items—but now powered by a full React architecture.
+
+   [Detail info about the project:](https://github.com/Ursulavallejo/Campus_Mondal_WebDeveloperCourse_21-22/tree/main/Webbutveckling_2/new-assigment#readme)
+
+  <img src="https://github.com/user-attachments/assets/2934e000-0bb8-41f0-a38c-da5ea9c90649" alt="image" width="300" />
+
+
+
+
+
+
+
 
 
 

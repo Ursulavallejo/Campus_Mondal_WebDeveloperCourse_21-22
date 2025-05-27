@@ -50,6 +50,22 @@
   <img src="https://github.com/user-attachments/assets/18a5433a-03af-4bec-b05e-93419df986d4" alt="image" width="400" />
     <img src="https://github.com/user-attachments/assets/df045a36-e239-409b-9575-c0ae3f51b4fb" alt="image" width="300" />
 
+  ## Programming 1 ( WebbserverProgrammering_1 ) >> 
+
+  Built on our earlier MongoDB/Mongoose foundations, this project splits into two parts:
+
+  - Backend: An Express.js API with CORS, Helmet & Morgan middleware, connected to MongoDB, fully tested with Mocha, Chai & chai-http.
+
+  - Frontend: Two React-based TODO apps—one minimal CRUD interface and a second with user login/auth flows—showcasing dynamic data fetching, context management, and live         updates.
+
+    Key learnings included middleware setup, end-to-end testing, handling React state refreshes vs. full page reloads, and overcoming async data-flow challenges.
+
+      [Detail info about the project:](https://github.com/Ursulavallejo/Campus_Mondal_WebDeveloperCourse_21-22/blob/main/WebbserverProgrammering_1/Todo_uppgifter/README.md)
+
+    <img src="(https://github.com/user-attachments/assets/07be9642-27b6-41e3-8d0e-cf7bee736030" alt="image" width="300" />
+
+
+
 
 
 

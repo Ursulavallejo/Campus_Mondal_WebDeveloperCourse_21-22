@@ -41,6 +41,13 @@
 
   <img src="https://github.com/user-attachments/assets/e96171df-abfe-4d36-95ef-7d783173dcef" alt="image" width="200" />
 
+  ## Programming 1 ( Programmering_1 ) >> 
+
+  Built a Trello-planned music CD store with HTML/CSS/JavaScript: dynamic cart UI, quantity controls, free-shipping logic, and full CRUD interaction.
+
+  [Detail info about the project:](https://github.com/Ursulavallejo/WEB_2108/tree/main/Programmering_1/assigment#readme)
+
+  <img src="https://github.com/user-attachments/assets/e96171df-abfe-4d36-95ef-7d783173dcef" alt="image" width="200" />
 
 
 

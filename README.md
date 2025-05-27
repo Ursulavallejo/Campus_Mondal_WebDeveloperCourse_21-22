@@ -27,7 +27,12 @@ Implemented a full MySQL database workflow for a bookstore application:
 
 ## Digital Skapande  >> 
 
-1. AssigmentMongoDB_Node_Mongoose >
+A personal web-based narrative project using HTML, multimedia (video, GIF, audio) and AR filters to tell seven sensory-driven stories of a child with autism, designed via waterfall planning and documented step-by-step.
+
+ <img src="https://github.com/user-attachments/assets/8303c1c6-79ab-4368-8cd4-267e8c88dd16" alt="image" width="300" />
+
+
+
  
 
 

@@ -3,7 +3,7 @@
   ## As part of the Web Development course — Mölndal Campus, Sweden
 
 
-## Data Learning >> 
+## Data Learning ( Datalarning) >> 
 
 1. AssigmentMongoDB_Node_Mongoose >
  
@@ -25,13 +25,22 @@
  
    [Detail info about the project:](https://github.com/Ursulavallejo/WEB_2108/blob/main/Datalarning/assigment_MySQL/mySQL/uppgigtMySQLUrsulaVallejo.sql)
 
-## Digital Skapande  >> 
+## Digital Creation ( Digital Skapande ) >> 
 
   A personal web-based narrative project using HTML, multimedia (video, GIF, audio) and AR filters to tell seven sensory-driven stories of a child with autism, designed via     waterfall planning and documented step-by-step.
 
    [Detail info about the project:](https://github.com/Ursulavallejo/WEB_2108/tree/main/Digital%20skapande_1#readme)
 
    <img src="https://github.com/user-attachments/assets/8303c1c6-79ab-4368-8cd4-267e8c88dd16" alt="image" width="200" />
+
+## Interface Design ( Gränssnittsdesign ) >> 
+
+   Redesigned a fishing club website with a Trello-driven plan, four user personas, low- and high-fidelity wireframes (mobile, tablet, desktop), a cohesive font and color       scheme, and detailed UI/UX documentation.
+
+   [Detail info about the project:](https://github.com/Ursulavallejo/WEB_2108/blob/main/Gr%C3%A4nssnittsdesign/assigment/README.md)
+
+  <img src="https://github.com/user-attachments/assets/e96171df-abfe-4d36-95ef-7d783173dcef" alt="image" width="200" />
+
 
 
 

@@ -64,6 +64,16 @@
 
     <img src="https://github.com/user-attachments/assets/07be9642-27b6-41e3-8d0e-cf7bee736030" alt="image" width="300" />
 
+  ## Web Development 1 ( Webbutveckling_1) >> 
+
+   My first foray into web building: created a six-page site (About, Courses, Home, Blog, Products, Other) with a consistent header/nav/footer layout, responsive CSS via         media queries, and Trello-driven planning to manage each HTML/CSS milestone.
+
+   [Detail info about the project:](https://github.com/Ursulavallejo/Campus_Mondal_WebDeveloperCourse_21-22/tree/main/Webbutveckling_1/new_version_assigment#readme)
+
+  <img src="https://github.com/user-attachments/assets/7f12cceb-c9f5-4a36-a449-92d361a95302" alt="image" width="300" />
+
+
+
 
 
 

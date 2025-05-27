@@ -62,7 +62,7 @@
 
       [Detail info about the project:](https://github.com/Ursulavallejo/Campus_Mondal_WebDeveloperCourse_21-22/blob/main/WebbserverProgrammering_1/Todo_uppgifter/README.md)
 
-    <img src="(https://github.com/user-attachments/assets/07be9642-27b6-41e3-8d0e-cf7bee736030" alt="image" width="300" />
+    <img src="https://github.com/user-attachments/assets/07be9642-27b6-41e3-8d0e-cf7bee736030" alt="image" width="300" />
 
 
 

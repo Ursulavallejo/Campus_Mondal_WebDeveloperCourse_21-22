@@ -48,6 +48,7 @@
   [Detail info about the project:](https://github.com/Ursulavallejo/WEB_2108/tree/main/Programmering_1/assigment#readme)
 
   <img src="https://github.com/user-attachments/assets/18a5433a-03af-4bec-b05e-93419df986d4" alt="image" width="400" />
+    <img src="https://github.com/user-attachments/assets/df045a36-e239-409b-9575-c0ae3f51b4fb" alt="image" width="300" />
 
 
 
